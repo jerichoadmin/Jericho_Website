@@ -2,7 +2,7 @@
   "name": "jericho",
   "version": "0.1.0",
   "main": "server/index.js",
-  "proxy": "http://localhost:5050",
+  "proxy": "https://jericho-server.onrender.com/",
   "nodemonConfig": {
     "ext": "js,sql",
     "ignore": [
