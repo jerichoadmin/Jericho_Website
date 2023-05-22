@@ -1,0 +1,67 @@
+
+.jm_container{
+    height: auto;
+    width: 90vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    background-color: #24242433;
+}
+
+.jm_paragraph{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 2rem 1rem;
+    line-height: 1.4;
+}
+.jm_button{
+    height: auto;
+    width: auto;
+    background-color: #DBBA4B;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 3vh;
+    cursor: pointer;
+    padding: 1rem;
+}
+.jm_button:hover{
+    background-color: #ffffff;
+  color: #DBBA4B;
+    transition: 1s;
+}
+.map_icon{
+    padding-top: 0.75rem ;
+}
+
+
+
+@media (min-width:1025px) { 
+    .jm_container{
+        width: 70vw;
+        font-size: 18pt;
+    }
+    
+    .jm_container_outer h3{
+        font-size: 26pt;
+        padding: 1rem;
+        font-weight: 600;
+    }
+.jm_button{
+    font-size: 18pt;
+    border-radius: 20px;
+    white-space: nowrap;
+    width: auto;
+    padding: 1.25rem 1.5rem;
+}
+ }
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+

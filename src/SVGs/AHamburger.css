@@ -1,0 +1,10 @@
+.hamburger-icon__path {
+    transition: d 5s ease-in-out;
+    color: rgb(23, 49, 40);
+  }
+  
+  .hamburger-icon__path.is-active {
+    d: path("M4 4l16 16m0-16L4 20");
+    background-color: red;
+  }
+  

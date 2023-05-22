@@ -1,0 +1,63 @@
+.map{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    background-image: linear-gradient(#95562E, #DB4B4Ba8, #15F6C0a8  ) ;
+}
+.map_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 700;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.map_welcome h1{
+    color: #4FA673;
+    font-size: 30pt;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.map_body_main{
+    display: flex;
+    flex-direction: column;
+width: 100vw;
+}
+.mapimg{
+    width: 96vw;
+    object-fit: cover;
+    align-self: center;
+
+}
+.mapkey{
+    width: 50vw;
+    object-fit: cover;
+    align-self: center;
+    margin: 1rem;
+}
+.map_container{
+    align-self: center;
+    padding: 2rem;
+    background-color: rgb(226, 220, 220);
+}
+
+@media (min-width:1025px) { 
+.map_welcome{
+    font-size: 18pt;
+}
+.map_welcome h1{
+    font-size:  60pt;
+}
+
+
+
+}

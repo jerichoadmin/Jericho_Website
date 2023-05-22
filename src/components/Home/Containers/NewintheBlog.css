@@ -1,0 +1,74 @@
+
+.nb_container{
+    height: auto;
+    width: 90vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    background-color: #24242433;
+}
+
+.nb_paragraph{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 2rem 1rem;
+    line-height: 1.4;
+}
+.nb_button{
+    height: auto;
+    width: auto;
+    background-color: #4FA673;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 3vh;
+    cursor: pointer;
+    padding: 1rem;
+}
+.nb_button:hover{
+    background-color: #ffffff;
+    color: #4FA673 ;
+    transition: 1s;
+}
+.blog_name{
+    background-color: #242424;
+    padding: 1rem;
+    border-radius: 12px;
+-webkit-box-shadow:0px 0px 47px 5px rgba(219,185,75,0.52);
+-moz-box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
+box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
+}
+.abc{
+    font-weight: 700;
+}
+
+
+@media (min-width:1025px) { 
+    .nb_container{
+        width: 70vw;
+        font-size: 18pt;
+    }
+    
+    .nb_container_outer h3{
+        font-size: 26pt;
+        padding: 1rem;
+        font-weight: 600;
+    }
+.nb_button{
+    font-size: 18pt;
+    border-radius: 20px;
+    white-space: nowrap;
+    width: auto;
+ padding: 1.25rem 1.5rem;
+}
+ }
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+

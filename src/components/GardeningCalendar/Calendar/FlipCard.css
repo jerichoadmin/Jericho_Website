@@ -1,0 +1,135 @@
+.flip-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 84vw;
+        border-radius: 20px;
+        margin: 2rem;
+        font-size: 30pt;
+        font-family: 'Raleway';
+        position: relative;
+        z-index: 3;
+        color: rgb(194, 186, 69);
+        border-radius: 20px;
+  }
+
+  .flip-card-front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 800;
+  }
+
+  .flip-card-front p{
+    height: fit-content;
+    width: auto;
+  }
+
+  .flip-card p{
+      background-color: rgb(30, 31, 39);
+      padding: .25rem;
+  }
+  
+  .flip-card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 6px solid #4FA673;
+    overflow-y: auto;
+
+  }
+  .flip-card-list{
+  height: 33vh;
+  filter: blur(0px);
+  }
+.flip-card-back li{
+  position: relative;
+  font-size: 12pt;
+  padding: 1rem;
+}
+
+
+.flip-card-back::-webkit-scrollbar{
+  width: 15px;
+}
+.flip-card-back::-webkit-scrollbar-track{
+background-color: #95562E;
+border-radius: 20px;
+}
+.flip-card-back::-webkit-scrollbar-thumb{
+background-color: #DBBA4B;
+border-radius: 20px;
+}
+
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+
+
+  
+@media (min-width:1025px) { 
+  .flip-card {
+    height: 30vh;
+    width: 40vw;
+  }
+  .flip-card-list{
+    height: 28vh;
+    filter: blur(0px);
+    }
+}
+  
+@media (min-width:1025px) and (max-height:1000px ) { 
+  .flip-card {
+    height: 60vh;
+    width: 42vw;
+  }
+  .flip-card-list{
+    height: 58vh;
+    }
+}
+  
+@media (min-width:2025px){ 
+  .flip-card {
+    height: 30vh;
+    width: 22vw;
+  }
+  .flip-card-list{
+    height: 28vh;
+    filter: blur(0px);
+    }
+  }
+
+ @media screen and (min-width: 480px) and (max-height: 640px) and (orientation: landscape) {
+  .flip-card {
+    height: 60vh;
+    width: 62vw;
+}
+.flip-card-list{
+  height: 58vh;
+  }
+ }

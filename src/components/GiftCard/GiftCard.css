@@ -1,0 +1,123 @@
+.GiftCard_Main{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#95562E, #DB4B4Ba8, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+.gc_main_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 700;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.gc_main_welcome h1{
+    color: #4FA673;
+    font-size: 30pt;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.gc_main_body{
+    background-image: linear-gradient( #9f4a38, #6f5d53, #209276);
+    height: auto;
+    width: 90vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+   align-self: center;
+   color: white;
+   margin-bottom: 2rem ;
+}
+.paypal_form{
+    padding: 2rem;
+}
+.gc_h2{
+    font-size: 20pt;
+    padding: 1rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.paypal_button {
+    background-color: #ffc439;
+    color: #000000;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    margin: 1rem;
+  }
+  .paypal_button:hover {
+    background-color: #f5b800;
+  }
+  .paypal_banner{
+    width: 40vw;
+    margin-top: 1rem;
+  }
+  
+.paypal_table{
+border: 0;
+}
+.paypal_table td, th{
+    border: 0;
+}
+
+
+@media (min-width:1025px) { 
+.GiftCard_Main{
+    font-size: 18pt;
+}
+.gc_h2{
+    font-size: 26pt;
+}
+.gc_main_welcome{
+    font-size: 18pt;
+}
+.gc_main_welcome h1{
+    font-size: 60pt;
+}
+.giftcard_svg{
+width: 30vw;
+align-self: center;
+padding: 1rem;
+}
+.paypal_banner{
+    width: 25vw;
+}
+.paypal_button{
+    font-size: 18pt;
+    margin: 2rem;
+}
+}
+
+
+@media (min-width:2025px) { 
+    .paypal_banner{
+        width: 20vw;
+    }
+    .gc_main_welcome{
+        width: 60%;
+    }
+    .gc_main_body{
+        width: 80vw;
+    }
+    .giftcard_svg{
+        width: 20vw;
+    }
+
+}

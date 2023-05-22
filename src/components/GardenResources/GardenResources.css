@@ -1,0 +1,197 @@
+.GardenResources{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#95562E, #DB4B4Ba8, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+.GardenResources p{
+    line-height: 1.4;
+}
+.GardenResources h3{
+    font-size: 30pt;
+    padding: 1.5rem;
+}
+.gr_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 700;
+    font-size: 20pt;
+    padding: 5vh;
+}
+.gr_welcome h1{
+    color: #4FA673;
+    font-size: 60pt;
+    font-weight: 700;
+}
+.gr_welcome p{
+    padding: 1.5vw;
+}
+.gr_body_main{
+    background-image: linear-gradient( #9f4a38, #6f5d53, #209276);
+    height: auto;
+    width: 80vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+   align-self: center;
+   color: white;
+   padding-bottom: 2rem;
+   margin-bottom: 4rem;
+}
+.fbt_header{
+    font-size: 40pt;
+    font-weight: 700;
+    color: rgb(173, 81, 235);
+    padding-bottom: 2rem;
+}
+.gr_body_top{
+    padding: 2rem 4rem;
+    font-size: 18pt;
+}
+.gr_body_top_img{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    border-radius: 20px;
+}
+.gr_body_top_img img{
+    border-radius: 20px;
+}
+.gr_bb_bottom img{
+    border-radius: 20px;
+    height: 60vh;
+    width: 50vw;
+    object-fit: cover;
+}
+.gr_bt_img{
+    padding: 4rem;
+}
+
+
+
+
+.gr_body_bottom h1{
+    font-size: 40pt;
+    font-weight: 700;
+    color: rgb(185, 223, 50);
+    padding-bottom: 2rem;
+}
+.gr_body_bottom{
+    font-size: 18pt;
+    padding: 2rem 4rem;
+}
+
+
+.green_gr_button{
+height: auto;
+width: auto;
+padding: 1.25rem 1.5rem;
+margin: 1rem;
+ background-color: #4FA673;
+ border: none;
+ border-radius: 12px;
+ font-family: 'Raleway';
+ font-size: 12pt;
+ font-weight: 600;
+ color: white;
+ align-self: center;
+ cursor: pointer;
+ box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.35);
+ transition: 1s;
+}
+.green_gr_button:hover{
+color: #4FA673;
+background-color: white;
+}
+.yellow_gr_button{
+height: auto;
+width: auto;
+padding: 1.25rem 1.5rem;
+margin: 1rem;
+ background-color: #DBBA4B;
+ border: none;
+ border-radius: 12px;
+ font-family: 'Raleway';
+ font-size: 12pt;
+ font-weight: 600;
+ color: white;
+ align-self: center;
+ cursor: pointer;
+ box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.35);
+ transition: 1s;
+}
+.yellow_gr_button:hover{
+color: #DBBA4B;
+background-color: white;
+}
+
+
+
+
+@media (max-width: 650px){
+    .gr_welcome{
+        width: 75vw;
+        font-size: 12pt;
+    }
+    .gr_welcome h1{
+        font-size: 30pt;
+    }
+    .gr_body_main{
+        width: 90vw;
+    }
+    .gr_body_main h1{
+        font-size: 26pt;
+    }
+    .gr_body_main p{
+        font-size: 12pt;
+        padding: 0;
+    }
+    .gr_body_top{
+        padding: 0 1rem;
+    }
+    .gr_body_top h1{
+        padding-top: 2rem ;
+    }
+    .gr_body_bottom{
+        padding: 1rem;
+    }
+    .gr_conclusion{
+        width: 75vw;
+        font-size: 12pt;
+    }
+    .gr_conclusion h1{
+        font-size: 26pt;
+    }
+
+    .gr_body_top_img{
+        padding: 2rem;
+
+    }
+    .gr_body_top_img img{
+        height: auto;
+        width: 80vw;
+    }
+    .gr_bb_bottom img{
+        height: 60vh;
+        width: 70vw;
+        object-fit: cover;
+    }
+    .gr_bt_img{
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+}

@@ -1,0 +1,308 @@
+.Radio{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#95562E, #DB4B4Ba8, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+.radio_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 600;
+    font-size: 20pt;
+    padding: 5vh;
+    padding-top: 7vh ;
+}
+.radio_welcome p{
+    padding: 1.5vw;
+}
+.radio_welcome h1{
+    color: #4FA673;
+    font-size: 60pt;
+    font-weight: 700;
+
+}
+.radio_body_main{
+    background-image: linear-gradient( #9f4a38, #6f5d53, #209276);
+    height: auto;
+    width: 80vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+   align-self: center;
+   color: white;
+   margin-bottom: 5rem;
+}
+.radio_body_main h1{
+    color: #4FA673;
+    font-size: 60pt;
+    font-weight: 700;
+    padding: 2rem;
+}
+.radio_body_main h2{
+    color: #DBBA4B;
+   font-size: 40pt;  
+   font-weight: 700;
+}
+.radio_body_main h3{
+    color: white;
+   font-size: 20pt;  
+   font-weight: 700;
+}
+.radio_body_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.radio_body_mid{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.radio_body_mid p{
+    font-size: 18pt;
+    line-height: 30px;
+}
+.radio_body_bottom{
+    display: flex;
+    justify-content: center;
+}
+.rbb_left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+.rbb_right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.radio_body_bottom span{
+    padding: 1rem;
+    text-align: center;
+    margin: 0 10rem;
+}
+.radio_body_bottom button {
+    height: 5vh;
+    width: 15vh;
+    background-color:#95562E ;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 5vh;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+.radio_body_bottom button:hover{
+  color:#95562E ;
+  background-color: white;
+  transition: 1s;
+
+}
+.radio_body_bottom a {
+    width: 15vh;
+    align-self: center;
+}
+.kkob_banner{
+    width: 20vw;
+    align-self: center;
+    border-radius: 20px;
+}
+.gardentalk{
+   width: 10vw;
+   align-self: center;
+   padding: 1rem;
+   border-radius: 20px;
+}
+.rbb_pic{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+}
+.pic_mic{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+    border: #4FA673 4px solid;
+    border-radius: 20px;
+}
+.radio_rick{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+   height: 25vw;
+   width: 30vw;
+   object-fit: cover;
+   border-radius: 20px;
+   box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.radio_mic{
+    margin-top: 5rem;
+    width: 35vw;
+    height: 50vh;
+
+}
+
+.rbm_section p{
+    margin: 0 7rem;
+padding: 3rem 5rem;
+}
+
+.radio_visible {
+    display: flex;
+    justify-content: center;
+    transform: translateY(0);
+
+    opacity: 0.1;
+    animation-name: fade-in !important; 
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+
+@media (max-width: 2000px){
+    .radio_body_bottom span{
+        margin: 0;
+
+    }
+}
+
+
+
+@media screen and (max-width: 1200px),
+screen and (max-height: 650px){
+
+.rbm_section p{
+    margin: 0 5rem;
+padding: 3rem 5rem;
+}
+.kkob_banner{
+    width: 35vw;
+    border-radius: 20px;
+
+}
+.radio_body_bottom button{
+height: auto;
+width: auto;
+padding: 1rem;
+margin-left: -2.5rem;
+margin-bottom: 4rem;
+    }
+
+}
+
+@media (max-width: 950px){
+.radio_body_main{
+    width: 92vw;
+}
+.radio_welcome h1{
+   font-size: 26pt; 
+}
+.radio_welcome{
+   font-size: 12pt; 
+}
+.radio_body_top h1{
+    font-size: 26pt;
+}
+.radio_body_top h2{
+    font-size: 20pt;
+}
+.radio_body_top h3{
+    font-size: 20pt;
+    margin: 1rem;
+}
+.radio_mic{
+    width: 70vw;
+    height: auto;
+}
+.radio_rick{
+    height: 70vw;
+    width: 75vw ;
+}
+.radio_body_mid{
+    padding-top: 2rem;
+}
+.radio_body_mid p{
+    font-size: 12pt;
+}
+.rbm_section p{
+    padding: 0;
+    margin: 0;
+}
+.kkob_banner{
+    width: 75vw;
+    border-radius: 10px;
+}
+.radio_body_bottom{
+    padding: 0;
+flex-direction: column;
+}
+.rbb_left{
+    width: auto;
+}
+.rbb_right{
+    width: auto;
+}
+.gardentalk{
+    width: 30vw;
+}
+.radio_body_bottom span{
+  margin: 0;
+  padding-top: 2rem;
+}
+.radio_body_bottom button{
+font-size: 12pt;
+border-radius: 10px;
+margin-left: 0;
+}
+.rbm_section h2{
+    font-size: 22pt;
+    padding-bottom: 1rem;
+}
+.pic_mic{
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+.pic_mic_outer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.radio_visible{
+    margin-top: 0;
+}
+.radio_rick{
+    margin: 0;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    align-self: center;
+}
+
+}
+
+

@@ -1,0 +1,48 @@
+.gardening_calendar{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#DBBA4BCF 40%, #4BA7DBCF , #DB4BD5CF) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+.gc_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 65vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color:  #DBBA4B;;
+    font-weight: 600;
+    font-size: 18pt;
+    padding: 5vh;
+}
+.gc_welcome h1{
+    color: #4FA673;
+    font-size: 60pt;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.gc_pic{
+    height: auto;
+    width: 50vw;
+    object-fit: cover;
+}
+@media (max-width: 650px){
+    .gc_welcome{
+        font-size: 10pt;
+    }
+    .gc_welcome h1{
+    font-size: 32pt;
+    }
+}
+

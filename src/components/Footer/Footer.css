@@ -1,0 +1,144 @@
+.footer{
+    height: auto;
+    background-color:  #1C1023;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+}
+.f_1{
+    margin: 2rem 0;
+    background-color:  #1C1023;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8pt;
+}
+.footer li{
+    margin: 0.3rem;
+    line-height: 1.2;
+    border: 1px white solid;
+    width: 10rem;
+}
+.footer li:hover{
+    background-color: #4267B2;
+    transition: 1s;
+    }
+    
+.footer h4{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 12pt;
+    text-decoration-line: underline;
+    color: #85B076;
+    padding: 1rem 0;
+}
+.f_products{
+    height: 15vh;
+    width: 23vw;
+}
+.f_gardening{
+    height: 15vh;
+    width: 23vw;
+}
+.f_services{
+    height: 15vh;
+    width: 23vw;
+}
+.f_about{
+    height: 15vh;
+    width: 23vw;
+}
+.social_icons{
+    padding: 0.5rem;
+}
+.social_icons svg{
+    height: 45px;
+    width: 45px;
+    padding: 2rem;
+}
+
+.privacy{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.privacy p{
+    font-size: 4.5pt;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#yt{
+    fill: white;
+}
+#yt:hover{
+    fill: #FF0000;
+    cursor: pointer;
+}
+#insta{
+    fill: white;
+}
+#insta:hover{
+    fill: 	#833AB4;
+    cursor: pointer;
+}
+#fb{
+    fill: white;
+}
+#fb:hover{
+    fill: #4267B2;
+    cursor: pointer;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.na{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (min-width:1025px) { 
+.f_1{
+    font-size: 16pt;
+  
+}
+.footer h4{
+    font-size: 24pt;
+}
+
+.footer li{
+    border: none;
+    padding: 0.4rem;
+}
+.social_icons{
+    padding: 3rem;
+    margin: 3rem;
+}
+.social_icons svg{
+    height: 100px;
+    width: 100px;
+    padding: 0rem 8rem;
+}
+.privacy p{
+    font-size: 11pt;
+    font-weight: 500;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+}
+
+@media screen 
+  and (min-width: 1200px) 
+  and (max-height: 900px)  { 
+.f_1{
+    margin-bottom: 10rem;
+}
+}

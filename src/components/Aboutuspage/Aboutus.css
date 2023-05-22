@@ -1,0 +1,370 @@
+.AboutUs{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#95562E, #DB4B4Ba8, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+.AboutUs p{
+    line-height: 1.4;
+}
+.aboutus_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 5vh;
+    padding-top: 7vh ;
+}
+.aboutus_welcome p{
+    padding: 1.5vw;
+}
+.aboutus_welcome h1{
+    color: #4FA673;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.aboutus_body_main{
+    background-image: linear-gradient( #9f4a38, #6f5d53, #209276);
+    height: auto;
+    width: 90vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+   align-self: center;
+   color: white;
+   margin-bottom: 5rem;
+}
+.aboutus_body_top h1{
+    color: #DBBA4B;
+    font-size: 26pt;
+    font-weight: 700;
+    padding: 2rem;
+}
+.staff_p{
+    padding: 2rem;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.about_the_owners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutus_body_mid p{
+    padding: 1rem;
+    font-size: 12pt;
+
+}
+.aboutus_body_mid h1{
+    font-size: 26pt;
+    font-weight: 700;
+    color: #4FA673;
+    
+}
+.aboutus_body_bottom h1{
+    color: #DBBA4B;
+    font-size: 26pt;
+    font-weight: 700;
+    padding: 2rem;
+    
+}
+.rickandjen{
+    align-self: center;
+    height: 75%;
+    width: 75%;
+    object-fit: cover;
+    border: #4FA673 6px solid;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(112, 122, 66, 0.25);
+    margin-top: 2rem;
+}
+
+
+.aboutus_body_bottom{
+    padding: 1rem;
+}
+.aboutus_body_bottom h3{
+    font-size: 22pt;
+    font-weight: 700;
+    padding: 1rem;
+}
+.aboutus_body_bottom p{
+    padding: 1rem;
+}
+.ct_h2{
+    color: #95562E;
+    font-weight: 700;
+    font-size: 26pt;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.ct_border{
+    border: #4FA673 solid 4px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.ct_border_bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.quote_svg{
+    display: flex;
+    width: 15vw;
+    padding: 2rem;
+}
+.quote2_svg{
+    display: flex;
+    justify-self: flex-end;
+    transform: scaleX(-1);
+    width: 15vw;
+    padding: 2rem;
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+.values_column{
+    height: 25vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column-reverse;
+  align-self: center;
+}
+.knowledge{
+    width: 50vw !important;
+}
+.aboutus_body_bottom p{
+    font-size: 12pt;
+    line-height: 1.4;
+}
+.bys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+}
+.bys_pic{
+    height: auto;
+    width: 85%;
+    border: #95562E 6px solid;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+.bys_header{
+    font-size: 14pt;
+    font-style: italic;
+    padding-bottom: 2rem ;
+}
+
+@media (orientation: landscape) {
+.values_column{
+    height: 60vh;
+    width: 60vw;
+}
+  }
+  @media (min-width:1025px) { 
+    .aboutus_welcome{
+        font-size: 18pt;
+    }
+    .aboutus_welcome p{
+        padding: 1.5vw;
+    }
+    .aboutus_welcome h1{
+        font-size: 60pt;
+    }
+
+    .aboutus_body_top h1{
+        font-size: 60pt;
+    }
+    .staff_p{
+        padding: 4rem 10rem;
+        font-style: italic;
+        font-size: 18pt;
+    }
+    .about_the_owners{
+        flex-direction: column;
+        margin: 2rem;
+    }
+    .aboutus_body_mid p{
+        font-size: 18pt;
+        margin: 0 2rem;
+    }
+    .aboutus_body_mid h1{
+        font-size: 60pt;
+        
+    }
+    .aboutus_body_bottom h1{
+        font-size: 60pt; 
+    }
+    .rickandjen{
+        height: 45%;
+        width: 45%;
+        margin: 2rem;
+    }
+    .values{
+        flex-direction: column;
+        justify-content: space-around;
+      
+    }
+    .values_column{
+        height: 25vh;
+        margin: 4rem;
+        align-self: center;
+    }
+    
+    .aboutus_body_bottom h3{
+        font-size: 45pt;
+    }
+    .aboutus_body_bottom p{
+        padding: 1rem;
+    }
+    .ct_border p{
+        font-size: 18pt;
+    }
+    .ct_h2{
+        font-size: 60pt;
+    }
+
+    .quote_svg{
+        display: flex;
+        width: 15vw;
+        padding: 2rem;
+    }
+    .quote2_svg{
+        display: flex;
+        justify-self: flex-end;
+        transform: scaleX(-1);
+        width: 15vw;
+        padding: 2rem;
+    }
+
+    .knowledge{
+        width: 50vw !important;
+    }
+    .aboutus_body_bottom p{
+        font-size: 18pt;
+        line-height: 1.4;
+        padding: 4rem 6rem;
+    }
+ 
+    .bys_pic{
+        width: 45%;
+    }
+    .bys_header{
+        font-size: 26pt;
+        font-style: italic;
+        padding-bottom: 2rem;
+    }
+  }
+
+  @media (min-width:2025px) { 
+    .aboutus_welcome{
+        font-size: 18pt;
+    }
+    .aboutus_welcome p{
+        padding: 1.5vw;
+    }
+    .aboutus_welcome h1{
+        font-size: 60pt;
+    }
+
+    .aboutus_body_top h1{
+        font-size: 60pt;
+    }
+    .staff_p{
+        padding: 4rem 10rem;
+        font-style: italic;
+        font-size: 18pt;
+    }
+    .about_the_owners{
+        flex-direction: row;
+        margin: 4rem;
+    }
+    .aboutus_body_mid p{
+    
+        padding: 4rem 10rem;
+        font-size: 18pt;
+    }
+    .aboutus_body_mid h1{
+        font-size: 60pt;
+        
+    }
+    .aboutus_body_bottom h1{
+        font-size: 60pt; 
+    }
+    .rickandjen{
+        height: 45%;
+        width: 45%;
+        margin-left: 6rem;
+    }
+    .values{
+        flex-direction: row;
+    }
+    .values_column{
+        height: 20vh;
+    }
+    
+    .aboutus_body_bottom h3{
+        font-size: 40pt;
+    }
+    .aboutus_body_bottom p{
+        padding: 1rem;
+    }
+    .ct_border p{
+        font-size: 18pt;
+    }
+    .ct_h2{
+        font-size: 60pt;
+    }
+
+    .quote_svg{
+        display: flex;
+        width: 15vw;
+        padding: 2rem;
+    }
+    .quote2_svg{
+        display: flex;
+        justify-self: flex-end;
+        transform: scaleX(-1);
+        width: 15vw;
+        padding: 2rem;
+    }
+
+    .knowledge{
+        width: 50vw !important;
+    }
+    .aboutus_body_bottom p{
+        font-size: 18pt;
+        line-height: 1.4;
+        padding: 4rem 6rem;
+    }
+ 
+    .bys_pic{
+        width: 45%;
+    }
+    .bys_header{
+        font-size: 26pt;
+        font-style: italic;
+        padding-bottom: 2rem;
+    }
+  }
+
+

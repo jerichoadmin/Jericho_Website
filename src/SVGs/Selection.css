@@ -1,0 +1,11 @@
+.selection_svg:hover .selection_path1{
+    stroke: #4FA673;
+    fill: #4FA673;
+    transition: 1s;
+    cursor: pointer;
+}
+.selection_svg:hover .selection_path2{
+    fill: #95562E;
+    stroke: #95562E;
+    transition: 1s;
+}

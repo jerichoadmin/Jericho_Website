@@ -1,0 +1,224 @@
+.banner2{
+    height: auto;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.b2_img{
+    background-image: url('https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80');
+    height: auto;
+    width: 100vw;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+}
+.b2_1{
+    height: auto;
+    width: 85vw;
+    margin-bottom: 2rem;
+   margin-top: 2.5vh;
+   padding: 1rem;
+    background-color: #242424;
+    z-index: 2;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.b2_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.banner2 button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #DBBA4B;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+}
+.banner2 button:hover{
+    background-color: #ffffff;
+    color: #DBBA4B;
+    transition: 1s;
+}
+.banner2 h1{
+    color: #ACDC95;
+    font-size: 22pt;
+    font-weight: 800;
+  
+}
+.b2_h4{
+    color: #4FA673;
+    font-size: 12pt;
+    padding-bottom: 2vh;
+    font-weight: 600;
+}
+.b2_h4g{
+   color: #4FA673;
+   margin-left: 16vw;
+   font-size: 12pt;
+   font-weight: 600;
+   padding-top: 2vh;
+}
+
+
+.reveal-container {
+    height: 70%; 
+    position: relative; 
+    height: 200px;
+  }
+  .reveal-content {
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    display: none; 
+    transform: translateY(20px);
+  }
+
+  .decoy{
+    height: 10rem;
+  }
+  .inner_decoy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .delivery_van_icon{
+    width: 100%;
+
+  }
+  .visible {
+    display: flex;
+    justify-content: center;
+    transform: translateY(0);
+    height: 10rem;
+    opacity: 0.1;
+    animation-name: fade-in !important; 
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    margin-right: 10rem;
+  }
+
+  
+
+
+@media (min-width:800px) { 
+    .b2_1{
+        width: auto;
+        border-radius: 20px;
+    }
+    .b2_h4{
+        font-size: 16pt;
+    }
+    .banner2 h1{
+        font-size: 40pt;
+    }
+    .b2_h4g{
+        font-size: 16pt;
+        white-space: nowrap;
+    }
+    .banner2 button{
+        padding: 1.25rem 1.5rem;
+        font-size: 18pt;
+    }
+    .van{
+        display: flex;
+        height: 20vh;
+        margin-top: -3rem;
+    }
+    .van svg{
+        width: 55%;
+        margin-right: 10%;
+    }
+
+}
+
+
+@media (min-width:1025px) { 
+    .b2_1{
+        width: auto;
+        border-radius: 20px;
+    }
+    .b2_h4{
+        font-size: 16pt;
+    }
+    .banner2 h1{
+        font-size: 40pt;
+    }
+    .b2_h4g{
+        font-size: 16pt;
+        white-space: nowrap;
+    }
+    .banner2 button{
+        padding: 1.25rem 1.5rem;
+        font-size: 18pt;
+        border-radius: 20px;
+        margin-top: 4rem;
+    }
+    .van{
+        display: flex;
+        height: 20vh;
+        margin-top: -3rem;
+    }
+    .van svg{
+        width: 55%;
+        margin-right: 10%;
+    }
+    .decoy{
+        height: 20rem;
+      }
+      .visible {
+        height: 20rem;
+        margin-right: 2rem;
+      }
+    
+}
+
+@media (min-width:2000px) { 
+    .b2_1{
+        width: 40vw;
+        border-radius: 20px;
+    }
+    .b2_h4{
+        font-size: 20pt;
+        margin-right: 16vw;
+    }
+    .banner2 h1{
+        font-size: 50pt;
+    }
+    .b2_h4g{
+        font-size: 20pt;
+    }
+    .banner2 button{
+        padding: 1.25rem 1.5rem;
+        font-size: 18pt;
+        border-radius: 20px;
+    }
+    .van{
+        display: flex;
+        height: 20vh;
+        margin-top: -5rem;
+    }
+    .van svg{
+        width: 35%;
+        margin-right: 10%;
+    }
+    .visible {
+        height: 20rem;
+        margin-right: 35rem;
+      }
+
+      
+
+  }

@@ -1,0 +1,66 @@
+.single_sale_item_edit{
+    height: auto;
+    background-color: #242424;
+    padding-top: 10vh;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.single_sale_item_edit form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.single_sale_item_edit h1{
+    font-size: 20pt;
+    text-decoration: underline;
+    margin: 1rem;
+    padding-bottom: 2rem;
+}
+.single_sale_item_edit input{
+    margin: 1rem;
+    border-radius: 12px;
+    border: 0;
+    padding: 1rem;
+}
+
+.single_sale_item_edit button{
+    height: auto;
+    width: auto;
+    padding: 0.5rem 1.25rem;
+   background-color: #2a4c80;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+.single_sale_item_edit button:hover{
+    background-color: #ffffff;
+    color: #2a4c80;
+    transition: 1s;
+}
+
+@media (min-width:1025px) { 
+    .single_sale_item_edit {
+        font-size: 18pt;
+    }
+    .single_sale_item_edit input{
+        font-size: 18pt;
+    }
+    .single_sale_item_edit h1{
+        font-size: 30pt;
+    }
+    .single_sale_item_edit button{
+        font-size: 26pt;
+    }
+
+    }

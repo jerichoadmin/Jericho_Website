@@ -1,0 +1,215 @@
+.Seminars{
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4BA8 , #FB492C87 ) ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.seminars_welcome{
+    height: auto;
+    width: 60vw;
+    margin: 5vh;
+    background-color: #242424;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: #4FA673;
+    font-size: 12pt;
+    padding: 5vh;
+    font-weight: 600;
+}
+.seminars_welcome h1{
+    color: #DBBA4B;
+    font-size: 22pt;
+    font-weight: 700;
+}
+.seminars_welcome p{
+    padding: 1.5vw;
+}
+
+.seminars_body_main{
+    background-color: #24242444;
+    height: auto;
+    width: 90vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+   align-self: center;
+   color: white;
+   margin-bottom: 4rem;
+}
+.seminars_body_top h1{
+    color: #DBBA4B;
+    font-size: 30pt;
+    font-weight: 700;
+    padding: 3rem;
+}
+.seminars_body_top p{
+    padding: 1rem 2rem;
+    font-size: 12pt;
+    line-height: 1.4;
+}
+
+.seminars_body_mid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.seminars_body_mid h3{
+    font-size: 20pt;
+    padding: 2rem;
+}
+.seminars_list{
+width: auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.seminars_list ul{
+    width: auto;
+    background-color: #242424;
+    border-radius: 20px;
+    padding: 2rem;
+   padding-bottom: 5rem;
+   align-self: center;
+   margin: 5rem;
+
+}
+.seminars_list li{
+    font-size: 14pt;
+    padding-top: 2.5rem;
+    padding-bottom: 0.25rem;
+
+}
+.seminars_list span{
+    font-size: 10pt;
+    font-weight: 700;
+    color: #95562E;
+}
+.seminars_icon{
+width: 100%;   
+}
+.seminar_pic{
+    height: 30vh;
+    width: 80vw;
+    object-fit: cover;
+    border-radius: 20px;
+    align-self: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+.seminar_pic_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.seminars_body_bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8rem;
+}    
+.seminars_body_bottom h1{
+    font-size: 20pt;
+    font-weight: 700;
+    padding: 3rem;
+    padding-bottom: 0rem;
+}    
+.seminar_form{
+    align-self: center;
+    padding: 4rem;
+    color: black;
+    width: auto;
+}    
+.sized_svg{
+    width: 65vw;
+}
+.seminar_visible {
+    display: flex; 
+    justify-content: center;
+    transform: translateY(0);
+    animation: fadeIn;
+    transition: 1s;
+    height: auto;
+  }
+
+@media (min-width:1025px) { 
+    .seminars_welcome{
+        font-size: 18pt;
+    }
+    .seminars_welcome h1{
+        color: #DBBA4B;
+        font-size: 60pt;
+        font-weight: 700;
+    }
+    .seminars_welcome p{
+        padding: 0.5rem;
+    }
+    .seminars_body_main{
+        width: 80vw;
+    }
+    .seminars_body_main p{
+        font-size: 18pt;
+    }
+    .seminars_body_main h1{
+        font-size: 50pt;
+    }
+    .seminars_body_mid{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+.seminars_icon{
+    margin-top: 4rem;
+    width: 50%;
+}
+.seminars_list li{ 
+    font-size: 18pt;
+}
+.seminars_list span{ 
+    font-size: 12pt;
+}
+.seminar_pic{
+    height: 50vh;
+    width: 65vw;
+}
+
+.reveal-container {
+    height: 70%; 
+    position: relative; 
+  }
+  .seminar_reveal-content {
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    display: none; 
+    transition: transform 5s ease-in-out; 
+    transform: translateY(20px);
+    animation: fadeIn;
+    transition: 1s;
+  }
+  .seminar_visible {
+    display: block; 
+    transform: translateY(0);
+    animation: fadeIn;
+    transition: 1s;
+    height: auto;
+  }
+  
+.sized_svg{
+width: 40vw;
+}
+
+  @keyframes fadeIn{
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1; 
+    }
+  }
+}

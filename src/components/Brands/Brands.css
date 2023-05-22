@@ -1,0 +1,122 @@
+.Brands{
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4BA8 , #FB492C87 ) ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  padding-bottom: 5rem;
+}
+.brands_welcome{
+    height: auto;
+    width: 60vw;
+    margin: 5vh;
+    background-color: #242424;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: #4FA673;
+    font-size: 12pt;
+    font-weight: 600;
+    padding: 5vh;
+}
+.brands_welcome h1{
+    color: #DBBA4B;
+    font-size: 22pt;
+    font-weight: 700;
+}
+.brands_welcome p{
+    padding: 1.5vw;
+}
+.brands_body_main{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #242424;
+    padding: 10px;
+    border-radius: 12px;
+    border: #4FA673 2px solid;
+    height: 30vh;
+    margin: 1rem;
+    font-size: 12pt;
+    color: white;
+  }
+  
+  .card img {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+  
+  .card-content {
+    flex: 1;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .card-description {
+    font-size: 14px;
+    color: #dde9e8;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brand_img{
+    margin: 2rem;
+  }
+  
+
+@media (min-width: 1025px) {
+    .brands_welcome{
+        font-size: 18pt;
+    }
+    .brands_welcome h1{
+        color: #DBBA4B;
+        font-size: 60pt;
+        font-weight: 700;
+    }
+    .brands_welcome p{
+        padding: 0.5rem;
+
+    }
+    .card{
+        width: 60vw;
+        border: #4FA673 4px solid;
+    }
+    .card-title{
+        font-size: 30pt;
+    }
+    .card-description{
+        margin: 1rem 3rem;
+        font-size: 18pt;
+    }
+    .card img {
+      width: 200px; 
+    }
+    
+}
+
+@media screen 
+  and (min-width: 900px) 
+  and (max-height: 900px)  { 
+.card{
+  height: 50vh;
+}
+}

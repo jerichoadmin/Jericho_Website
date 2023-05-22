@@ -1,0 +1,16 @@
+.service_svg:hover .service_path1{
+    stroke: #4FA673;
+    fill: #4FA673;
+    transition: 1s;
+    cursor: pointer;
+}
+.service_svg:hover .service_path2{
+
+    fill: #95562E;
+    transition: 1s;
+}
+.service_svg:hover .service_path3{
+
+    fill: #DBBA4B;
+    transition: 1s;
+}

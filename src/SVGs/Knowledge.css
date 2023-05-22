@@ -1,0 +1,11 @@
+.knowledge_svg:hover .knowledge_path1{
+    stroke: #DBBA4B;
+    fill: #DBBA4B;
+    transition: 1s;
+    cursor: pointer;
+}
+.knowledge_svg:hover .knowledge_path2{
+    stroke: #95562E;
+    fill: #95562E;
+    transition: 1s;
+}

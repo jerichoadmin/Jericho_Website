@@ -1,0 +1,129 @@
+.banner{
+    height: auto;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.b_img{
+    background-image: url('https://images.unsplash.com/photo-1586550803730-76f9f54876ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80');
+    height: auto;
+    width: 100vw;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+}
+.b_1{
+    height: auto;
+    width: 85vw;
+    padding: 1rem;
+    margin-top: 2.5vh;
+    background-color: #242424;
+    z-index: 2;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.b_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.banner h1{
+    color: #ACDC95;
+    font-size: 26pt;
+    font-weight: 800;
+}
+.b_h4{
+    color: #4FA673;
+    font-size: 12pt;
+    padding: 0 1rem;
+    padding-bottom: 2vh;
+    font-weight: 600;
+}
+.b_h4g{
+    background: -webkit-linear-gradient(left, #FFFFFF, #DBBA4B);
+    background: -o-linear-gradient(right, #FFFFFF, #DBBA4B);
+    background: -moz-linear-gradient(right,  #FFFFFF, #DBBA4B);
+    background: linear-gradient(to right,  #FFFFFF, #DBBA4B); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-left: 16vw;
+   font-size: 12pt;
+   font-weight: 600;
+   padding-top: 2vh;
+}
+.banner button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #DBBA4B;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: 1s;
+}
+.banner button:hover{
+    background-color: #ffffff;
+    color: #DBBA4B;
+}
+
+
+@media (min-width:1025px) { 
+.banner{
+height: auto;
+width: auto;
+}
+.b_1{
+    width: 45vw;
+    padding-bottom: 1rem;
+}
+.banner h1{
+    font-size: 30pt;
+}
+.b_h4{
+    font-size: 18pt;
+}
+.b_h4g{
+    font-size: 18pt;
+}
+.banner button{
+    font-size: 18pt;
+    border-radius: 20px;
+}
+}
+
+@media (min-width:2000px) { 
+    .banner{
+        height: auto;
+        width: auto;
+        }
+        .b_1{
+            width: 45vw;
+            padding-bottom: 1rem;
+        }
+        .banner h1{
+            font-size: 60pt;
+        }
+        .b_h4{
+            font-size: 22pt;
+        }
+        .b_h4g{
+            font-size: 26pt;
+        }
+        .banner button{
+            font-size: 18pt;
+            border-radius: 20px;
+        }
+  }
+
+

@@ -1,0 +1,348 @@
+.Single_Blog_Post{
+    padding-top: 5vh;
+    background-image: linear-gradient(#4FA673, #DBBA4BA8 , #FB492C87 ) ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.4;
+}
+.Single_Blog_Post p{
+    margin: 2rem 10rem;
+}
+
+.sing_blog_welcome{
+    height: auto;
+    width: 60vw;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    background-color: #242424;
+    padding-bottom: 6vh;
+}
+.blog_welcome h2 {
+   padding-top: 5rem;
+}
+
+.blog_body_main{
+    background-color: #24242444;
+    height: auto;
+    width: 80vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+   align-self: center;
+   color: white;
+   margin-bottom: 15rem;
+}
+.blog_body_main p{
+    font-size: 18pt;
+    padding: 2rem 4rem;
+}
+.blog_title{
+    font-size: 38pt;
+    font-weight: 700;
+    padding-top: 2rem;
+    color: #DBBA4B;
+}
+.blog_body_mid h1{
+    font-size: 45pt;
+    font-weight: 700;
+    padding: 2rem;
+    color: #95562E;
+}
+
+
+
+.blog_img{
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    height: auto;
+    width: 40vw;
+    align-self: center;
+    object-fit: cover;
+}
+
+.blog_img_1{
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    height: 45vh;
+    width: 55vw;
+    align-self: center;
+    object-fit: cover;
+}
+
+
+.blog_body_top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.blog_body_top button{
+    height: 5vh;
+    width: 15vh;
+   background-color: #DBBA4B;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3vh;
+    cursor: pointer;
+
+}
+.blog_body_top button:hover{
+    background-color: #ffffff;
+    color: #DBBA4B;
+    transition: 1s;
+}
+
+.blog_body_mid button{
+    height: 5vh;
+    width: 15vh;
+   background-color: #4FA673;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+.blog_body_mid button:hover{
+    background-color: #ffffff;
+    color: #4FA673;
+    transition: 1s;
+}
+
+
+
+.blog_paragraph_top{
+    display: flex;
+    flex-direction: column;
+}
+.blog_paragraph_mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_paragraph_bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_body_bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.span_green{
+    color: #4FA673;
+    font-size: 40pt;
+    font-weight: 700;
+    padding: 1rem;
+    background-color: #242424;
+    margin-bottom: 2rem;
+
+}
+
+.span_yellow{
+    color: #DBBA4B;
+    font-size: 40pt;
+    font-weight: 700;
+    padding: 1rem;
+    background-color: #242424;
+
+
+
+}
+.span_brown{
+    color: #95562E !important;
+    font-size: 40pt;
+    font-weight: 700;
+    padding: 1rem;
+    background-color: #242424;
+
+}
+.date{
+    color: rgb(207, 207, 207);
+    padding-bottom: 3rem;
+}
+
+
+.blog_icon_1{
+display: flex;
+justify-content: center;
+align-self: center;
+}
+.blog_icon_1 img{
+    height: 10rem;
+    width: auto;
+    object-fit: cover;
+    padding: 2rem;
+}
+.blog_icon_2{
+display: flex;
+justify-content: center;
+align-self: center;
+}
+.blog_icon_2 img{
+    height: 10rem;
+    width: auto;
+    object-fit: cover;
+}
+.blog_icon_3{
+display: flex;
+justify-content: center;
+align-self: center;
+padding: 2rem;
+}
+.blog_icon_3 img{
+    height: 10rem;
+    width: auto;
+    object-fit: cover;
+}
+.blog_bold{
+    font-weight: 700;
+}
+.left_8{
+    display: flex;
+    padding: 2rem;
+}
+.right_9{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem;
+}
+
+
+@media screen and (max-width: 1200px),
+screen and (max-height: 650px){
+    .Single_Blog_Post button{
+        height: auto;
+        width: auto;
+        padding: 1rem;
+    }
+
+}
+@media (max-width: 900px){
+    .left_8{
+        flex-direction: column;
+    }
+    .right_9{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px){
+    .blog_title{
+        font-size: 30pt;
+    }
+    .blog_body_main{
+        background-color: #24242444;
+        height: auto;
+        width: 90vw;
+        border-radius: 20px;
+        box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+       align-self: center;
+       color: white;
+       margin-bottom: 15rem;
+    }
+    .Single_Blog_Post p{
+        font-size: 12pt;
+        margin: 0;
+    }
+    .Single_Blog_Post button{
+        font-size: 12pt;
+        border-radius: 12px;
+    }
+  
+
+    .blog_img{
+        border-radius: 20px;
+        box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+        height: 40vh;
+        width: 80vw;
+        align-self: center;
+        object-fit: cover;
+    }
+
+    .body_img_1{
+        border-radius: 20px;
+        box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+        height: auto;
+        width: 85vw;
+        align-self: center;
+
+        margin: 2rem;
+    }
+    .body_img_2{
+        border-radius: 20px;
+        box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+        height: auto;
+        width: 85vw;
+        align-self: center;
+
+        margin: 2rem;
+    }
+    .body_img_3{
+        border-radius: 20px;
+        box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+        height: auto;
+        width: 85vw;
+        align-self: center;
+        margin: 2rem;
+    }
+    .body_img_4{
+        border-radius: 20px;
+        box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+        height: auto;
+        width: 85vw;
+        align-self: center;
+        margin: 2rem;
+    }
+
+        .blog_icon_1 img{
+            height: 8rem;
+        }
+
+        .blog_icon_2 img{
+            height: 8rem;
+
+        }
+
+        .blog_icon_3 img{
+            height: 8rem;
+        }
+        .span_yellow{
+            font-size: 30pt;
+        }
+        
+        .span_green{
+            font-size: 30pt;
+        }
+        
+        .span_brown{
+            font-size: 30pt;
+        }
+        .blog_body_mid h1{
+            font-size: 30pt;
+        }
+        
+
+}

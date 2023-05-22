@@ -1,0 +1,242 @@
+.ffc{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#DBBA4BCF 40%, #4BA7DBCF , #DB4BD5CF) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.ffc_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 65vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color:  #DBBA4B;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.ffc_welcome h1{
+    color: #4FA673;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.ffc_welcome p{
+    padding: 1.5vw;
+}
+.ffc_body{
+    background-image: linear-gradient(#b19c4a, #7271b7) ;
+    height: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+}
+.ffc_body_top p{
+    color: white;
+    padding: 1rem;
+    font-size: 12pt;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    line-height: 1.4;
+}
+.w_it_is{
+    font-size: 26pt;
+    font-weight: 700;
+    color: #106D36;
+    padding: 3vh;
+    display: flex;
+    margin-left: 4vw;
+}
+.ffc3{
+    height: auto;
+    width: 60vw;
+    position: absolute;
+    left: 15vw;
+    z-index: 1;
+    opacity: 75%;
+}
+.ffc_body_bottom h2{
+    font-size: 20pt;
+    padding: 1rem;
+    font-weight: 700;
+    color: white;
+    z-index: 3;
+
+}
+.ffc_body_bottom li{
+    line-height: 3;
+    font-weight: 700;
+    font-size: 12pt;
+    color: white;
+    z-index: 3;
+    padding: 0.5rem;
+ 
+}
+.ffc_sunflowers{
+    margin: 3vw;
+    height: 40vh;
+    width: 80vw;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    object-fit: cover;
+}
+.ffc_body_bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+.ffc_body_bottom p{
+    color: white;
+    padding: 0 10vw;
+    font-size: 12pt;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    line-height: 30px;
+}
+.w_you_get{
+    font-size: 26pt;
+    font-weight: 700;
+    color: #EDB592;
+    padding: 3vh;
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 4vw;
+    position: relative;
+    z-index: 2;
+}
+.ffc_arches{
+    height: 55vh;
+    width: 75vw;
+   object-fit: cover;
+   border-radius: 20px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   margin: 0;
+   align-self: center;
+}
+.b_h{
+    display: flex;
+    flex-direction: column;
+}
+.b_h_list{
+    z-index: 3;
+}
+.ffc3_s{
+
+    position: relative;
+    height: auto;
+    width: 45vw;
+    z-index: 0;
+    opacity: 75%;
+    transform: rotate(180deg);
+}
+.h_to_join{
+    font-size: 26pt;
+    font-weight: 700;
+    color: #533C71;
+    padding: 3vh;
+    display: flex;
+    margin-left: 4vw;
+}
+.ffc_form_container_2 h3{
+    font-weight: 700;
+    font-size: 12pt;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.f_f{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width:1025px) { 
+   
+    .ffc_welcome{
+        font-size: 18pt;
+    }
+    .ffc_welcome h1{
+        color: #4FA673;
+        font-size: 60pt;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+    .ffc_welcome p{
+        padding: 1.5vw;
+    }
+
+    .ffc_body_top p{
+        font-size: 18pt;
+        line-height: 1.4;
+        padding: 4rem 10rem;
+    }
+    .w_it_is{
+        font-size: 60pt;
+        padding-top: 4rem;
+    }
+    .ffc_body_bottom h2{
+        font-size: 26pt;
+        font-weight: 700;
+    }
+    .ffc_body_bottom li{
+        font-size: 18pt;
+        padding: 0.5rem;
+
+    }
+    .w_you_get{
+        font-size: 60pt;
+    }
+    .ffc_arches{
+        height: 70vh;
+        width: 50vw;
+        margin: 4rem;
+    }
+    .ffc_sunflowers{
+        height: 50vh;
+        width: 70vw;
+        margin: 0rem;
+    }
+    .ffc3_s{
+        position: relative;
+        width: 30vw;
+        padding: 1rem;
+  
+    }
+    .b_h{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .b_h_list{
+        z-index: 3;
+        margin-top: 10rem;
+    }
+    .h_to_join{
+        font-size: 60pt;
+    }
+    .ffc_form_container h3{
+      font-size: 24pt;
+    }
+
+
+
+}

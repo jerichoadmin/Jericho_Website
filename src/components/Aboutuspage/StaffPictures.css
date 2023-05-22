@@ -1,0 +1,36 @@
+.staff_pics_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+ 
+  }
+  
+.staff_pics{
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 12.5vw;
+    margin: 2rem;
+    border: 3px solid yellow;
+}
+
+.staff_pic h6{
+    font-size: 12pt;
+}
+.staff_pic span{
+    color: #4FA673;
+}
+
+@media (min-width:1025px) { 
+    .staff_pics_grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .staff_pics{
+        height: 10vw;
+        width: 10vw;
+    }
+    .staff_pic h6{
+        font-size: 18pt;
+    }
+
+}

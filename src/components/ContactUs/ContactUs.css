@@ -1,0 +1,166 @@
+.contact_us{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#DBBA4BCF 40%, #4BA7DBCF , #DB4BD5CF) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    line-height: 1.4;
+}
+.contact_us_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 65vw;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color:  #DBBA4B;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.contact_us_welcome h1{
+    color: #4FA673;
+    font-size: 26pt;
+    font-weight: 700;
+
+}
+.contact_us_welcome p{
+    padding: 1.5vw;
+}
+.contact_us_body{
+    background-image: linear-gradient(#b19c4a, #7271b7) ;
+    height: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    border-radius: 12px;
+    color:white;
+}
+.contact_us_body h1{
+    font-size: 20pt;
+    font-weight: 800;
+    text-decoration: underline;
+    padding: 1.5rem;
+
+}
+.contact_us_body h2{
+    font-size: 18pt;
+    font-weight: 800;
+    padding: 0.5rem;
+}
+.contact_us_body p{
+    padding: 0.5rem 1rem;
+}
+.contact_us button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #4FA673;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.contact_us button:hover{
+    background-color: #ffffff;
+    color: #4FA673;
+    transition: 1s
+}
+.map_button button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #DBBA4B;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.map_button button:hover{
+    background-color: #ffffff;
+    color: #DBBA4B;
+    transition: 1s
+}
+.email_button button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #95562e;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.email_button button:hover{
+    background-color: #ffffff;
+    color: #95562e;
+    transition: 1s
+}
+.contact_pic_container{
+    display: flex;
+    justify-content: center;
+}
+.contact_pic{
+    object-fit: cover;
+    width: 80vw;
+    margin: 2rem;
+    border-radius: 12px;
+}
+
+
+@media (min-width:1025px) { 
+
+    .contact_us_body{
+        width: 80vw;
+    }
+    .contact_us_welcome{
+        font-size: 18pt;
+    }
+    .contact_us_welcome h1 {
+        font-size: 60pt;
+    }
+    .contact_us_body{
+        font-size: 18pt;
+    }
+    .contact_us_body h1{
+        font-size: 40pt;
+        padding: 3rem 2rem;
+    }
+    .contact_us_body button{
+        font-size: 18pt;
+    }
+    .contact_pic{
+        margin-top: 4rem;
+        width: 60vw;
+    }
+
+
+}

@@ -1,0 +1,313 @@
+.Blog{
+    height: auto;
+
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#DBBA4BCF 40%, #4BA7DBCF , #DB4BD5CF) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.blog_welcome{
+    height: auto;
+    width: 70vw;
+    margin: 5vh;
+    margin-top: 10vh;
+    padding-bottom: 2rem;
+    padding: 5vh;
+    background-color: #242424;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color:  #DBBA4B;
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 1.4;
+}
+.blog_welcome h1{
+    color: #4FA673;
+    font-size: 30pt;
+    font-weight: 700;
+}
+.blog_welcome p{
+    padding: 1.5vw;
+}
+.big_blog_card{
+    background-color: #24242433;
+    height: auto;
+    width: 90vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    align-self: center;
+}
+.big_blog_card h1{
+    font-size: 24pt;
+    font-weight: 700;
+    color: white;
+    padding: 2rem;
+}
+.big_blog_photo{
+    height: 35vh;
+    width: 75vw;
+    border-radius: 20px;
+    filter: drop-shadow(4px 6px 4px rgba(0, 0, 0, 0.4));
+    object-fit: cover;
+}
+.big_blog_card h3{
+    font-size: 20pt;
+    font-weight: 700;
+    color: white;
+    padding: 2rem;
+}
+.big_blog_card p{
+    font-size: 12pt;
+    font-weight: 500;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    line-height: 1.4;
+}
+.big_blog_span{
+    display: flex;
+    justify-content: flex-end;
+}
+.big_blog_card_bottom span{
+font-size: 10pt;
+padding: 1rem;
+align-self: flex-end;
+color: white;
+}
+.big_blog_button{
+    display: flex;
+   justify-content: center;
+}
+
+.big_blog_card button{
+height: auto;
+width: auto;
+padding: 1rem 1.25rem;
+    background-color: #4FA673 ;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+.big_blog_card button:hover{
+    background-color: #ffffff;
+    color: #4FA673;
+    transition: 1s;
+}
+
+.text_overflow{
+    height: 15vh;
+    min-width: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+ .small_blog_card{
+    background-color: #24242433;
+    height: auto;
+    width: 90vw;
+    align-self: center;
+    margin: 2rem;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 5px 5px 10px 5px rgba(90, 92, 92, 0.25);
+ }
+ .small_blog_card h3{
+    font-size: 20pt;
+    font-weight: 700;
+    color: white;
+    padding: 1rem;
+ }
+ .small_blog_card p{
+    line-height: 1.4;
+    padding: 0 1rem;
+
+ }
+.small_blog_photo{
+    height: auto;
+    width: 70vw;
+    object-fit: cover;
+    border-radius: 12px;
+    filter: drop-shadow(4px 6px 4px rgba(0, 0, 0, 0.4));
+    margin: 2rem;
+}
+.small_blog_card_button{
+    height: auto;
+    padding: 1rem;
+}
+.small_blog_card_span{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    font-size: 8pt;
+}
+.small_blog_card_button button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+        background-color: #DBBA4B;
+        border: none;
+        border-radius: 12px;
+        font-family: 'Raleway';
+        font-size: 12pt;
+        font-weight: 600;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 3vh;
+        cursor: pointer;
+        
+    }
+    .small_blog_card_button button:hover{
+        background-color: #ffffff;
+        color: #DBBA4B;
+        transition: 1s;
+    }
+    .blog_snav_buttons{
+        display: flex;
+justify-content: center;
+flex-direction: column;
+align-self: center;
+margin-bottom: 6vh;
+
+    }
+    .blog_snav_buttons button{
+        height: auto;
+        width: auto;
+        padding: 1rem 1.25rem;
+        background-color: #242424 ;
+        border: none;
+        border-radius: 12px;
+        font-family: 'Raleway';
+        font-size: 12pt;
+        font-weight: 600;
+        color: white;
+        margin: 1vw;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .blog_snav_buttons button:hover{
+    color: #242424;
+    background-color: white;
+    transition: 1s;
+    } 
+
+    .page_numbers{
+        display: flex;
+        background-color: #242424;
+        width: auto;
+        align-self: center;
+        padding: 1rem;
+        border-radius: 20px;
+        margin: 1rem;
+    }
+    .page_numbers button{
+        font-size: 12pt;
+        font-weight: 700;
+        margin: 1rem;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+    }
+    .active_button{
+        background-color: #4FA673;
+
+    }
+    .card_container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+@media (min-width:1025px) { 
+    .blog_welcome{
+        width: 50vw;
+        font-size: 18pt;
+    }
+    .blog_welcome h1{
+        font-size: 50pt;
+    }
+    .big_blog_card{
+        width: 75vw;
+    }
+    .big_blog_card_top h1{
+        font-size: 32pt;
+    }
+    .big_blog_photo{
+        height: 55vh;
+        width: 65vw;
+        border-radius: 20px;
+        filter: drop-shadow(4px 6px 4px rgba(0, 0, 0, 0.4));
+        object-fit: cover;
+    }
+    .big_blog_card h3{
+        font-size: 30pt;
+    }
+    .big_blog_card p{
+        font-size: 18pt;
+        padding: 0 4rem;
+    }
+ .big_blog_card_bottom span{
+    font-size: 12pt;
+ }
+ .big_blog_card button{
+    font-size: 20pt;
+    margin-top: 4rem;
+    padding: 1.25rem 1.5rem; 
+ }
+ .small_blog_card{
+    width: 65vw;
+ }
+.small_blog_photo{
+    height: 50vh;
+    width: 60vw;
+    object-fit: cover;
+    margin-top: 4rem;
+}
+.small_blog_card h3{
+    font-size: 26pt;
+}
+.small_blog_card span{
+    font-size: 12pt;
+}
+.small_blog_card_button button{
+    font-size: 18pt;
+    padding: 1.25rem 1.5rem; 
+}
+.text_overflow{
+    height: 10vh;
+}
+.text_overflow p{
+    font-size: 18pt;
+    padding: 0 4rem;
+}
+.blog_snav_buttons button{ 
+    font-size: 18pt;
+}
+.page_numbers button{
+    font-size: 18pt;
+}
+}
+
+
+

@@ -1,0 +1,126 @@
+.Clubs{
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4BA8 , #FB492C87 ) ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.clubs_welcome{
+    margin: 7vh 0;
+    background-color: #242424;
+    height: auto;
+    width: 70vw;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: white;
+    font-weight: 500;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.clubs_welcome h1{
+    color: #DBBA4B;
+    font-size: 30pt;
+    font-weight: 700;
+}
+.clubs_welcome p{
+    padding: 1.5vw;
+}
+.clubs_body_main{
+    background-color: #24242433;
+    border-radius: 12px;
+    height: auto;
+    width: 85vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+   align-self: center;
+   color: white;
+   margin-bottom: 5rem;
+   padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.clubs_body_main h1{
+    font-size: 30pt;
+    font-weight: 700;
+    padding: 1rem;
+    color: rgb(102, 40, 102);
+}
+.clubs_body_top{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.garden_club_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+  }
+  .club_item_title{
+    background-color: rgb(102, 40, 102);
+    font-weight: 600;
+    font-size: 15pt;
+    padding: .5rem;
+  }
+  .club_item_paragraph{
+    padding: 1rem;
+    line-height: 1.4;
+  }
+  .club_item_contact{
+    font-size: 10pt;
+    color: #7c7474;
+  }
+  .club_statement{
+    background-color: #24242411;
+    border-radius: 12px;
+    margin-top: 5rem;
+    padding: 2rem;
+  }
+  .club_statement button{
+    height: auto;
+    width: auto;
+    background-color: #DBBA4B ;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 3vh;
+    cursor: pointer;
+    padding: 1rem;
+
+  }
+  
+.club_statement button:hover{
+    background-color: #ffffff;
+    color: #DBBA4B;
+    transition: 1s;
+}
+
+
+@media (min-width:1025px) { 
+
+    .clubs_welcome{
+        width: auto;
+    }
+    .clubs_welcome h1{
+        font-size: 50pt;
+    }
+    .clubs_body_main{
+        display: flex;
+        flex-direction: column;
+
+        font-size: 16pt;
+    }
+    .clubs_body_main h3{
+        font-size: 22pt;
+    }
+}

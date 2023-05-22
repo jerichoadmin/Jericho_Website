@@ -1,0 +1,13 @@
+.quality_svg:hover .ribbon{
+  stroke: #4FA673;
+  fill: #4FA673;
+  transition: 1s;
+  cursor: pointer;
+}
+.quality_svg:hover .ribbon_bottom{
+  stroke: #dbba4b;
+  fill: #dbba4b;
+  stroke: #95562E;
+  transition: 1s;
+}
+
