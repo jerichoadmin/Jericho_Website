@@ -14,7 +14,7 @@ function SingleEditSalesPost({match}) {
 
       useEffect(() => {
         axios
-          .get(`/sales`)
+          .get(`https://jericho-server.onrender.com/sales`)
           .then((res) => {
             setSalesData(res.data);
    

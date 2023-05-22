@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
 import './NewintheBlog.css'
 import icon1 from '../../../Assets/Flower.png'
-import banner from '../../../Assets/stone_banner.jpg'
 import axios from 'axios'
+
 
 function NewintheBlog() {
 
@@ -12,7 +12,7 @@ function NewintheBlog() {
 
     useEffect(() => {
         axios
-          .get(`/blog/${offset}`)
+          .get(`https://jericho-server.onrender.com/blog/${offset}`)
           .then((res) => {
             setBlogData([res.data]);
           })

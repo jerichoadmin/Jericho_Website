@@ -9,7 +9,7 @@ const [salesData, setSalesData] = useState([])
 
     useEffect(() => {
       axios
-        .get("/sales")
+        .get("https://jericho-server.onrender.com/sales")
         .then((res) => {
           setSalesData(res.data);
         })

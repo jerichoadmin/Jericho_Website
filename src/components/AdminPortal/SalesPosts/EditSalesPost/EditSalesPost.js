@@ -15,7 +15,7 @@ const { token } = useContext(AuthContext);
 
     useEffect(() => {
         axios
-          .get("/sales")
+          .get("https://jericho-server.onrender.com/sales")
           .then((res) => {
             setSalesData(res.data);
           })

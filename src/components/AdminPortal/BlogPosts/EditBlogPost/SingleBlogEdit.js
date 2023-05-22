@@ -17,7 +17,7 @@ function SingleBlogEdit({match}) {
   const [blogData, setBlogData] =useState([]);
 
 useEffect(() => {
-  axios.get(`/singleblog/${id}`)
+  axios.get(`https://jericho-server.onrender.com/singleblog/${id}`)
   .then((response) => {
     setBlogData(response.data)
   })

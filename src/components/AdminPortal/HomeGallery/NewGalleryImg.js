@@ -14,7 +14,7 @@ const NewGalleryImg = () => {
     event.preventDefault();
 
     axios
-      .post("/newgalleryimg", formData)
+      .post("https://jericho-server.onrender.com/newgalleryimg", formData)
       .then((response) => {
         Swal.fire({
           title: "Img Posted",

@@ -59,7 +59,7 @@ const NewBlogPost = () => {
     event.preventDefault();
 
     axios
-      .post("/newblogpost", formData)
+      .post("https://jericho-server.onrender.com/newblogpost", formData)
       .then((response) => {
         Swal.fire({
           title: "Blog Posted",
