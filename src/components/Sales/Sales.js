@@ -48,7 +48,6 @@ const [salesData, setSalesData] = useState([])
 <div className='sales_card'> 
                     <div className='sales_card_top'>
                     <img src={`https://drive.google.com/uc?export=view&id=${item.img_url}`} className='sales_card_img' alt=''/>
-                    <img src={`https://drive.google.com/uc?export=download&id=${item.img_url}`} alt="" />
                     </div>
                     <div className='sales_card_bottom'>
                         <h1>{item.name}</h1>   
