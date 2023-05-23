@@ -150,37 +150,31 @@
 .radio_rick{
     margin-top: 5rem;
     margin-bottom: 5rem;
-    margin-right: 5rem;
    height: 25vw;
    width: 30vw;
    object-fit: cover;
    border-radius: 20px;
    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
 }
-.radio_mic{
-    margin-top: 5rem;
-    width: 35vw;
-    height: 50vh;
-
-}
 
 .rbm_section p{
     margin: 0 7rem;
 padding: 3rem 5rem;
 }
-
-.radio_visible {
+.decoy-radio{
+    height: 32rem;
+}
+.visible-radio{
     display: flex;
     justify-content: center;
     transform: translateY(0);
-
+    height: 32rem;
     opacity: 0.1;
-    animation-name: fade-in !important; 
+    animation-name: fade-in !important;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-  }
-
+}
 
 @media (max-width: 2000px){
     .radio_body_bottom span{
@@ -222,6 +216,9 @@ margin-bottom: 4rem;
 }
 .radio_welcome{
    font-size: 12pt; 
+}
+.radio_body_top{
+    margin-bottom: 5rem;
 }
 .radio_body_top h1{
     font-size: 26pt;
@@ -281,26 +278,25 @@ margin-left: 0;
     font-size: 22pt;
     padding-bottom: 1rem;
 }
-.pic_mic{
-    flex-direction: column;
-    justify-content: center;
-    width: 80vw;
-    margin: 0;
-    margin-bottom: 5rem;
-}
-.pic_mic_outer{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-}
-.radio_visible{
-    margin-top: 0;
-}
 .radio_rick{
     margin: 0;
     margin-bottom: 5rem;
     margin-top: 5rem;
     align-self: center;
+}
+.decoy-radio{
+    height: 15rem;
+}
+.visible-radio{
+    display: flex;
+    justify-content: center;
+    transform: translateY(0);
+    height: 15rem;
+    opacity: 0.1;
+    animation-name: fade-in !important;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 }

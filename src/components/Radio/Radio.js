@@ -5,7 +5,7 @@ import RadioMic from '../../SVGs/RadioMic'
 
 function Radio() {
     const revealRef = useRef(null); 
-    const [isVisible, setIsVisible] = useState(false);
+    const [isAnimatedr, setIsAnimatedr] = useState(false);
 
     const handleScroll = () => {
       const revealElement = revealRef.current; 
@@ -15,7 +15,7 @@ function Radio() {
 
         if (revealTop < windowHeight) {
             setTimeout(() => {
-            setIsVisible(true);
+            setIsAnimatedr(true);
 
             }, 1000)
         }
@@ -58,21 +58,29 @@ function Radio() {
             </h2>
 </div>
 
-<div className='pic_mic_outer'>
-<div className='pic_mic'>
-<div
-        ref={revealRef}
-        className={`reveal-content ${isVisible ? "radio_visible" : ""}`}
-        >
-     <div className='radio_mic'>
-                <RadioMic />
+
+
+<div>
+
+<div className="reveal-container">
+<div className='inner_decoy'>
+            <div className='decoy-radio'>
             </div>
+            <div id='movingDiv'>
+    <div className={isAnimatedr ? "visible-radio" : "reveal-content"}><RadioMic /></div>
             </div>
+    </div>
+
+</div>
+</div>
+
+
+<div ref={revealRef}> </div>
             <div className='radio_rick_container'>
         <img alt='' src={radiorick} className='radio_rick'/>
             </div>
-</div>
-</div>
+    
+
 
      <div className='radio_body_mid'>
 <div className='rbm_section'>
