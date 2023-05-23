@@ -42,7 +42,7 @@ function NewintheBlog() {
                     {blogData && blogData[0] && blogData[0].rows && (
   <div>
     <img
-      src={`https://drive.google.com/uc?export=view&id=${blogData[0].rows[0].img_1_url}`}
+      src={blogData[0].rows[0].img_1_url}
       className='c_image'
       alt=''
     />

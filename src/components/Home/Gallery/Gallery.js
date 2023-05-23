@@ -87,7 +87,7 @@ console.log(galleryData)
             {galleryData.map((item) => (
                     <div className='home_gallery_card'> 
              <div className='home_photo_gallery_container'>
-             <img src={`https://drive.google.com/uc?export=view&id=${item.img_url}`} className='home_gallery_photo' alt=''/>
+             <img src={item.img_url} className='home_gallery_photo' alt=''/>
              </div>
                     </div>
             ))}

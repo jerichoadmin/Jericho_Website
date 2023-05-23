@@ -89,7 +89,7 @@ const hanldeScrollTop = () => {
   
       <div className='small_blog_card'> 
                     <div className='small_blog_card_top'>        
-                    <img src={`https://drive.google.com/uc?export=view&id=${blogPost.img_1_url}`} className='small_blog_photo' alt=''/>
+                    <img src={blogPost.img_1_url} className='small_blog_photo' alt=''/>
                     </div>
                     <div className='small_blog_card_bottom'>
                     <h3>{blogPost.title}</h3>
