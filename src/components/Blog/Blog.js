@@ -26,7 +26,7 @@ useEffect(() => {
     .get(`https://jericho-server.onrender.com/blog/${offset}`)
     .then((res) => {
       setBlogData([res.data]);
-      setLoading(false)
+      setLoading(true)
       if([res.data]){
         setCount([res.data][0].count)
       }
