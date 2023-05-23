@@ -86,6 +86,7 @@
 
   .decoy{
     height: 10rem;
+    width: 10rem;
   }
   .inner_decoy{
     display: flex;
@@ -96,11 +97,12 @@
     width: 100%;
 
   }
-  .visible {
+  .visible{
     display: flex;
     justify-content: center;
     transform: translateY(0);
     height: 10rem;
+    width: 10rem;
     opacity: 0.1;
     animation-name: fade-in !important; 
     animation-duration: 1s;
@@ -176,9 +178,11 @@
     }
     .decoy{
         height: 20rem;
+        width: 30rem;
       }
       .visible {
         height: 20rem;
+        width: 30rem;
         margin-right: 2rem;
       }
     
@@ -215,7 +219,9 @@
     }
     .visible {
         height: 20rem;
+        width: 30rem;
         margin-right: 35rem;
+
       }
 
       

@@ -123,4 +123,4 @@ function Radio() {
   )
 }
 
-export default Radio
+export default Radio;

@@ -169,6 +169,7 @@ padding: 3rem 5rem;
     justify-content: center;
     transform: translateY(0);
     height: 32rem;
+    width: 60rem;
     opacity: 0.1;
     animation-name: fade-in !important;
     animation-duration: 1s;

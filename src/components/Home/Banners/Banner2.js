@@ -70,7 +70,7 @@ function Banner2() {
 
 </div>
         </div>
-        <div   ref={revealRefBanner}>
+        <div ref={revealRefBanner}>
         </div>
     </div>
   )
