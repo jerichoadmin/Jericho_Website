@@ -1,14 +1,32 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './ThisWeek.css'
 import { NavLink } from 'react-router-dom'
 import icon1 from '../../../Assets/Transparent2.png'
 import banner from '../../../Assets/succulent_banner.jpg'
+import axios from 'axios'
 
 function NewThisWeek() {
-  return (
+
+    const [salesData, setSalesData] = useState([])
+
+    useEffect(() => {
+        axios
+          .get("https://jericho-server.onrender.com/sales")
+          .then((res) => {
+            setSalesData(res.data);
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      }, []);
+
+
+
+const firstImage = salesData.filter((item, index) => index === 0)[0]?.img_url;
+const firstItem= salesData.filter((item, index) => index === 0)[0]?.name;
+
+return (
   
-
-
     <div className='home_container_outer'>
         <div className='home_container'>
         <div className='home_container_header'>
@@ -22,13 +40,15 @@ function NewThisWeek() {
 
         <div className='hc_body'>
                 <div className='hc_img'>
-                    <img src={banner} className='c_image' alt=''/>
+                    <img src={firstImage} className='c_image' alt=''/>
 
                 </div>
                 <div className='hc_paragraph'>
+                <h3>{firstItem} are on sale!</h3>
                     <p>
-                    Ready to sprout your garden dreams? See what's on sale this week for unbeatable nursery promotions on a wide variety of plants, flowers, hardgoods and more. Get your green thumb on!
+                See what else is on sale this week for including wide variety of plants, flowers, hardgoods and more. Get your green thumb on!
                     </p>
+
                             <NavLink to='/sales'>
                             <button className='hc_button'>Shop Specials This Week</button>
                             </NavLink>

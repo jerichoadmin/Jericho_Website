@@ -34,8 +34,7 @@ function Gallery() {
   }, []);
 
 
-console.log(galleryData)
-  
+
 
 
     const settings = {
@@ -50,7 +49,7 @@ console.log(galleryData)
             breakpoint: 1424,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
               infinite: true,
               dots: true
             }

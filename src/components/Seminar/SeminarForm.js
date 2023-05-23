@@ -5,7 +5,7 @@ function SeminarForm() {
   return (
     <div className='seminar_form_body'>
       <h2>Workshop Sign Up</h2>
-    <form>
+      <form action="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE" method='POST'>
       <div className="seminar_form_container">
         <div className='seminar_form_header'>
         </div>
