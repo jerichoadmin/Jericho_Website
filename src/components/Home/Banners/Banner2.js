@@ -11,13 +11,13 @@ function Banner2() {
     AOS.init();
   }, []);
 
-  const revealRef = useRef(null); 
+  const revealRefBanner = useRef(null); 
   const [isAnimated, setIsAnimated] = useState(false); 
 
 
 
   const handleScroll = () => {
-    const revealElement = revealRef.current; 
+    const revealElement = revealRefBanner.current; 
     if (revealElement) {
       const revealTop = revealElement.getBoundingClientRect().top; 
       const windowHeight = window.innerHeight; 
@@ -70,7 +70,7 @@ function Banner2() {
 
 </div>
         </div>
-        <div   ref={revealRef}>
+        <div   ref={revealRefBanner}>
         </div>
     </div>
   )

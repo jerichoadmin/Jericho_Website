@@ -4,11 +4,11 @@ import radiorick from '../../Assets/radiorick2.JPG'
 import RadioMic from '../../SVGs/RadioMic'
 
 function Radio() {
-    const revealRef = useRef(null); 
+    const revealRefRadio = useRef(null); 
     const [isAnimatedr, setIsAnimatedr] = useState(false);
 
     const handleScroll = () => {
-      const revealElement = revealRef.current; 
+      const revealElement = revealRefRadio.current; 
       if (revealElement) {
         const revealTop = revealElement.getBoundingClientRect().top; 
         const windowHeight = window.innerHeight; 
@@ -75,7 +75,7 @@ function Radio() {
 </div>
 
 
-<div ref={revealRef}> </div>
+<div ref={revealRefRadio}> </div>
             <div className='radio_rick_container'>
         <img alt='' src={radiorick} className='radio_rick'/>
             </div>
