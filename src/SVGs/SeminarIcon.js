@@ -20,9 +20,13 @@ function SeminarIcon() {
     >
       <g vectornatorLayerName="Layer 1">
       
-        <path id='small_dots'stroke-width="20"></path>
+        <path id='small_dots' stroke-width="20"></path>
         <path id='background_si' stroke-width="20"></path>
-        <path id="yellow_dots_s_1" stroke-width="20"></path>
+        <path 
+        id="yellow_dots_s_1"
+         stroke-width="20"
+         d="M2698.85 31.808c-44.03 0-79.72 31.06-79.72 69.374 0 38.314 35.69 69.374 79.72 69.374 44.02 0 79.71-31.06 79.71-69.374 0-38.314-35.69-69.374-79.71-69.374zM2597.84 1935.73c-33.27 0-60.24 27.44-60.24 61.29 0 33.85 26.97 61.29 60.24 61.29s60.24-27.44 60.24-61.29c0-33.85-26.97-61.29-60.24-61.29zM609.865 1476.09c-66.541 0-120.483 54.87-120.483 122.57 0 67.69 53.942 122.57 120.483 122.57s120.483-54.88 120.483-122.57c0-67.7-53.942-122.57-120.483-122.57z"
+         ></path>
         <path id='more_dots' stroke-width='20'></path>
  
         <path
