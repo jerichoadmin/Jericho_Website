@@ -66,6 +66,7 @@ width: auto;
 display: flex;
 justify-content: center;
 flex-direction: column;
+padding-top: 50vh;
 }
 .seminars_list ul{
     width: auto;
@@ -125,17 +126,15 @@ width: 100%;
     color: black;
     width: auto;
 }    
-.sized_svg{
-    width: 65vw;
+.s_decoy{
+height: 15rem;
+width: 23rem;
 }
-.seminar_visible {
-    display: flex; 
-    justify-content: center;
-    transform: translateY(0);
-    animation: fadeIn;
-    transition: 1s;
-    height: auto;
-  }
+.s_visible{
+height: 15rem;
+width: 23rem;
+}
+
 
 @media (min-width:1025px) { 
     .seminars_welcome{
@@ -159,6 +158,7 @@ width: 100%;
         font-size: 50pt;
     }
     .seminars_body_mid{
+        height: 70vh;
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -166,6 +166,9 @@ width: 100%;
 .seminars_icon{
     margin-top: 4rem;
     width: 50%;
+}
+.seminars_list{
+    padding: 0;
 }
 .seminars_list li{ 
     font-size: 18pt;
@@ -177,32 +180,17 @@ width: 100%;
     height: 50vh;
     width: 65vw;
 }
+.s_decoy{
+    height: 15rem;
+    width: 35rem;
+    }
+    .s_visible{
+    height: 15rem;
+    width: 35rem;
+    }
 
-.reveal-container {
-    height: 70%; 
-    position: relative; 
-  }
-  .seminar_reveal-content {
-    position: relative; 
-    bottom: 0; 
-    width: 100%; 
-    display: none; 
-    transition: transform 5s ease-in-out; 
-    transform: translateY(20px);
-    animation: fadeIn;
-    transition: 1s;
-  }
-  .seminar_visible {
-    display: block; 
-    transform: translateY(0);
-    animation: fadeIn;
-    transition: 1s;
-    height: auto;
-  }
-  
-.sized_svg{
-width: 40vw;
-}
+
+
 
   @keyframes fadeIn{
     from {
