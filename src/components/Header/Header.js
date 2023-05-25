@@ -12,7 +12,7 @@ function Header() {
 
 
   useEffect(() => {
-    const isMobile = window.innerWidth < 768;
+    const isMobile = window.innerWidth < 500;
     setIsMobile(isMobile);
   }, [isMobile]);
 

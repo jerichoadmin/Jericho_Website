@@ -1,8 +1,12 @@
 .navbar__mobile{
-    background-color: #242424;
     position: fixed;
     z-index: 10;
     color: white;   
+    }
+    .open_gray{
+      background-color: #242424;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
     }
     .mobile_nav_icon{
         width: 5rem;
@@ -61,6 +65,12 @@
         border: #95562E 2px solid;
         border-radius: 12px;
     }
+    .navbar-toggle{
+      background-color: white;
+      border: 1px solid #4FA673;
+
+    }
+    
     
 
     
