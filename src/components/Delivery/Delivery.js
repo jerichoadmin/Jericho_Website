@@ -1,9 +1,9 @@
 import React, {useState, useEffect, useRef} from 'react'
 import './Delivery.css'
 import plantbox from '../../Assets/plantbox.jpg'
-
 import DeliveryVan from '../../SVGs/DeliveryVan'
 import ffc3 from '../../Assets/ffc3.png'
+import CallButton from '../ContactUs/CallButton'
 
 
 function Delivery() {
@@ -93,7 +93,7 @@ function Delivery() {
         <div className='delivery_button'>
         <h2>Need some specifics?</h2>
         <p>Call us and we can get the ball rolling</p>
-        <button href='tel:15058997555'>Call Now</button>
+        <CallButton />
         </div>
 
 

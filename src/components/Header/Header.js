@@ -3,7 +3,7 @@ import NavBarDesktop from './NavBarDesktop'
 import NavBarMobile from './NavBarMobile'
 import './Header.css'
 import { NavLink } from 'react-router-dom'
-import banner from '../../Assets/Cropped_balloons.jpg'
+
 import logo from '../../Assets/Logo.png'
 import RotatingBanner from './RotatingBanner'
 function Header() {

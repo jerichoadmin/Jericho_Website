@@ -13,7 +13,7 @@
     flex-direction: column;
 }
 .admin_home button{
-    margin: 5rem;
+    margin: 2rem;
     padding: 1rem;
     cursor: pointer;
 }

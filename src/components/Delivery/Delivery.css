@@ -2,7 +2,7 @@
     height: auto;
     padding-top: 5vh;
     width: 100vw;
-    background-image: linear-gradient(#DBBA4BCF 40%, #4BA7DBCF , #DB4BD5CF) ;
+    background-image: linear-gradient(#DBBA4B, #4BA7DB , #DB4BD5CF) ;
     display: flex;
     justify-content: center;
     flex-direction: column;

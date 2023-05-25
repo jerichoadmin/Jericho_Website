@@ -2,7 +2,7 @@
     height: auto;
     padding-top: 5vh;
     width: 100vw;
-    background-image: linear-gradient(#4FA673, #DBBA4BA8 , #FB492C87 ) ;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
     display: flex;
     justify-content: center;
     flex-direction: column;   
@@ -137,14 +137,14 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 @media (min-width:2025px) {
 .sales_card{
     height: auto;
-    width: 45vw;
+    width: 32vw;
 }
 .sales_body{
     width: 65vw;
 }
 .sales_card_img{
-    height: 60vh;
-    width: 40vw;
+    height: 40vh;
+    width: 30vw;
     border-radius: 20px;
 }
 .sales_welcome p{

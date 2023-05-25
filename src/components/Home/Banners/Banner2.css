@@ -148,7 +148,7 @@
 
 @media (min-width:1025px) { 
     .b2_1{
-        width: auto;
+        width: 70vw;
         border-radius: 20px;
     }
     .b2_h4{
@@ -183,7 +183,11 @@
       .visible {
         height: 20rem;
         width: 30rem;
-        margin-right: 2rem;
+        margin-right: 30rem;
+      }
+      .movingDiv{
+        width: 30vw;
+        background-color: #4FA673;
       }
     
 }

@@ -1,9 +1,8 @@
 .Blog{
     height: auto;
-
     padding-top: 5vh;
     width: 100vw;
-    background-image: linear-gradient(#DBBA4BCF 40%, #4BA7DBCF , #DB4BD5CF) ;
+    background-image: linear-gradient(#DBBA4B, #4BA7DB , #DB4BD5) ;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -35,80 +34,10 @@
 .blog_welcome p{
     padding: 1.5vw;
 }
-.big_blog_card{
-    background-color: #24242433;
-    height: auto;
-    width: 90vw;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    border-radius: 20px;
-    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
-    align-self: center;
-}
-.big_blog_card h1{
-    font-size: 24pt;
-    font-weight: 700;
-    color: white;
-    padding: 2rem;
-}
-.big_blog_photo{
-    height: 35vh;
-    width: 75vw;
-    border-radius: 20px;
-    filter: drop-shadow(4px 6px 4px rgba(0, 0, 0, 0.4));
-    object-fit: cover;
-}
-.big_blog_card h3{
-    font-size: 20pt;
-    font-weight: 700;
-    color: white;
-    padding: 2rem;
-}
-.big_blog_card p{
-    font-size: 12pt;
-    font-weight: 500;
-    color: white;
-    padding: 1rem;
-    margin: 0;
-    line-height: 1.4;
-}
-.big_blog_span{
-    display: flex;
-    justify-content: flex-end;
-}
-.big_blog_card_bottom span{
-font-size: 10pt;
-padding: 1rem;
-align-self: flex-end;
-color: white;
-}
-.big_blog_button{
-    display: flex;
-   justify-content: center;
-}
 
-.big_blog_card button{
-height: auto;
-width: auto;
-padding: 1rem 1.25rem;
-    background-color: #4FA673 ;
-    border: none;
-    border-radius: 12px;
-    font-family: 'Raleway';
-    font-size: 12pt;
-    font-weight: 600;
-    color: white;
-    margin-top: 1rem;
-    margin-bottom: 3vh;
-    cursor: pointer;
-}
-.big_blog_card button:hover{
-    background-color: #ffffff;
-    color: #4FA673;
-    transition: 1s;
-}
 
-.text_overflow{
+/* should probably use this!!! */
+/* .text_overflow{
     height: 15vh;
     min-width: 0;
     display: -webkit-box;
@@ -117,7 +46,7 @@ padding: 1rem 1.25rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
-}
+} */
  .small_blog_card{
     background-color: #24242433;
     height: auto;
@@ -140,12 +69,15 @@ padding: 1rem 1.25rem;
 
  }
 .small_blog_photo{
-    height: auto;
-    width: 70vw;
+    height: 60vh;
+    width: 80vw;
+    max-width: 100%;
     object-fit: cover;
     border-radius: 12px;
     filter: drop-shadow(4px 6px 4px rgba(0, 0, 0, 0.4));
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+   
 }
 .small_blog_card_button{
     height: auto;

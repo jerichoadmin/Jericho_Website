@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;   
-    background-image: linear-gradient(#95562E, #DB4B4Ba8, #15F6C0a8  ) ;
+    background-image: linear-gradient(#95562E, #DB4B4B, #15F6C0a8  ) ;
 }
 .map_welcome{
     margin: 5vh;

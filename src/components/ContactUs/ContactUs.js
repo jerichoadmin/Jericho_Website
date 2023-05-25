@@ -2,6 +2,7 @@ import React from 'react'
 import './ContactUs.css'
 import MapButton from './MapButton'
 import EmailButton from './EmailButton'
+import CallButton from './CallButton'
 import cashhouse from '../../Assets/CashHouse.jpg'
 
 function ContactUs() {
@@ -25,7 +26,10 @@ function ContactUs() {
 
             <h1>Phone</h1>
             <p>+1 (505) 899-7555</p>
-            <button href='tel:15058997555'>Call Now</button>
+            <div className='call_button'>
+            <CallButton />
+            </div>
+
 
             <h1>Address</h1>
             <p>101 Alameda Blvd NW

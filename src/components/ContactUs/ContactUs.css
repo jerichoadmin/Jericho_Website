@@ -2,7 +2,7 @@
     height: auto;
     padding-top: 5vh;
     width: 100vw;
-    background-image: linear-gradient(#DBBA4BCF 40%, #4BA7DBCF , #DB4BD5CF) ;
+    background-image: linear-gradient(#DBBA4B, #4BA7DB, #DB4BD5CF) ;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -61,7 +61,7 @@
 .contact_us_body p{
     padding: 0.5rem 1rem;
 }
-.contact_us button{
+.contact_us_button{
     height: auto;
     width: auto;
     padding: 1rem 1.25rem;
@@ -77,7 +77,7 @@
     margin: 1rem;
     box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
 }
-.contact_us button:hover{
+.contact_us_button:hover{
     background-color: #ffffff;
     color: #4FA673;
     transition: 1s
