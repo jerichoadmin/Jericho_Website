@@ -77,12 +77,7 @@ function NavBarMobile() {
  
 <div className='mobile_nav_container'>
   <div className='logo_and_nav'>
-    <div className='mobile_logo_container'>
-      <NavLink to='/'>
-  <img src={logo} alt='' className='mobile_logo'/>
-
-      </NavLink>
-    </div>
+  
             <div className='left_side_mobile_nav'>
             <div className='mobile_nav_icon' onClick={() => handleToggleList(1)}>
                 <ProductsIcon />
@@ -97,7 +92,7 @@ function NavBarMobile() {
                 <p>Blog and Gallery</p>
             </div>
             <div className='mobile_nav_icon' onClick={() => handleToggleList(4)}>
-                <CommunityIcon />
+                <CommunityIcon className='mobile_c_icon'/>
                 <p>Community</p>
             </div>
             <div className='mobile_nav_icon' onClick={() => handleToggleList(5)}>

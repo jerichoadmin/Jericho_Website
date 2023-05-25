@@ -67,10 +67,9 @@
     }
     .navbar-toggle{
       background-color: white;
-      border: 1px solid #4FA673;
-
+      border: 1px solid #4d72eb;
     }
-    
+
     
 
     
@@ -100,7 +99,7 @@
     
       @media (max-height:750px) {
         .mobile_nav_icon{
-            width: 3rem;
+            width: 5rem;
             padding: 1rem 0;
             justify-self: center;
         }
