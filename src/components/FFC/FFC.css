@@ -36,7 +36,7 @@
 .ffc_body{
     background-image: linear-gradient(#b19c4a, #7271b7) ;
     height: auto;
-    width: 90vw;
+    width: 95vw;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -229,6 +229,7 @@
     .b_h_list{
         z-index: 3;
         margin-top: 10rem;
+        padding-left: 5rem;
     }
     .h_to_join{
         font-size: 60pt;

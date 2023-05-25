@@ -7,24 +7,27 @@
     right: 0;
     top: 0;
     z-index: -1;
-    height: 30vh;
+    height: 41vh;
     width: 100%;
     object-fit: cover;
   }
   .logo{
-      height: 22vh;
+      height: auto;
+      max-height: 28vh;
+      max-width: 100%;
       width: auto;
-      margin: 2rem;
+      margin: 2rem auto;
+      align-self: center;
   }
 
   .mobile_banner_logo{
     position: relative;
-    height: 12vh;
+    height: 15vh;
+    max-width: 97%;
     width: auto;
     padding: 0.5rem;
     z-index: 2;
   }
-
   .mobile_banner{
     position: absolute;
     right: 0;
@@ -34,4 +37,11 @@
     width: 100%;
     object-fit: cover;
     margin-bottom: 5rem;
+  }
+  .mobile_photo_banner{
+    height: 20vh;
+  }
+  .active {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
   }

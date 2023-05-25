@@ -5,7 +5,7 @@ import './Header.css'
 import { NavLink } from 'react-router-dom'
 import banner from '../../Assets/Cropped_balloons.jpg'
 import logo from '../../Assets/Logo.png'
-
+import RotatingBanner from './RotatingBanner'
 function Header() {
   const [isMobile, setIsMobile] = useState(false)
 
@@ -18,12 +18,17 @@ function Header() {
 
   return (
     <div>
+  
+
+
     {isMobile ? (
 
       <div>
-              <NavBarMobile />
-     <div className='photo_banner'>
-    <img className='mobile_banner' src={banner} alt='ballons'/>
+      <NavBarMobile />
+     <div className='mobile_photo_banner'>
+      <RotatingBanner />
+
+
       <NavLink to='/'>
         <div className='logo_div'>
             <img className='mobile_banner_logo' src={logo} alt='logo'/>

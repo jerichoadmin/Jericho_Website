@@ -68,6 +68,7 @@
     .navbar-toggle{
       background-color: white;
       border: 1px solid #4d72eb;
+      border-radius: 12px;
     }
 
     

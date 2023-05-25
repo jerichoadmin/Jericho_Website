@@ -53,7 +53,7 @@ const LoginPage = () => {
 
        <main className='loginform'>
             <form className='form-auth-form' onSubmit={submitHandler}>
-                <h1>Login</h1>
+                <h1 className='login_header'>Login</h1>
             <input
              type='text'
              placeholder='username'

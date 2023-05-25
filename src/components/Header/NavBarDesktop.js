@@ -9,13 +9,14 @@ import GiftCardIcon from '../../SVGs/GiftCardIcon'
 import BlogIcon from '../../SVGs/BlogIcon'
 import CommunityIcon from '../../SVGs/CommunityIcon'
 import FFCIcon from '../../SVGs/FFCIcon'
+import RotatingBanner from './RotatingBanner';
 
 
 function NavBarDesktop() {
   return (
 <div className='header'>
     <div className='photo_banner'>
-    <img className='balloons' src={balloons} alt='ballons'/>
+<RotatingBanner />
       <NavLink to='/'>
         <div className='logo_div'>
             <img className='logo' src={logo} alt='logo'/>

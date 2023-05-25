@@ -27,9 +27,7 @@ function FFC() {
 
                 <br></br>
                 <br></br>
-                Honestly? It’s a work in progress, we are trying to find the best solution for rewarding our most loyal
-customers. It’s free to join.
-
+         
                 </p>
                 <img alt='' src='https://images.unsplash.com/photo-1455659817273-f96807779a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' className='ffc_sunflowers'/>
 
@@ -42,8 +40,8 @@ customers. It’s free to join.
                <div className='b_h_list'>
                    <h2> These are the things we gurantee: </h2>
                         <li>One Postcard Quarterly</li>
-                        <li>That Postcard will have one discount</li>
-                        <li>Enrollment to our email Newsletter</li>
+                        <li>That Postcard will have a discount</li>
+                        <li>Enrollment to our email Newsletter to stay up to date with all Jericho events</li>
                 <img alt='' src={ffc3} className='ffc3_s'/>
                </div>
                 

@@ -1,7 +1,37 @@
 .loginpage{
     background-color: #242424;
     color: white;
-    margin-top: 14vh;
     padding-top: 14vh;
-    height: 200vh;
+    height: 100vh;
+
+}
+
+.form-auth-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-input{
+    padding: 0.5rem;
+    /* border-radius: 4px; */
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    font-size: 12pt;
+    height: 3.5vh;
+    width: 100%;
+    max-width: 50vw;
+    border-radius: 10px;
+    align-self: center;
+}
+.form-btn{
+    height: 4vh;
+    width: 20vw;
+    border-radius: 12px;
+    align-self: center;
+    border: none;
+    background-color: #eebf61;
+    cursor: pointer;
+}
+.login_header{
+    padding-bottom: 1rem;
 }
