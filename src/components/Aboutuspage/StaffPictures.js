@@ -23,11 +23,6 @@ function StaffPictures() {
             position: 'Manager'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1U4XvHpdhcD5_merfrckXvZIhbkLkkf9_",
-            name: 'Wendy',
-            position: 'Front-End Manager'
-        },
-        {
             src: "https://drive.google.com/uc?export=view&id=15dF-elxEMFnwr0ZWA1eCXtOyGdsaWVr0",
             name: 'Gary',
             position: 'Gardening Angel'
@@ -44,11 +39,6 @@ function StaffPictures() {
             position: 'Gardening Angel'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1dhYMbNdPa4T5R58PpPsOQU6jU8lMAWOc",
-            name: 'Scott',
-            position: 'Gardening Angel'
-        },
-        {
             src: "https://drive.google.com/uc?export=view&id=1gqJj86Aw9z93okvoKSBvKsIwPr-XzGJH",
             name: 'Kiana',
             position: 'Gardening Angel'
@@ -59,10 +49,28 @@ function StaffPictures() {
             position: 'Gardening Angel'
         },
         {
+            src: "https://drive.google.com/uc?export=view&id=1dhYMbNdPa4T5R58PpPsOQU6jU8lMAWOc",
+            name: 'Scott',
+            position: 'Gardening Angel'
+        },
+        {
             src: "https://drive.google.com/uc?export=view&id=1oI9LbUrcXXzuIsf3nvo88bpixDUK-Xnj",
             name: 'Chantelle',
             position: 'Gardening Angel'
         },
+     
+        {
+            src: "https://drive.google.com/uc?export=view&id=1SCDBLV-qZ-bX8BrYO0oIJmuYUxGujvLu",
+            name: 'Nick',
+            position: 'Gardening Angel'
+        },
+     
+        {
+            src: "https://drive.google.com/uc?export=view&id=1dq3Kuc0Y3MAOKD8dn75RfDgvoellDQwu",
+            name: 'Jessie',
+            position: 'Gardening Angel'
+        }
+     
     
     ]
 

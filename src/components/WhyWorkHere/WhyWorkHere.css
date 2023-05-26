@@ -2,7 +2,7 @@
     height: auto;
     padding-top: 5vh;
     width: 100vw;
-    background-image: linear-gradient(#4FA673, #DBBA4B, #FB492C87 ) ;
+    background-image: linear-gradient(#4FA673, #DBBA4B, #FB492C87) ;
     display: flex;
     justify-content: center;
     flex-direction: column;   
@@ -32,15 +32,93 @@
 .employment_welcome p{
     padding: 1.5vw;
 }
-
 .employment_body{
     margin: 2rem;
     padding-top: 2rem;
     background-color: #24242433;
-    width: 85vw;
+    width: 92vw;
     border-radius: 12px;
     display: flex;
     justify-content: center;
     align-self: center;
     flex-direction: column;
+}
+.employment_body h1{
+    font-size: 30pt;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin-bottom: 4rem;
+}
+.employment_body p{
+  line-height: 1.4;
+  padding: 1rem;
+}
+.employment_body h2{
+    color: #4FA673;
+    font-size: 22pt;
+    font-weight: 700;
+    padding: 0.5rem
+}
+.employment_body h3{
+    color: #DBBA4B;
+    font-size: 22pt;
+    font-weight: 700;
+    padding: 0.5rem
+}
+.employment_shovel{
+    align-self: center;
+    width: 90%;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.employment_plants{
+    align-self: center;
+    height: 40vh;
+    width: 90%;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    object-fit: cover;
+    margin: 2rem 0;
+}
+.todo{
+    color: rgb(146, 23, 140);
+}
+
+@media (min-width:1025px) { 
+    .employment{
+        font-size: 18pt;
+    }
+    .employment_welcome {
+      width: 60%;
+    }
+    .employment_welcome h1{
+        font-size: 60pt;
+    }
+    .employment_welcome p{
+        font-size: 18pt;
+    }
+    .employment_body{
+        width: 80vw;
+    }
+    .employment_body p{
+        margin: 1rem 4rem;
+    }
+    .employment_body h2{
+        font-size: 42pt;
+    }
+    .employment_body h3{
+        font-size: 42pt;
+    }
+    .employment_top_header{
+        margin: 2rem 10rem;
+        text-align: center;
+    }
+}
+
+@media (min-width:2025px) { 
+    .employment_top_header{
+        margin: 2rem 30rem;
+        text-align: center;
+    }
+
 }

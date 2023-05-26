@@ -55,6 +55,7 @@
 }
 .social_icons{
     padding: 0.5rem;
+    margin-top: 5rem;
 }
 .social_icons svg{
     height: 45px;
@@ -137,9 +138,13 @@
 }
 
 @media screen 
-  and (min-width: 1200px) 
+  and (min-width: 900px) 
   and (max-height: 900px)  { 
 .f_1{
     margin-bottom: 10rem;
+}
+.social_icons{
+    padding: 0.5rem;
+    margin-top: 10rem;
 }
 }
