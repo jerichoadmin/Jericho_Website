@@ -68,6 +68,7 @@
 }
 .gr_body_top_img img{
     border-radius: 20px;
+    max-width: 75vw;
 }
 .gr_bb_bottom img{
     border-radius: 20px;
