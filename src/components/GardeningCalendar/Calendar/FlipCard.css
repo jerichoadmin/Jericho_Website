@@ -53,7 +53,7 @@
   }
   .flip-card-list{
   height: 33vh;
-  filter: blur(0px);
+
   }
 .flip-card-back li{
   position: relative;
@@ -99,7 +99,7 @@ border-radius: 20px;
   }
   .flip-card-list{
     height: 28vh;
-    filter: blur(0px);
+
     }
 }
   
@@ -120,7 +120,7 @@ border-radius: 20px;
   }
   .flip-card-list{
     height: 28vh;
-    filter: blur(0px);
+
     }
   }
 
