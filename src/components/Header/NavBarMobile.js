@@ -70,7 +70,9 @@ function NavBarMobile() {
 
 
       <button className="navbar-toggle" onClick={handleToggle}>
-      <AHamburger isOpen={isOpen}/>
+        <div className='grayb'>
+      <AHamburger isOpen={isOpen} />
+        </div>
       </button>
 
       {isOpen ? (
