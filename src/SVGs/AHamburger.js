@@ -14,11 +14,19 @@ const AHamburger = (props) => {
     <svg viewBox="0 0 24 24" width="32" height="25" className="hamburg">
       <path
         className={`hamburger-icon__path ${isOpen ? "is-active" : ""}`}
-        stroke="currentColor"
-        strokeWidth="1"
+        fill="url(#myGradient)"
+        stroke="url(#myGradient)"
+        strokeWidth="2"
         strokeLinecap="round"
         d={pathData}
         />
+         <defs>
+    <linearGradient id="myGradient" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#4FA673" />
+      <stop offset="50%" stop-color="#DBBA4B" />
+      <stop offset="100%" stop-color="#FB492C87" />
+    </linearGradient>
+  </defs>
     </svg>
   );
 };

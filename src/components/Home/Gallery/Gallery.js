@@ -44,6 +44,7 @@ function Gallery() {
         centerPadding: "10px",
         slidesToShow: 3,
         speed: 500,
+        autoplay: true,
         responsive: [
           {
             breakpoint: 1424,

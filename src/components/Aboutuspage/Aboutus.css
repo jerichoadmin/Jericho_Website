@@ -180,6 +180,7 @@
     width: 60vw;
 }
   }
+
   @media (min-width:1025px) { 
     .aboutus_welcome{
         font-size: 18pt;
@@ -272,6 +273,9 @@
         font-size: 26pt;
         font-style: italic;
         padding-bottom: 2rem;
+    }
+    .ato_p{
+        width: 80vw;
     }
   }
 

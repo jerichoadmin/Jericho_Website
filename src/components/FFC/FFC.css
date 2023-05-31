@@ -157,7 +157,7 @@
 }
 .ffc_form_container_2 h3{
     font-weight: 700;
-    font-size: 12pt;
+    font-size: 16pt;
     color: white;
     display: flex;
     justify-content: center;
@@ -167,6 +167,30 @@
     display: flex;
     justify-content: center;
 }
+.f_f button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #4FA673;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+
+}
+.f_f button:hover{
+    background-color: #ffffff;
+    color: #4FA673;
+    transition: 1s
+}
+
+
 
 
 @media (min-width:1025px) { 
@@ -236,6 +260,9 @@
     }
     .ffc_form_container h3{
       font-size: 24pt;
+    }
+    .f_f button{
+        font-size: 18pt;
     }
 
 

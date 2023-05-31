@@ -49,7 +49,7 @@ function Aboutus() {
 
             <img alt='rickandjen' src={rickandjen} className='rickandjen'/>
 
-            <p>
+            <p className='ato_p'>
             Gardening expert Richard Hobson and his wife Jennifer, Landscape Designer, have assembled an outstanding staff of experienced nursery professionals. They started Jericho Nursery in 2005.
 
             Along with a great staff, Jericho offers the city's most versatile selection of perennial and annual color, an outstanding variety of shade and ornamental trees, fruit trees, evergreens, flowering shrubs, grasses, soils, fertilizers, pesticides, garden art and all your seasonal garden needs.

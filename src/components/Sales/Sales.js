@@ -56,7 +56,9 @@ const [salesData, setSalesData] = useState([])
                         <h2>{item.discount}</h2>
 
                         <div className='sales_card_overflow'>
+                          <div>
                             <span>{item.tagline}</span>
+                          </div> 
                             <span>{item.start_date}--</span>
                             <span>{item.expiration}</span>
                         </div>   

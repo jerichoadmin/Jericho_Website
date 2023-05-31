@@ -66,8 +66,8 @@
         border-radius: 12px;
     }
     .navbar-toggle{
-      background-color: white;
-      border: 1px solid #4d72eb;
+      background-color: rgba(255, 255, 255, 0);
+      border: none;
       border-radius: 12px;
     }
 

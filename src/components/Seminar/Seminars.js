@@ -78,9 +78,14 @@ function Seminars() {
 
             <img alt='' src={seminar_pic} className='seminar_pic'/>
             <div className='seminars_body_bottom'>
-                <h1> Sign Up For the Next Workshop Here</h1>
+                <h1> Sign Up For Workshops by clicking the button below</h1>
         <div className='seminar_form'>
-        <SeminarForm />
+       
+       <a href="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
+        <button className="seminar_button">Workshop Sign Up</button>
+       </a>
+
+
         </div>
             </div>
         </div>

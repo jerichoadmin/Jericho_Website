@@ -53,11 +53,18 @@ function FFC() {
                 <h1 className='h_to_join'>How to Join</h1>
 
                 <div className='ffc_form_container_2'>
-                    <h3>Fill out all infromation below to join!</h3>
+                    <h3>Click the button below to open our Frequent Flower Club Sign Up Page</h3>
                 </div>
             </div>
-                <div className='f_f'>     
-               <Ffc_Form />
+                <div className='f_f'>   
+
+
+                <a href=
+                'https://link.lightworkdigital.com/widget/form/cU7aGRQlf1PU7rGutp41'>
+                <button>Join the Frequent Flower Club</button>
+                </a>
+
+             
                 </div>
 </div>
     </div>
