@@ -31,7 +31,7 @@ useEffect(() => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .put(`/editblogpost/${id}`, formData)
+      .put(`https://jericho-server.onrender.com/editblogpost/${id}`, formData)
       .then((response) => {
         Swal.fire({
           title: "Blog Edited",

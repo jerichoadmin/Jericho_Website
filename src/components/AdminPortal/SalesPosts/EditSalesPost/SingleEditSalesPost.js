@@ -28,7 +28,7 @@ function SingleEditSalesPost({match}) {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .put(`/editsalespost/${id}`, salesFormData)
+      .put(`https://jericho-server.onrender.com/editsalespost/${id}`, salesFormData)
       .then((response) => {
         Swal.fire({
           title: "Sales Item Edited",

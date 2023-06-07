@@ -28,7 +28,7 @@ useEffect(() => {
 
       const deleteBlogPost = (blogtableid) => {
         axios
-          .delete(`/newblogpost/${blogtableid}`, {
+          .delete(`https://jericho-server.onrender.com/newblogpost/${blogtableid}`, {
             headers: {
               authorization: token,
             },

@@ -26,7 +26,7 @@ const { token } = useContext(AuthContext);
      
       const deleteSalesPost = (salestableid) => {
         axios
-          .delete(`/newsalespost/${salestableid}`, {
+          .delete(`https://jericho-server.onrender.com/newsalespost/${salestableid}`, {
             headers: {
               authorization: token,
             },
@@ -47,7 +47,7 @@ const { token } = useContext(AuthContext);
       
       const deleteAllSalesPost = () => {
         axios
-          .delete(`/deleteallsales`, {
+          .delete(`https://jericho-server.onrender.com/deleteallsales`, {
             headers: {
               authorization: token,
             },

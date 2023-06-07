@@ -24,7 +24,7 @@ useEffect(() => {
 
       const deleteBlogPost = (gallerytableid) => {
         axios
-          .delete(`/deletegalleryimg/${gallerytableid}`, {
+          .delete(`https://jericho-server.onrender.com/deletegalleryimg/${gallerytableid}`, {
             headers: {
               authorization: token,
             },
