@@ -47,7 +47,7 @@ function Home() {
 
 
 
-    <Banner />
+<Gallery />
     <div 
         data-aos="fade-up"
         data-aos-offset="50"
@@ -56,7 +56,6 @@ function Home() {
         data-aos-mirror="true"
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
-    
     >
           <NewintheBlog/>
     </div>
@@ -95,7 +94,6 @@ function Home() {
     </div>
 
     <Banner2 />
-    <Gallery />
     <MoreAboutJericho />
     <Banner3 />
     
