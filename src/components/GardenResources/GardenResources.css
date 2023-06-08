@@ -8,7 +8,7 @@
     flex-direction: column;   
 }
 .GardenResources p{
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .GardenResources h3{
     font-size: 30pt;
@@ -30,6 +30,7 @@
     font-weight: 700;
     font-size: 20pt;
     padding: 5vh;
+
 }
 .gr_welcome h1{
     color: #4FA673;
@@ -38,6 +39,7 @@
 }
 .gr_welcome p{
     padding: 1.5vw;
+    line-height: 1.4;
 }
 .gr_body_main{
     background-image: linear-gradient( #9f4a38, #6f5d53, #209276);

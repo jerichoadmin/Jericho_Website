@@ -51,7 +51,7 @@
     position: relative;
     z-index: 2;
     text-align: center;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .w_it_is{
     font-size: 26pt;
@@ -109,7 +109,7 @@
     position: relative;
     z-index: 2;
     text-align: center;
-    line-height: 30px;
+    line-height: 1.8;
 }
 .w_you_get{
     font-size: 26pt;
@@ -210,7 +210,7 @@
 
     .ffc_body_top p{
         font-size: 18pt;
-        line-height: 1.4;
+        line-height: 1.8;
         padding: 4rem 10rem;
     }
     .w_it_is{

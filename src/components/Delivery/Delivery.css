@@ -7,7 +7,7 @@
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .delivery_welcome{
     margin: 5vh;
@@ -33,6 +33,7 @@
 }
 .delivery_welcome p{
     padding: 1.5vw;
+    line-height: 1.4;
 }
 .delivery_body{
     background-image: linear-gradient(#b19c4a, #7271b7) ;

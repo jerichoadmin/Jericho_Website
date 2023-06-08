@@ -50,7 +50,7 @@
     margin-bottom: 4rem;
 }
 .employment_body p{
-  line-height: 1.4;
+  line-height: 1.8;
   padding: 1rem;
 }
 .employment_body h2{
@@ -70,6 +70,7 @@
     width: 90%;
     border-radius: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 3rem;
 }
 .employment_plants{
     align-self: center;

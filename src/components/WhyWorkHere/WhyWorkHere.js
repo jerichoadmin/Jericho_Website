@@ -20,7 +20,16 @@ function WhyWorkHere() {
 
         <p>
 Are you a nature enthusiast with a green thumb yearning for a fulfilling seasonal job? Look no further! At our Garden Center, we are the perfect destination for individuals who find solace and joy in the wonders of plants, flowers, and all things green.
+<br></br>
+<br></br>
+<br></br>
+We encourage employees to be kind, compassionate and understanding with one another and find it bleeds over to the customer experience. We expect kindness to be reciprocated by our customers as well and will not tolerate poor treatment of our employees.
+<br></br>
+<br></br>
+We offer health insurance, 401K & paid vacation after meeting longevity requirements.
 </p>
+
+
 
 
 
@@ -42,13 +51,6 @@ Are you a nature enthusiast with a green thumb yearning for a fulfilling seasona
 </p>
 <img src={shovel} className='employment_shovel' alt=''/>
 
-<p className='todo'>
-We encourage employees to be kind, compassionate and understanding with one another and find it bleeds over to the customer experience. We expect kindness to be reciprocated by our customers as well and will not tolerate poor treatment of our employees.
-
-We offer health insurance, 401K & paid vacation after meeting longevity requirements.
-
-I’d like to figure out a way we can load our application on our website and make it active when we’re hiring and “turn it off” when we’re not?
-</p>
 
         
         

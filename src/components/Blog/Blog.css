@@ -24,7 +24,7 @@
     color:  #DBBA4B;
     font-weight: 600;
     font-size: 12pt;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .blog_welcome h1{
     color: #4FA673;
@@ -36,17 +36,6 @@
 }
 
 
-/* should probably use this!!! */
-/* .text_overflow{
-    height: 15vh;
-    min-width: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 6;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: normal;
-} */
  .small_blog_card{
     background-color: #24242433;
     height: auto;
@@ -64,7 +53,7 @@
     padding: 1rem;
  }
  .small_blog_card p{
-    line-height: 1.4;
+    line-height: 1.8;
     padding: 0 1rem;
 
  }

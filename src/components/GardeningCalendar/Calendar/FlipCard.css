@@ -57,8 +57,9 @@
   }
 .flip-card-back li{
   position: relative;
-  font-size: 12pt;
+  font-size: 14pt;
   padding: 1rem;
+  font-weight: 600;
 }
 
 
@@ -99,8 +100,13 @@ border-radius: 20px;
   }
   .flip-card-list{
     height: 28vh;
-
     }
+
+    .flip-card-back li{
+
+      font-size: 18pt;
+    }
+    
 }
   
 @media (min-width:1025px) and (max-height:1000px ) { 

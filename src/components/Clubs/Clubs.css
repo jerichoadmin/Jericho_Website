@@ -65,22 +65,25 @@
   .club_item_title{
     background-color: rgb(102, 40, 102);
     font-weight: 600;
-    font-size: 15pt;
+    font-size: 18pt;
     padding: .5rem;
   }
   .club_item_paragraph{
     padding: 1rem;
     line-height: 1.4;
+    font-weight: 600;
   }
   .club_item_contact{
-    font-size: 10pt;
-    color: #7c7474;
+    font-size: 12pt;
+    color: #4e4c4c;
+    font-weight: 600;
   }
   .club_statement{
     background-color: #24242411;
     border-radius: 12px;
     margin-top: 5rem;
-    padding: 2rem;
+   padding: 1rem;
+    width: auto;
   }
   .club_statement button{
     height: auto;
@@ -89,7 +92,7 @@
     border: none;
     border-radius: 12px;
     font-family: 'Raleway';
-    font-size: 12pt;
+    font-size: 20pt;
     font-weight: 600;
     color: white;
     align-self: center;
@@ -113,10 +116,15 @@
     .clubs_body_main{
         display: flex;
         flex-direction: column;
-
         font-size: 16pt;
     }
     .clubs_body_main h3{
-        font-size: 22pt;
+        font-size: 24pt;
+    }
+    .clubs_body_main h1{
+        font-size: 45pt;
+        font-weight: 700;
+        padding: 2rem;
+        color: rgb(102, 40, 102);
     }
 }

@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .Single_Blog_Post p{
     margin: 2rem 10rem;

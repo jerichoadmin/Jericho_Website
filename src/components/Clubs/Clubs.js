@@ -32,7 +32,7 @@ function Clubs() {
 
 
     <div className='club_statement'>
-      <p>For more information, visit the Albuqueruq Garden Center website. They have tons of information on joining clubs, syndication, and much more. Click the button below to visit their website</p>
+      <p>For more information, visit the Albuqueruque Garden Center website. They have tons of information on joining clubs, syndication, and much more. Click the button below to visit their website</p>
       <a href='https://www.albuquerquegardencenter.org/' target="_blank" rel="noreferrer">
       <button>ABQGardenCenter.org</button>
       </a>

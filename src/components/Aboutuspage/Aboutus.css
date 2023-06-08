@@ -8,7 +8,7 @@
     flex-direction: column;   
 }
 .AboutUs p{
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .aboutus_welcome{
     margin: 5vh;
@@ -151,7 +151,7 @@
 }
 .aboutus_body_bottom p{
     font-size: 12pt;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .bys{
     display: flex;
@@ -262,7 +262,7 @@
     }
     .aboutus_body_bottom p{
         font-size: 18pt;
-        line-height: 1.4;
+        line-height: 1.8;
         padding: 4rem 6rem;
     }
  
@@ -357,7 +357,7 @@
     }
     .aboutus_body_bottom p{
         font-size: 18pt;
-        line-height: 1.4;
+        line-height: 1.8;
         padding: 4rem 6rem;
     }
  
