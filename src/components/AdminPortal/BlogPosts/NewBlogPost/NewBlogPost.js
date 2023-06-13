@@ -59,10 +59,10 @@ const NewBlogPost = () => {
     event.preventDefault();
 
     axios
-      .post("https://jericho-server.onrender.com/newblogpost", formData)
+      .post("/postpreview", formData)
       .then((response) => {
         Swal.fire({
-          title: "Blog Posted",
+          title: "Blog Preview Initiated",
           confirmButtonColor: "rgb(210, 161, 12)",
           customClass: "buttonalert",
           confirmButtonText: "Ok"
