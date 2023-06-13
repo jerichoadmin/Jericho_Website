@@ -59,7 +59,7 @@ const NewBlogPost = () => {
     event.preventDefault();
 
     axios
-      .post("/postpreview", formData)
+      .post("https://jericho-server.onrender.com/postpreview", formData)
       .then((response) => {
         Swal.fire({
           title: "Blog Preview Initiated",
