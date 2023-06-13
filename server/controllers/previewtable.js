@@ -6,10 +6,7 @@ const {PreviewTable} = require('../models/previewtable')
 module.exports = {
     getPreviewTable: async (req, res) => {
         try {
-            const previewtable= await PreviewTable.findAll({             
-        order: [
-            ["previewtableid", "DESC"]
-           ],                      
+            const previewtable= await PreviewTable.findAll({                               
             })
             res.status(200).send(previewtable)
         } catch (error) {

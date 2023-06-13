@@ -42,6 +42,7 @@ app.delete('/newblogpost/:blogtableid', deleteBlogPost)
 app.put('/editblogpost/:blogtableid', editBlogPost)
 
 
+
 app.get('/preview', getPreviewTable)
 app.post('/postpreview', addPreview)
 app.put('/editpreview/:previewtableid', editPreview)
@@ -54,6 +55,7 @@ app.post('/newsalespost', addNewSalesPost)
 app.delete('/newsalespost/:salestableid', deleteSalesPost)
 app.delete('/deleteallsales', deleteAllSalesPost)
 app.put('/editsalespost/:salestableid', editSalesPost)
+
 
 
 app.get('/gallery', getGalleryTable)

@@ -1,27 +1,72 @@
 import React, {useState, useEffect} from 'react'
 import './PreviewPost.css'
-import { useParams } from 'react-router-dom'
 import axios from 'axios'
+import Swal from 'sweetalert2'
 
 function PreviewPost() {
 
  const [previewData, setPreviewData] = useState([])
+ const [finalPreview, setFinalPreview] = useState([])
 
     useEffect(() => {
-        axios.get(`/preview`)
+        axios.get(`https://jericho-server.onrender.com/preview`)
         .then((response) => {
 
-          setPreviewData([response.data])
+          setPreviewData(response.data)
         })
         .catch((error) => {
           console.error(error);
         });
       }, [])
 
+      console.log(previewData)
 
 
+      const deletePreview = (previewtableid) => {
+        axios
+          .delete(`https://jericho-server.onrender.com/deletepreview/${previewtableid}`, {
+          })
+          .then(() => {
+            Swal.fire({
+              title: "Preview has been Deleted",
+              confirmButtonColor: "rgb(210, 161, 12)",
+              customClass: "buttonalert",
+              confirmButtonText: "OK", 
+            })
+            .finally(()=>window.location.reload(false))
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      };
 
-    
+      const finalizePreview = (previewtableid) => {
+        // Find the selected preview blog by its ID
+        const selectedPreview = previewData.find(item => item.previewtableid === previewtableid);
+      
+        // Make a POST request to send the selected preview data to the server
+        axios.post('https://jericho-server.onrender.com/newblogpost', selectedPreview)
+          .then((response) => {
+            // Handle the response if needed
+            console.log(response.data);
+            // Show a success message to the user
+            Swal.fire({
+              title: 'Preview has been Finalized',
+              confirmButtonColor: 'rgb(210, 161, 12)',
+              customClass: 'buttonalert',
+              confirmButtonText: 'OK',
+            })
+            // Reload the page to update the preview list
+            .finally(() => window.location.reload(false));
+          })
+          .catch((error) => {
+            // Handle errors if any
+            console.error(error);
+          });
+      };
+
+
+      
  
  
     return (
@@ -29,11 +74,9 @@ function PreviewPost() {
 
 <div className='Single_Blog_Post'>
 
-<div className='blog_welcome'>
-  <h1>Currently Reading Preview:</h1>
-  {previewData && previewData.map((item) => (
-        <h2>{item.title}</h2>
-  ))}
+<div className='preview_welcome'>
+  <h1>Looking at Previews..</h1>
+
 </div>
 
 
@@ -148,7 +191,10 @@ function PreviewPost() {
 {item.conclusion && (
 <p>{item.conclusion}</p>
 )}
-
+     
+     <button onClick={() => deletePreview(item.previewtableid)}>Delete this Preview</button>
+<button>Edit This Preview</button>
+     <button onClick={() => finalizePreview(item.previewtableid)}>Finalize This Preview</button>
 </div>
 </div>
 ))}
@@ -156,8 +202,7 @@ function PreviewPost() {
  </div>
 
 
-<button>Go back and Edit</button>
-<button>Finalize Post</button>
+
 
  </div>
 

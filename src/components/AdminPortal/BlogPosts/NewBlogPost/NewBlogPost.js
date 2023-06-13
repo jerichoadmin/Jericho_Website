@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import './NewBlogPost.css'
 import Swal from "sweetalert2";
@@ -15,6 +16,9 @@ import blog10 from '../../../../Assets/blogexample/b10.jpg'
 import blog11 from '../../../../Assets/blogexample/b11.jpg'
 
 const NewBlogPost = () => {
+  const navigate = useNavigate()
+
+
   const [formData, setFormData] = useState({
     title: ``,
     title2: ``,
@@ -67,6 +71,9 @@ const NewBlogPost = () => {
           customClass: "buttonalert",
           confirmButtonText: "Ok"
         })
+        .finally(
+          navigate('/previewblog')
+        )
       })
       .catch((error) => {
         console.log(error);
