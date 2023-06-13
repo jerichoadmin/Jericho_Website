@@ -1,5 +1,5 @@
 require("dotenv").config();
-const {PreviewTable} = require('../models/blogtable')
+const {PreviewTable} = require('../models/previewtable')
 
 
 
