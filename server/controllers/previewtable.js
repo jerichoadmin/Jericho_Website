@@ -104,6 +104,23 @@ module.exports = {
           res.sendStatus(400);
         }
       }, 
+      getSinglePreview: async (req, res) => {
+        try {
+            const { id } = req.params;
+            const singlepreview = await PreviewTable.findByPk(id);
+            if (!singlepreview) {
+                res.status(404).send("Preview not found");
+                return;
+            }
+            res.status(200).send(singlepreview);
+        } catch (error) {
+            console.log('ERROR IN getSinglePreview')
+            console.log(error)
+            res.sendStatus(400)
+        }
+    },
+
+
       deletePreview: async (req, res) => {
         try {
             const {previewtableid} = req.params

@@ -2,11 +2,11 @@ import React, {useState, useEffect} from 'react'
 import './PreviewPost.css'
 import axios from 'axios'
 import Swal from 'sweetalert2'
+import { NavLink } from 'react-router-dom'
 
 function PreviewPost() {
 
  const [previewData, setPreviewData] = useState([])
- const [finalPreview, setFinalPreview] = useState([])
 
     useEffect(() => {
         axios.get(`https://jericho-server.onrender.com/preview`)
@@ -193,14 +193,15 @@ function PreviewPost() {
 )}
      
      <button onClick={() => deletePreview(item.previewtableid)}>Delete this Preview</button>
+     <NavLink to={`/editpreview/${item.previewtableid}`}>
 <button>Edit This Preview</button>
+     </NavLink>
      <button onClick={() => finalizePreview(item.previewtableid)}>Finalize This Preview</button>
 </div>
 </div>
 ))}
 </div>
  </div>
-
 
 
 

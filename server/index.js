@@ -19,7 +19,7 @@ const {isAuthenticated} = require('./middleware/isAuthenticated')
 const {getBlogTable, getAllBlogTable, getSingleBlogTable, addNewBlogPost, deleteBlogPost, editBlogPost} = require('./controllers/blogtable')
 const {getSalesTable, addNewSalesPost, deleteSalesPost, deleteAllSalesPost, editSalesPost} = require('./controllers/salestable')
 const {getGalleryTable, addNewGalleryImg, deleteGalleryImg} = require('./controllers/gallerytable')
-const {getPreviewTable, addPreview, deletePreview, editPreview} = require('./controllers/previewtable')
+const {getPreviewTable, addPreview, deletePreview, editPreview, getSinglePreview} = require('./controllers/previewtable')
 
 const app = express();
 app.use(express.json())
@@ -44,6 +44,7 @@ app.put('/editblogpost/:blogtableid', editBlogPost)
 
 
 app.get('/preview', getPreviewTable)
+app.get('/singlepreview', getSinglePreview)
 app.post('/postpreview', addPreview)
 app.put('/editpreview/:previewtableid', editPreview)
 app.delete('/deletepreview/:previewtableid', deletePreview)
