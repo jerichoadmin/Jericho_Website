@@ -181,12 +181,10 @@ function PreviewPost() {
 </div>
 </div>   
 
-{item.img_10_url && (
-<>
-<img src={item.img_10_url} className='blog_img' alt=''/>
-<p>{item.img_10_captions}</p>
-</>
-)}
+{item.img_10_url && <img src={item.img_10_url} className='blog_img' alt=''/>}
+{item.img_10_captions && <p>{item.img_10_captions}</p>}
+
+
 
 {item.conclusion && (
 <p>{item.conclusion}</p>

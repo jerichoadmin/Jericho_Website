@@ -33,7 +33,7 @@ function SingleBlog() {
   return (
     <div className='Single_Blog_Post'>
 
-      <div className='blog_welcome'>
+      <div className='single_blog_welcome'>
         <h1>Currently Reading:</h1>
         {blogData && blogData.map((item) => (
               <h2>{item.title}</h2>
@@ -144,13 +144,11 @@ function SingleBlog() {
     )}
     </div>
   </div>   
+  {item.img_10_url && <img src={item.img_10_url} className='blog_img' alt=''/>}
+  {item.img_10_captions && <p>{item.img_10_captions}</p>}
 
-  {item.img_10_url && (
-    <>
-     <img src={item.img_10_url} className='blog_img' alt=''/>
-      <p>{item.img_10_captions}</p>
-    </>
-  )}
+
+
 
   {item.conclusion && (
     <p>{item.conclusion}</p>
@@ -165,7 +163,7 @@ function SingleBlog() {
       )}
 
   
-        </div>
+  </div>
 
   )
 }

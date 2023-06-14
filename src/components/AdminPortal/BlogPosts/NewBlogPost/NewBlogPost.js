@@ -113,10 +113,10 @@ const NewBlogPost = () => {
   <img alt="" src={blog5}/>
   <img alt="" src={blog6}/>
   <img alt="" src={blog7}/>
-  <p>Img 8 will actually apear on the left side of the screen with caption on the right</p>
-  <img alt="" src={blog8}/>
-  <p>Img  9 will do the same but with text on the left and image on the right</p>
-  <img alt="" src={blog9}/>
+  <p>Img 8 and Img 8 Caption must both be present to show</p>
+  <img alt="" src={blog8} className="b8"/>
+  <p>Img 9 and Img 9 Caption must both be present to show</p>
+  <img alt="" src={blog9} className="b9"/>
   <img alt="" src={blog10}/>
   <img alt="" src={blog11}/>
 

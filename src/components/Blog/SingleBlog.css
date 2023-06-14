@@ -11,20 +11,27 @@
     margin: 2rem 10rem;
 }
 
-.sing_blog_welcome{
+.single_blog_welcome{
     height: auto;
-    width: 60vw;
-    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    width: 50vw;
+    margin: 5vh;
+    margin-top: 10vh;
+    padding-bottom: 2rem;
+    padding: 5vh;
+    background-color: #242424;
     border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin: 5vh;
-    margin-top: 10vh;
-    margin-bottom: 15vh;
-    background-color: #242424;
-    padding-bottom: 6vh;
+    color:  #a0d687;
+    font-weight: 600;
+    font-size: 30pt;
+    line-height: 1.8;
+
 }
+
+
 .blog_welcome h2 {
    padding-top: 5rem;
 }
@@ -32,7 +39,7 @@
 .blog_body_main{
     background-color: #24242444;
     height: auto;
-    width: 80vw;
+    width: 90vw;
     border-radius: 20px;
     box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
    align-self: center;
@@ -71,7 +78,7 @@
     border-radius: 20px;
     box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
     height: 80vh;
-    max-width: 80vw;
+    max-width: 75vw;
     align-self: center;
     object-fit: cover;
 }
@@ -158,7 +165,6 @@
     padding: 1rem;
     background-color: #242424;
     margin-bottom: 2rem;
-
 }
 
 .span_yellow{
@@ -167,9 +173,6 @@
     font-weight: 700;
     padding: 1rem;
     background-color: #242424;
-
-
-
 }
 .span_brown{
     color: #95562E !important;
@@ -177,7 +180,6 @@
     font-weight: 700;
     padding: 1rem;
     background-color: #242424;
-
 }
 .date{
     color: rgb(207, 207, 207);
@@ -240,7 +242,7 @@ screen and (max-height: 650px){
     }
 
 }
-@media (max-width: 900px){
+@media (max-width: 1050px){
     .left_8{
         flex-direction: column;
     }
@@ -288,7 +290,6 @@ screen and (max-height: 650px){
         height: auto;
         width: 85vw;
         align-self: center;
-
         margin: 2rem;
     }
     .body_img_2{
@@ -297,7 +298,6 @@ screen and (max-height: 650px){
         height: auto;
         width: 85vw;
         align-self: center;
-
         margin: 2rem;
     }
     .body_img_3{
