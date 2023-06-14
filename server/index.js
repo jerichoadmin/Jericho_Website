@@ -44,7 +44,7 @@ app.put('/editblogpost/:blogtableid', editBlogPost)
 
 
 app.get('/preview', getPreviewTable)
-app.get('/singlepreview', getSinglePreview)
+app.get('/singlepreview/:previewtableid', getSinglePreview)
 app.post('/postpreview', addPreview)
 app.put('/editpreview/:previewtableid', editPreview)
 app.delete('/deletepreview/:previewtableid', deletePreview)

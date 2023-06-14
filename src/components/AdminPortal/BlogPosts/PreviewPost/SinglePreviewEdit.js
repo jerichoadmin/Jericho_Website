@@ -26,6 +26,8 @@ useEffect(() => {
 }, [id])
 
 
+console.log(previewData)
+
   const handleSubmit = (event) => {
     event.preventDefault();
     axios

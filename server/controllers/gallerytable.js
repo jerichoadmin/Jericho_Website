@@ -9,7 +9,7 @@ module.exports = {
             const gallerytable = await GalleryTable.findAll({             
         limit: 200,
         order: [
-            ["gallerytableid", "DESC"]
+            ["gallerytableid", "ASC"]
            ],                      
             })
             res.status(200).send(gallerytable)
