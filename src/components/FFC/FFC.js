@@ -1,7 +1,7 @@
 import React from 'react'
 import ffc3 from '../../Assets/ffc3.png'
 import arches from '../../Assets/arch.jpg'
-import Ffc_Form from './Form/Ffc_Form'
+import { Helmet } from 'react-helmet'
 
 import './FFC.css'
 
@@ -10,6 +10,14 @@ function FFC() {
 
   return (
     <div className='ffc'>
+<Helmet>
+        <title>Frequent Flower Club - Jericho Nursery</title>
+        <meta name="description" content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive benefits, discounts, and special offers on a wide variety of flowers and plants. Enhance your gardening experience and save with our loyalty program." />
+        <meta property="og:title" content="Frequent Flower Club - Exclusive Benefits and Discounts" />
+        <meta property="og:description" content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive benefits, discounts, and special offers on a wide variety of flowers and plants. Enhance your gardening experience and save with our loyalty program." />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/swgarden.jpg" />
+        <meta property="og:type" content="website" />
+</Helmet>
 
         <div className='ffc_welcome'>
             <h1>Frequent Flower Club</h1>

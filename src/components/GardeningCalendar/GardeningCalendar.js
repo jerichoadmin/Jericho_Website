@@ -2,10 +2,20 @@ import React from 'react'
 // import MonthGrid from './Calendar/MonthGrid'
 import  FC  from './Calendar/FC'
 import './GardeningCalendar.css'
+import { Helmet } from 'react-helmet'
 
 function GardeningCalendar() {
   return (
     <div className='gardening_calendar'>
+        <Helmet>
+        <title>Gardening Calendar - Jericho Nursery</title>
+        <meta name="description" content="Stay on top of gardening events and important dates with the Jericho Nursery Gardening Calendar." />
+        <meta property="og:title" content="Gardening Calendar - Jericho Nursery" />
+        <meta property="og:description" content="Stay on top of gardening events and important dates with the Jericho Nursery Gardening Calendar." />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/cactus.jpg" />
+        <meta property="og:type" content="website" />
+
+      </Helmet>
                 <div className='gc_welcome'>
             <h1>Gardening Calendar</h1>
                 <p> 

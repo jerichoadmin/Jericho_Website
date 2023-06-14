@@ -2,10 +2,20 @@ import React from 'react'
 import './WhyWorkHere.css'
 import plants from '../../Assets/holding_plants.jpg'
 import shovel from '../../Assets/shovel.jpg'
+import { Helmet } from 'react-helmet'
 
 function WhyWorkHere() {
   return (
     <div className='employment'>
+<Helmet>
+        <title>Why Work Here - Jericho Nursery</title>
+        <meta name="description" content="Discover why Jericho Nursery is a great place to work. Join our team of passionate individuals, enjoy a supportive work environment, and contribute to the joy of gardening in our community." />
+        <meta property="og:title" content="Why Work Here - Join Our Passionate Team" />
+        <meta property="og:description" content="Discover why Jericho Nursery is a great place to work. Join our team of passionate individuals, enjoy a supportive work environment, and contribute to the joy of gardening in our community." />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/swgarden.jpg" />
+        <meta property="og:type" content="website" />
+</Helmet>
+
 <div className='employment_welcome'>
 <h1>Employment at Jericho</h1>
 <p>We offer seasonal and Full Time positions. Come grow with us!</p>

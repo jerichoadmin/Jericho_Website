@@ -4,10 +4,19 @@ import MapButton from './MapButton'
 import EmailButton from './EmailButton'
 import CallButton from './CallButton'
 import cashhouse from '../../Assets/CashHouse.jpg'
+import { Helmet } from 'react-helmet'
 
 function ContactUs() {
   return (
     <div className='contact_us'>
+<Helmet>
+        <title>Contact Us - Jericho Nursery</title>
+        <meta name="description" content="Contact Jericho Nursery for any inquiries, questions, or feedback. We are here to assist you with your gardening needs and provide excellent customer service." />
+        <meta property="og:title" content="Contact Us - Jericho Nursery" />
+        <meta property="og:description" content="Contact Jericho Nursery for any inquiries, questions, or feedback. We are here to assist you with your gardening needs and provide excellent customer service." />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/swgarden.jpg" />
+        <meta property="og:type" content="website" />
+</Helmet>
 
 
 

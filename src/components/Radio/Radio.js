@@ -2,6 +2,7 @@ import React, {useState, useRef, useEffect} from 'react'
 import './Radio.css'
 import radiorick from '../../Assets/radiorick2.JPG'
 import RadioMic from '../../SVGs/RadioMic'
+import { Helmet } from 'react-helmet'
 
 function Radio() {
     const revealRefRadio = useRef(null); 
@@ -36,6 +37,15 @@ function Radio() {
 
   return (
     <div className='Radio'>
+<Helmet>
+        <title>Jericho Nursery Radio Show - Gardening Tips and Discussions</title>
+        <meta name="description" content="Tune in to the Jericho Nursery Radio Show for insightful gardening tips, plant discussions, and expert advice." />
+        <meta property="og:title" content="Jericho Nursery Radio Show - Gardening Tips and Discussions" />
+        <meta property="og:description" content="Tune in to the Jericho Nursery Radio Show for insightful gardening tips, plant discussions, and expert advice." />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/bowls.jpg" />
+        <meta property="og:type" content="website" />
+   
+</Helmet>
         <div className='radio_welcome'>
             <h1> We have been on air since 2005</h1>
             <p>
