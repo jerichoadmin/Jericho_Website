@@ -24,7 +24,7 @@ function GardeningCalendar() {
         }
        
         const d = newDate
-        const monthIndex = d.getMonth()
+ 
         const monthName = months[d.getMonth()]
         const formatted = ` ${monthName} `
         return formatted.toString()
@@ -39,7 +39,7 @@ function GardeningCalendar() {
             <div className='gc_container'>
             <div className='home_container_header'>
                     <div className='hc_icon'>
-                        <img  src={icon2} className="c_icon"/>
+                        <img  src={icon2} className="c_icon" alt=''/>
                     </div>
                     <div className='home_container_header_text'>
                         <h3> {formatDate(new Date())} Gardening Calendar</h3>

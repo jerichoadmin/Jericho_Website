@@ -1,5 +1,6 @@
 import React from 'react'
 import './Brands.css'
+import { Helmet } from 'react-helmet';
 
 
 
@@ -32,6 +33,15 @@ function Brands() {
 
   return (
     <div className='Brands'>
+
+
+<Helmet>
+        <title>Brands Carried by Jericho Nursery</title>
+        <meta name="description" content="Discover the top-quality brands carried by Jericho Nursery. Explore a wide range of trusted brands for all your gardening and landscaping needs." />
+        <meta property="og:title" content="Brands Carried by Jericho Nursery" />
+        <meta property="og:description" content="Discover the top-quality brands carried by Jericho Nursery. Explore a wide range of trusted brands for all your gardening and landscaping needs." />
+        <meta property="og:image" content="https://example.com/brands-page-image.jpg" />
+</Helmet>
         
 
         <div className='brands_welcome'>

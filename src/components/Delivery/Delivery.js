@@ -4,7 +4,7 @@ import plantbox from '../../Assets/plantbox.jpg'
 import DeliveryVan from '../../SVGs/DeliveryVan'
 import ffc3 from '../../Assets/ffc3.png'
 import CallButton from '../ContactUs/CallButton'
-
+import { Helmet } from 'react-helmet'
 
 function Delivery() {
 
@@ -39,6 +39,15 @@ function Delivery() {
 
   return (
     <div className='delivery'>
+
+<Helmet>
+<title>Delivery Service - Jericho Nursery</title>
+        <meta name="description" content="Find fast and reliable delivery service for your packages." />
+        <meta name="keywords" content="delivery service, fast delivery, reliable delivery" />
+</Helmet>
+
+
+
         <div className='delivery_welcome'>
             <h1>Delivery and Planting</h1>
             <p>

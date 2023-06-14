@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import './ThisWeek.css'
 import { NavLink } from 'react-router-dom'
 import icon1 from '../../../Assets/Transparent2.png'
-import banner from '../../../Assets/succulent_banner.jpg'
 import axios from 'axios'
 
 function NewThisWeek() {
@@ -31,7 +30,7 @@ return (
         <div className='home_container'>
         <div className='home_container_header'>
                 <div className='hc_icon'>
-                    <img  src={icon1} className="c_icon"/>
+                    <img  src={icon1} className="c_icon" alt=''/>
                 </div>
                 <div className='home_container_header_text'>
                     <h3>This Week's Specials</h3>

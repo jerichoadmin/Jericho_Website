@@ -32,7 +32,7 @@ function NewintheBlog() {
             <div className='nb_container'>
             <div className='home_container_header'>
             <div className='hc_icon'>
-                        <img  src={icon1} className="c_icon"/>
+                        <img  src={icon1} className="c_icon" alt=''/>
                     </div>
                     <div className='home_container_header_text'>
                         <h3>New In the Blog</h3>

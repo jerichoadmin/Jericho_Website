@@ -1,10 +1,20 @@
 import React from 'react'
 import './GiftCard.css'
 import GiftCardIcon from '../../SVGs/GiftCardIcon'
+import { Helmet } from 'react-helmet'
 
 function GiftCard() {
   return (
     <div className='GiftCard_Main'>
+
+
+<Helmet>
+        <title>Gift Cards - Jericho Nursery</title>
+        <meta name="description" content="Buy gift cards for any occasion and let your loved ones choose their perfect gift." />
+        <meta property="og:title" content="Gift Cards - Jericho Nursery" />
+        <meta property="og:description" content="Buy gift cards for any occasion and let your loved ones choose their perfect gift." />
+</Helmet>
+
         <div className='gc_main_welcome'>
             <h1>
                 Give the gift of Growing

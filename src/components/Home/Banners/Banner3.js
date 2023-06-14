@@ -1,8 +1,5 @@
-import React, {useState, useEffect, useRef} from 'react'
 import './Banner3.css'
-import AOS from 'aos';
 import { NavLink } from 'react-router-dom';
-import cashhouse from '../../../Assets/CashHouse.jpg'
 
 
 function Banner3() {
