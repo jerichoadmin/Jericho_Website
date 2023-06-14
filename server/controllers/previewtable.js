@@ -106,8 +106,8 @@ module.exports = {
       }, 
       getSinglePreview: async (req, res) => {
         try {
-            const { id } = req.params;
-            const singlepreview = await PreviewTable.findByPk(id);
+            const { previewtableid } = req.params;
+            const singlepreview = await PreviewTable.findByPk(previewtableid);
             if (!singlepreview) {
                 res.status(404).send("Preview not found");
                 return;
@@ -119,7 +119,6 @@ module.exports = {
             res.sendStatus(400)
         }
     },
-
 
       deletePreview: async (req, res) => {
         try {
