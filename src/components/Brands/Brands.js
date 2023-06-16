@@ -58,7 +58,7 @@ function Brands() {
               <h3 className="card-title">{item.title}</h3>
               <p className="card-description">{item.description}</p>
             </div>
-            <img src={item.img} alt="" className='brand_img'/>
+            <img src={item.img} alt="Jericho Nursery Brands" className='brand_img'/>
           </div>
         ))}
       </div>

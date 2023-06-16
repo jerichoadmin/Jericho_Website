@@ -56,7 +56,7 @@ function Aboutus() {
             <h1>About the Owners</h1>
             <div className='about_the_owners'>
 
-            <img alt='rickandjen' src={rickandjen} className='rickandjen'/>
+            <img alt='Rick and Jen Hobson' src={rickandjen} className='rickandjen'/>
 
             <p className='ato_p'>
             Gardening expert Richard Hobson and his wife Jennifer, Landscape Designer, have assembled an outstanding staff of experienced nursery professionals. They started Jericho Nursery in 2005.
@@ -101,7 +101,7 @@ function Aboutus() {
 <div className='bys'>
             <h2 className='bys_header'> This is a story about four people named Everybody, Somebody, Anybody and Nobody. </h2>
 <div className='bys_pic_container'>
-        <img src={bys} alt='' className='bys_pic'/>
+        <img src={bys} alt='Great Advice from Jericho Nursery' className='bys_pic' />
 </div>
 <div>
             <p>

@@ -28,7 +28,7 @@ function ContactUs() {
         <div className='contact_us_body'>
 
         <div className='contact_pic_container'>
-        <img alt='' src={cashhouse} className='contact_pic'/>
+        <img alt='Jericho Nursery' src={cashhouse} className='contact_pic' />
         </div>
 
 

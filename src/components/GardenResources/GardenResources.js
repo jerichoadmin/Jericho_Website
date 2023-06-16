@@ -36,7 +36,7 @@ function GardenResources() {
             Nothing to fear, our Gardening Angels have you covered. Check out these resources to familiiarize yourself with every zone New Mexico has to offer. 
             </p>
             <div className='gr_body_top_img'>
-                 <img alt=''  target="_blank"  rel="noreferrer"src='https://treevitalize.com/wp-content/uploads/2022/06/New-Mexico-Plant-Hardiness-Zone-Map.png'/>
+                 <img alt='New Mexico Garden Zone Map'  target="_blank"  rel="noreferrer"src='https://treevitalize.com/wp-content/uploads/2022/06/New-Mexico-Plant-Hardiness-Zone-Map.png'/>
             </div>
 
 <NavLink to='https://treevitalize.com/planting-zones-new-mexico/'>
@@ -53,7 +53,7 @@ function GardenResources() {
     <div className='gr_bb_bottom'>
 
 <div className='gr_bt_img'>
-        <img alt=''  target="_blank"  rel="noreferrer" src='https://images.unsplash.com/photo-1591989331039-f645c3d7888c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80'/>
+        <img alt='Bernallio Country Seed Library'  target="_blank"  rel="noreferrer" src='https://images.unsplash.com/photo-1591989331039-f645c3d7888c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80'/>
 </div>
             <h3>Check it out for yourself!</h3>
 

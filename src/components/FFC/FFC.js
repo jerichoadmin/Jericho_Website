@@ -29,7 +29,7 @@ function FFC() {
 <div className='ffc_body'>
             <div className='ffc_body_top'>
                 <h1 className='w_it_is'>What it is</h1>
-                <img alt='' src={ffc3} className='ffc3'/>
+                <img alt='Frequent Flower Club Logo' src={ffc3} className='ffc3'/>
                 <p>
                 We are asked for our email address hundreds of times for every time we are asked for our mailing address, right? Well, the form you see on this screen really does ask for your mailing address, because several times a year we will be sending cards to members of the Jericho Frequent Flower Club. The cards will contain something of value, and we will be asking for your phone number as you check out in order to have a record of your choice to shop Jericho for all your yard and garden needs. 
 
@@ -37,7 +37,7 @@ function FFC() {
                 <br></br>
          
                 </p>
-                <img alt='' src='https://images.unsplash.com/photo-1455659817273-f96807779a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' className='ffc_sunflowers'/>
+                <img alt='Frequent Flower Club at Jericho Nursery' src='https://images.unsplash.com/photo-1455659817273-f96807779a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' className='ffc_sunflowers'/>
 
             </div>
 
@@ -50,11 +50,11 @@ function FFC() {
                         <li>One Postcard Quarterly</li>
                         <li>That Postcard will have a discount</li>
                         <li>Enrollment to our email Newsletter to stay up to date with all Jericho events</li>
-                <img alt='' src={ffc3} className='ffc3_s'/>
+                <img alt='Frequent Flower Club Logo' src={ffc3} className='ffc3_s'/>
                </div>
                 
              
-                <img alt='' src={arches} className='ffc_arches'/>
+                <img alt='Frequent Flower Club at Jericho Nursery' src={arches} className='ffc_arches'/>
                 </div>
 
 

@@ -87,7 +87,7 @@ function Radio() {
 
 <div ref={revealRefRadio}> </div>
             <div className='radio_rick_container'>
-        <img alt='' src={radiorick} className='radio_rick'/>
+        <img alt='Rick Hobson, Host of Garden Talk' src={radiorick} className='radio_rick'/>
             </div>
     
 
@@ -103,7 +103,7 @@ function Radio() {
 <div className='radio_body_bottom'>
   <div className='rbb_left'>
     <div className='rbb_pic'>
-            <img className='kkob_banner' src='https://express-images.franklymedia.com/6616/sites/124/2020/12/14121100/GARDENTALK-768x180.jpg' alt=''/>
+            <img className='kkob_banner' src='https://express-images.franklymedia.com/6616/sites/124/2020/12/14121100/GARDENTALK-768x180.jpg' alt='KKOB Garden Talk'/>
     </div>
             <span>You can listen to Garden Talk over the internet by visiting KKOB.com. Click the "Listen LIVE " button below to tune in</span>
 
@@ -113,7 +113,7 @@ function Radio() {
   </div>
   <div className='rbb_right'>
     <div className='rbb_pic'>
-        <img className='gardentalk' src='https://www.omnycontent.com/d/programs/a7b0bd27-d748-4fbe-ab3b-a6fa0049bcf6/fdd9f235-b300-4ebc-93c5-afe200dfddf2/image.jpg?t=1681320560&size=small' alt=''/>
+        <img className='gardentalk' src='https://www.omnycontent.com/d/programs/a7b0bd27-d748-4fbe-ab3b-a6fa0049bcf6/fdd9f235-b300-4ebc-93c5-afe200dfddf2/image.jpg?t=1681320560&size=small' alt='Garden Talk Podcast'/>
     </div>
 
     <span>You can also listen to past boardcasts on our podcast, Garden Talk. Click the 'Podcast Link' button below to listen</span>

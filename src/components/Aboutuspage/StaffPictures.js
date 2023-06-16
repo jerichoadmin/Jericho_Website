@@ -79,7 +79,7 @@ function StaffPictures() {
     <div className="staff_pics_grid">
       {staff_pics.map((picture, index) => (
         <div key={index} className="staff_pic">
-          <img src={picture.src} alt={picture.caption} className='staff_pics'/>
+          <img src={picture.src} alt='Gardening Angel, Jericho Nursery' className='staff_pics' />
           <h6>{picture.name}</h6>
           <span>{picture.position}</span>
         </div>

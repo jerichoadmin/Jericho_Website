@@ -22,8 +22,8 @@ function Map() {
 
             <div className='map_body_main'>
 <div className='map_container'>
-            <img alt='' src={map} className='mapimg'/>
-            <img alt='' src={key} className='mapkey'/>
+            <img alt='Map of Jericho Nursery' src={map} className='mapimg'/>
+            <img alt='Key for Jericho Nursery Map' src={key} className='mapkey'/>
 </div>
 
 

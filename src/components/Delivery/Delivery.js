@@ -96,7 +96,7 @@ function Delivery() {
 
 
         <div className='delivery_img_container'>
-        <img src={plantbox} alt='' className='delivery_img'/>
+        <img src={plantbox} alt='Plant Delivery Albuqueruque' className='delivery_img'/>
         </div>
 
         <div className='delivery_button'>

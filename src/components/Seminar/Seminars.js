@@ -84,7 +84,7 @@ function Seminars() {
   <div className='seminar_pic_section'>
   </div>
 
-            <img alt='' src={seminar_pic} className='seminar_pic'/>
+            <img alt='Workshops at Jericho Nursery' src={seminar_pic} className='seminar_pic'/>
             <div className='seminars_body_bottom'>
                 <h1> Sign Up For Workshops by clicking the button below</h1>
         <div className='seminar_form'>

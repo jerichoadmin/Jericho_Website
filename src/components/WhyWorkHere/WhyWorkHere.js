@@ -25,7 +25,7 @@ function WhyWorkHere() {
 <h3 className='employment_top_header'>
        Join Our Garden Center Team and Cultivate Your Passion for Nature!   
 </h3> 
-    <img src={plants} className='employment_plants' alt=''/>
+    <img src={plants} className='employment_plants' alt='Employment at Jericho Nursery'/>
 
 
         <p>
@@ -59,7 +59,7 @@ We offer health insurance, 401K & paid vacation after meeting longevity requirem
 <p>
  If you excel in your role and demonstrate dedication, our Garden Center offers the possibility of advancement. Take on leadership responsibilities, supervise seasonal staff, and expand your horizons within our growing organization. We believe in nurturing talent and empowering individuals to reach their full potential.
 </p>
-<img src={shovel} className='employment_shovel' alt=''/>
+<img src={shovel} className='employment_shovel' alt='Employment at Jericho Nursery'/>
 
 
         
