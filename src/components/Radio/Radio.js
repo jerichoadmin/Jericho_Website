@@ -49,7 +49,7 @@ function Radio() {
         <div className='radio_welcome'>
             <h1> We have been on air since 2005</h1>
             <p>
-                Garden Talk with Rick Hobson has been on air for over 15 years and counting. Tune in every other saturday to hear everything you need to know about Albuqueruque gardening, southwestern horticulture and all kinds of plants from zone 5-8.
+            Garden Talk with Rick Hobson has been on the air for over 15 years and counting. Tune in every other Saturday to hear everything you need to know about Albuquerque gardening, southwestern horticulture, and all kinds of plants from zone 5-8.
             </p>
     
         </div>
@@ -96,7 +96,7 @@ function Radio() {
 <div className='rbm_section'>
         <h2>Meet the Host</h2>
         <p>
-        Rick Hobson is the owner of his own thriving business, Jericho Nursery, and host of the successful call-in gardening show, New Mexico Garden Talk on KKOB. Rick Hobson worked at Rowland’s for over 25 years and is considered an expert in the Albuquerque gardening community and around the state. Rick is on numerous boards, including the Japanese beetle taskforce; was acting president of New Mexico Association of Independent Nursery Industries and is currently assisting the New Mexico chapter of the Colorado Nursery and Greenhouse Association to create testing programs for nursery, landscape and greenhouse employees.
+        Rick Hobson is the owner of his own thriving business, Jericho Nursery, and host of the successful call-in gardening show, New Mexico Garden Talk on KKOB. Rick Hobson worked at Rowland’s for over 25 years and is considered an expert in the Albuquerque gardening community and around the state. Rick is on numerous boards, including the Japanese beetle taskforce; was acting president of the New Mexico Association of Independent Nursery Industries and is currently assisting the New Mexico chapter of the Colorado Nursery and Greenhouse Association to create testing programs for nursery, landscape, and greenhouse employees.
         </p>
 </div>
      </div>

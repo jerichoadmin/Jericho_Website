@@ -80,7 +80,7 @@ function Delivery() {
         <div   ref={revealRef2}>
         </div>
         <h2>Delivery Range</h2>
-        <p>We delivery to Albuquerque and the Greater Albuqueruque Area including Four Hills, the South Valley, West Mesa, Rio Rancho, Bernallio, Placitas, East Mountains, Los Lunas and Belen. Please ask about delivery options for areas like Santa Fe, Grants or Socorro.</p>
+        <p>We deliver to Albuquerque and the Greater Albuquerque Area including Four Hills, the South Valley, West Mesa, Rio Rancho, Bernalillo, Placitas, East Mountains, Los Lunas, and Belen. Please ask about delivery options for areas like Santa Fe, Grants, or Socorro.</p>
 </div>
 <div className='delivery_container'>
         <h2>Pricing</h2>

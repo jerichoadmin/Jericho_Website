@@ -140,7 +140,7 @@ function NavBarMobile() {
      <li className="navbar__dropdownItem_mobile">Gardening Calendar</li>
     </NavLink>
     <NavLink to='/gardenresources'>
-    <li className="navbar__dropdownItem_mobile">Garden Resrouces </li>
+    <li className="navbar__dropdownItem">Garden Resources</li>
     </NavLink>
     <NavLink to='/login'>
     <li className="navbar__dropdownItem_mobile">Admin Login</li>

@@ -24,6 +24,42 @@
     font-weight: 600;
     padding-bottom: 1.5rem;
 }
+.b_1{
+    height: auto;
+    width: 85vw;
+    padding: 1rem;
+    margin-top: 2.5vh;
+    background-color: #242424;
+    z-index: 2;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.banner button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #DBBA4B;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: 1s;
+}
+.banner button:hover{
+    background-color: #ffffff;
+    color: #DBBA4B;
+}
+.b_2 h1{
+color: white;
+font-size: 32pt;
+font-weight: 700;
+}
+
 
 @media (min-width:1025px) { 
     .b3_h4{

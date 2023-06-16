@@ -81,7 +81,7 @@ function NavBarDesktop() {
          <li className="navbar__dropdownItem">Gardening Calendar</li>
         </NavLink>
         <NavLink to='/gardenresources'>
-        <li className="navbar__dropdownItem">Garden Resrouces </li>
+        <li className="navbar__dropdownItem">Garden Resources</li>
         </NavLink>
         <NavLink to='/login'>
         <li className="navbar__dropdownItem">Admin Login</li>
