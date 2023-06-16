@@ -13,6 +13,7 @@ module.exports = {
         },
         name: DataTypes.TEXT,
         img_url: DataTypes.TEXT,
+        alt_text: DataTypes.TEXT,
         createdAt: {
             type: DataTypes.DATE,
             allowNull: true
