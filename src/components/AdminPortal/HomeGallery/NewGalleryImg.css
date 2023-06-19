@@ -32,9 +32,19 @@ text-decoration: underline;
     cursor: pointer;
 }
 
-
 .newGalleryImg button:hover{
     background-color: #ffffff;
     color: #2a4c80;
     transition: 1s;
+}
+
+.newGallery_form form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.newGallery_form input{
+padding: 1rem;
+margin: 2rem;
 }

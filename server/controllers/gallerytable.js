@@ -24,12 +24,14 @@ module.exports = {
           const {
           id,
           name,
-          img_url
+          img_url,
+          alt_text
           } = req.body;
           await GalleryTable.create({
             id,
             name,
-            img_url
+            img_url,
+            alt_text
           });
           res.sendStatus(200);
         } catch (error) {

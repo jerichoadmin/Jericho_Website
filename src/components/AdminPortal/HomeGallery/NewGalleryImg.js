@@ -8,6 +8,7 @@ const NewGalleryImg = () => {
   const [formData, setFormData] = useState({
     name: ``,
     img_url: ``,
+    alt_text: ``,
   });
 
   const handleSubmit = (event) => {
@@ -55,10 +56,10 @@ const NewGalleryImg = () => {
 
 
 
-<div className="newBlog_form">
+<div className="newGallery_form">
     <form onSubmit={handleSubmit}>
       <label>
- Name
+ Name of Image ( For Reference )
         <input
           type="text"
           name="name"
@@ -72,6 +73,16 @@ Img URL
           type="text"
           name="img_url"
           value={formData.img_url}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+Alt Text
+(This needs to be the type of plant posted in the image followed by something like 'in Albuquerque or in New Mexico')
+        <input
+          type="text"
+          name="alt_text"
+          value={formData.alt_text}
           onChange={handleChange}
           />
       </label>
