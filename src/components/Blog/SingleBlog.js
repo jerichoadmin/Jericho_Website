@@ -53,7 +53,7 @@ function SingleBlog() {
             <h1 className='blog_title'>{item.title}</h1>
             <span className='date'>{item.date}</span>
            
-            {item.img_1_url && <img src={item.img_1_url} className='blog_img_1' alt=''/>}
+            {item.img_1_url && <img src={item.img_1_url} className='blog_img_1' alt={item.img_1_alt_text}/>}
             {item.img_1_captions && <p>{item.img_1_captions}</p>}
 
 
@@ -65,7 +65,7 @@ function SingleBlog() {
             </div>   
             {item.intro && <p>{item.intro}</p>}
 
-            {item.img_2_url && <img src={item.img_2_url} className='blog_img' alt=''/>}
+            {item.img_2_url && <img src={item.img_2_url} className='blog_img' alt={item.img_2_alt_text}/>}
             {item.img_2_captions && <p className='blog_bold'>{item.img_2_captions}</p>}
 
             <div className='blog_paragraph_top'>
@@ -83,9 +83,9 @@ function SingleBlog() {
 
 <div className='blog_body_mid'>
   <h1>{item.title2}</h1>
-  {item.img_3_url && <img src={item.img_3_url} className='blog_img' alt=''/>}
+  {item.img_3_url && <img src={item.img_3_url} className='blog_img' alt={item.img_3_alt_text}/>}
   {item.img_3_captions && <p>{item.img_3_captions}</p>}
-  {item.img_4_url && <img src={item.img_4_url} className='blog_img' alt=''/>}
+  {item.img_4_url && <img src={item.img_4_url} className='blog_img' alt={item.img_4_alt_text}/>}
   {item.img_4_captions && <p className='blog_bold'>{item.img_4_captions}</p>}
 
   <div className='blog_icon_2'>
@@ -97,7 +97,7 @@ function SingleBlog() {
     {item.body_2 && <p>{item.body_2}</p>}
     {item.span_green && <span className='span_green'>{item.span_green}</span>}
 
-    {item.img_5_url && <img src={item.img_5_url} className='blog_img' alt=''/>}
+    {item.img_5_url && <img src={item.img_5_url} className='blog_img' alt={item.img_5_alt_text}/>}
     {item.img_5_captions && <p>{item.img_5_captions}</p>}
 
   
@@ -109,9 +109,9 @@ function SingleBlog() {
   </div>   
 
   <div className='extra_content'>
-    {item.img_6_url && <img src={item.img_6_url} className='blog_img' alt=''/>}
+    {item.img_6_url && <img src={item.img_6_url} className='blog_img' alt={item.img_6_alt_text}/>}
     {item.img_6_captions && <p className='blog_bold'>{item.img_6_captions}</p>}
-    {item.img_7_url && <img src={item.img_7_url} className='blog_img' alt=''/>}
+    {item.img_7_url && <img src={item.img_7_url} className='blog_img' alt={item.img_7_alt_text}/>}
     {item.img_7_captions && <p>{item.img_7_captions}</p>}
   </div>
 </div>
@@ -121,13 +121,13 @@ function SingleBlog() {
 <div className='blog_body_bottom'>
   {item.img_8_url && (
     <div className='left_8'>
-      <img src={item.img_8_url} className='blog_img' alt=''/>
+      <img src={item.img_8_url} className='blog_img' alt={item.img_8_alt_text}/>
       <p>{item.img_8_captions}</p>
     </div>
   )}
   {item.img_9_url && (
     <div className='right_9'>
-      <img src={item.img_9_url} className='blog_img' alt=''/>
+      <img src={item.img_9_url} className='blog_img' alt={item.img_9_alt_text}/>
       <p>{item.img_9_captions}</p>
     </div>
   )}
@@ -144,7 +144,7 @@ function SingleBlog() {
     )}
     </div>
   </div>   
-  {item.img_10_url && <img src={item.img_10_url} className='blog_img' alt=''/>}
+  {item.img_10_url && <img src={item.img_10_url} className='blog_img' alt={item.img_10_alt_text}/>}
   {item.img_10_captions && <p>{item.img_10_captions}</p>}
 
 
