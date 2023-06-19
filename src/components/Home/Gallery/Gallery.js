@@ -87,7 +87,7 @@ function Gallery() {
             {galleryData.map((item) => (
                     <div className='home_gallery_card'> 
              <div className='home_photo_gallery_container'>
-             <img src={item.img_url} className='home_gallery_photo' alt={item.alt_text}/>
+             <img src={item.img_url} className='home_gallery_photo' alt={item.alt_text} title={item.name}/>
              </div>
                     </div>
             ))}
