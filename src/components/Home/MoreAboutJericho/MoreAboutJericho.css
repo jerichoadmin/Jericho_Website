@@ -16,6 +16,8 @@
     width: 20rem;
     box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
+    align-self: center;
+    margin-bottom: 2rem;
 }
 .maj_header h1{
     font-size: 26pt;
@@ -164,7 +166,16 @@ background-color: white;
 .maj_pic{
     height: 65vh;
     margin-left: 1rem;
-
+}
+.welcome_maj{
+   display: flex;
+   flex-direction: column;
+}
+.welcome_maj p{
+    font-size: 12pt;
+    color: #315E30;
+    line-height: 1.8;
+    padding: 2rem 1rem;
 }
 
 
@@ -207,6 +218,7 @@ background-color: white;
 
         .maj_header{
             width: auto;
+            align-self: center;
         }
         .maj_header h1{
             font-size: 50pt;
@@ -214,15 +226,18 @@ background-color: white;
         }
  
         .maj_right h3{
-   
             font-size: 32pt;
         }
         .maj_right p{
-
             font-size: 18pt;
             color: #315E30;
             line-height: 1.8;
         }
+        .welcome_maj p{
+            font-size: 18pt;
+            margin: 2rem 1rem;
+        }
+        
         .maj_button{
             font-size: 22pt;
         }

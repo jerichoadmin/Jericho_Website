@@ -1,0 +1,9 @@
+.modal{
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.modal p{
+    padding: 1rem;
+}

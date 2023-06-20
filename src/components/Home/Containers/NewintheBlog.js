@@ -32,59 +32,53 @@ function NewintheBlog() {
             <div className='nb_container'>
             <div className='home_container_header'>
             <div className='hc_icon'>
-                        <img  src={icon1} className="c_icon" alt=''/>
+                        <img src={icon1} className="c_icon" alt=''/>
                     </div>
                     <div className='home_container_header_text'>
                         <h3>New In the Blog</h3>
                     </div>
                  
-                    <div className='card_container'>
-                    {blogData && blogData[0] && blogData[0].rows && (
-  <div>
+<div className='blog_card_container'>
+            {blogData && blogData[0] && blogData[0].rows && (
+        <div>
     <img
       src={blogData[0].rows[0].img_1_url}
-      className='c_image'
-      alt=''
+      className='home_blog_card'
+      alt={blogData[0].rows[0].img_1_alt_text}
     />
+        </div>
+)}
+
+      <div className='home_blog_text'>
+{blogData && blogData[0] && blogData[0].rows && (
+  <div className='home_blog_text_title'>
+    <h1>Read this Week's Newest Blog Post:</h1>
+    <p className='blog_name'>{blogData[0].rows[0].title}</p>
   </div>
 )}
+{blogData && blogData[0] && blogData[0].rows && (
+  <div className='blog_intro_container'>
+    <span className='blog_intro'>{blogData[0].rows[0].intro}</span>
+  </div>  
+)}
+      </div>
+
  </div>
 
-                 
-            </div>
+
+ <div className='hpb_button'>
+ <NavLink to='/blog'>
+                        <button className='nb_button'>Take me to Blog</button>
+  </NavLink>
+ </div>
+
+
+ </div>
     
     
-            <div className='hc_body'>
-                    <div className='hc_img'>
-     
 
-
-
-
-                    </div>
-                    <div className='hc_paragraph'>
-                     
-                        <p className='abc'>
-                     Read this Week's newest Blog Post:
-                        </p>
-                        <br></br>
-                        {blogData && blogData[0] && blogData[0].rows && (
-  <div>
-    <span className='blog_name'>{blogData[0].rows[0].title}</span>
-  </div>
+</div>
+</div>
 )}
 
-                   <NavLink to='/blog'>
-                        <button className='nb_button'>Take me to Blog</button>
-                        </NavLink>
-                    </div>
-                    </div>
-            </div>
-    
-    
-        </div>
-      
-      )
-}
-
-export default NewintheBlog
+export default NewintheBlog;

@@ -109,6 +109,16 @@ useEffect(() => {
           />
       </label>
       <label>
+        Image 1 Alt Text
+        <input
+          type="text"
+          name="img_1_alt_text"
+          value={formData.img_1_alt_text}
+          placeholder={blogData.img_1_alt_text}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
         Icon
         <input
           type="text"
@@ -145,6 +155,16 @@ useEffect(() => {
           name="img_2_captions"
           value={formData.img_2_captions}
           placeholder={blogData.img_2_captions}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+        Image 2 Alt Text
+        <input
+          type="text"
+          name="img_2_alt_text"
+          value={formData.img_2_alt_text}
+          placeholder={blogData.img_2_alt_text}
           onChange={handleChange}
           />
       </label>
@@ -209,6 +229,16 @@ useEffect(() => {
           />
       </label>
       <label>
+        Image 3 Alt Text
+        <input
+          type="text"
+          name="img_3_alt_text"
+          value={formData.img_3_alt_text}
+          placeholder={blogData.img_3_alt_text}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
         Image 4
         <input
           type="text"
@@ -225,6 +255,16 @@ useEffect(() => {
           name="img_4_captions"
           value={formData.img_4_captions}
           placeholder={blogData.img_4_captions}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+        Image 4 Alt Text
+        <input
+          type="text"
+          name="img_4_alt_text"
+          value={formData.img_4_alt_text}
+          placeholder={blogData.img_4_alt_text}
           onChange={handleChange}
           />
       </label>
@@ -279,6 +319,16 @@ useEffect(() => {
           />
       </label>
       <label>
+        Image 5 Alt Text
+        <input
+          type="text"
+          name="img_5_alt_text"
+          value={formData.img_5_alt_text}
+          placeholder={blogData.img_5_alt_text}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
        Body 3
         <textarea
           type="text"
@@ -319,6 +369,16 @@ useEffect(() => {
           />
       </label>
       <label>
+        Image 6 Alt Text
+        <input
+          type="text"
+          name="img_6_alt_text"
+          value={formData.img_6_alt_text}
+          placeholder={blogData.img_6_alt_text}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
         Image 7
         <input
           type="text"
@@ -335,6 +395,16 @@ useEffect(() => {
           name="img_7_captions"
           value={formData.img_7_captions}
           placeholder={blogData.img_7_captions}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+        Image 7 Alt Text
+        <input
+          type="text"
+          name="img_7_alt_text"
+          value={formData.img_7_alt_text}
+          placeholder={blogData.img_7_alt_text}
           onChange={handleChange}
           />
       </label>
@@ -359,6 +429,16 @@ useEffect(() => {
           />
       </label>
       <label>
+        Image 8 Alt Text
+        <input
+          type="text"
+          name="img_8_alt_text"
+          value={formData.img_8_alt_text}
+          placeholder={blogData.img_8_alt_text}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
         Image 9
         <input
           type="text"
@@ -375,6 +455,16 @@ useEffect(() => {
           name="img_9_captions"
           value={formData.img_9_captions}
           placeholder={blogData.img_9_captions}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+        Image 9 Alt Text
+        <input
+          type="text"
+          name="img_9_alt_text"
+          value={formData.img_9_alt_text}
+          placeholder={blogData.img_9_alt_text}
           onChange={handleChange}
           />
       </label>
@@ -428,7 +518,16 @@ useEffect(() => {
           onChange={handleChange}
           />
       </label>
-
+      <label>
+        Image 10 Alt Text
+        <input
+          type="text"
+          name="img_10_alt_text"
+          value={formData.img_10_alt_text}
+          placeholder={blogData.img_10_alt_text}
+          onChange={handleChange}
+          />
+      </label>
       <label>
       Conclusion
         <textarea

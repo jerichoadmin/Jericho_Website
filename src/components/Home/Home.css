@@ -1,5 +1,4 @@
 .home{
-    padding-top: 5vh;
     width: 100vw;
     background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87) ;
     height: auto;
@@ -62,6 +61,75 @@
     margin-bottom: -2vh;
 }
 
+.hours_and{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.phone_button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #4FA673;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.phone_button:hover{
+    background-color: #ffffff;
+    color: #4FA673;
+    transition: 1s
+}
+.map_button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #DBBA4B;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.map_button:hover{
+    background-color: #ffffff;
+    color: #DBBA4B;
+    transition: 1s
+}
+.hours_button{
+    height: auto;
+    width: auto;
+    padding: 1.75rem 1.25rem;
+    background-color: #95562e;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.hours_button:hover{
+    background-color: #ffffff;
+    color: #95562e;
+    transition: 1s
+}
 
 @media (min-width:1025px) { 
 .welcome{
@@ -90,6 +158,9 @@
     font-size: 18pt;
     line-height: 1.4;
 }
+.hours_and{
+    display: none;
+}
  }
  @media (min-width:1281px) { 
     .w_1{
@@ -103,4 +174,8 @@
     .w_1{
         margin-left: -40rem;
     }
+    .welcome{
+        width: 40%;
+    }
+
   } 

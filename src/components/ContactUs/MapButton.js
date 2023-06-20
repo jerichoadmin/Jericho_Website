@@ -8,7 +8,7 @@ function MapButton() {
   };
 
   return (
-    <button onClick={handleClick}>Open Maps</button>
+    <button onClick={handleClick} className='map_button'>Open Maps</button>
   );
 }
 
