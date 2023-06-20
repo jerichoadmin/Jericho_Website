@@ -44,7 +44,6 @@ function Gallery() {
         centerPadding: "10px",
         slidesToShow: 3,
         speed: 500,
-        autoplay: true,
         responsive: [
           {
             breakpoint: 1424,
@@ -76,6 +75,24 @@ function Gallery() {
         ]
       };
 
+      const PrevArrow = (props) => {
+        const { className, style, onClick } = props;
+        return (
+          <div className={className} style={{ ...style, display: 'block' }} onClick={onClick}>
+            Previous
+          </div>
+        );
+      };
+      
+      const NextArrow = (props) => {
+        const { className, style, onClick } = props;
+        return (
+          <div className={className} style={{ ...style, display: 'block' }} onClick={onClick}>
+            Next
+          </div>
+        );
+      };
+
 
 
     
@@ -83,7 +100,7 @@ function Gallery() {
     <div className='h_carousel'>
       <h1>Photos from Jericho</h1>
       {visible ? (<p>Swipe to see more photos..</p>) : ('')}
-        <Slider {...settings}>
+        <Slider {...settings} prevArrow={<PrevArrow />} nextArrow={<NextArrow />}>
             {galleryData.map((item) => (
                     <div className='home_gallery_card'> 
              <div className='home_photo_gallery_container'>

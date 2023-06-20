@@ -58,7 +58,18 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
     background-color: #ffffff;
     color: #DBBA4B ;
     transition: 1s;
-    
+}
+
+.home_sale_card{
+    width: 100%;
+    max-width: 300px; /* Set a maximum width for responsiveness */
+    aspect-ratio: 1/1; 
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+    height: auto;
+    object-fit: cover;
+    margin: 2rem ;
+
 }
 
 
@@ -82,11 +93,21 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
     white-space: nowrap;
     width: auto;
     padding: 1.25rem 1.5rem;
-    
 }
+.home_sale_card{
+    max-width: 500px;
+    }
  }
 
+ @media (min-width:2000px) { 
+    .home_sale_card{
+        max-width: 700px;
+    }
+    
+    
+     }
 
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
 
 

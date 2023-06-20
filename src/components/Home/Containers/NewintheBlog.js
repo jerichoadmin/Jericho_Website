@@ -58,7 +58,7 @@ function NewintheBlog() {
 )}
 {blogData && blogData[0] && blogData[0].rows && (
   <div className='blog_intro_container'>
-    <span className='blog_intro'>{blogData[0].rows[0].intro}</span>
+    <p className='blog_intro'>{blogData[0].rows[0].intro}</p>
   </div>  
 )}
       </div>

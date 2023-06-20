@@ -62,6 +62,9 @@ font-weight: 700;
 
 
 @media (min-width:1025px) { 
+    .b_1{
+        width: 60vw;
+    }
     .b3_h4{
         font-size: 18pt;
     }

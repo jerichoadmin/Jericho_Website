@@ -19,10 +19,12 @@ function NewThisWeek() {
           });
       }, []);
 
-
+console.log(salesData)
 
 const firstImage = salesData.filter((item, index) => index === 0)[0]?.img_url;
+const secondImage = salesData.filter((item, index) => index === 1)[0]?.img_url;
 const firstItem= salesData.filter((item, index) => index === 0)[0]?.name;
+const secondItem= salesData.filter((item, index) => index === 1)[0]?.name;
 
 return (
   
@@ -39,11 +41,12 @@ return (
 
         <div className='hc_body'>
                 <div className='hc_img'>
-                    <img src={firstImage} className='c_image' alt=''/>
+                    <img src={firstImage} className='home_sale_card' alt=''/>
+                    <img src={secondImage} className='home_sale_card' alt=''/>
 
                 </div>
                 <div className='hc_paragraph'>
-                <h3>{firstItem} are on sale!</h3>
+                <h3>{firstItem} and {secondItem} on sale!</h3>
                     <p>
                 See what else is on sale this week for including wide variety of plants, flowers, hardgoods and more. Get your green thumb on!
                     </p>

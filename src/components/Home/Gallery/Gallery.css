@@ -35,7 +35,31 @@
 position: relative;
 top: -10px;
   } 
+  .slick-next{
+    right: 0px;
+  }
+
+
+
   @media (min-width:1281px) { 
+    .h_carousel{
+        align-self: center;
+        width: 100vw;
+    }
+    .slick-prev,
+    .slick-next {
+      background-color: #242424;
+      height: 200px;
+      width: 100px;
+      padding-top: 200px;
+      z-index: 3;
+    }
+    .slick-prev:hover, .slick-next:hover{
+        -webkit-box-shadow:0px 0px 30px 0px rgba(204,183,130,0.91);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(204,183,130,0.91);
+        box-shadow: 0px 0px 30px 0px rgba(204,183,130,0.91);
+    }
+    
     .home_gallery_photo{
         height: 31rem;
         width: 40rem;
