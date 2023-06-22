@@ -8,8 +8,8 @@ import BlogIcon from '../../SVGs/BlogIcon'
 import CommunityIcon from '../../SVGs/CommunityIcon'
 import FFCIcon from '../../SVGs/FFCIcon'
 import AHamburger from '../../SVGs/AHamburger'
-import logo from '../../Assets/Logo.png' 
 import AOS from 'aos'
+import { useLocation } from 'react-router-dom'
 
 
 function NavBarMobile() {
@@ -20,6 +20,8 @@ function NavBarMobile() {
   const [openCommunity, setOpenCommunity] =useState(false)
   const [openFFC, setOpenFFC] =useState(false)
   const [openContact, setOpenContact] =useState(false)
+
+  const location = useLocation()
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -61,6 +63,15 @@ function NavBarMobile() {
   useEffect(() => {
     AOS.init();
   }, []);
+
+
+  useEffect(() => {
+    // Perform any necessary checks on the location object
+    // and update the state accordingly
+    setIsOpen(false);
+    // Cleanup function to reset the state when the component unmounts
+  }, [location]);
+
 
 
   return (
