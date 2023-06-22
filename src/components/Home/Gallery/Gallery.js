@@ -35,8 +35,6 @@ function Gallery() {
 
 
 
-
-
     const settings = {
         className: "center",
         centerMode: true,
