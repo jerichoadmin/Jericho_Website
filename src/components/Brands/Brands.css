@@ -48,7 +48,10 @@
     font-size: 12pt;
     color: white;
   }
-  
+  .card p{
+    max-height: 200px;
+   overflow: hidden;
+  }
   .card img {
     width: 100px; 
     height: auto; 

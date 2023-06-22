@@ -5,6 +5,7 @@ import logo2 from '../../Assets/justsprinklers.jpg'
 import logo3 from '../../Assets/rehms.jpg'
 import logo4 from '../../Assets/soilmender.jpg'
 import logo5 from '../../Assets/505outside.jpg'
+import soil from '../../Assets/soilutionslogo.png'
 import { Helmet } from 'react-helmet'
 
 function Partners() {
@@ -54,6 +55,9 @@ function Partners() {
                     <a href='http://www.soilmender.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
                     <img src={logo4} alt='Soil Mender' className='partner_logos'/>
                     </a>
+                    <a href='https://soilutions.net/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
+                    <img src={soil} alt='Soilutions' className='partner_logos'/>
+                    </a>
                 </div>
 
  
@@ -70,9 +74,6 @@ function Partners() {
         <a href='https://suregreenproducts.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
               <img src='https://suregreenproducts.com/wp-content/uploads/2023/02/Sure-Green-Logo-Green.png' alt='Sure Green'/>
         </a>
-        <a href='https://soilutions.net/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
-              <img src='https://cdn.shopify.com/s/files/1/0530/4870/5219/files/Artboard_1_003575e3-fc44-4fd0-8d2c-a20ad0dbdd45_360x.png?v=1623300653' alt='Soilutions'/>
-          </a>    
           <a href='https://www.eastcentralministries.org/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
               <img src='https://images.squarespace-cdn.com/content/v1/619d2e8fd4dd083c86697cc9/223556e8-8c18-4fae-a4a2-7a60ca3d3ffb/ECM+logo+1.jpg?format=1500w' alt='East Central Ministries' className='ecm'/>
            </a>   
