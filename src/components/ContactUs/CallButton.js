@@ -4,8 +4,9 @@ function CallButton() {
 
         const phoneNumber = "505-899-7555";
       
-        const handleCall = () => {
-          window.open(`tel:${phoneNumber}`);
+        const handleCall = (event) => {
+          event.preventDefault();
+          window.location.href = `tel:${phoneNumber}`;
         };
 
   return (

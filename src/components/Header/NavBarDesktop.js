@@ -1,7 +1,6 @@
 import React from 'react';
 import './NavBarDesktop.css';
 import { NavLink } from 'react-router-dom'
-import balloons from '../../Assets/Cropped_balloons.jpg'
 import logo from '../../Assets/Logo.png'
 import ContactUsIcon from '../../SVGs/ContactUsIcon'
 import ProductsIcon from '../../SVGs/ProductsIcon'

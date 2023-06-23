@@ -22,9 +22,9 @@ const AHamburger = (props) => {
         />
          <defs>
     <linearGradient id="myGradient" gradientTransform="rotate(90)">
-      <stop offset="0%" stop-color="#4FA673" />
-      <stop offset="50%" stop-color="#DBBA4B" />
-      <stop offset="100%" stop-color="#FB492C87" />
+      <stop offset="0%" stop-color="#DBBA4B" />
+      <stop offset="40%" stop-color="#FB492C87" />
+      <stop offset="100%" stop-color="#4FA673" />
     </linearGradient>
   </defs>
     </svg>
