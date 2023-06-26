@@ -32,6 +32,7 @@ import NewGalleryImg from './components/AdminPortal/HomeGallery/NewGalleryImg';
 import DeleteGalleryImg from './components/AdminPortal/HomeGallery/DeleteGalleryImg';
 import PreviewPost from './components/AdminPortal/BlogPosts/PreviewPost/PreviewPost';
 import SinglePreviewEdit from './components/AdminPortal/BlogPosts/PreviewPost/SinglePreviewEdit';
+import TypesofPlants from './components/TypesofPlants/TypesofPlants';
 import Footer from './components/Footer/Footer';
 
 import './App.css';
@@ -61,6 +62,7 @@ function App() {
        <Route path='/clubs' element={<Clubs />}/>
        <Route path='/contact' element={<ContactUs />}/>
        <Route path='/brands' element={<Brands />}/>
+       <Route path='/plants' element={<TypesofPlants />}/>
        <Route path='/employment' element={<WhyWorkHere />}/>
         <Route path='/adminhome' element={authCtx.token ? <AdminHome /> : <Navigate to='/login'/>}/>
         <Route path='/newblogpost' element={authCtx.token ? <NewBlogPost /> : <Navigate to='/login'/>}/>
