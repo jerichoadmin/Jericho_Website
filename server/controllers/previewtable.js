@@ -66,6 +66,7 @@ module.exports = {
           span_green,
           span_yellow,
           span_brown,
+          tags
           } = req.body;
           await PreviewTable.create({
               id,
@@ -116,6 +117,7 @@ module.exports = {
               span_green,
               span_yellow,
               span_brown,
+              tags
           });
           res.sendStatus(200);
         } catch (error) {
@@ -201,7 +203,8 @@ module.exports = {
           conclusion,
           span_green,
           span_yellow,
-          span_brown
+          span_brown,
+          tags
         } = req.body;
         await PreviewTable.update(
           {
@@ -251,7 +254,8 @@ module.exports = {
             conclusion,
             span_green,
             span_yellow,
-            span_brown
+            span_brown,
+            tags
           },
           { where: { previewtableid: +previewtableid } }
         );

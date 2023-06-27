@@ -67,6 +67,7 @@ const NewBlogPost = () => {
     span_green:  ``,
     span_yellow:  ``,
     span_brown:  ``,
+    tags: []
   });
 
   const handleSubmit = (event) => {
@@ -561,6 +562,15 @@ const NewBlogPost = () => {
           type="text"
           name="conclusion"
           value={formData.conclusion}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+      Tags
+        <textarea
+          type="text"
+          name="tags"
+          value={formData.tags}
           onChange={handleChange}
           />
       </label>

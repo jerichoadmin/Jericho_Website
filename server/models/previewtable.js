@@ -56,6 +56,10 @@ module.exports = {
         span_green: DataTypes.TEXT,
         span_yellow: DataTypes.TEXT,
         span_brown: DataTypes.TEXT,
+        tags:
+        {
+         type: DataTypes.ARRAY(DataTypes.TEXT)
+        },
         createdAt: {
             type: DataTypes.DATE,
             allowNull: true

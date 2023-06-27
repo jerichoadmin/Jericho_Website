@@ -190,6 +190,10 @@ function PreviewPost() {
 <p>{item.conclusion}</p>
 )}
      
+{item.tags && (
+<p>{item.tags}</p>
+)}
+     
      <button onClick={() => deletePreview(item.previewtableid)}>Delete this Preview</button>
      <NavLink to={`/editpreview/${item.previewtableid}`}>
 <button>Edit This Preview</button>

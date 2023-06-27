@@ -428,7 +428,6 @@ console.log(previewData)
           onChange={handleChange}
           />
       </label>
-
       <label>
       Conclusion
         <textarea
@@ -436,6 +435,16 @@ console.log(previewData)
           name="conclusion"
           value={formData.conclusion}
           placeholder={previewData.conclusion}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+      Conclusion
+        <textarea
+          type="text"
+          name="tags"
+          value={formData.tags}
+          placeholder={previewData.tags}
           onChange={handleChange}
           />
       </label>

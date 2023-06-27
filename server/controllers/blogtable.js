@@ -101,6 +101,7 @@ module.exports = {
           span_green,
           span_yellow,
           span_brown,
+          tags
           } = req.body;
           await BlogTable.create({
               id,
@@ -151,6 +152,7 @@ module.exports = {
               span_green,
               span_yellow,
               span_brown,
+              tags
           });
           res.sendStatus(200);
         } catch (error) {
@@ -220,7 +222,8 @@ module.exports = {
           conclusion,
           span_green,
           span_yellow,
-          span_brown
+          span_brown, 
+          tags
         } = req.body;
         await BlogTable.update(
           {
@@ -270,7 +273,8 @@ module.exports = {
             conclusion,
             span_green,
             span_yellow,
-            span_brown
+            span_brown,
+            tags
           },
           { where: { blogtableid: +blogtableid } }
         );
