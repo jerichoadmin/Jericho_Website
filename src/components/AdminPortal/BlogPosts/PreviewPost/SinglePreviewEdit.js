@@ -58,7 +58,7 @@ console.log(previewData)
     });
   };
 
-
+console.log(previewData)
 
 
   return (
@@ -438,14 +438,19 @@ console.log(previewData)
           onChange={handleChange}
           />
       </label>
+      
       <label>
-      Conclusion
-        <textarea
+      Tags (Seperate Tags with comma)
+        <input
           type="text"
           name="tags"
           value={formData.tags}
-          placeholder={previewData.tags}
-          onChange={handleChange}
+          onChange={(e) =>
+            setFormData({
+              ...formData,
+              tags: e.target.value.split(","),
+            })
+          }
           />
       </label>
 

@@ -565,17 +565,23 @@ const NewBlogPost = () => {
           onChange={handleChange}
           />
       </label>
+      
       <label>
-      Tags
-        <textarea
+      Tags (Seperate Tags with comma)
+        <input
           type="text"
           name="tags"
           value={formData.tags}
-          onChange={handleChange}
+          onChange={(e) =>
+            setFormData({
+              ...formData,
+              tags: e.target.value.split(","),
+            })
+          }
           />
       </label>
 
-      <button type="submit">Add Blog Post</button>
+      <button type="submit">Send to Preview</button>
     </form>
 </div>
 </div>

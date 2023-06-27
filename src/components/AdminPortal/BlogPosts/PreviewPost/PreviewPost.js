@@ -190,6 +190,8 @@ function PreviewPost() {
 <p>{item.conclusion}</p>
 )}
      
+
+<h3>Tags:</h3>
 {item.tags && (
 <p>{item.tags}</p>
 )}

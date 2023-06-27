@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import Loading from '../../SVGs/Loading'
 import { Helmet } from 'react-helmet'
+import TagSearchBar from './TagSearchBar'
 import axios from "axios";
 
 
@@ -83,6 +84,11 @@ const hanldeScrollTop = () => {
       <div className='blog_welcome'>
         <h1>Blog and Gallery</h1>
         <p>Level up your gardening skills with Jericho Nursey's blog. Get expert tips and techniques for a thriving garden that will impress all. Don't miss out on this valuable resource to unlock your green thumb's true potential.</p>
+      </div>
+
+
+      <div>
+          <TagSearchBar />
       </div>
 
 

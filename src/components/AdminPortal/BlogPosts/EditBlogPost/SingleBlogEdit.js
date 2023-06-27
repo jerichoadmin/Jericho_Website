@@ -538,6 +538,21 @@ useEffect(() => {
           onChange={handleChange}
           />
       </label>
+      <label>
+      Tags (Seperate Tags by Comma)
+        <input
+          type="text"
+          name="tags"
+          value={formData.tags}
+          placeholder={blogData.tags}
+          onChange={(e) =>
+            setFormData({
+              ...formData,
+              tags: e.target.value.split(","),
+            })
+          }
+          />
+      </label>
 
       <button type="submit">Make Edit</button>
     </form>

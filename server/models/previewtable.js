@@ -11,7 +11,7 @@ module.exports = {
         },
         title: DataTypes.TEXT,
         title2: DataTypes.TEXT,
-      date: DataTypes.TEXT,
+        date: DataTypes.TEXT,
         img_1_url: DataTypes.TEXT,
         img_2_url: DataTypes.TEXT,
         img_3_url: DataTypes.TEXT,

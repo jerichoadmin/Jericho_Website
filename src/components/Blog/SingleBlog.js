@@ -28,7 +28,7 @@ function SingleBlog() {
   }, [blogIdNum])
   
 
-
+console.log(blogData)
 
   return (
     <div className='Single_Blog_Post'>
@@ -153,6 +153,8 @@ function SingleBlog() {
   {item.conclusion && (
     <p>{item.conclusion}</p>
   )}
+
+
 
 
 </div>
