@@ -33,6 +33,15 @@ import DeleteGalleryImg from './components/AdminPortal/HomeGallery/DeleteGallery
 import PreviewPost from './components/AdminPortal/BlogPosts/PreviewPost/PreviewPost';
 import SinglePreviewEdit from './components/AdminPortal/BlogPosts/PreviewPost/SinglePreviewEdit';
 import TypesofPlants from './components/TypesofPlants/TypesofPlants';
+import Bedding from './components/TypesofPlants/subpages/Bedding';
+import Annuals from './components/TypesofPlants/subpages/Annuals';
+import Perennials from './components/TypesofPlants/subpages/Perennials';
+import Roses from './components/TypesofPlants/subpages/Roses';
+import Trees from './components/TypesofPlants/subpages/Trees';
+import Landscaping from './components/TypesofPlants/subpages/Landscaping';
+import Pots from './components/TypesofPlants/subpages/Pots';
+import Art from './components/TypesofPlants/subpages/Art';
+import Fountains from './components/TypesofPlants/subpages/Fountains';
 import Footer from './components/Footer/Footer';
 
 import './App.css';
@@ -63,6 +72,15 @@ function App() {
        <Route path='/contact' element={<ContactUs />}/>
        <Route path='/brands' element={<Brands />}/>
        <Route path='/plants' element={<TypesofPlants />}/>
+       <Route path='/bedding' element={<Bedding />}/>
+       <Route path='/annuals' element={<Annuals />}/>
+       <Route path='/perennials' element={<Perennials />}/>
+       <Route path='/roses' element={<Roses />}/>
+       <Route path='/trees' element={<Trees />}/>
+       <Route path='/landscaping' element={<Landscaping />}/>
+       <Route path='/pots' element={<Pots />}/>
+       <Route path='/gardenart' element={<Art />}/>
+       <Route path='/fountains' element={<Fountains/>}/>
        <Route path='/employment' element={<WhyWorkHere />}/>
         <Route path='/adminhome' element={authCtx.token ? <AdminHome /> : <Navigate to='/login'/>}/>
         <Route path='/newblogpost' element={authCtx.token ? <NewBlogPost /> : <Navigate to='/login'/>}/>
