@@ -90,7 +90,7 @@
     color: #4FA673;
     transition: 1s
 }
-.map_button{
+.map_button_home{
     height: auto;
     width: auto;
     padding: 1rem 1.25rem;
@@ -106,7 +106,7 @@
     margin: 1rem;
     box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
 }
-.map_button:hover{
+.map_button_home:hover{
     background-color: #ffffff;
     color: #DBBA4B;
     transition: 1s

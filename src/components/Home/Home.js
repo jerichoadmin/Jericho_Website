@@ -11,7 +11,7 @@ import NewintheBlog from './Containers/NewintheBlog'
 import Gallery from './Gallery/Gallery'
 import MoreAboutJericho from './MoreAboutJericho/MoreAboutJericho'
 import CallButton from '../ContactUs/CallButton';
-import MapButton from '../ContactUs/MapButton';
+import MapButtonHome from './MapButtonHome';
 import HoursButton from './HoursButton';
 
 import { Helmet } from 'react-helmet';
@@ -52,7 +52,7 @@ function Home() {
 
 <div className='hours_and'>
 <CallButton />
-<MapButton />
+<MapButtonHome />
 <HoursButton />
 </div>
 
