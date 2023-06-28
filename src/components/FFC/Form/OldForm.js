@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import './Ffc_Form.css';
+
 import axios from 'axios';
 
-function Ffc_Form() {
+function OldForm() {
 
   const [formData, setFormData] = useState({
     input1: '',
@@ -69,4 +69,4 @@ function Ffc_Form() {
   );
 }
 
-export default Ffc_Form;
+export default OldForm;

@@ -3,6 +3,7 @@ import './Seminars.css'
 import SeminarIcon from '../../SVGs/SeminarIcon';
 import seminar_pic from '../../Assets/seminar_pic.jpg'
 import { Helmet } from "react-helmet";
+import SeminarForm from "./SeminarForm";
 
 
 
@@ -86,12 +87,10 @@ function Seminars() {
 
             <img alt='Workshops at Jericho Nursery' src={seminar_pic} className='seminar_pic'/>
             <div className='seminars_body_bottom'>
-                <h1> Sign Up For Workshops by clicking the button below</h1>
+                <h1> Sign Up For Workshops Below</h1>
         <div className='seminar_form'>
        
-       <a href="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
-        <button className="seminar_button">Workshop Sign Up</button>
-       </a>
+      <SeminarForm />
 
 
         </div>

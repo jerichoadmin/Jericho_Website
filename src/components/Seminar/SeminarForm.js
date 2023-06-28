@@ -1,32 +1,33 @@
 import React from 'react';
-import './SeminarForm.css'
 
-function SeminarForm() {
+const SeminarForm = () => {
+ 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form submitted!');
+    alert('Thanks your all signed up!')
+  };
+
   return (
-    <div className='seminar_form_body'>
-      <h2>Workshop Sign Up</h2>
-      <form action="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE" method='POST'>
-      <div className="seminar_form_container">
-        <div className='seminar_form_header'>
-        </div>
-        <div className="seminar_form_column">
-          <label htmlFor="input1">First Name</label>
-          <input type="text" id="input1" name="input1" />
-          <label htmlFor="input4">Mobile Phone</label>
-          <input type="text" id="input4" name="input4" />
-        </div>
-        <div className="seminar_form_column">
-          <label htmlFor="input5">Last Name</label>
-          <input type="text" id="input5" name="input5" />
-          <label htmlFor="input8">Email</label>
-          <input type="text" id="input8" name="input8" />
-        </div>
-      </div>
-      <button>Join</button>
-    </form>
+    <div className='seminar_form'>
+
+<form
+        action="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE"
+        method="POST"
+        onSubmit={handleSubmit}
+      >
+      <input type="text" placeholder="First Name" name="first_name" class="form-control" id="first_name" data-q="first_name" data-required="true" />
+
+      <input type="text" placeholder="Last Name" name="last_name" class="form-control" id="last_name" data-q="last_name" data-required="true" />
+
+      <input placeholder="Email" name="email" type="email" class="form-control" data-q="email" data-required="true" />
+
+      <input type="tel" name="phone" placeholder="Cell Phone" autocomplete="off" class="form-control" id="phone" data-q="phone" data-required="true" />
+      <button type="submit">Sign Up</button>
+    
+      </form>
     </div>
   );
-}
-
+};
 
 export default SeminarForm;

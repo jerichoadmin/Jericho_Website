@@ -2,6 +2,8 @@ import React from 'react'
 import ffc3 from '../../Assets/ffc3.png'
 import arches from '../../Assets/arch.jpg'
 import { Helmet } from 'react-helmet'
+import FrequentForm from './Form/FrequentForm'
+import OldForm from './Form/OldForm'
 
 import './FFC.css'
 
@@ -67,12 +69,9 @@ function FFC() {
             </div>
                 <div className='f_f'>   
 
+                    <FrequentForm />
 
-                <a href=
-                'https://link.lightworkdigital.com/widget/form/cU7aGRQlf1PU7rGutp41'>
-                <button>Join the Frequent Flower Club</button>
-                </a>
-
+                    <OldForm />
              
                 </div>
 </div>
