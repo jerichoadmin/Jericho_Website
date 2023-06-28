@@ -21,8 +21,9 @@ function FFC() {
 
         <div className='ffc_welcome'>
             <h1>Frequent Flower Club</h1>
-                <p>Welcome Statement:  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                <p>
+                    Join Jericho's Newsletter, Email and Rewards Club
+               </p>
         </div>
 
 

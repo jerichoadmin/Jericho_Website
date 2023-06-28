@@ -3,6 +3,7 @@ import './SingleBlog.css'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import Loading from '../../SVGs/Loading'
+import RelatedBlogs from './RelatedBlogs'
 
 
 
@@ -28,7 +29,7 @@ function SingleBlog() {
   }, [blogIdNum])
   
 
-console.log(blogData)
+
 
   return (
     <div className='Single_Blog_Post'>
@@ -164,7 +165,15 @@ console.log(blogData)
 </div>
       )}
 
-  
+<div>
+
+<RelatedBlogs blogIdNum={blogIdNum}/>
+
+</div>
+
+
+
+
   </div>
 
   )
