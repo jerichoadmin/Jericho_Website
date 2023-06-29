@@ -4,6 +4,7 @@ import arches from '../../Assets/arch.jpg'
 import { Helmet } from 'react-helmet'
 import FrequentForm from './Form/FrequentForm'
 import OldForm from './Form/OldForm'
+import Script from './Form/script'
 
 import './FFC.css'
 
@@ -73,6 +74,9 @@ function FFC() {
 
                     <OldForm />
              
+
+
+                        <Script />
                 </div>
 </div>
     </div>
