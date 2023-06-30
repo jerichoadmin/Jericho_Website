@@ -1,9 +1,13 @@
-import React, {useState, useEffect, useMemo} from 'react'
+import React, {useState, useEffect} from 'react'
 import axios from 'axios';
+import './RelatedBlogs.css'
 
-function RelatedBlogs(blogIdNum) {
+function RelatedBlogs({blogIdNum}) {
 const [blogData, setBlogData] = useState([])
-const [selectedTags, setSelectedTags] = useState([]);
+const [currentTags, setCurrentTags] = useState([])
+const [otherTags, setOtherTags] = useState('')
+const [otherBlogs, setOtherBlogs] = useState([])
+
 
 
     useEffect(() => {
@@ -17,42 +21,54 @@ const [selectedTags, setSelectedTags] = useState([]);
           });
       }, []);
 
-      const handleTagSelection = (tag) => {
-        if (selectedTags.includes(tag)) {
-          setSelectedTags(selectedTags.filter((t) => t !== tag));
-        } else {
-          setSelectedTags([...selectedTags, tag]);
-        }
-      };
-    
-      const filteredPosts = useMemo(() => {
-        if (selectedTags.length === 0) {
-          return blogData; // Show all posts when no tags are selected
-        } else {
-          return blogData.filter(
-            (post) =>
-              post.tags.some((tag) => selectedTags.includes(tag)) && post.id !== blogIdNum
-          );
-        }
-      }, [blogData, selectedTags, blogIdNum]);
+console.log(blogData)
+
+const thisIndex = blogData.findIndex(x => x.blogtableid === +blogIdNum);
+const filteredObject = blogData.filter((_, index) => index === thisIndex);
+const tagsArray = filteredObject[0]?.tags
+ 
+useEffect(() => {
+setCurrentTags(tagsArray)
+}, [tagsArray])
 
 
-   
+useEffect(() => {
+  const otherPosts = blogData.filter(post => post.blogtableid !== +blogIdNum);
+  setOtherBlogs(otherPosts)
+  
+  const otherTags = otherPosts.flatMap(post => post.tags);
+  setOtherTags(otherTags)
+}, [currentTags]);
+
+
+
+const commonTags = currentTags && otherTags && currentTags.length > 0 && otherTags.length > 0 ? currentTags.filter(tag => otherTags.includes(tag)) : [];
+
+
+const filteredBlogs = otherBlogs.filter(blog => {
+  // Check if the blog's tags array exists and has at least one common tag
+  return blog.tags && blog.tags.some(tag => commonTags.includes(tag));
+});
+
+const mappedBlogs = filteredBlogs.map(blog => {
+  return <div key={blog.id} className='related_card'>
+   <h1>
+   {blog.title}
+   </h1>
+   <img alt='' src={blog.img_1_url} />
+    </div>;
+});
+
+
 
 
   return (
-  <div>
-
+    <div className='eh'>
     <h1>Related Posts</h1>
 
+   <div className='related_container'>{mappedBlogs}</div>
 
-    {filteredPosts.map((post) => (
-        <div key={post.id}>
-          <h2>{post.title}</h2>
-          {/* Display other post details */}
-        </div>
-      ))}
-
+  
 
 
 </div>

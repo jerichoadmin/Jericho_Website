@@ -38,7 +38,6 @@ function Blog() {
 
   const mapPages = () => {
     setPages(count / 5.05);
-    console.log(pages);
   };
 
   function mapButtons(count) {

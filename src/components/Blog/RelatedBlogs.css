@@ -1,0 +1,24 @@
+.eh{
+    height: 50vh;
+}
+.related_container{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+width: auto;
+}
+.related_card{
+    height: 20vh;
+    width: 35vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.related_card img{
+    height: 10vh;
+    width: 10vw;
+}
+.related_card_p{
+    margin: 0 !important;
+}

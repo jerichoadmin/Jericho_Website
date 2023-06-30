@@ -448,7 +448,7 @@ console.log(previewData)
           onChange={(e) =>
             setFormData({
               ...formData,
-              tags: e.target.value.split(","),
+              tags: e.target.value.split(",").map((tag) => tag.trim()),
             })
           }
           />
