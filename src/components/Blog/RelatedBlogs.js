@@ -52,7 +52,7 @@ const filteredBlogs = otherBlogs.filter(blog => {
 
 const mappedBlogs = filteredBlogs.map(blog => {
   return <div key={blog.id} className='related_card'>
-   <h1>
+   <h1 className='h1r'>
    {blog.title}
    </h1>
    <img alt='' src={blog.img_1_url} />
@@ -66,7 +66,11 @@ const mappedBlogs = filteredBlogs.map(blog => {
     <div className='eh'>
     <h1>Related Posts</h1>
 
-   <div className='related_container'>{mappedBlogs}</div>
+   <div className='related_container'>
+    <div className='inner_container'>
+    {mappedBlogs}
+    </div>
+    </div>
 
   
 
