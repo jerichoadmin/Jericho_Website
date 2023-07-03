@@ -1,5 +1,10 @@
 .eh{
     height: 50vh;
+    color: white;
+}
+.eh h2{
+    font-size: 20pt;
+    font-weight: 700;
 }
 .related_container{
 display: flex;
@@ -15,22 +20,29 @@ overflow-x: auto;
 .related_card {
     display: flex;
     flex-direction: column;
-  height: 20vh;
-  width: 150px;
+  height: 30vh;
+  width: 45vw;
   border: 2px solid black;
   border-radius: 20px;
   padding: 1rem;
   margin: 1rem;
+
 }
 
-.h1r{
-  word-wrap: break-word;
-  font-size: 8pt;
-}
+.h1r {
+    margin: 0;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-weight: 700;
+  }
 
 .related_card img{
-    height: 10vh;
-    width: 10vw;
+    height: 8rem;
+    width: 8rem;
+    align-self: center;
+    object-fit: cover;
+    
 }
 .related_card_p{
     margin: 0 !important;

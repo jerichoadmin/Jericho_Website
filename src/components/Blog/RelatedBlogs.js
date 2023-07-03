@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios';
 import './RelatedBlogs.css'
 
+
 function RelatedBlogs({blogIdNum}) {
 const [blogData, setBlogData] = useState([])
 const [currentTags, setCurrentTags] = useState([])
@@ -56,6 +57,9 @@ const mappedBlogs = filteredBlogs.map(blog => {
    {blog.title}
    </h1>
    <img alt='' src={blog.img_1_url} />
+
+
+
     </div>;
 });
 
@@ -64,7 +68,7 @@ const mappedBlogs = filteredBlogs.map(blog => {
 
   return (
     <div className='eh'>
-    <h1>Related Posts</h1>
+    <h2>Related Posts</h2>
 
    <div className='related_container'>
     <div className='inner_container'>
