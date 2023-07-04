@@ -58,26 +58,23 @@ const filteredBlogs = otherBlogs.filter(blog => {
   return blog.tags && blog.tags.some(tag => commonTags.includes(tag));
 });
 
-const mappedBlogs = filteredBlogs.map(blog => {
-  return <div key={blog.blogtableid} className='related_card'>
-   <h1 className='h1r'>
-   {blog.title}
-   </h1>
-   <img alt='' src={blog.img_1_url} />
+let mappedBlogs;
 
-
-
-<button className='related_button' onClick={() => handlePostClick(blog.blogtableid)}>
-  Read More
-</button>
-
-
-
-
-</div>;
-});
-
-
+if (filteredBlogs.length === 0) {
+  mappedBlogs = <p className='NoRelated'>No Related Posts</p>;
+} else {
+  mappedBlogs = filteredBlogs.map(blog => {
+    return (
+      <div key={blog.blogtableid} className='related_card'>
+        <h1 className='h1r'>{blog.title}</h1>
+        <img alt='' src={blog.img_1_url} />
+        <button className='related_button' onClick={() => handlePostClick(blog.blogtableid)}>
+          Read More
+        </button>
+      </div>
+    );
+  });
+}
 
 
   return (
@@ -88,6 +85,8 @@ const mappedBlogs = filteredBlogs.map(blog => {
 
    <div className='related_container'>
     <div className='inner_container'>
+
+
     {mappedBlogs}
 
     </div>
