@@ -167,7 +167,7 @@ function SingleBlog() {
 
 <div>
 
-<RelatedBlogs blogIdNum={blogIdNum}/>
+<RelatedBlogs blogIdNum={blogIdNum} />
 
 </div>
 

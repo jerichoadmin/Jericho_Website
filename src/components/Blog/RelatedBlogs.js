@@ -3,13 +3,13 @@ import axios from 'axios';
 import './RelatedBlogs.css'
 
 
+
+
 function RelatedBlogs({blogIdNum}) {
 const [blogData, setBlogData] = useState([])
 const [currentTags, setCurrentTags] = useState([])
 const [otherTags, setOtherTags] = useState('')
 const [otherBlogs, setOtherBlogs] = useState([])
-
-
 
     useEffect(() => {
         axios
@@ -22,7 +22,14 @@ const [otherBlogs, setOtherBlogs] = useState([])
           });
       }, []);
 
-console.log(blogData)
+
+      const handlePostClick = (blogtableid) => {
+        const newUrl = `/singleblog/${blogtableid}`;
+        window.location.href = newUrl;
+      };
+    
+
+
 
 const thisIndex = blogData.findIndex(x => x.blogtableid === +blogIdNum);
 const filteredObject = blogData.filter((_, index) => index === thisIndex);
@@ -52,7 +59,7 @@ const filteredBlogs = otherBlogs.filter(blog => {
 });
 
 const mappedBlogs = filteredBlogs.map(blog => {
-  return <div key={blog.id} className='related_card'>
+  return <div key={blog.blogtableid} className='related_card'>
    <h1 className='h1r'>
    {blog.title}
    </h1>
@@ -60,7 +67,14 @@ const mappedBlogs = filteredBlogs.map(blog => {
 
 
 
-    </div>;
+<button className='related_button' onClick={() => handlePostClick(blog.blogtableid)}>
+  Read More
+</button>
+
+
+
+
+</div>;
 });
 
 
@@ -68,11 +82,14 @@ const mappedBlogs = filteredBlogs.map(blog => {
 
   return (
     <div className='eh'>
+      <div className='rp'>
     <h2>Related Posts</h2>
+      </div>
 
    <div className='related_container'>
     <div className='inner_container'>
     {mappedBlogs}
+
     </div>
     </div>
 

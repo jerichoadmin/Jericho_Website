@@ -40,7 +40,7 @@ function Brands() {
         <meta name="description" content="Discover the top-quality brands carried by Jericho Nursery. Explore a wide range of trusted brands for all your gardening and landscaping needs." />
         <meta property="og:title" content="Brands Carried by Jericho Nursery" />
         <meta property="og:description" content="Discover the top-quality brands carried by Jericho Nursery. Explore a wide range of trusted brands for all your gardening and landscaping needs." />
-        <meta property="og:image" content="https://example.com/brands-page-image.jpg" />
+       
 </Helmet>
         
 

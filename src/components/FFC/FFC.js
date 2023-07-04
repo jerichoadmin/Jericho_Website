@@ -70,13 +70,7 @@ function FFC() {
             </div>
                 <div className='f_f'>   
 
-                    <FrequentForm />
-
-                    <OldForm />
-             
-
-
-                        <Script />
+            
                 </div>
 </div>
     </div>
