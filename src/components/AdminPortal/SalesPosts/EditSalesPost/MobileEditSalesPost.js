@@ -15,7 +15,7 @@ const { token } = useContext(AuthContext);
 
     useEffect(() => {
         axios
-          .get("https://jericho-server.onrender.com/sales")
+          .get("https://jericho-server-eb9k.onrender.com/sales")
           .then((res) => {
             setSalesData(res.data);
           })
@@ -26,7 +26,7 @@ const { token } = useContext(AuthContext);
      
       const deleteSalesPost = (salestableid) => {
         axios
-          .delete(`https://jericho-server.onrender.com/newsalespost/${salestableid}`, {
+          .delete(`https://jericho-server-eb9k.onrender.com/newsalespost/${salestableid}`, {
             headers: {
               authorization: token,
             },
@@ -47,7 +47,7 @@ const { token } = useContext(AuthContext);
       
       const deleteAllSalesPost = () => {
         axios
-          .delete(`https://jericho-server.onrender.com/deleteallsales`, {
+          .delete(`https://jericho-server-eb9k.onrender.com/deleteallsales`, {
             headers: {
               authorization: token,
             },

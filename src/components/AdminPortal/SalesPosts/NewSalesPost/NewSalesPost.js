@@ -29,7 +29,7 @@ const NewSalesPost = () => {
     event.preventDefault();
 
     axios
-      .post("https://jericho-server.onrender.com/newsalespost", salesFormData)
+      .post("https://jericho-server-eb9k.onrender.com/newsalespost", salesFormData)
       .then((response) => {
         Swal.fire({
           title: "Sale Item Posted",

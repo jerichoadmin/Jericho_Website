@@ -17,7 +17,7 @@ function SingleBlogEdit({match}) {
   const [blogData, setBlogData] =useState([]);
 
 useEffect(() => {
-  axios.get(`https://jericho-server.onrender.com/singleblog/${id}`)
+  axios.get(`https://jericho-server-eb9k.onrender.com/singleblog/${id}`)
   .then((response) => {
     setBlogData(response.data)
   })
@@ -31,7 +31,7 @@ useEffect(() => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .put(`https://jericho-server.onrender.com/editblogpost/${id}`, formData)
+      .put(`https://jericho-server-eb9k.onrender.com/editblogpost/${id}`, formData)
       .then((response) => {
         Swal.fire({
           title: "Blog Edited",

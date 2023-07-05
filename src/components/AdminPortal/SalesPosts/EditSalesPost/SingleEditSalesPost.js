@@ -14,7 +14,7 @@ function SingleEditSalesPost({match}) {
 
       useEffect(() => {
         axios
-          .get(`https://jericho-server.onrender.com/sales`)
+          .get(`https://jericho-server-eb9k.onrender.com/sales`)
           .then((res) => {
             setSalesData(res.data);
    
@@ -28,7 +28,7 @@ function SingleEditSalesPost({match}) {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .put(`https://jericho-server.onrender.com/editsalespost/${id}`, salesFormData)
+      .put(`https://jericho-server-eb9k.onrender.com/editsalespost/${id}`, salesFormData)
       .then((response) => {
         Swal.fire({
           title: "Sales Item Edited",

@@ -24,7 +24,7 @@ function Gallery() {
 
   useEffect(() => {
     axios
-      .get(`https://jericho-server.onrender.com/gallery`)
+      .get(`https://jericho-server-eb9k.onrender.com/gallery`)
       .then((res) => {
         setGalleryData(res.data);
       })

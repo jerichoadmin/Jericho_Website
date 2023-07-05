@@ -13,7 +13,7 @@ const [otherBlogs, setOtherBlogs] = useState([])
 
     useEffect(() => {
         axios
-          .get(`https://jericho-server.onrender.com/blog`)
+          .get(`https://jericho-server-eb9k.onrender.com/blog`)
           .then((res) => {
             setBlogData(res.data);
           })

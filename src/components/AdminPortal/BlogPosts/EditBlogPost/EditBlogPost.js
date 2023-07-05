@@ -16,7 +16,7 @@ const { token } = useContext(AuthContext);
 
 useEffect(() => {
   axios
-    .get(`https://jericho-server.onrender.com/blog`)
+    .get(`https://jericho-server-eb9k.onrender.com/blog`)
     .then((res) => {
       setBlogData(res.data);
     })
@@ -28,7 +28,7 @@ useEffect(() => {
 
       const deleteBlogPost = (blogtableid) => {
         axios
-          .delete(`https://jericho-server.onrender.com/newblogpost/${blogtableid}`, {
+          .delete(`https://jericho-server-eb9k.onrender.com/newblogpost/${blogtableid}`, {
             headers: {
               authorization: token,
             },

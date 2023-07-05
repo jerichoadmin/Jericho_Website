@@ -16,7 +16,7 @@ function SinglePreviewEdit({match}) {
   const [previewData, setPreviewData] =useState([]);
 
 useEffect(() => {
-  axios.get(`https://jericho-server.onrender.com/singlepreview/${id}`)
+  axios.get(`https://jericho-server-eb9k.onrender.com/singlepreview/${id}`)
   .then((response) => {
     setPreviewData(response.data)
   })
@@ -31,7 +31,7 @@ console.log(previewData)
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .put(`https://jericho-server.onrender.com/editpreview/${id}`, formData)
+      .put(`https://jericho-server-eb9k.onrender.com/editpreview/${id}`, formData)
       .then((response) => {
         Swal.fire({
           title: "Preview Edited",

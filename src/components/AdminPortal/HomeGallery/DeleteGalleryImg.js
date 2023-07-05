@@ -12,7 +12,7 @@ const { token } = useContext(AuthContext);
 
 useEffect(() => {
   axios
-    .get(`https://jericho-server.onrender.com/gallery`)
+    .get(`https://jericho-server-eb9k.onrender.com/gallery`)
     .then((res) => {
       setGalleryData(res.data);
     })
@@ -24,7 +24,7 @@ useEffect(() => {
 
       const deleteBlogPost = (gallerytableid) => {
         axios
-          .delete(`https://jericho-server.onrender.com/deletegalleryimg/${gallerytableid}`, {
+          .delete(`https://jericho-server-eb9k.onrender.com/deletegalleryimg/${gallerytableid}`, {
             headers: {
               authorization: token,
             },

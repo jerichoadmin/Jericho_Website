@@ -21,7 +21,7 @@ const LoginPage = () => {
             username,
             password, 
         }
-        const url = 'https://jericho-server.onrender.com'
+        const url = 'https://jericho-server-eb9k.onrender.com'
         axios.post(`${url}/login`, body)
             .then((res) => {
                 console.log('AFTER AUTH', res.data)

@@ -19,7 +19,7 @@ function Blog() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`https://jericho-server.onrender.com/blog/${offset}`)
+      .get(`https://jericho-server-eb9k.onrender.com/blog/${offset}`)
       .then((res) => {
         setBlogData([res.data]);
         setLoading(false);

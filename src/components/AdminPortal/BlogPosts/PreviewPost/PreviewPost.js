@@ -9,7 +9,7 @@ function PreviewPost() {
  const [previewData, setPreviewData] = useState([])
 
     useEffect(() => {
-        axios.get(`https://jericho-server.onrender.com/preview`)
+        axios.get(`https://jericho-server-eb9k.onrender.com/preview`)
         .then((response) => {
 
           setPreviewData(response.data)
@@ -24,7 +24,7 @@ function PreviewPost() {
 
       const deletePreview = (previewtableid) => {
         axios
-          .delete(`https://jericho-server.onrender.com/deletepreview/${previewtableid}`, {
+          .delete(`https://jericho-server-eb9k.onrender.com/deletepreview/${previewtableid}`, {
           })
           .then(() => {
             Swal.fire({
@@ -45,7 +45,7 @@ function PreviewPost() {
         const selectedPreview = previewData.find(item => item.previewtableid === previewtableid);
       
         // Make a POST request to send the selected preview data to the server
-        axios.post('https://jericho-server.onrender.com/newblogpost', selectedPreview)
+        axios.post('https://jericho-server-eb9k.onrender.com/newblogpost', selectedPreview)
           .then((response) => {
             // Handle the response if needed
             console.log(response.data);

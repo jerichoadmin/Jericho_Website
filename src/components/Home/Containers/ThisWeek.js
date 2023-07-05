@@ -10,7 +10,7 @@ function NewThisWeek() {
 
     useEffect(() => {
         axios
-          .get("https://jericho-server.onrender.com/sales")
+          .get("https://jericho-server-eb9k.onrender.com/sales")
           .then((res) => {
             setSalesData(res.data);
           })

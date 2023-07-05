@@ -17,7 +17,7 @@ function SingleBlog() {
 
 
   useEffect(() => {
-    axios.get(`https://jericho-server.onrender.com/singleblog/${blogIdNum}`)
+    axios.get(`https://jericho-server-eb9k.onrender.com/singleblog/${blogIdNum}`)
     .then((response) => {
   
       setBlogData([response.data])
