@@ -2,9 +2,7 @@ import React from 'react'
 import ffc3 from '../../Assets/ffc3.png'
 import arches from '../../Assets/arch.jpg'
 import { Helmet } from 'react-helmet'
-import FrequentForm from './Form/FrequentForm'
-import OldForm from './Form/OldForm'
-import Script from './Form/script'
+import { NavLink } from 'react-router-dom'
 
 import './FFC.css'
 
@@ -70,6 +68,13 @@ function FFC() {
             </div>
                 <div className='f_f'>   
 
+<NavLink to='https://link.lightworkdigital.com/widget/form/cU7aGRQlf1PU7rGutp41'>
+                <button>Sign up for the Freuqent Flower Club</button>
+</NavLink>
+
+<NavLink to='https://link.lightworkdigital.com/widget/form/AKN6KeaUJe5kCpr3DfAc'>
+                <button>Sign up for just our Emails</button>
+</NavLink>
             
                 </div>
 </div>

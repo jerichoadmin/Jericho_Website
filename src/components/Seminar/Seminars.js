@@ -3,7 +3,7 @@ import './Seminars.css'
 import SeminarIcon from '../../SVGs/SeminarIcon';
 import seminar_pic from '../../Assets/seminar_pic.jpg'
 import { Helmet } from "react-helmet";
-import SeminarForm from "./SeminarForm";
+
 
 
 
@@ -90,8 +90,7 @@ function Seminars() {
                 <h1> Sign Up For Workshops Below</h1>
         <div className='seminar_form'>
        
-      <SeminarForm />
-
+        <p>No Seminars Currently</p>
 
         </div>
             </div>

@@ -215,7 +215,7 @@ const NewBlogPost = () => {
           />
       </label>
       <label>
-        Image 2 Caption
+        Image 2 Caption / Bold Title
         <input
           type="text"
           name="img_2_captions"
@@ -305,7 +305,7 @@ const NewBlogPost = () => {
           />
       </label>
       <label>
-        Image 4 Caption
+        Image 4 Caption / Bold Title
         <input
           type="text"
           name="img_4_captions"
@@ -404,7 +404,7 @@ const NewBlogPost = () => {
           />
       </label> 
       <label>
-        Image 6 Caption
+        Image 6 Caption / Bold Title
         <input
           type="text"
           name="img_6_captions"

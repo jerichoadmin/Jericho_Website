@@ -11,6 +11,7 @@ const [currentTags, setCurrentTags] = useState([])
 const [otherTags, setOtherTags] = useState('')
 const [otherBlogs, setOtherBlogs] = useState([])
 
+
     useEffect(() => {
         axios
           .get(`https://jericho-server-eb9k.onrender.com/blog`)
@@ -28,8 +29,6 @@ const [otherBlogs, setOtherBlogs] = useState([])
         window.location.href = newUrl;
       };
     
-
-
 
 const thisIndex = blogData.findIndex(x => x.blogtableid === +blogIdNum);
 const filteredObject = blogData.filter((_, index) => index === thisIndex);
