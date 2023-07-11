@@ -2,12 +2,12 @@ import React, {useState, useEffect} from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Gallery.css'
+import './Gallery2.css'
 import axios from 'axios';
 
 
 
-function Gallery() {
+function Gallery2() {
 
   const [galleryData, setGalleryData] = useState([])
   const [visible, setVisible] = useState(true);
@@ -95,8 +95,8 @@ function Gallery() {
 
     
   return (
-    <div className='h_carousel'>
-      <h1>New This Week</h1>
+    <div className='h2_carousel'>
+      <h1>Photos From Jericho</h1>
       {visible ? (<p>Swipe to see more photos..</p>) : ('')}
         <Slider {...settings} prevArrow={<PrevArrow />} nextArrow={<NextArrow />}>
             {galleryData.map((item) => (
@@ -121,4 +121,4 @@ function Gallery() {
   )
 }
 
-export default Gallery
+export default Gallery2;

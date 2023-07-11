@@ -9,6 +9,7 @@ import JerichoMap from './Containers/JerichoMap'
 import GardeningCalendar from './Containers/GardeningCalendar'
 import NewintheBlog from './Containers/NewintheBlog'
 import Gallery from './Gallery/Gallery'
+import Gallery2 from './Gallery/Gallery2';
 import MoreAboutJericho from './MoreAboutJericho/MoreAboutJericho'
 import CallButton from '../ContactUs/CallButton';
 import MapButtonHome from './MapButtonHome';
@@ -106,6 +107,7 @@ function Home() {
     </div>
 
     <Banner2 />
+    <Gallery2 />
     <MoreAboutJericho />
     <Banner3 />
     

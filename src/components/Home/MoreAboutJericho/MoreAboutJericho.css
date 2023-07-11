@@ -172,7 +172,7 @@ background-color: white;
    flex-direction: column;
 }
 .welcome_maj p{
-    font-size: 12pt;
+    font-size: 14pt;
     color: #315E30;
     line-height: 1.8;
     padding: 2rem 1rem;
@@ -234,8 +234,8 @@ background-color: white;
             line-height: 1.8;
         }
         .welcome_maj p{
-            font-size: 18pt;
-            margin: 2rem 1rem;
+            font-size: 22pt;
+            margin: 3rem 3rem;
         }
         
         .maj_button{

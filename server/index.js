@@ -19,6 +19,7 @@ const {isAuthenticated} = require('./middleware/isAuthenticated')
 const {getBlogTable, getAllBlogTable, getSingleBlogTable, addNewBlogPost, deleteBlogPost, editBlogPost} = require('./controllers/blogtable')
 const {getSalesTable, addNewSalesPost, deleteSalesPost, deleteAllSalesPost, editSalesPost} = require('./controllers/salestable')
 const {getGalleryTable, addNewGalleryImg, deleteGalleryImg} = require('./controllers/gallerytable')
+const {getGalleryTable2, addNewGallery2Img, deleteGallery2Img} = require('./controllers/gallerytable2')
 const {getPreviewTable, addPreview, deletePreview, editPreview, getSinglePreview} = require('./controllers/previewtable')
 
 const app = express();
@@ -62,6 +63,10 @@ app.put('/editsalespost/:salestableid', editSalesPost)
 app.get('/gallery', getGalleryTable)
 app.post('/newgalleryimg', addNewGalleryImg)
 app.delete('/deletegalleryimg/:gallerytableid', deleteGalleryImg)
+
+app.get('/gallery2', getGalleryTable2)
+app.post('/newgallery2img', addNewGallery2Img)
+app.delete('/deletegallery2img/:gallerytableid', deleteGallery2Img)
 
 
 
