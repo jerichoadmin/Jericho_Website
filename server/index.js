@@ -66,7 +66,7 @@ app.delete('/deletegalleryimg/:gallerytableid', deleteGalleryImg)
 
 app.get('/gallery2', getGalleryTable2)
 app.post('/newgallery2img', addNewGallery2Img)
-app.delete('/deletegallery2img/:gallerytableid', deleteGallery2Img)
+app.delete('/deletegallery2img/:gallerytable2id', deleteGallery2Img)
 
 
 

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
-import './NewGalleryImg.css'
+import './NewGallery2Img.css'
 
 
-const NewGalleryImg = () => {
+const NewGallery2Img = () => {
   const [formData, setFormData] = useState({
     name: ``,
     img_url: ``,
@@ -15,7 +15,7 @@ const NewGalleryImg = () => {
     event.preventDefault();
 
     axios
-      .post("https://jericho-server-eb9k.onrender.com/newgalleryimg", formData)
+      .post("https://jericho-server-eb9k.onrender.com/newgallery2img", formData)
       .then((response) => {
         Swal.fire({
           title: "Img Posted",
@@ -43,10 +43,10 @@ const NewGalleryImg = () => {
   };
 
   return (
-    <div className="newGalleryImg">
+    <div className="newGalleryImg2">
 <div className="new_gallery_img">
 <h1>Admin Portal</h1>
-<h2>Add New this Week Image</h2>
+<h2>Add New Photos from Jericho Image</h2>
 </div>
 
 
@@ -56,7 +56,7 @@ const NewGalleryImg = () => {
 
 
 
-<div className="newGallery_form">
+<div className="newGallery2_form">
     <form onSubmit={handleSubmit}>
       <label>
  Name of Image ( For Reference )
@@ -100,4 +100,4 @@ Alt Text
   );
 };
 
-export default NewGalleryImg;
+export default NewGallery2Img;

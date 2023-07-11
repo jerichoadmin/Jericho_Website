@@ -42,10 +42,16 @@ function AdminHome() {
       <button>Edit/Delete/Wipe Sales Posts</button>
       </NavLink>
       <NavLink to='/newgalleryimg'>
-      <button>Add Galley Img</button>
+      <button>Add New this Week Img</button>
       </NavLink>
       <NavLink to='/deletegalleryimg'>
-        <button>Delete Gallery Img</button>
+        <button>Delete New this Week Img</button>
+      </NavLink>
+      <NavLink to='/newgallery2img'>
+      <button>Add Photos from Jericho Img</button>
+      </NavLink>
+      <NavLink to='/deletegallery2img'>
+        <button>Delete Photos from Jericho Img</button>
       </NavLink>
 
       </div>

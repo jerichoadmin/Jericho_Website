@@ -1,0 +1,50 @@
+.newGalleryImg2{
+    background-color: #242424;
+    color: white;
+    padding: 2rem 10rem;
+}
+.newGalleryImg2 h1{
+font-size: 24pt;
+font-weight: 700;
+}
+.newGalleryImg2 h2{
+font-size: 20pt;
+font-weight: 600;
+color: #9ba86b;
+padding: 2rem;
+text-decoration: underline;
+}
+
+.newGalleryImg2 button{
+    height: auto;
+    width: auto;
+    padding: 0.5rem 1.25rem;
+   background-color: #802a72;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+.newGalleryImg2 button:hover{
+    background-color: #ffffff;
+    color: #802a72;
+    transition: 1s;
+}
+
+.newGallery2_form form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.newGallery2_form input{
+padding: 1rem;
+margin: 2rem;
+}

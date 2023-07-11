@@ -24,7 +24,7 @@ function Gallery2() {
 
   useEffect(() => {
     axios
-      .get(`https://jericho-server-eb9k.onrender.com/gallery`)
+      .get(`https://jericho-server-eb9k.onrender.com/gallery2`)
       .then((res) => {
         setGalleryData(res.data);
       })
@@ -102,7 +102,7 @@ function Gallery2() {
             {galleryData.map((item) => (
                     <div className='home_gallery_card'> 
              <div className='home_photo_gallery_container'>
-             <img src={item.img_url} className='home_gallery_photo' alt={item.alt_text} title={item.name}/>
+             <img src={item.img_url} className='home_gallery2_photo' alt={item.alt_text} title={item.name}/>
              </div>
                     </div>
             ))}

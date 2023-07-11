@@ -30,6 +30,8 @@ import NewSalesPost from './components/AdminPortal/SalesPosts/NewSalesPost/NewSa
 import SingleEditSalesPost from './components/AdminPortal/SalesPosts/EditSalesPost/SingleEditSalesPost'
 import NewGalleryImg from './components/AdminPortal/HomeGallery/NewGalleryImg';
 import DeleteGalleryImg from './components/AdminPortal/HomeGallery/DeleteGalleryImg';
+import NewGallery2Img from './components/AdminPortal/HomeGallery2/NewGallery2Img';
+import DeleteGallery2Img from './components/AdminPortal/HomeGallery2/DeleteGallery2Img';
 import PreviewPost from './components/AdminPortal/BlogPosts/PreviewPost/PreviewPost';
 import SinglePreviewEdit from './components/AdminPortal/BlogPosts/PreviewPost/SinglePreviewEdit';
 import TypesofPlants from './components/TypesofPlants/TypesofPlants';
@@ -92,6 +94,8 @@ function App() {
         <Route path='/newsalespost' element={authCtx.token ? <NewSalesPost /> : <Navigate to='/login'/>}/>
         <Route path='/newgalleryimg' element={authCtx.token ? <NewGalleryImg /> : <Navigate to='/login'/>}/>
         <Route path='/deletegalleryimg' element={authCtx.token ? <DeleteGalleryImg/> : <Navigate to='/login'/>}/>
+        <Route path='/newgallery2img' element={authCtx.token ? <NewGallery2Img /> : <Navigate to='/login'/>}/>
+        <Route path='/deletegallery2img' element={authCtx.token ? <DeleteGallery2Img/> : <Navigate to='/login'/>}/>
         <Route path='/editsalespost' element={authCtx.token ? <EditSalesMain/> : <Navigate to='/login'/>}/>
         <Route path='editsalespost/singlesaleedit/:id' element={authCtx.token ? <SingleEditSalesPost /> : <Navigate to='/login'/>}/>
         <Route path='/login' element={!authCtx.token ? <LoginPage /> : <Navigate to='/adminhome'/>} />
