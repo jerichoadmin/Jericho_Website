@@ -21,9 +21,9 @@ overflow-x: auto;
 .related_card {
     display: flex;
     flex-direction: column;
-  height: 35vh;
+  height: 40vh;
   width: 50vw;
-  border: 4px solid #242424;
+  background-image: linear-gradient(#4fa6736c, #dbb94b77 , #fb482c57) ;
   border-radius: 20px;
   padding: 1rem;
   margin: 1rem;
@@ -90,10 +90,10 @@ overflow-x: auto;
 
 @media (min-width:1025px) { 
     .eh{
-        height: 550px;
+        height: 750px;
     }
 .related_card{
-    height: 30vh;
+    height: 35vh;
     width: 25vw;
 }
 .h1r {
@@ -116,7 +116,7 @@ overflow-x: auto;
 
 
     
-@media (min-width:2000px) { 
+@media (min-width:1800px) { 
 .eh{
     height: auto;
 }
@@ -124,12 +124,12 @@ overflow-x: auto;
     padding: 1rem;
 }
 .related_card{
-    height: 40vh;
+    height: 45vh;
     width: 20vw;
 }
 .related_card img{
-    height: 20rem;
-    width: 20rem;
+    height: 23rem;
+    width: 23rem;
     margin: 1rem !important;
     box-sizing: border-box;
 }
@@ -142,8 +142,14 @@ overflow-x: auto;
   and (min-width: 900px) 
   and (max-height: 900px)  { 
     .related_card{
-        height: 400px;
-        width: 300px;
+        height: 500px;
+        width: 400px;
+    }
+    .related_card img{
+        height: 17rem;
+        width: 17rem;
+        margin: 1rem !important;
+        box-sizing: border-box;
     }
 
 

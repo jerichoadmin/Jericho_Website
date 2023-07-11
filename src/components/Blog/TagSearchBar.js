@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import './TagSearchBar.css'
+import search from '../../Assets/search.png'
+
+
 
 const TagSearchBar = ({ tags, handleSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -9,12 +13,16 @@ const TagSearchBar = ({ tags, handleSearch }) => {
   };
 
   return (
-    <div>
+    <div className='search_container'>
+      <div>
+      <img src={search} className='search_img' alt=''/>
+      </div>
       <input
+      className='search_input'
         type="text"
         value={searchTerm}
         onChange={handleChange}
-        placeholder="Search tags..."
+        placeholder="Search Blogs"
       />
     </div>
   );
