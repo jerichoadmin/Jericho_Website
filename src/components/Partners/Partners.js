@@ -6,6 +6,7 @@ import logo3 from '../../Assets/rehms.jpg'
 import logo4 from '../../Assets/soilmender.jpg'
 import logo5 from '../../Assets/505outside.jpg'
 import soil from '../../Assets/soilutionslogo.png'
+import suregreen from '../../Assets/suregreen.png'
 import { Helmet } from 'react-helmet'
 
 function Partners() {
@@ -72,7 +73,7 @@ function Partners() {
   
 <div className='lp_img_container'>
         <a href='https://suregreenproducts.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
-              <img src='https://suregreenproducts.com/wp-content/uploads/2023/02/Sure-Green-Logo-Green.png' alt='Sure Green'/>
+              <img src={suregreen} alt='Sure Green'/>
         </a>
           <a href='https://www.eastcentralministries.org/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
               <img src='https://images.squarespace-cdn.com/content/v1/619d2e8fd4dd083c86697cc9/223556e8-8c18-4fae-a4a2-7a60ca3d3ffb/ECM+logo+1.jpg?format=1500w' alt='East Central Ministries' className='ecm'/>

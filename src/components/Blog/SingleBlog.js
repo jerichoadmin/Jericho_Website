@@ -44,7 +44,6 @@ function SingleBlog() {
       {loading ? (<div className='loading_anim'> <Loading /> </div>) : ( 
 
 
-
   
       
 <div className='card_container'>
