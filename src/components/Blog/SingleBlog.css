@@ -231,10 +231,12 @@ padding: 2rem;
 .left_8 p{
     padding: 1rem ;
     margin: 2.5rem !important;
+    align-self: center;
 }
 .right_9 p{
     padding: 1rem ;
     margin: 2.5rem !important;
+    align-self: center;
 }
 .blog_bold{
     font-size: 26pt !important;
@@ -373,6 +375,15 @@ screen and (max-height: 650px){
         }
         .blog_body_mid h1{
             font-size: 30pt;
+        }
+        .left_8 p{
+            padding: 3rem 1rem ;
+            margin: 0 !important;
+        }   
+        .right_9 p{
+            padding: 3rem 1rem ;
+            margin: 0 !important;
+        
         }
         
 

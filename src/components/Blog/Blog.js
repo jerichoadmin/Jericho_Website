@@ -13,7 +13,6 @@ function Blog() {
   const [pages, setPages] = useState(0);
   const [active, setActive] = useState(0);
   const [loading, setLoading] = useState(true);
-
   const [filteredPosts, setFilteredPosts] = useState([]);
 
   useEffect(() => {
@@ -23,8 +22,8 @@ function Blog() {
       .then((res) => {
         setBlogData([res.data]);
         setLoading(false);
-        if (res.data && res.data[0]) {
-          setCount(res.data[0].count);
+        if (res.data) {
+          setCount(res.data.count);
         }
       })
       .catch((err) => {
@@ -39,6 +38,7 @@ function Blog() {
   const mapPages = () => {
     setPages(count / 5.05);
   };
+
 
   function mapButtons(count) {
     const buttons = [];
@@ -65,13 +65,13 @@ function Blog() {
 
   const handleSearch = (searchTerm) => {
     const filtered = blogData[0]?.rows?.filter((post) => {
-      // Check if tags exist and contain a match with the search term
       return post.tags && post.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()));
     });
-  
     setFilteredPosts(filtered);
   };
   
+
+
 
   return (
     <div className='Blog'>

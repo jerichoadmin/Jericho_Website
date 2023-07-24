@@ -30,7 +30,7 @@ module.exports = {
             })
             res.status(200).send(blogtableall)
         } catch (error) {
-            console.log('ERROR IN getBlogTable')
+            console.log('ERROR IN getAllBlogTable')
             console.log(error)
             res.sendStatus(400)
         }
@@ -45,7 +45,7 @@ module.exports = {
           }
           res.status(200).send(singleblogtable);
       } catch (error) {
-          console.log('ERROR IN getBlogTable')
+          console.log('ERROR IN getSingleBlogTable')
           console.log(error)
           res.sendStatus(400)
       }
