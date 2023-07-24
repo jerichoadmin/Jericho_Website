@@ -35,6 +35,9 @@ function AdminHome() {
       <NavLink to='/editpost'>
       <button>Edit/Delete a Blog Post</button>
       </NavLink>
+      <NavLink to='/previewblog'>
+        <button>Previews</button>
+      </NavLink>
       <NavLink to='/newsalespost'>
       <button>Create a Sales Post</button>
       </NavLink>
@@ -53,6 +56,7 @@ function AdminHome() {
       <NavLink to='/deletegallery2img'>
         <button>Delete Photos from Jericho Img</button>
       </NavLink>
+     
 
       </div>
 

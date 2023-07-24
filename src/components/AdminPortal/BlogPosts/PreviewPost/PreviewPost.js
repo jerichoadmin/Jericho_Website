@@ -72,10 +72,11 @@ function PreviewPost() {
     return (
 <div className='preview'>
 
+
 <div className='Single_Blog_Post'>
 
 <div className='preview_welcome'>
-  <h1>Looking at Previews..</h1>
+  <h1>Preview Blog Posts</h1>
 
 </div>
 
@@ -196,16 +197,18 @@ function PreviewPost() {
 <p>{item.tags}</p>
 )}
      
-     <button onClick={() => deletePreview(item.previewtableid)}>Delete this Preview</button>
+     <button className='delete_preview' onClick={() => deletePreview(item.previewtableid)}>Delete this Preview</button>
      <NavLink to={`/editpreview/${item.previewtableid}`}>
-<button>Edit This Preview</button>
+<button className='edit_preview'>Edit This Preview</button>
      </NavLink>
-     <button onClick={() => finalizePreview(item.previewtableid)}>Finalize This Preview</button>
+     <button className='finalize_preview'onClick={() => finalizePreview(item.previewtableid)}>Finalize This Preview</button>
 </div>
 </div>
 ))}
 </div>
  </div>
+
+
 
 
 

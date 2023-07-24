@@ -2,4 +2,55 @@
     color: rgb(155, 37, 37);
     font-weight: 700;
     font-size: 60pt;
+    background-color: #242424;
+    margin-bottom: 1rem;
+}
+.preview a{
+    width: 7rem;
+    align-self: center;
+}
+.border{
+    border: 2px solid black;
+}
+.delete_preview{
+    background-color: rgb(121, 49, 49);
+    color: white;
+    font-size: 18pt;
+    width: 10rem;
+    border: none;
+    border: 10px;
+    align-self: center; cursor: pointer;
+    margin: 1rem;
+}
+.delete_preview:hover{
+    background-color: #242424;
+    transition: 1.2s;
+}
+.edit_preview{
+    background-color: rgb(226, 156, 99);
+    color: white;
+    font-size: 18pt;
+    width: 10rem;
+    border: none;
+    border: 10px;
+    align-self: center; cursor: pointer;
+    margin: 1rem;
+}
+.edit_preview:hover{
+    background-color: #242424;
+    transition: 1.2s;
+}
+.finalize_preview{
+    background-color: rgb(47, 78, 34);
+    color: white;
+    font-size: 18pt;
+    width: 10rem;
+    border: none;
+    border: 10px;
+    align-self: center; cursor: pointer;
+    margin: 1rem;
+}
+.finalize_preview:hover{
+    background-color: #242424;
+    transition: 1.2s;
 }
