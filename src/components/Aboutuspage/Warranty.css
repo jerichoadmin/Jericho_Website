@@ -1,0 +1,21 @@
+.warranty_paragraph{
+    font-size: 14pt !important;
+    margin: 6rem;
+    background-color: #242424;
+    border-radius: 2rem;
+}
+.warranty_button{
+        height: auto;
+        width: auto;
+        background-color: #4FA673;
+        border: none;
+        border-radius: 12px;
+        font-family: 'Raleway';
+        font-size: 12pt;
+        font-weight: 600;
+        color: white;
+        align-self: center;
+        margin-top: 3vh;
+        cursor: pointer;
+        padding: 1rem;
+}

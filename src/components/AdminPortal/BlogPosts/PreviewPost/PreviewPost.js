@@ -192,9 +192,9 @@ function PreviewPost() {
 )}
      
 
-<h3>Tags:</h3>
+     <h3>Tags:</h3>
 {item.tags && (
-<p>{item.tags}</p>
+  <p>{item.tags.join(', ')}</p>
 )}
      
      <button className='delete_preview' onClick={() => deletePreview(item.previewtableid)}>Delete this Preview</button>

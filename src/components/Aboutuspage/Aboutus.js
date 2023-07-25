@@ -9,6 +9,7 @@ import Quality from '../../SVGs/Quality'
 import Selection from '../../SVGs/Selection'
 import Quote from '../../SVGs/Quote'
 import Quote2 from '../../SVGs/Quote2'
+import Warranty from './Warranty'
 import { Helmet } from 'react-helmet'
 
 
@@ -108,7 +109,11 @@ function Aboutus() {
             There was an important job to be done and Everybody was sure that Somebody would do it. Anybody could have done it, but Nobody did it. Somebody got angry about that because it was Everybody’s job. Everybody thought Anybody could do it, but Nobody realized that Everybody wouldn’t do it. It ended up that Everybody blamed Somebody when Nobody did what Anybody could have.
             </p>
 </div>
+</div>
 
+<div className='warranty_section'>
+  <h2 className='warranty_header'>Warranty Information</h2>
+  <Warranty />
 </div>
 
             <h2 className='ct_h2'>Customer Testimonials</h2>
