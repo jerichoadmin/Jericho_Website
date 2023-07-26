@@ -41,7 +41,9 @@ const NewBlogPost = () => {
     img_6_captions: ``,
     img_7_captions: ``,
     img_8_captions: ``,
+    img_8_title: ``,
     img_9_captions: ``,
+    img_9_title: ``,
     img_10_captions: ``,
     img_1_alt_text: ``,
     img_2_alt_text: ``,
@@ -458,7 +460,16 @@ const NewBlogPost = () => {
           />
       </label>
       <label>
-        Image 8 Caption
+        Bold Title above Image 8 Caption
+        <input
+          type="text"
+          name="img_8_title"
+          value={formData.img_8_title}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+        Image 8 Caption / Paragraph
         <input
           type="text"
           name="img_8_captions"
@@ -485,7 +496,16 @@ const NewBlogPost = () => {
           />
       </label>
       <label>
-        Image 9 Caption
+        Bold Title above Image 9 Caption
+        <input
+          type="text"
+          name="img_9_title"
+          value={formData.img_9_title}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+        Image 9 Caption / Paragraph
         <input
           type="text"
           name="img_9_captions"
