@@ -349,16 +349,6 @@ console.log(previewData)
           />
       </label>
       <label>
-       Bold Title Above Image 8 Caption
-        <input
-          type="text"
-          name="img_8_title"
-          value={formData.img_8_title}
-          placeholder={previewData.img_8_title}
-          onChange={handleChange}
-          />
-      </label>
-      <label>
         Image 8 Caption
         <input
           type="text"
@@ -375,16 +365,6 @@ console.log(previewData)
           name="img_9_url"
           value={formData.img_9_url}
           placeholder={previewData.img_9_url}
-          onChange={handleChange}
-          />
-      </label>
-      <label>
-       Bold Title Above Image 9 Caption
-        <input
-          type="text"
-          name="img_9_title"
-          value={formData.img_9_title}
-          placeholder={previewData.img_9_title}
           onChange={handleChange}
           />
       </label>

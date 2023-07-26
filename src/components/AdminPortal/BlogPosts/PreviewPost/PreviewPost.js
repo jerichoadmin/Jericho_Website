@@ -156,18 +156,12 @@ function PreviewPost() {
 
 
 <div className='blog_body_bottom'>
-  {item.img_8_title && 
-  <h2>{item.img_8_title}</h2>
-  }
 {item.img_8_url && (
 <div className='left_8'>
 <img src={item.img_8_url} className='blog_img' alt=''/>
 <p>{item.img_8_captions}</p>
 </div>
 )}
-  {item.img_9_title && 
-  <h2>{item.img_9_title}</h2>
-  }
 {item.img_9_url && (
 <div className='right_9'>
 <img src={item.img_9_url} className='blog_img' alt=''/>

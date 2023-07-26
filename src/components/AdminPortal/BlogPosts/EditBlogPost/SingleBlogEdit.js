@@ -419,16 +419,6 @@ useEffect(() => {
           />
       </label>
       <label>
-        Bold Title Above Image 8 Caption
-        <input
-          type="text"
-          name="img_8_title"
-          value={formData.img_8_title}
-          placeholder={blogData.img_8_title}
-          onChange={handleChange}
-          />
-      </label>
-      <label>
         Image 8 Caption
         <input
           type="text"
@@ -455,16 +445,6 @@ useEffect(() => {
           name="img_9_url"
           value={formData.img_9_url}
           placeholder={blogData.img_9_url}
-          onChange={handleChange}
-          />
-      </label>
-      <label>
-        Bold Title Above Image 9 Caption
-        <input
-          type="text"
-          name="img_9_title"
-          value={formData.img_9_title}
-          placeholder={blogData.img_9_title}
           onChange={handleChange}
           />
       </label>
