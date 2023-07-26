@@ -59,7 +59,7 @@ const NewGalleryImg = () => {
 <div className="newGallery_form">
     <form onSubmit={handleSubmit}>
       <label>
- Name of Image ( For Reference )
+ Name / Title
         <input
           type="text"
           name="name"

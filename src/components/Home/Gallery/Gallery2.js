@@ -103,6 +103,7 @@ function Gallery2() {
                     <div className='home_gallery_card'> 
              <div className='home_photo_gallery_container'>
              <img src={item.img_url} className='home_gallery2_photo' alt={item.alt_text} title={item.name}/>
+             <span className='photo_name'>{item.name}</span>
              </div>
                     </div>
             ))}

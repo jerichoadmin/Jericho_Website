@@ -18,6 +18,7 @@
     width: auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .home_gallery_photo{
     height: 31rem;
@@ -43,6 +44,10 @@ top: -10px;
     z-index: 3;
     right: 0;
     top: 0;
+  }
+  .photo_name{
+    align-self: center;
+    padding: 1rem;
   }
 
 
