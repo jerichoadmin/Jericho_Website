@@ -44,6 +44,7 @@ import Landscaping from './components/TypesofPlants/subpages/Landscaping';
 import Pots from './components/TypesofPlants/subpages/Pots';
 import Art from './components/TypesofPlants/subpages/Art';
 import Fountains from './components/TypesofPlants/subpages/Fountains';
+import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 
 
@@ -99,6 +100,7 @@ function App() {
         <Route path='/editsalespost' element={authCtx.token ? <EditSalesMain/> : <Navigate to='/login'/>}/>
         <Route path='editsalespost/singlesaleedit/:id' element={authCtx.token ? <SingleEditSalesPost /> : <Navigate to='/login'/>}/>
         <Route path='/login' element={!authCtx.token ? <LoginPage /> : <Navigate to='/adminhome'/>} />
+        <Route path='*' element={<NotFound />}/>
       </Routes>
       <Footer />
     </div>

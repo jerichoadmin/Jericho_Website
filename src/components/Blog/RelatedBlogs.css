@@ -22,7 +22,7 @@ overflow-x: scroll !important;
 .related_card {
     display: flex;
     flex-direction: column;
-  height: 40vh;
+  height: 45vh;
   width: 50vw;
   background-image: linear-gradient(#4fa6736c, #dbb94b77 , #fb482c57) ;
   border-radius: 20px;
