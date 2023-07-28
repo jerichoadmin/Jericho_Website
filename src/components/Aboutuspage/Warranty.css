@@ -1,6 +1,6 @@
 .warranty_paragraph{
     font-size: 14pt !important;
-    margin: 6rem;
+    margin-top: 1rem;
     background-color: #242424;
     border-radius: 2rem;
 }
@@ -18,4 +18,9 @@
         margin-top: 3vh;
         cursor: pointer;
         padding: 1rem;
+}
+@media (min-width: 1025px){
+    .warranty_paragraph{
+        margin: 6rem;
+    }
 }
