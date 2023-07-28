@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Footer.css'
+import logo from '../../Assets/jh.fdbe9cde7df2141db183.png'
 
 function Footer() {
   return (
@@ -96,7 +97,12 @@ function Footer() {
             <p>Jericho Nursery | 101 Alameda Blvd | (505) 899-7555</p>
             <p>Trademarked by Jericho Incoroprated -Privacy Policy</p>
             <p>Hours: Monday-Saturday 9-6 | Sundays 11-5</p>
-
+        </div>
+        <div className='jh_container'>
+            <p className='jhp'>Created by Josh Hobson Web Development</p>
+            <a href='https://joshhobson95.github.io/'>
+            <img src={logo} alt='' className='jh'/>
+            </a>
         </div>
 
     </div>
