@@ -71,7 +71,7 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
     align-items: center;
 }
 .blog_name{
-   padding: 2.5rem;
+   padding:  1.5rem 0.5rem;
 }
 .blog_intro_container{
     display: flex;
