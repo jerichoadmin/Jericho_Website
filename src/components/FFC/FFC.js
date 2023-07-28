@@ -63,17 +63,21 @@ function FFC() {
                 <h1 className='h_to_join'>How to Join</h1>
 
                 <div className='ffc_form_container_2'>
-                    <h3>Click the button below to open our Frequent Flower Club Sign Up Page</h3>
+                    <h3>Sign Up for more Jericho Nursery Below</h3>
                 </div>
             </div>
                 <div className='f_f'>   
 
 <NavLink to='https://link.lightworkdigital.com/widget/form/cU7aGRQlf1PU7rGutp41'>
-                <button>Sign up for the Freuqent Flower Club</button>
+                <button className='ffc_1'>Frequent Flower Club</button>
 </NavLink>
 
 <NavLink to='https://link.lightworkdigital.com/widget/form/AKN6KeaUJe5kCpr3DfAc'>
-                <button>Sign up for just our Emails</button>
+                <button className='ffc_2'>Email Newsletter</button>
+</NavLink>
+
+<NavLink to='https://link.lightworkdigital.com/widget/form/JfFCfhH8lBBfZP26DxXr'>
+                <button className='ffc_3'>Text Alerts</button>
 </NavLink>
             
                 </div>
