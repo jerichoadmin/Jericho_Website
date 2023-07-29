@@ -56,7 +56,11 @@ function Seminars() {
             <div className='seminars_body_top'>
                 <h1>This Year's Workshops</h1>
                 <p>
-                Embark on a gardening adventure without breaking the bank! For a limited time, Jericho Nursery is offering their enriching workshops at an affordable price of just $10. As an added bonus, participants will receive a complimentary $10 gift card to the nursery, allowing you to kick-start your gardening journey with a selection of top-quality plants and gardening supplies. Take advantage of this exclusive offer during the off-season, in the fall and early spring, when you can devote ample time to learning and preparing for a bountiful gardening season ahead. Don't miss out on this incredible opportunity to learn, save, and cultivate your green thumb with Jericho Nursery's value-packed workshops!
+                Embark on a gardening adventure without breaking the bank! Don't miss out on this incredible opportunity to learn, save, and cultivate your green thumb with Jericho Nursery's value-packed workshops!
+
+
+
+                {/* For a limited time, Jericho Nursery is offering their enriching workshops at an affordable price of just $10. As an added bonus, participants will receive a complimentary $10 gift card to the nursery, allowing you to kick-start your gardening journey with a selection of top-quality plants and gardening supplies. Take advantage of this exclusive offer during the off-season, in the fall and early spring, when you can devote ample time to learning and preparing for a bountiful gardening season ahead.  */}
                 </p>
             </div>
 
@@ -75,8 +79,9 @@ function Seminars() {
            <div ref={revealRef1}>
           </div>
                 <ul>
-                    <h3>No Workshops Scheduled Currently</h3>
-                    <p>They will resume after Spring</p>
+                    <h3>Workshops this Month:</h3>
+                    <li>Irrigation Seminar with Veronica Serrano</li>
+                    <span>(Saturday August 5th, 10:00 am)</span>
                 </ul>
             </div>
             </div>
@@ -87,10 +92,13 @@ function Seminars() {
 
             <img alt='Workshops at Jericho Nursery' src={seminar_pic} className='seminar_pic'/>
             <div className='seminars_body_bottom'>
-                <h1> Sign Up For Workshops Below</h1>
+                <h1>Click the Button Below to Sign up for Workshops</h1>
         <div className='seminar_form'>
        
-        <p>No Seminars Currently</p>
+       <a href="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
+        <button className="seminar_button">Workshop Signup</button>
+       </a>
+
 
         </div>
             </div>
