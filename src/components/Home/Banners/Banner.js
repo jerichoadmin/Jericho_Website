@@ -24,13 +24,16 @@ function Banner() {
         data-aos-once="true"
         >
             <div className='b_2'>
-            <h4 className='b_h4'>Let us help you make you yard and Oasis in the SouthWest</h4>
-            <h1>Spring has Sprung</h1>
-            <h4 className='b_h4g'> See what's come in this week</h4>
+            <h4 className='b_h4'>Take advantage of the free</h4>
+            <h1>Workshop for August</h1>
+            <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Blog_Photos/irrigationseminar.png' alt='irrigation_workshop' className='banner_img1'/>
+            <h4 className='b_h4g'>Click the button below to sign up</h4>
             </div>
-            <NavLink to='/sales'>
-            <button>Browse Now</button>
-            </NavLink>
+         
+         <a href='https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE'>
+            <button>Workshop Sign Up</button>
+         </a>
+           
         </div>
         </div>
     </div>

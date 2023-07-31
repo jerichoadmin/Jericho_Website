@@ -133,6 +133,9 @@
     color: #95562e;
     transition: 1s
 }
+.banner_one{
+margin-top: 3rem;
+}
 
 @media (min-width:1025px) { 
 .welcome{

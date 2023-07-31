@@ -55,6 +55,7 @@
    font-size: 12pt;
    font-weight: 600;
    padding-top: 2vh;
+   padding-bottom: 0.5rem;
 }
 .banner button{
     height: auto;
@@ -76,6 +77,10 @@
     background-color: #ffffff;
     color: #DBBA4B;
 }
+.banner_img1{
+    margin-top: 1rem;
+    border-radius: 12px;
+}
 
 
 @media (min-width:1025px) { 
@@ -95,10 +100,17 @@ width: auto;
 }
 .b_h4g{
     font-size: 18pt;
+    
 }
 .banner button{
-    font-size: 18pt;
+    font-size: 18pt !important; 
     border-radius: 20px;
+}
+.banner_img1{
+height: 25vh;
+width: auto;
+align-self: center;
+
 }
 }
 
@@ -121,7 +133,7 @@ width: auto;
             font-size: 26pt;
         }
         .banner button{
-            font-size: 18pt;
+            font-size: 22pt !important; 
             border-radius: 20px;
         }
   }

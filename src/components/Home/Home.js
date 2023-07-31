@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import './Home.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'; 
+import Banner from './Banners/Banner'
 import Banner2 from './Banners/Banner2'
 import Banner3 from './Banners/Banner3';
 import NewThisWeek from '../Home/Containers/ThisWeek'
@@ -70,7 +71,21 @@ function Home() {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-          <NewintheBlog/>
+    <div 
+        data-aos="fade-up"
+        data-aos-offset="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-center"
+        className='banner_one'
+    >
+      <Banner/>
+    </div>
+
+
+  <NewintheBlog/>
     </div>
     <div 
         data-aos="fade-up"
