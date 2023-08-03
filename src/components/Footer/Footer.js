@@ -96,7 +96,7 @@ function Footer() {
         <div className='privacy'>
             <p>Jericho Nursery | 101 Alameda Blvd | (505) 899-7555</p>
             <p>Trademarked by Jericho Incoroprated -Privacy Policy</p>
-            <p>Hours: Monday-Saturday 9-6 | Sundays 11-5</p>
+            <p>Hours: Monday-Saturday 9-5 | Sundays 11-5</p>
         </div>
         <div className='jh_container'>
             <p className='jhp'>Created by Josh Hobson Web Development</p>
