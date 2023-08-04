@@ -96,7 +96,7 @@ function Gallery() {
     
   return (
     <div className='h_carousel'>
-      <h1>New This Week</h1>
+      <h1>Eye Candy</h1>
       {visible ? (<p>Swipe to see more photos..</p>) : ('')}
         <Slider {...settings} prevArrow={<PrevArrow />} nextArrow={<NextArrow />}>
             {galleryData.map((item) => (
