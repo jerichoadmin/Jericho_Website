@@ -120,7 +120,10 @@ function PreviewPost() {
 
 <div className='blog_body_mid'>
 <h1>{item.title2}</h1>
-{item.img_3_url && <img src={item.img_3_url} className='blog_img' alt=''/>}
+<span>{item.img_3_href}</span>
+<a href='https://www.google.com/'>
+  {item.img_3_url && <img src={item.img_3_url} className='blog_img' alt={item.img_3_alt_text}/>}
+  </a>
 {item.img_3_captions && <p>{item.img_3_captions}</p>}
 {item.img_4_url && <img src={item.img_4_url} className='blog_img' alt=''/>}
 {item.img_4_captions && <p className='blog_bold'>{item.img_4_captions}</p>}

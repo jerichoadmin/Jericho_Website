@@ -15,6 +15,7 @@ module.exports = {
         img_1_url: DataTypes.TEXT,
         img_2_url: DataTypes.TEXT,
         img_3_url: DataTypes.TEXT,
+        img_3_href: DataTypes.TEXT,
         img_4_url: DataTypes.TEXT,
         img_5_url: DataTypes.TEXT,
         img_6_url: DataTypes.TEXT,
