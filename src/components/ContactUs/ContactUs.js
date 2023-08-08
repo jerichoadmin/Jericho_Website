@@ -3,7 +3,7 @@ import './ContactUs.css'
 import MapButton from './MapButton'
 import EmailButton from './EmailButton'
 import CallButton from './CallButton'
-import cashhouse from '../../Assets/CashHouse.jpg'
+
 import { Helmet } from 'react-helmet'
 
 function ContactUs() {
@@ -28,7 +28,7 @@ function ContactUs() {
         <div className='contact_us_body'>
 
         <div className='contact_pic_container'>
-        <img alt='Jericho Nursery' src={cashhouse} className='contact_pic' />
+        <img alt='Jericho Nursery' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/EvergreenContent/cashHouse.jpg' className='contact_pic' />
         </div>
 
 
