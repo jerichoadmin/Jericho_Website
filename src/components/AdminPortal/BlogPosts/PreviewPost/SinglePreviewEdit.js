@@ -199,6 +199,16 @@ console.log(previewData)
           />
       </label>
       <label>
+        Image 3 HREF (link)
+        <input
+          type="text"
+          name="img_3_href"
+          value={formData.img_3_href}
+          placeholder={previewData.img_3_href}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
         Image 3 Caption
         <input
           type="text"

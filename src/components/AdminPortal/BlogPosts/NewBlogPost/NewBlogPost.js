@@ -26,6 +26,7 @@ const NewBlogPost = () => {
     img_1_url: ``,
     img_2_url: ``,
     img_3_url: ``,
+    img_3_href: ``,
     img_4_url: ``,
     img_5_url: ``,
     img_6_url: ``,
@@ -274,6 +275,15 @@ const NewBlogPost = () => {
           type="text"
           name="img_3_url"
           value={formData.img_3_url}
+          onChange={handleChange}
+          />
+      </label>
+      <label>
+        Image 3 HREF (link)
+        <input
+          type="text"
+          name="img_3_href"
+          value={formData.img_3_href}
           onChange={handleChange}
           />
       </label>
