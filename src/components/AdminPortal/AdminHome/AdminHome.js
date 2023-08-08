@@ -44,17 +44,19 @@ function AdminHome() {
       <NavLink to='/editsalespost'>
       <button>Edit/Delete/Wipe Sales Posts</button>
       </NavLink>
+      (Carousel near top of page)
       <NavLink to='/newgalleryimg'>
       <button>Add New this Week Img</button>
       </NavLink>
       <NavLink to='/deletegalleryimg'>
         <button>Delete New this Week Img</button>
       </NavLink>
+      (Carousel near bottom of page)
       <NavLink to='/newgallery2img'>
-      <button>Add Photos from Jericho Img</button>
+      <button>Add Photos to Jericho Img Carousel</button>
       </NavLink>
       <NavLink to='/deletegallery2img'>
-        <button>Delete Photos from Jericho Img</button>
+        <button>Delete Photos to Jericho Img Carousel</button>
       </NavLink>
      
 
