@@ -2,6 +2,7 @@ import React, {useState, useRef, useEffect} from 'react'
 import './Radio.css'
 import radiorick from '../../Assets/radiorick2.JPG'
 import RadioMic from '../../SVGs/RadioMic'
+import Countdown from './Countdown'
 import { Helmet } from 'react-helmet'
 
 function Radio() {
@@ -100,7 +101,20 @@ function Radio() {
         </p>
 </div>
      </div>
+      <h2 className='cdh2'>Countdown to the next show</h2>
+     <div className='countdown_container'>
+  <Countdown />
+</div>
+
 <div className='radio_body_bottom'>
+
+
+
+
+
+
+
+
   <div className='rbb_left'>
     <div className='rbb_pic'>
             <img className='kkob_banner' src='https://express-images.franklymedia.com/6616/sites/124/2020/12/14121100/GARDENTALK-768x180.jpg' alt='KKOB Garden Talk'/>
@@ -124,7 +138,7 @@ function Radio() {
 
 
   </div>
-
+ 
 
 </div>
 

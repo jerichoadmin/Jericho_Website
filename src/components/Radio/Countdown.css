@@ -1,0 +1,29 @@
+.countdown{
+  background-color: rgb(138, 98, 175);
+display: flex;
+justify-content: space-evenly;
+font-size: 16pt;
+font-weight: 600;
+border-radius: 10px;
+width: 78vw;
+padding: 0.75rem;
+border: 3px gray solid;
+
+}
+.countdown-item{
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+@media (min-width:1000px){
+
+  .countdown{
+  font-size: 24pt;
+  font-weight: 600;
+  width: 50vw;
+  }
+  .countdown-item{
+    padding: 1rem;
+  }
+
+}

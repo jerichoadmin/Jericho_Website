@@ -177,10 +177,18 @@ padding: 3rem 5rem;
     animation-fill-mode: forwards;
 }
 
+.countdown_container{
+display: flex;
+justify-content: center;
+padding-top: 1rem;
+}
+.cdh2{
+    font-size: 35pt !important;
+}
+
 @media (max-width: 2000px){
     .radio_body_bottom span{
         margin: 0;
-
     }
 }
 
@@ -298,6 +306,9 @@ margin-left: 0;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+}
+.cdh2{
+    font-size: 16pt !important;
 }
 
 }
