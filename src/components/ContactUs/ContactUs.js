@@ -49,7 +49,7 @@ function ContactUs() {
 
 
             <h1>Email</h1>
-            <p>manager@jerichonursery.com</p>
+            <p>Please Complete Captcha</p>
             <div className='email_button'>
             <EmailButton />
             </div>

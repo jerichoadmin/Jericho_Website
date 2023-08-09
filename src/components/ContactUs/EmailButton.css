@@ -1,0 +1,10 @@
+.email_container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-self: center;
+}
+.captcha_container{
+    display: flex;
+    align-self: center;
+}
