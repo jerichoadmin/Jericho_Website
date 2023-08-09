@@ -30,11 +30,12 @@ function EmailButton() {
     <div className='email_container'> 
       {isCaptchaVisible ? (
         <div className='captcha_container'>
-          <ReCAPTCHA
-            sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
-            
-            onChange={handleCaptchaChange}
-          />
+      {process.env.REACT_APP_RECAPTCHA_SITE_KEY && (
+  <ReCAPTCHA
+    sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+    onChange={handleCaptchaChange}
+  />
+)}
         </div>
       ) : (
         <button onClick={handleShowCaptcha}>Compose Email</button>
