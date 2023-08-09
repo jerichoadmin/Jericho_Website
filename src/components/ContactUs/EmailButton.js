@@ -46,9 +46,6 @@ function EmailButton() {
           Compose Email
         </button>
       )}
-            {isCaptchaVerified && (
-          <p>manager@jerichonursery.com</p>
-          )}
     </div>
   );
 }

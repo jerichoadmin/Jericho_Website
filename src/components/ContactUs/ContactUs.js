@@ -48,11 +48,11 @@ function ContactUs() {
             </div>
 
 
-            {/* <h1>Email</h1>
+            <h1>Email</h1>
             <p>Please Complete Captcha</p>
             <div className='email_button'>
             <EmailButton />
-            </div> */}
+            </div>
         </div>
 
 
