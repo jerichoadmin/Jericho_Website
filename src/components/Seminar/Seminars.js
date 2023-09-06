@@ -78,11 +78,11 @@ function Seminars() {
            <div className='seminars_list'>
            <div ref={revealRef1}>
           </div>
-                <ul>
+                {/* <ul>
                     <h3>Workshops this Month:</h3>
                     <li>Irrigation Seminar with Veronica Serrano</li>
                     <span>(Saturday August 5th, 10:00 am)</span>
-                </ul>
+                </ul> */}
             </div>
             </div>
       
