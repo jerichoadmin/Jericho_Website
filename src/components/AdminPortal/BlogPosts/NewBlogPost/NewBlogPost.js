@@ -262,7 +262,7 @@ const NewBlogPost = () => {
           onChange={handleChange}
           />
       </label>
-      <label className="rich-text">
+      <label className="rich-text-editor">
       Body 1
         <ReactQuill
           value={editorHtml}

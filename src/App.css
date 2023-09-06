@@ -50,6 +50,10 @@ table {
 
 
 /* .rich-text styles (specific) */
+.rich-text-editor{
+	padding: 100px;
+    margin-bottom: 100px;
+}
 .rich-text{
 	display: flex;
 	justify-content: center;
