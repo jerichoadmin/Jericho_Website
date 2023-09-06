@@ -14,9 +14,18 @@ import blog8 from '../../../../Assets/blogexample/b8.jpg'
 import blog9 from '../../../../Assets/blogexample/b9.jpg'
 import blog10 from '../../../../Assets/blogexample/b10.jpg'
 import blog11 from '../../../../Assets/blogexample/b11.jpg'
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+
 
 const NewBlogPost = () => {
   const navigate = useNavigate()
+
+  const [editorHtml, setEditorHtml] = useState('');
+
+  const handleEditorChange = (html) => {
+    setEditorHtml(html);
+  };
 
 
   const [formData, setFormData] = useState({
@@ -75,7 +84,10 @@ const NewBlogPost = () => {
     event.preventDefault();
 
     axios
-      .post("https://jericho-server-eb9k.onrender.com/postpreview", formData)
+      .post("https://jericho-server-eb9k.onrender.com/postpreview", {
+        ...formData,
+    body_1: editorHtml
+      })
       .then((response) => {
         Swal.fire({
           title: "Blog Preview Initiated",
@@ -104,6 +116,14 @@ const NewBlogPost = () => {
       [event.target.name]: event.target.value,
     });
   };
+
+  const toolbarOptions = [
+    [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+    ['bold', 'italic', 'underline', 'strike'],
+    [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+    ['link'],
+    ['clean'] 
+  ];
 
   return (
     <div className="newBlog">
@@ -242,14 +262,15 @@ const NewBlogPost = () => {
           onChange={handleChange}
           />
       </label>
-      <label>
-       Body 1
-        <textarea
-          type="text"
-          name="body_1"
-          value={formData.body_1}
-          onChange={handleChange}
-          />
+      <label className="rich-text">
+      Body 1
+        <ReactQuill
+          value={editorHtml}
+          onChange={handleEditorChange}
+          modules={{
+            toolbar: toolbarOptions,
+          }}
+        />
       </label>
       <label>
         Link

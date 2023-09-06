@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 
 
 
@@ -14,6 +16,8 @@ function SinglePreviewEdit({match}) {
   const { id } = useParams();
   const [formData, setFormData] = useState([]);
   const [previewData, setPreviewData] =useState([]);
+    const [editorHtml, setEditorHtml] = useState(previewData.body_1); // Initialize with the existing content
+
 
 useEffect(() => {
   axios.get(`https://jericho-server-eb9k.onrender.com/singlepreview/${id}`)
@@ -31,7 +35,10 @@ console.log(previewData)
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .put(`https://jericho-server-eb9k.onrender.com/editpreview/${id}`, formData)
+      .put(`https://jericho-server-eb9k.onrender.com/editpreview/${id}`, {
+        ...formData,
+        body_1: editorHtml
+      })
       .then((response) => {
         Swal.fire({
           title: "Preview Edited",
@@ -159,15 +166,21 @@ console.log(previewData)
           />
       </label>
       <label>
-       Body 1
-        <textarea
-          type="text"
-          name="body_1"
-          value={formData.body_1}
-          placeholder={previewData.body_1}
-          onChange={handleChange}
-          />
-      </label>
+  Body 1 preview:
+<p>
+{previewData.body_1 && (
+          <div className='rich-text'>
+  <div className="view ql-editor" dangerouslySetInnerHTML={{ __html: previewData.body_1 }}></div>
+            </div>
+)}
+</p>
+<br></br>
+Must Fully Rewrite Body 1 -
+  <ReactQuill
+    value={editorHtml}
+    onChange={setEditorHtml}
+  />
+</label>
       <label>
         Link
         <input

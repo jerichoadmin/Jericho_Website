@@ -3,6 +3,8 @@ import './PreviewPost.css'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 import { NavLink } from 'react-router-dom'
+import 'react-quill/dist/quill.snow.css';
+
 
 function PreviewPost() {
 
@@ -108,7 +110,14 @@ function PreviewPost() {
       <div className='blog_paragraph_top'>
         {item.body_img_1 && <img alt='' src={item.body_img_1} className='body_img_1'/>}
         {item.span_yellow && <span className='span_yellow'>{item.span_yellow}</span>}
-        {item.body_1 && <p>{item.body_1}</p>}
+{/* RICH TEXT */}
+        {item.body_1 && (
+          <div className='rich-text'>
+  <div className="view ql-editor" dangerouslySetInnerHTML={{ __html: item.body_1 }}></div>
+            </div>
+)}
+
+
         {item.link && <a href={item.link}  target="_blank" rel="noreferrer">
        <button>Link</button> 
          </a>}

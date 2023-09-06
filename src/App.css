@@ -8,10 +8,10 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, 
 article, aside, canvas, details, embed, 
@@ -33,9 +33,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -48,3 +46,49 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+/* .rich-text styles (specific) */
+.rich-text{
+	display: flex;
+	justify-content: center;
+	align-self: center !important;
+}
+.rich-text ol{  
+	list-style: decimal;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
+.rich-text ul {
+  list-style: circle;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+/* Increase specificity for strong and em elements within .rich-text */
+.rich-text strong {
+  font-weight: 800;
+}
+
+.rich-text em {
+  font-style: italic;
+}
+
+/* Override link styles within .rich-text */
+.rich-text a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.rich-text ol ol {
+  list-style-type: square; /* You can change this to your preferred style */
+  margin-left: 20px; /* Adjust the left margin to create further indentation */
+}
+.rich-text ul ul {
+	list-style-type: square; /* You can change this to your preferred style */
+	margin-left: 20px; /* Adjust the left margin to create further indentation */
+  }
+
