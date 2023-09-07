@@ -25,6 +25,7 @@
         width: 40vw;
         margin: 0.5rem;
         height: fit-content;
+
     }
     .mobile_logo{
         height: 1.5rem;
@@ -47,11 +48,16 @@
     }
     .navbar__dropdownItem_mobile{
     padding: 4rem 0.25rem;
+ 
     }
     .right_side_mobile_nav ul{
         animation: fadeInUp 0.5s;
         margin-top: 2.5rem;
-        justify-self: center;
+        justify-self: center; 
+        list-style-type: none;
+        padding: 0; 
+        margin: 0; 
+
     }
     .green_mn{
         border: #4FA673 2px solid;
