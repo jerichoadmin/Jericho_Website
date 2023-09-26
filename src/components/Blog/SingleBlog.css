@@ -242,6 +242,14 @@ padding: 2rem;
     font-size: 26pt !important;
     font-weight: 700;
 }
+.ql-editor{
+    margin: 2rem 10rem !important;
+    text-align: center !important;
+    line-height: 2 !important;
+    padding: 3rem 2rem;
+}
+
+
 
 
 @media screen and (max-width: 1200px),
@@ -290,6 +298,9 @@ screen and (max-height: 650px){
     .Single_Blog_Post p{
         font-size: 12pt;
         margin: 0;
+    }
+    .ql-editor{
+        margin: 0 !important;
     }
     .Single_Blog_Post button{
         font-size: 12pt;

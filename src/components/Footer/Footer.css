@@ -8,6 +8,12 @@
     font-style: normal;
     font-weight: 600;
 }
+.footer ul{
+    padding: 0;
+}
+.footer li{
+    padding: 0.25rem;
+}
 .f_1{
     margin: 2rem 0;
     background-color:  #1C1023;
