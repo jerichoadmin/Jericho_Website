@@ -46,7 +46,7 @@ import Art from './components/TypesofPlants/subpages/Art';
 import Fountains from './components/TypesofPlants/subpages/Fountains';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
-
+import Videos from './components/Videos/Videos'
 
 import './App.css';
 
@@ -86,6 +86,7 @@ function App() {
        <Route path='/gardenart' element={<Art />}/>
        <Route path='/fountains' element={<Fountains/>}/>
        <Route path='/employment' element={<WhyWorkHere />}/>
+       <Route path='/videos' element={<Videos />}/>
         <Route path='/adminhome' element={authCtx.token ? <AdminHome /> : <Navigate to='/login'/>}/>
         <Route path='/newblogpost' element={authCtx.token ? <NewBlogPost /> : <Navigate to='/login'/>}/>
         <Route path='/editpost' element={authCtx.token ? <EditBlogMain/> : <Navigate to='/login'/>}/>

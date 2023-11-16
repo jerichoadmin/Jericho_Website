@@ -7,6 +7,7 @@ import Banner2 from './Banners/Banner2'
 import Banner3 from './Banners/Banner3';
 import NewThisWeek from '../Home/Containers/ThisWeek'
 import JerichoMap from './Containers/JerichoMap'
+import VideosContainer from './Containers/VideosContainer'
 import GardeningCalendar from './Containers/GardeningCalendar'
 import NewintheBlog from './Containers/NewintheBlog'
 import Gallery from './Gallery/Gallery'
@@ -94,6 +95,17 @@ function Home() {
         data-aos-anchor-placement="top-center"
     >
           <GardeningCalendar />
+    </div>
+    <div 
+        data-aos="fade-up"
+        data-aos-offset="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-center"
+    >
+          <VideosContainer />
     </div>
     <div 
         data-aos="fade-up"

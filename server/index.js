@@ -8,7 +8,6 @@ const {SalesTable} = require('./models/salestable')
 
 
 
-
 const express = require('express')
 const cors = require('cors')
 
@@ -24,6 +23,7 @@ const {getPreviewTable, addPreview, deletePreview, editPreview, getSinglePreview
 
 const app = express();
 app.use(express.json())
+app.use(express.urlencoded({ extended: true }));
 app.use(cors())
 
 
@@ -68,6 +68,40 @@ app.get('/gallery2', getGalleryTable2)
 app.post('/newgallery2img', addNewGallery2Img)
 app.delete('/deletegallery2img/:gallerytable2id', deleteGallery2Img)
 
+
+//Video Portion
+const channelId = 'UCzQXGhQyfMHt_e8wH9drt7g';
+let cachedVideos = [];
+let lastUpdateTimestamp = 0;
+const updateInterval = 24 * 60 * 60 * 1000; 
+
+app.get('/api/latestVideos', async (req, res) => {
+  const currentTime = new Date().getTime();
+
+
+  if (currentTime - lastUpdateTimestamp > updateInterval) {
+    try {
+      const response = await axios.get(
+        `https://www.googleapis.com/youtube/v3/search?key=${process.env.YOUTUBE_API_KEY}&channelId=${channelId}&part=snippet,id&order=date&maxResults=4`
+      );
+
+      const data = response.data;
+
+      if (data.items.length > 0) {
+        cachedVideos = data.items.map((item) => ({
+          id: item.id.videoId,
+          snippet: item.snippet,
+        }));
+
+        lastUpdateTimestamp = currentTime;
+      }
+    } catch (error) {
+      console.error('Error fetching data: ', error);
+    }
+  }
+
+  res.json(cachedVideos);
+});
 
 
 

@@ -1,0 +1,101 @@
+.Videos{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#DBBA4B, #4BA7DB, #DB4BD5CF) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.videos_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 65vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color:  #DBBA4B;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.videos_welcome h1{
+    color: #4FA673;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.videos_welcome p{
+    padding: 1.5vw;
+}
+.videos_body_main{
+    background-image: linear-gradient(#b19c4a, #7271b7) ;
+    height: auto;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+}
+.video_bottom_half h4{
+margin: 2rem;
+font-size: 20px;
+font-weight: 600;
+color: white;
+}
+
+.vid_button{
+    height: auto;
+    width: auto;
+    background-color: #DBBA4B;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 1.5vh;
+    margin: 1vh;
+    cursor: pointer;
+    padding: 1rem;
+
+}
+.vid_button:hover{
+    background-color: #ffffff;
+  color: #DBBA4B;
+    transition: 1s;
+}
+
+
+
+
+
+
+@media (min-width:1025px) { 
+   
+    .videos_welcome{
+        font-size: 18pt;
+    }
+    .videos_welcome h1{
+        color: #4FA673;
+        font-size: 60pt;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+    .videos_welcome p{
+        padding: 1.5vw;
+    }
+
+
+
+
+
+}

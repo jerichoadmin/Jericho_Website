@@ -1,33 +1,35 @@
 import React from 'react'
-import './JerichoMap.css'
-import MapIcon from '../../../Assets/MapIcon.png'
-import banner from '../../../Assets/plants_banner.jpg'
+import './VideosContainer.css'
+import video from '../../../Assets/Video.png'
+import videocactus from '../../../Assets/videocactus.jpg'
 import { NavLink } from 'react-router-dom'
 
-function JerichoMap() {
+
+function VideosContainer() {
     return (
         <div className='home_container_outer'>
             <div className='jm_container'>
             <div className='home_container_header'>
                     <div className='map_icon'>
-                        <img  src={MapIcon} className="c_icon"alt=''/>
+                        <img  src={video} className="c_icon"alt=''/>
                     </div>
                     <div className='home_container_header_text'>
-                        <h3>Garden Center Map</h3>
+                        <h3>Jericho's Videos</h3>
                     </div>
             </div>
     
             <div className='hc_body'>
                     <div className='hc_img'>
-                        <img src={banner} className='c_image' alt=''/>
+                        <img src={videocactus} className='c_image' alt='Jericho_Videos'/>
     
                     </div>
                     <div className='jm_paragraph'>
                         <p>
-                Need some help finding what you are looking for? Click below to see a full map of Jericho Nursery.
+                        We have been creating more and more Youtube Videos for Gardeners who want to learn more and more about everything Albuquerque Gardening. Check out our Youtube page by clicking the button below!
                         </p>
-                        <NavLink to='/map'>
-                        <button className='newmap_button'>Go to the Map</button>
+            
+                        <NavLink to='/videos'>
+                        <button className='jm_button'>Go to our Videos Page</button>
                         </NavLink>
                     </div>
                     </div>
@@ -39,4 +41,4 @@ function JerichoMap() {
       )
 }
 
-export default JerichoMap;
+export default VideosContainer;

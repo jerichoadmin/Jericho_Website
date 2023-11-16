@@ -15,10 +15,10 @@
     padding: 2rem 1rem;
     line-height: 1.4;
 }
-.newmap_button{
+.jm_button{
     height: auto;
     width: auto;
-    background-color: #4FA673;
+    background-color: #DBBA4B;
     border: none;
     border-radius: 12px;
     font-family: 'Raleway';
@@ -31,14 +31,13 @@
     padding: 1rem;
     -webkit-box-shadow:0px 0px 47px 5px rgba(219,185,75,0.52);
 -moz-box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
-box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
+box-shadow: 0px 0px 47px 5px rgba(223, 171, 0, 0.52);
 }
-.newmap_button:hover{
+.jm_button:hover{
     background-color: #ffffff;
-    color: #4FA673;
+  color: #DBBA4B;
     transition: 1s;
 }
-
 .map_icon{
     padding-top: 0.75rem ;
 }
@@ -56,7 +55,7 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
         padding: 1rem;
         font-weight: 600;
     }
-.newmap_button{
+.jm_button{
     font-size: 18pt;
     border-radius: 20px;
     white-space: nowrap;
@@ -67,3 +66,5 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
 
 
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
