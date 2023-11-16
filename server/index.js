@@ -10,6 +10,7 @@ const {SalesTable} = require('./models/salestable')
 
 const express = require('express')
 const cors = require('cors')
+const axios = require('axios');
 
 
 
@@ -101,6 +102,7 @@ app.get('/api/latestVideos', async (req, res) => {
   }
 
   res.json(cachedVideos);
+
 });
 
 
