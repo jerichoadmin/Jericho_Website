@@ -7,7 +7,7 @@ const LatestYouTube = () => {
   useEffect(() => {
     const fetchVideos = async () => {
       try {
-        const response = await fetch('http://jerichonursery.com/api/latestVideos'); 
+        const response = await fetch('https://jericho-server-eb9k.onrender.com/api/latestVideos'); 
         const data = await response.json();
 
         if (data.length > 0) {
