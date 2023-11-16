@@ -1,6 +1,7 @@
 require('dotenv').config();
 const {sequelize} = require('./util/database')
 const {SERVER_PORT} = process.env
+const {REACT_APP_YOUTUBE_API_KEY} = process.env
 const {User} = require('./models/user')
 const {BlogTable} = require('./models/blogtable')
 const {SalesTable} = require('./models/salestable')
@@ -83,7 +84,7 @@ app.get('/api/latestVideos', async (req, res) => {
   if (currentTime - lastUpdateTimestamp > updateInterval) {
     try {
       const response = await axios.get(
-        `https://www.googleapis.com/youtube/v3/search?key=${process.env.YOUTUBE_API_KEY}&channelId=${channelId}&part=snippet,id&order=date&maxResults=4`
+        `https://www.googleapis.com/youtube/v3/search?key=${REACT_APP_YOUTUBE_API_KEY}&channelId=${channelId}&part=snippet,id&order=date&maxResults=4`
       );
 
       const data = response.data;
