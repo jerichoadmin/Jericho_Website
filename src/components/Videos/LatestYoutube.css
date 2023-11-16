@@ -50,8 +50,8 @@
 @media (max-width:850px) { 
     .youtube_frame{
     height: 200px;
-      width: 321px;
-        margin: 2rem;
+      width: 300px;
+    margin: 2rem;
     }
     .youtube_frame2{
         height: 200px;
@@ -60,6 +60,18 @@
     }
     .other_recents{
         margin: 1rem;
- 
+    }
+    .video_header{
+        font-size: 20pt
+    } 
+    .latest_video_frame{
+        margin: 1rem; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .video_p{
+        font-size: 12pt;
     }
 }
