@@ -80,7 +80,6 @@ const updateInterval = 24 * 60 * 60 * 1000;
 app.get('/api/latestVideos', async (req, res) => {
   const currentTime = new Date().getTime();
 
-
   if (currentTime - lastUpdateTimestamp > updateInterval) {
     try {
       const response = await axios.get(
@@ -90,12 +89,23 @@ app.get('/api/latestVideos', async (req, res) => {
       const data = response.data;
 
       if (data.items.length > 0) {
-        cachedVideos = data.items.map((item) => ({
-          id: item.id.videoId,
-          snippet: item.snippet,
-        }));
+        const videoIds = data.items.map((item) => item.id.videoId).join(',');
+        
+        // Make a request to get detailed video information
+        const videoDetailsResponse = await axios.get(
+          `https://www.googleapis.com/youtube/v3/videos?key=${REACT_APP_YOUTUBE_API_KEY}&id=${videoIds}&part=snippet,contentDetails`
+        );
 
-        lastUpdateTimestamp = currentTime;
+        const videoDetails = videoDetailsResponse.data.items;
+
+        if (videoDetails.length > 0) {
+          cachedVideos = videoDetails.map((item) => ({
+            id: item.id,
+            snippet: item.snippet,
+          }));
+
+          lastUpdateTimestamp = currentTime;
+        }
       }
     } catch (error) {
       console.error('Error fetching data: ', error);
@@ -103,8 +113,8 @@ app.get('/api/latestVideos', async (req, res) => {
   }
 
   res.json(cachedVideos);
-
 });
+
 
 
 

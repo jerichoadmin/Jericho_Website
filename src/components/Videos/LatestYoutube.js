@@ -24,7 +24,7 @@ const LatestYouTube = () => {
   return (
     <div>
       <div className='latest_video_frame'>
-        <h3 className='video_header'>Check out the lastest Jericho Nursery Video below</h3>
+        <h3 className='video_header'>Our Latest Video</h3>
         {videos.length > 0 && (
           <>
             <iframe
