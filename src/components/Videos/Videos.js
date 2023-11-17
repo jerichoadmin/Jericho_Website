@@ -1,6 +1,9 @@
 import React from 'react'
 import './Videos.css'
 import LatestYouTube from './LatestYoutube'
+import { Helmet } from 'react-helmet';
+
+
 
 
 
@@ -15,8 +18,11 @@ function Videos() {
 
   return (
     <div className='Videos'>
-
-
+         <Helmet>
+         <title>Jericho Nursery's Video Page</title>
+<meta name="description" content="Explore Jericho Nursery's collection of informative and engaging YouTube videos. Discover expert gardening tips, product reviews, and much more to enhance your gardening experience." />
+<meta name="keywords" content="Jericho Nursery, YouTube videos, gardening tips, plant care, gardening supplies, Albuqueruque, New Mexico, Southwest, xeric, xeriscape, flower, frequent, club, alameda, north valley, abq, horticulture, garden experts, hobson, jericho, nursery, all, your, yard, and, garden, needs" />
+      </Helmet>
 
 <div className='videos_welcome'>
             <h1>Jericho's Videos</h1>
