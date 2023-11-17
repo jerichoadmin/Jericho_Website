@@ -20,7 +20,7 @@ function Videos() {
     <div className='Videos'>
          <Helmet>
          <title>Jericho Nursery's Video Page</title>
-<meta name="description" content="Explore Jericho Nursery's collection of informative and engaging YouTube videos. Discover expert gardening tips, product reviews, and much more to enhance your gardening experience." />
+<meta name="description" content="Explore Jericho Nursery's collection of informative and engaging YouTube videos. Discover expert gardening tips, product reviews, and much more to enhance your gardening experience."/>
 <meta name="keywords" content="Jericho Nursery, YouTube videos, gardening tips, plant care, gardening supplies, Albuqueruque, New Mexico, Southwest, xeric, xeriscape, flower, frequent, club, alameda, north valley, abq, horticulture, garden experts, hobson, jericho, nursery, all, your, yard, and, garden, needs" />
       </Helmet>
 

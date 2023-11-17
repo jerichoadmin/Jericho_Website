@@ -150,12 +150,16 @@ function NavBarMobile() {
       <NavLink to='/blog'>
      <li className="navbar__dropdownItem_mobile">Blog and Gallery</li>
     </NavLink>
+    <NavLink to='/videos'>
+    <li className="navbar__dropdownItem_mobile">Videos</li>
+    </NavLink>
     <NavLink to='/gardeningcalendar'>
      <li className="navbar__dropdownItem_mobile">Gardening Calendar</li>
     </NavLink>
     <NavLink to='/gardenresources'>
-    <li className="navbar__dropdownItem">Garden Resources</li>
+    <li className="navbar__dropdownItem_mobile">Garden Resources</li>
     </NavLink>
+  
     <NavLink to='/login'>
     <li className="navbar__dropdownItem_mobile">Admin Login</li>
     </NavLink>

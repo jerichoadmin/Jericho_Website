@@ -79,6 +79,9 @@ function NavBarDesktop() {
           <NavLink to='/blog'>
          <li className="navbar__dropdownItem">Blog and Gallery</li>
         </NavLink>
+        <NavLink to='/videos'>
+          <li className="navbar__dropdownItem">Videos</li>
+        </NavLink>
         <NavLink to='/gardeningcalendar'>
          <li className="navbar__dropdownItem">Gardening Calendar</li>
         </NavLink>

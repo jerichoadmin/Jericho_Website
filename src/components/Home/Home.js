@@ -105,7 +105,8 @@ function Home() {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-          <VideosContainer />
+
+          <VideosContainer /> 
     </div>
     <div 
         data-aos="fade-up"
