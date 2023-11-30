@@ -94,6 +94,7 @@ function Home() {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
+
           <GardeningCalendar />
     </div>
     <div 
@@ -105,7 +106,7 @@ function Home() {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-
+   <Banner />
           <VideosContainer /> 
     </div>
     <div 
