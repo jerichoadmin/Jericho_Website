@@ -22,12 +22,13 @@ const [salesData, setSalesData] = useState([])
     function getCurrentWeekRange() {
       const today = new Date();
     
-      
+      // Set the start of the week to the current Thursday
       const startOfCurrentWeek = new Date(today);
       startOfCurrentWeek.setDate(today.getDate() - (today.getDay() + 3 + 7) % 7);
- 
+    
+      // Set the end of the week to the next Friday
       const endOfCurrentWeek = new Date(startOfCurrentWeek);
-      endOfCurrentWeek.setDate(startOfCurrentWeek.getDate() + 6);
+      endOfCurrentWeek.setDate(startOfCurrentWeek.getDate() + 8);
     
       const startDate = startOfCurrentWeek.toLocaleDateString();
       const endDate = endOfCurrentWeek.toLocaleDateString();
@@ -36,6 +37,8 @@ const [salesData, setSalesData] = useState([])
     }
     
     const currentWeekRange = getCurrentWeekRange();
+    
+    
   
   return (
     <div className='sales'>
