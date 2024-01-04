@@ -27,7 +27,7 @@
     font-weight: 700;
 }
 .seminars_welcome p{
-    padding: 1.5vw;
+    padding: 1rem 0rem;
 }
 
 .seminars_body_main{
@@ -181,10 +181,8 @@ width: 23rem;
         font-size: 50pt;
     }
     .seminars_body_mid{
-        height: 70vh;
         display: flex;
         justify-content: center;
-        flex-direction: row;
     }
 .seminars_icon{
     margin-top: 4rem;
@@ -212,8 +210,16 @@ width: 23rem;
     width: 35rem;
     }
     .seminar_button{
-        font-size: 18pt;
+        font-size: 24pt;
     }
+    .center_seminar_icon{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10rem;
+        margin-top: -10rem;
+    }
+
+
 
     @media screen 
     and (min-width: 900px) 
@@ -233,4 +239,15 @@ width: 23rem;
       opacity: 1; 
     }
   }
+}
+
+
+@media (min-width: 1500px) {
+    
+    .seminars_body_mid{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
 }

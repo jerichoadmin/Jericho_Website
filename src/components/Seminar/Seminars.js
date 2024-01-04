@@ -49,18 +49,18 @@ function Seminars() {
         <div className='seminars_welcome'>
             <h1>Workshops</h1>
         <p>
-        Ignite your passion for gardening at Jericho Nursery's engaging workshops! Join us as we delve into the world of practical plant knowledge and hands-on experience, covering everything from selecting the perfect plants to nurturing them with care.
+        Ignite your passion for gardening at Jericho Nursery's engaging workshops! Join us as we delve into the world of practical plant knowledge and hands-on experience.
         </p>
         </div>
         <div className='seminars_body_main'>
             <div className='seminars_body_top'>
                 <h1>This Year's Workshops</h1>
                 <p>
-                Embark on a gardening adventure without breaking the bank! Don't miss out on this incredible opportunity to learn, save, and cultivate your green thumb with Jericho Nursery's value-packed workshops!
+                {/* Embark on a gardening adventure without breaking the bank! Don't miss out on this incredible opportunity to learn, save, and cultivate your green thumb with Jericho Nursery's value-packed workshops!
+ */}
 
 
-
-                {/* For a limited time, Jericho Nursery is offering their enriching workshops at an affordable price of just $10. As an added bonus, participants will receive a complimentary $10 gift card to the nursery, allowing you to kick-start your gardening journey with a selection of top-quality plants and gardening supplies. Take advantage of this exclusive offer during the off-season, in the fall and early spring, when you can devote ample time to learning and preparing for a bountiful gardening season ahead.  */}
+                For a limited time, Jericho Nursery is offering their enriching workshops at an affordable price of just $10. As an added bonus, participants will receive a complimentary $10 gift card to the nursery, allowing you to kick-start your gardening journey with a selection of top-quality plants and gardening supplies. Take advantage of this exclusive offer during the off-season, in the fall and early spring, when you can devote ample time to learning and preparing for a bountiful gardening season ahead. 
                 </p>
             </div>
 
@@ -69,20 +69,49 @@ function Seminars() {
 <div className='s_inner_decoy'>
             <div className='s_decoy'>
             </div>
+<div className="center_seminar_icon">
             <div id='movingDiv'>
     <div className={isAnimateds ? "s_visible" : "reveal-content"}><SeminarIcon /></div>
             </div>
+</div>
     </div>
 </div>
 
            <div className='seminars_list'>
            <div ref={revealRef1}>
           </div>
-                {/* <ul>
+                <ul>
                     <h3>Workshops this Month:</h3>
-                    <li>Irrigation Seminar with Veronica Serrano</li>
-                    <span>(Saturday August 5th, 10:00 am)</span>
-                </ul> */}
+
+                    <li>Introductory Beekeeping with Justin Armstrong</li>
+                    <span>(Saturday January 13th, 2:00 pm)</span>
+
+                    <li>Tree pruning with certified arborist Steve Bell</li>
+                    <span>(Saturday January 27th, 2:00 pm)</span>
+
+                    <li>Gardening Q&A with Richard Hobson</li>
+                    <span>(February 10th, 2:00 pm)</span>
+
+                    <li>Beekeeping 102 with Justin Armstrong</li>
+                    <span>(February 24th, 2:00 pm)</span>
+
+                    <li>Creating Combo Baskets with Milt McLain</li>
+                    <span>(Saturday March 2nd, 2:00 pm)</span>
+
+                    <li>Growing Food with Jennifer Hobson</li>
+                    <span>(Saturday March 9th, 2:00 pm)</span>
+
+                    <li>Q&A with Richard and Jennifer</li>
+                    <span>(Saturday March 16th, 2:00 pm)</span>
+
+                    <li>Rose Pruning with Marisa Thompson</li>
+                    <span>(Saturday March 23rd, 2:00 pm)</span>
+
+                    <li>Growing Chile with "Big Jim" Wagne</li>
+                    <span>(Saturday March 30th, 2:00 pm)</span>
+
+
+                </ul>
             </div>
             </div>
       
@@ -95,10 +124,10 @@ function Seminars() {
                 <h1>Click the Button Below to Sign up for Workshops</h1>
         <div className='seminar_form'>
        
-       {/* <a href="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
+       <a href="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
         <button className="seminar_button">Workshop Signup</button>
-       </a> */}
-       <span>No workshops available at this time</span>
+       </a>
+       {/* <span>No workshops available at this time</span> */}
 
 
         </div>

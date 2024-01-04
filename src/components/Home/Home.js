@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import Banner from './Banners/Banner'
 import Banner2 from './Banners/Banner2'
 import Banner3 from './Banners/Banner3';
+import Banner4 from './Banners/Banner4';
 import NewThisWeek from '../Home/Containers/ThisWeek'
 import JerichoMap from './Containers/JerichoMap'
 import VideosContainer from './Containers/VideosContainer'
@@ -94,7 +95,7 @@ function Home() {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-
+   <Banner4 />
           <GardeningCalendar />
     </div>
     <div 
@@ -106,7 +107,7 @@ function Home() {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-   <Banner />
+
           <VideosContainer /> 
     </div>
     <div 
@@ -121,7 +122,7 @@ function Home() {
           <JerichoMap />
     </div>
 
-    <Banner2 />
+    <Banner />
     <Gallery2 />
     <MoreAboutJericho />
     <Banner3 />
