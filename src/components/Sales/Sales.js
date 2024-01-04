@@ -21,21 +21,21 @@ const [salesData, setSalesData] = useState([])
   
     function getCurrentWeekRange() {
       const today = new Date();
+    
       
       const startOfCurrentWeek = new Date(today);
-      startOfCurrentWeek.setDate(today.getDate() - (today.getDay() + 2) % 7); 
-  
-
+      startOfCurrentWeek.setDate(today.getDate() - (today.getDay() + 3 + 7) % 7);
+ 
       const endOfCurrentWeek = new Date(startOfCurrentWeek);
-      endOfCurrentWeek.setDate(startOfCurrentWeek.getDate() + 6); 
-  
+      endOfCurrentWeek.setDate(startOfCurrentWeek.getDate() + 6);
+    
       const startDate = startOfCurrentWeek.toLocaleDateString();
       const endDate = endOfCurrentWeek.toLocaleDateString();
       const weekRange = `${startDate} - ${endDate}`;
       return weekRange;
-  }
-  
-  const currentWeekRange = getCurrentWeekRange();
+    }
+    
+    const currentWeekRange = getCurrentWeekRange();
   
   return (
     <div className='sales'>
