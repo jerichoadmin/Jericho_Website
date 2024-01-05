@@ -49,9 +49,17 @@ top: -10px;
     align-self: center;
     padding: 1rem;
   }
+  @media (min-width:851px) { 
+    .home_gallery_photo{
+    
+      width: 45vw;
+      object-fit: cover;
+  }
+
+  }
 
 
-  @media (min-width:1281px) { 
+  @media (min-width:1481px) { 
     .h_carousel{
         align-self: center;
         width: 100vw;
@@ -63,8 +71,6 @@ top: -10px;
       padding-top: 200px;
       z-index: 3;
     }
-
-    
     .home_gallery_photo{
         height: 31rem;
         width: 40rem;

@@ -50,9 +50,6 @@ function Partners() {
                     <a href='https://www.justsprinklers.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
                     <img src={logo2} alt='Just Sprinklers' className='partner_logos'/>
                     </a>
-                    <a href='https://www.rehmsnurserynm.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
-                    <img src={logo3} alt='Rehms Nursery' className='partner_logos'/>
-                    </a>
                     <a href='http://www.soilmender.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
                     <img src={logo4} alt='Soil Mender' className='partner_logos'/>
                     </a>

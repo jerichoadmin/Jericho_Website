@@ -84,6 +84,38 @@
 .todo{
     color: rgb(146, 23, 140);
 }
+.application{
+    border: #242424 4px solid; 
+    border-radius: 20px;
+    width: 40vw;
+    align-self: center;
+    padding: 1rem;
+    margin: 2rem;
+    font-weight: 600;
+}
+
+.application_button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #db9256;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 14pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.application_button:hover{
+    background-color: #ffffff;
+    color: #db9256;
+    transition: 1s
+}
+
 
 @media (min-width:1025px) { 
     .employment{

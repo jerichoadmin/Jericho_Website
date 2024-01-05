@@ -62,6 +62,14 @@ We offer health insurance, 401K & paid vacation after meeting longevity requirem
 <img src={shovel} className='employment_shovel' alt='Employment at Jericho Nursery'/>
 
 
+
+{/* <div className='application'>
+  <div className='application_inner'>
+  <p>Donwload the Printable Application here</p>
+  <button className='application_button'>Application Download</button>
+  </div>
+</div> */}
+
         
         
 </div>
