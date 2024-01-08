@@ -87,7 +87,7 @@
 .application{
     border: #242424 4px solid; 
     border-radius: 20px;
-    width: 40vw;
+    width: 60vw;
     align-self: center;
     padding: 1rem;
     margin: 2rem;
@@ -98,11 +98,11 @@
     height: auto;
     width: auto;
     padding: 1rem 1.25rem;
-    background-color: #db9256;
+    background-color: #DBBA4B;
     border: none;
     border-radius: 12px;
     font-family: 'Raleway';
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 600;
     color: white;
     align-self: center;
@@ -112,11 +112,79 @@
 }
 .application_button:hover{
     background-color: #ffffff;
-    color: #db9256;
+    color: #DBBA4B;;
     transition: 1s
 }
+.work_icon_outer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    font-weight: 600;
+}
+.work_icon_item{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    aspect-ratio: 1;
+}
+.work_icon_item img{
+    padding: 1rem;
+    z-index: 4;
+}
+.work_cal{
+    height: 5rem ;
+}
+.work_community{
+    height: 3.7rem ;
+}
+.work_sun{
+    height: 5rem ;
+}
+.work_growth{
+    height: 4.2rem ;
+}
 
-
+.work_icon_item {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .work_icon_item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #242424;
+    transition: left 0.3s ease;
+  }
+  
+  .work_icon_item:hover::before {
+    left: 0;
+  }
+  
+  .work_icon_item:hover {
+    border-radius: 20px;
+  }
+  
+  .work_icon_item:hover h4 {
+    color: #4FA673;
+    transition: color 0.3s ease;
+    background-color: #242424;
+  }
+  
+  .work_icon_item h4 {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  
+  
 @media (min-width:1025px) { 
     .employment{
         font-size: 18pt;
@@ -146,6 +214,47 @@
         margin: 2rem 10rem;
         text-align: center;
     }
+
+    .work_icon_outer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        font-weight: 600;
+        font-size: 24pt;
+    }
+
+    .work_icon_item{
+        margin: 2rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        aspect-ratio: 1;
+    }
+
+    .work_icon_item img{
+        padding: 4rem;
+    }
+    .work_cal{
+        height: 10rem ;
+    }
+    .work_community{
+        height: 8.7rem ;
+    }
+    .work_sun{
+        height: 10rem ;
+    }
+    .work_growth{
+        height: 8.4rem ;
+    }
+
+    .application_button{
+        font-size: 18pt;
+    }
+
+
 }
 
 @media (min-width:2025px) { 
@@ -153,5 +262,58 @@
         margin: 2rem 30rem;
         text-align: center;
     }
+    
+    .work_icon_outer{
+        display: flex;
+        align-self: center;
+        justify-content: space-evenly;
+        font-weight: 600;
+        font-size: 24pt;
+    }
+
+    .work_icon_item{
+        width: 25rem;
+        margin: 2rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        aspect-ratio: 1;
+    }
+
+    .work_icon_item img{
+        padding: 4rem;
+    }
+
+    .work_cal{
+        height: 10rem ;
+    }
+    .work_community{
+        height: 8.7rem ;
+    }
+    .work_sun{
+        height: 10rem ;
+    }
+    .work_growth{
+        height: 8.4rem ;
+    }
+    .employment_shovel{
+        align-self: center;
+        height: 40rem;
+        object-fit: cover;
+        width: 90%;
+        border-radius: 20px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin: 3rem;
+    }
+    .application_button{
+        font-size: 22pt;
+    }
+
+
 
 }
+
+

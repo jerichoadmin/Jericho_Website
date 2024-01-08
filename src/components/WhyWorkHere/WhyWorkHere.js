@@ -3,8 +3,34 @@ import './WhyWorkHere.css'
 import plants from '../../Assets/holding_plants.jpg'
 import shovel from '../../Assets/shovel.jpg'
 import { Helmet } from 'react-helmet'
+import ApplicationPDF from '../../Assets/Jericho-Nursery-Application-for-Employment.pdf'
+import cal from '../../Assets/Cal.png'
+import sun from '../../Assets/sun.png'
+import commuity from '../../Assets/Community.png'
+import growth from '../../Assets/growth.png'
 
 function WhyWorkHere() {
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = ApplicationPDF;
+    link.download = 'JerichoNurseryApplication.pdf';
+
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
+  };
+
+
+
+
+
+
+
+
+
   return (
     <div className='employment'>
 <Helmet>
@@ -41,9 +67,31 @@ We offer health insurance, 401K & paid vacation after meeting longevity requirem
 
 
 
+<div className='work_icon_outer'>
 
 
-<h3>Embrace the Beauty of Nature</h3>
+<div className='work_icon_item'>
+  <h4>Join a Passionate Community</h4>
+  <img src={commuity} alt='' className='work_community'/>
+</div>
+<div className='work_icon_item'>
+  <h4>Soak up the Sun</h4>
+  <img src={sun} alt='' className='work_sun'/>
+</div>
+<div className='work_icon_item'>
+  <h4>Seasonal Excitement</h4>
+  <img src={cal} alt='' className='work_cal'/>
+</div>
+<div className='work_icon_item'>
+  <h4>Growth Potential</h4>
+  <img src={growth} alt='' className='work_growth'/>
+</div>
+
+
+
+</div>
+
+{/* <h3>Embrace the Beauty of Nature</h3>
   <p>
     As a member of our Garden Center team, you'll have the opportunity to immerse yourself in a vibrant world of colors, fragrances, and serenity. With each passing season, you'll witness the magic of nature unfold, whether it's the blossoming flowers of spring or the vibrant hues of autumn foliage.
   </p>
@@ -58,17 +106,20 @@ We offer health insurance, 401K & paid vacation after meeting longevity requirem
 <h2>Growth Potential</h2>
 <p>
  If you excel in your role and demonstrate dedication, our Garden Center offers the possibility of advancement. Take on leadership responsibilities, supervise seasonal staff, and expand your horizons within our growing organization. We believe in nurturing talent and empowering individuals to reach their full potential.
-</p>
+</p> */}
+
 <img src={shovel} className='employment_shovel' alt='Employment at Jericho Nursery'/>
 
 
 
-{/* <div className='application'>
-  <div className='application_inner'>
-  <p>Donwload the Printable Application here</p>
-  <button className='application_button'>Application Download</button>
-  </div>
-</div> */}
+<div className='application'>
+      <div className='application_inner'>
+        <p>Download the Printable Application here</p>
+        <button className='application_button' onClick={handleDownload}>
+          Application Download
+        </button>
+      </div>
+    </div>
 
         
         
