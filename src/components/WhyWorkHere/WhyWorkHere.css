@@ -232,6 +232,7 @@
         justify-content: center;
         box-sizing: border-box;
         aspect-ratio: 1;
+        z-index: 4;
     }
 
     .work_icon_item img{
