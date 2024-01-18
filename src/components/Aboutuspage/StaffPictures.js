@@ -8,70 +8,52 @@ function StaffPictures() {
 
     const staff_pics = [
         {
-            src: "https://drive.google.com/uc?export=view&id=1tT3gvk-PnmYUhK5BDDC9nu76fqBsWI39",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Richard-1.jpg",
             name: 'Richard',
             position: 'Co-Owner'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1ddNuoNew6_mwEK9mqy4XDjPATDZvKWuq",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Jennifer.jpg",
             name: 'Jennifer',
             position: 'Co-Owner'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1X_7he1xEXee8LSNr9v1XybbPyuJ6MQ6E",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Jesse.png",
             name: 'Jesse',
             position: 'Manager'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=15dF-elxEMFnwr0ZWA1eCXtOyGdsaWVr0",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/gary.jpg",
             name: 'Gary',
             position: 'Gardening Angel'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1wFLm16pOgRN6NW64WlMOXRFJvwEKRB8y",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/alfredo.jpg",
             name: 'Alfredo',
             position: 'Gardening Angel'
             
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1iEBgB8sO1pD6so1qt1kzTBY9VgD37fUR",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/download.jpg",
             name: 'Pam',
             position: 'Gardening Angel'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1gqJj86Aw9z93okvoKSBvKsIwPr-XzGJH",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/kiana.jpg",
             name: 'Kiana',
             position: 'Gardening Angel'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1ZhJAEtxoDnOAD7BXf2b7DxSab5icOhnx",
-            name: 'Mesha',
-            position: 'Gardening Angel'
-        },
-        {
-            src: "https://drive.google.com/uc?export=view&id=1dhYMbNdPa4T5R58PpPsOQU6jU8lMAWOc",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/scott.png",
             name: 'Scott',
             position: 'Gardening Angel'
         },
         {
-            src: "https://drive.google.com/uc?export=view&id=1oI9LbUrcXXzuIsf3nvo88bpixDUK-Xnj",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Chantelle.png",
             name: 'Chantelle',
             position: 'Gardening Angel'
         },
      
-        {
-            src: "https://drive.google.com/uc?export=view&id=1SCDBLV-qZ-bX8BrYO0oIJmuYUxGujvLu",
-            name: 'Nick',
-            position: 'Gardening Angel'
-        },
-     
-        {
-            src: "https://drive.google.com/uc?export=view&id=1dq3Kuc0Y3MAOKD8dn75RfDgvoellDQwu",
-            name: 'Jessie',
-            position: 'Gardening Angel'
-        }
-     
-    
     ]
 
 

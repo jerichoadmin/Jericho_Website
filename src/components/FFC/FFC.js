@@ -44,19 +44,14 @@ function FFC() {
             </div>
 
             <div className='ffc_body_bottom'>
-                <h1 className='w_you_get'>What you Get</h1>
-                <div className='b_h'>
+
+                <div className='new_statement'>
                
-               <div className='b_h_list'>
-                   <h2> These are the things we gurantee: </h2>
-                        <li>One Postcard Quarterly</li>
-                        <li>That Postcard will have a discount</li>
-                        <li>Enrollment to our email Newsletter to stay up to date with all Jericho events</li>
-                <img alt='Frequent Flower Club Logo' src={ffc3} className='ffc3_s'/>
-               </div>
-                
-             
-                <img alt='Frequent Flower Club at Jericho Nursery' src={arches} className='ffc_arches'/>
+                    <h2>There are changes coming soon!</h2>
+
+                    <p>Keep an eye out for our new Frequent Flower Club Loyalty Program. It's still in the works right now, but we are developing a new system that will reward our valued customers for their loyalty and frequent visits. As a member of our Frequent Flower Club, you can expect exclusive perks, special discounts, and exciting bonuses.</p>
+
+         
                 </div>
 
 
