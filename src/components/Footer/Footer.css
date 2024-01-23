@@ -155,7 +155,9 @@
     font-size: 10pt;
     font-weight: 500;
 }
-
+.nav-link{
+    text-decoration: underline !important;
+}
 }
 
 @media screen 
@@ -168,4 +170,5 @@
     padding: 0.5rem;
     margin-top: 10rem;
 }
+
 }

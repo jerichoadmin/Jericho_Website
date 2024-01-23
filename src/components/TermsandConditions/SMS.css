@@ -1,0 +1,48 @@
+
+.sms_terms_outer{
+    height: auto;
+    background-color: #818080;
+    text-align: left;
+    padding: 0.25rem;
+}
+.sms_terms_inner{
+margin: 0 1rem;
+}
+.sms_terms_inner h1{
+font-size: 2rem;
+padding: 0.5rem;
+}
+.sms_terms_inner ul{
+    line-height: 1.5;
+}
+.sms_terms_inner li{
+    padding: 0.5rem;
+}
+
+
+
+
+
+@media (min-width:1025px) { 
+    .sms_terms_outer{
+    height: auto;
+    background-color: #818080;
+    text-align: left;
+}
+.sms_terms_inner{
+    margin: 0 5rem;
+    padding: 2rem;
+}
+.sms_terms_inner h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.sms_terms_inner ul{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.sms_terms_inner li{
+    padding: 1rem;
+}
+}
+

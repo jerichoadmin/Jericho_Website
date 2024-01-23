@@ -47,6 +47,8 @@ import Fountains from './components/TypesofPlants/subpages/Fountains';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 import Videos from './components/Videos/Videos'
+import SMS from './components/TermsandConditions/SMS';
+import PrivacyPolicy from './components/TermsandConditions/PrivacyPolicy';
 
 import './App.css';
 
@@ -87,6 +89,8 @@ function App() {
        <Route path='/fountains' element={<Fountains/>}/>
        <Route path='/employment' element={<WhyWorkHere />}/>
        <Route path='/videos' element={<Videos />}/>
+       <Route path='/smsterms' element={<SMS />}/>
+       <Route path='/privacy-policy' element={<PrivacyPolicy />}/>
         <Route path='/adminhome' element={authCtx.token ? <AdminHome /> : <Navigate to='/login'/>}/>
         <Route path='/newblogpost' element={authCtx.token ? <NewBlogPost /> : <Navigate to='/login'/>}/>
         <Route path='/editpost' element={authCtx.token ? <EditBlogMain/> : <Navigate to='/login'/>}/>
