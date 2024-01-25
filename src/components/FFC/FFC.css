@@ -234,14 +234,14 @@
     transition: 1s
 }
 .changes{
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     z-index: 7 !important;
     margin-top: 4rem;
     text-decoration: underline;
 }
 .changes_p{
-    margin: 1rem 10rem;
+    margin: 1rem 2rem;
 }
 
 
@@ -318,8 +318,11 @@
     .f_f button{
         font-size: 18pt;
     }
+    .changes{
+        font-size: 3rem;
+    }
     .changes_p{
-        margin: 1rem 3rem;
+        margin: 1rem 10rem;
     }
     
 
