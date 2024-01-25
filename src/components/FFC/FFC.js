@@ -30,10 +30,23 @@ function FFC() {
 
 <div className='ffc_body'>
             <div className='ffc_body_top'>
-                <h1 className='w_it_is'>What it is</h1>
-                <img alt='Frequent Flower Club Logo' src={ffc3} className='ffc3'/>
-                <p>
-                We are asked for our email address hundreds of times for every time we are asked for our mailing address, right? Well, the form you see on this screen really does ask for your mailing address, because several times a year we will be sending cards to members of the Jericho Frequent Flower Club. The cards will contain something of value, and we will be asking for your phone number as you check out in order to have a record of your choice to shop Jericho for all your yard and garden needs. 
+           
+                {/* <img alt='Frequent Flower Club Logo' src={ffc3} className='ffc3'/> */}
+
+
+
+                <h2 className='changes'>There are changes coming soon!</h2>
+
+                <p className='changes_p'>
+                Thank you so much for your interest in Jericho’s Frequent Flower Club. We are in the process of
+                transitioning to a more user-friendly platform. For the time being, we will not be mailing out discount
+                postcards, but you can go ahead and sign-up now so that you’re entered and ready when we launch. Our
+                new program will enable us to give you coupons, discounts, &amp; other special advantages in a variety of
+                ways. We hope this will include using your loyalty rewards towards purchases at the register and so much
+                more. Please fill the form out completely to take advantage of every benefit we want to offer our loyalty
+                customers. We hope to have our new program up and running sometime this spring. Keep an eye on our
+                website for more information. Come and grow with us as we venture into a more innovative way to
+                reward your loyalty!
 
                 <br></br>
                 <br></br>
@@ -45,14 +58,7 @@ function FFC() {
 
             <div className='ffc_body_bottom'>
 
-                <div className='new_statement'>
-               
-                    <h2>There are changes coming soon!</h2>
-
-                    <p>Keep an eye out for our new Frequent Flower Club Loyalty Program. It's still in the works right now, but we are developing a new system that will reward our valued customers for their loyalty and frequent visits. As a member of our Frequent Flower Club, you can expect exclusive perks, special discounts, and exciting bonuses.</p>
-
-         
-                </div>
+              
 
 
                 <h1 className='h_to_join'>How to Join</h1>

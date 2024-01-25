@@ -233,8 +233,16 @@
     color: #95562E;
     transition: 1s
 }
-
-
+.changes{
+    font-size: 3rem;
+    color: white;
+    z-index: 7 !important;
+    margin-top: 4rem;
+    text-decoration: underline;
+}
+.changes_p{
+    margin: 1rem 10rem;
+}
 
 
 
@@ -310,6 +318,10 @@
     .f_f button{
         font-size: 18pt;
     }
+    .changes_p{
+        margin: 1rem 3rem;
+    }
+    
 
 
 
