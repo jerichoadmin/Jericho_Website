@@ -136,7 +136,12 @@
 .banner_one{
 margin-top: 3rem;
 }
-
+.weather_warning{
+    color: white;
+    font-weight: 700;
+    background-color: #242424;
+    padding: 2rem;
+}
 
 @media (min-width:1025px) { 
 .welcome{
