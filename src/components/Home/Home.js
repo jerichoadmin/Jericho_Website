@@ -54,9 +54,9 @@ function Home() {
 </div>
 </div>
 
-<div className='weather_warning'>
+{/* <div className='weather_warning'>
   <h1>SNOW DAY: Jericho Nursery Is Closed 2/10/2024 </h1>
-</div>
+</div> */}
 
 <div className='hours_and'>
 <CallButton />
