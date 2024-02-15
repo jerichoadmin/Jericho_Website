@@ -54,9 +54,9 @@ function Home() {
 </div>
 </div>
 
-<div className='weather_warning'>
+{/* <div className='weather_warning'>
   <h1>Valentine's Day Special: Fresh Cut Flowers! See Blog Below for more Details.</h1>
-</div>
+</div> */}
 
 <div className='hours_and'>
 <CallButton />
