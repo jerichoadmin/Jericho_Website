@@ -28,6 +28,7 @@ function Blog() {
       })
       .catch((err) => {
         console.log(err);
+        setLoading(false);
       });
   }, [offset]);
 
@@ -64,12 +65,16 @@ function Blog() {
   };
 
   const handleSearch = (searchTerm) => {
+    console.log(blogData); // Debug: What does the blogData look like?
     const filtered = blogData[0]?.rows?.filter((post) => {
       return post.tags && post.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()));
     });
-    setFilteredPosts(filtered);
+    console.log(filtered); // Debug: What does the filtered result look like?
+    setFilteredPosts(filtered || []);
   };
   
+
+
 
 
 
@@ -82,7 +87,7 @@ function Blog() {
         <meta property='og:description' content='Discover helpful gardening tips, plant care advice, and more on the Jericho Nursery blog.' />
         <meta property='og:image' content='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/swgarden.jpg' />
         <meta property='og:type' content='website' />
-        {/* Add more og meta tags here if needed */}
+
       </Helmet>
 
       <div className='blog_welcome'>
@@ -93,9 +98,9 @@ function Blog() {
         </p>
       </div>
 
-      <div>
+      {/* <div>
         <TagSearchBar tags={blogData[0]?.rows?.map((post) => post.tags).flat()} handleSearch={handleSearch} />
-      </div>
+      </div> */}
 
       {loading ? (
         <div className='loading_anim'>

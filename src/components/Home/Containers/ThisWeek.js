@@ -19,7 +19,7 @@ function NewThisWeek() {
           });
       }, []);
 
-console.log(salesData)
+
 
 const firstImage = salesData.filter((item, index) => index === 0)[0]?.img_url;
 const secondImage = salesData.filter((item, index) => index === 1)[0]?.img_url;

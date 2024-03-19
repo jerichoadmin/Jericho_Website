@@ -2,27 +2,30 @@
     height: 500px;
     width: 800px;
     margin: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 .youtube_frame2{
     height: 400px;
     width: 600px;
     margin: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 .video_header{
     font-size: 50pt;
     font-weight: 600;
-    padding-top: 1rem;
-    color:rgb(12, 89, 133);
+    color:white;
+    margin: 1.5rem;
+
 }
 .video_header2{
     font-size: 40pt;
     font-weight: 600;
     padding-top: 1rem;
-    color:rgb(12, 133, 117);
+    color:white;
+    margin: 1.5rem;
 }
 .other_recents{
     margin: 5rem;
-    border: 6px solid #4FA673;; 
     border-radius: 20px;
 }
 .recent-videos{
@@ -37,24 +40,26 @@
 }
 .video_p{
     color: white;
-    font-size: 14pt;
+    font-size: 18pt;
     font-weight: 500;
     margin: 0rem 5rem;
     margin-bottom: 1rem;
-    background-color: #24242452;
     padding: 1rem;
     border-radius: 20px;
-    width: 40vw;
+    width: 75vw;
+    line-height: 1.8;
 }
 .latest_video_frame{
     margin: 5rem;
-    border: 6px solid #DBBA4B;
     border-radius: 20px; 
 
 }
 .latest_video_frame_outer{
     display: flex;
     justify-content: center;
+    background-color: #24242452;
+    border-radius: 20px;
+    margin: 3rem;
 }
 
 
@@ -84,15 +89,16 @@
     }
     .latest_video_frame_outer{
         display: block;
+        margin: 1rem;
     }
     .video_p{
         font-size: 12pt;
-        width: 60vw;
+        width: 80vw;
+        line-height: 1.8;
     }
     .video_header2{
         font-size: 20pt;
         font-weight: 600;
         padding-top: 1rem;
-        color:rgb(12, 133, 117);
     }
 }
