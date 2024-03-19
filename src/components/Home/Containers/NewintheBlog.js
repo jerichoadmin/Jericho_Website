@@ -40,7 +40,7 @@ function NewintheBlog() {
                  
 <div className='blog_card_container'>
             {blogData && blogData[0] && blogData[0].rows && (
-        <div>
+        <div className='blog_card_container_img'>
     <img
       src={blogData[0].rows[0].img_1_url}
       className='home_blog_card'

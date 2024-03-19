@@ -35,10 +35,10 @@
 }
 
 .sales_body{
-    margin: 2rem;
+    margin: 1rem;
     padding-top: 2rem;
     background-color: #24242433;
-    width: 85vw;
+    width: 92vw;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@
     background-color: #1a2136;
     border: 3px solid #e0e0e0;
     padding: 1rem;
-    margin: 2rem;
+    margin: 1rem;
     box-sizing: border-box;
     border-radius: 12px;
 -webkit-box-shadow:0px 0px 19px 11px rgba(189,189,107,0.18);
@@ -78,15 +78,26 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     justify-content: center;
 }
 .sales_card_img{
-    height: 35vh;
-    width: 60vw;
+    height: 40vh;
+    width: 70vw;
     object-fit: cover;
     border-radius: 12px;
     padding: 0.5rem;
 }
 
+.sales_body_header h1{
+    font-size: 20pt;
+    font-weight: 700;
+    color: #DBBA4B;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.sales_card_bottom{
+    padding-top: 0.5rem;
+}
 
-@media (min-width:1025px) { 
+
+
+@media (min-width: 1024px) { 
     .sales{
         font-size: 18pt;
     }
@@ -117,6 +128,7 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 .sales_body{
     margin-bottom: 6rem;
     padding-bottom: 4rem;
+    width: 80vw;
 }
 .sales_card h1{
     font-size: 32pt;
@@ -135,7 +147,7 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     border: 4px solid #e0e0e0;
 }
 .sales_card_img{
-    height: 30vh;
+    height: 35vh;
     width: 50vw;
     border-radius: 20px;
 }
@@ -144,7 +156,8 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 @media (min-width:1225px) {
 .sales_card{
     height: auto;
-    width: 42vw;
+    width: 45vw;
+    padding: 2rem;
 }
 .sales_body{
     width: 65vw;
@@ -158,12 +171,23 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     padding: 0.5vw;
 }
 }
+
+
+@media (min-width:1600px) {
+    .sales_card_img{
+        height: 45vh;
+    }
+
+}
+
+
+
 @media (min-width:2000px) {
     .sales_card{
         width: 42vw;
     }
     .sales_card_img{
-        height: 55vh;
+        height: 60vh;
         width: 40vw;
         border-radius: 20px;
     }
@@ -176,7 +200,6 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 
 .sales_card_img{
     height: 70vh;
-
     border-radius: 20px;
 }
 }
