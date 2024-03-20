@@ -84,6 +84,9 @@ padding: 2rem;
     height: 200px !important;
 }
 
+.quill{
+    height: 45vh;
+}
 
 
 @media (max-width: 750px){ 

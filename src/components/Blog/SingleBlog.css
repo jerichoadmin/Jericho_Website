@@ -68,7 +68,7 @@
     border-radius: 20px;
     box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
     height: auto;
-    width: 40vw;
+    width: 50vw;
     align-self: center;
     object-fit: cover;
 }
@@ -80,6 +80,14 @@
     max-width: 85vw;
     align-self: center;
     object-fit: cover;
+}
+
+
+.left_8 img{
+    width: 50vw;
+}
+.right_9 img{
+    width: 50vw;
 }
 
 
@@ -249,7 +257,12 @@ padding: 2rem;
     padding: 3rem 2rem;
 }
 
+@media (max-width: 1600px){
+    .blog_img{
+        width: 60vw;
+    }
 
+}
 
 
 @media screen and (max-width: 1200px),
@@ -263,8 +276,9 @@ screen and (max-height: 650px){
         font-size: 16pt !important;
         font-weight: 700;
     }
-
 }
+
+
 @media (max-width: 1050px){
     .left_8{
         flex-direction: column;

@@ -1,6 +1,6 @@
 .h_carousel{
     height: auto;
-    background-color: #242424;
+    background-color: #295e57c4;
     margin-top: 10rem;
     color: white;
 }
@@ -12,6 +12,15 @@
     font-size: 30pt;
     font-weight: 800;
     padding: 2rem;
+    font-family: Kaushan Script;
+    text-shadow: 
+    1px 1px 0 #e5c100,
+    2px 2px 0 #cba900,
+    3px 3px 0 #b0a200,
+    4px 4px 0 #968b00,
+    5px 5px 0 #7d7400,
+    6px 6px 0 #645d00,
+    7px 7px 0 #4a4600;
 }
 .home_photo_gallery_container{
     height: 35rem;
@@ -49,11 +58,15 @@ top: -10px;
     align-self: center;
     padding: 1rem;
   }
+
+
   @media (min-width:851px) { 
     .home_gallery_photo{
-    
       width: 45vw;
       object-fit: cover;
+  }
+  .h_carousel h1{
+    font-size: 50pt;
   }
 
   }

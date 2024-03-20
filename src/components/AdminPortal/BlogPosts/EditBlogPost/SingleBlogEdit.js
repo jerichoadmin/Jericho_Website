@@ -193,6 +193,7 @@ Must Rewrite -
   <ReactQuill
     value={editorHtml}
     onChange={setEditorHtml}
+    className='quill-edit'
   />
 </label>
       <label>
