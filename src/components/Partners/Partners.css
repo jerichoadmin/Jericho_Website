@@ -130,7 +130,7 @@
 .lp_img_container img{
     width: 25vw;
     padding: 1rem;
-    height: max-content;
+    height: auto;
 }
 .lp_img_container img:hover{
     filter: drop-shadow(0px 4px 4px rgb(253, 253, 253));

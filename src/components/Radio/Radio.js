@@ -1,6 +1,9 @@
 import React, {useState, useRef, useEffect} from 'react'
 import './Radio.css'
-import radiorick from '../../Assets/radiorick2.JPG'
+import logo1 from '../../Assets/bacastrees.jpg'
+import logo2 from '../../Assets/justsprinklers.jpg'
+import logo4 from '../../Assets/soilmender.jpg'
+import soil from '../../Assets/soilutionslogo.png'
 import RadioMic from '../../SVGs/RadioMic'
 import Countdown from './Countdown'
 import { Helmet } from 'react-helmet'
@@ -88,7 +91,9 @@ function Radio() {
 
 <div ref={revealRefRadio}> </div>
             <div className='radio_rick_container'>
-        <img alt='Rick Hobson, Host of Garden Talk' src={radiorick} className='radio_rick'/>
+       
+            <img className='radio_rick' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/RickTV.PNG' alt='Rick Hobson Radio Show'/>
+
             </div>
     
 
@@ -107,6 +112,8 @@ function Radio() {
 </div>
 
 <div className='radio_body_bottom'>
+
+
 
 
 
@@ -142,7 +149,36 @@ function Radio() {
 
 </div>
 
+<div className='radio_sponsors'>
+
+<h1>Garden Talk Sponsors</h1>
+
+<p>
+Support the proud sponsors of Jericho Nursery's Garden Talk Radio Show.
+</p>      
+<div className='radio_sponsor_pics'>
+  <a href='https://www.bacastrees.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
+  <img src={logo1} alt='Baca Trees' className='partner_logos_radio'/>
+  </a>
+  <a href='https://www.justsprinklers.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
+  <img src={logo2} alt='Just Sprinklers' className='partner_logos_radio'/>
+  </a>
+  <a href='http://www.soilmender.com/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
+  <img src={logo4} alt='Soil Mender' className='partner_logos_radio'/>
+  </a>
+  <a href='https://soilutions.net/' target="_blank"  rel="noreferrer"  title='Take me to their Website!'>
+  <img src={soil} alt='Soilutions' className='partner_logos_radio'/>
+  </a>
+</div>
+  
+
+
+</div>
+
+
         </div>
+
+        
     </div>
   )
 }

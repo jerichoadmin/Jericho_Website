@@ -186,6 +186,27 @@ padding-top: 1rem;
     font-size: 35pt !important;
 }
 
+
+.radio_sponsors h1{
+    font-size: 34pt;
+}
+.radio_sponsors p{
+    margin: 1rem;
+    font-size: 16pt;
+}
+.partner_logos_radio{
+    width: 12vw;
+}
+.radio_sponsor_pics{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+.radio_sponsors h1{
+color: #DBBA4B;
+}
+
+
 @media (max-width: 2000px){
     .radio_body_bottom span{
         margin: 0;
@@ -193,6 +214,11 @@ padding-top: 1rem;
 }
 
 
+@media screen and (max-width: 1400px){
+.radio_rick{
+    width: 40vw;
+}
+}
 
 @media screen and (max-width: 1200px),
 screen and (max-height: 650px){
@@ -213,8 +239,8 @@ padding: 1rem;
 margin-left: -2.5rem;
 margin-bottom: 4rem;
     }
-
 }
+
 
 @media (max-width: 950px){
 .radio_body_main{
@@ -309,6 +335,16 @@ margin-left: 0;
 }
 .cdh2{
     font-size: 16pt !important;
+}
+.radio_sponsor_pics{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 50px;
+}
+.partner_logos_radio{
+    width: 30vw;
+ 
 }
 
 }
