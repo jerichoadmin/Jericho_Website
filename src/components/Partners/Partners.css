@@ -44,6 +44,17 @@
     margin-bottom: 10vh;
     border-radius: 20px;
 }
+.partners_body_two{
+        background-image: linear-gradient(#b19c4a, #7271b7) ;
+    height: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+}
 .partners_body_top p{
     color: white;
     padding: 0 10vw;
@@ -55,9 +66,10 @@
 }
 .partners_body_top h1{
     color:  #DBBA4B;
-    font-size: 26pt;
+    font-size: 30pt;
     font-weight: 700;
     padding: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
 }
 .gts_pics{
     display: flex;
@@ -68,7 +80,7 @@
 
 .partner_logos{
     height: auto;
-    width: 50vw;
+    width: 45vw;
     padding: 1rem;
     border-radius: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -102,12 +114,23 @@
 }
 .lp_img_container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
+
+
+.lp_img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .lp_img_container img{
-    width: 60vw;
-    padding: 2rem;
+    width: 25vw;
+    padding: 1rem;
+    height: max-content;
 }
 .lp_img_container img:hover{
     filter: drop-shadow(0px 4px 4px rgb(253, 253, 253));
@@ -116,6 +139,103 @@
     font-size: 20pt;
     font-weight: 800 ;
 }
+
+.partner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.partner button{
+   padding: 0.5rem 1rem;
+   font-size: 14pt;
+   background-color: #afaaaa;
+   border: none;
+}
+
+.gts_bios{
+    margin: 1rem;
+}
+
+.gts_bios h2{
+    font-size: 22pt;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.gts_bios button{
+  background-color: transparent;
+  border: none;  
+  font-size: 20pt;
+  color: white;
+}
+.gts_bios p{
+text-align: left;
+padding: 0rem;
+padding-top: 1rem;
+}
+
+.gts_bio_one{
+    background-color: #747272;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.gts_bio_one_inner{
+    display: flex;
+}
+.gts_bio_two{
+    background-color: #747272;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.gts_bio_two_inner{
+    display: flex;
+}
+.gts_bio_three{
+    background-color: #747272;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.gts_bio_three_inner{
+    display: flex;
+}
+.gts_bio_four{
+    background-color: #747272;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.gts_bio_four_inner{
+    display: flex;
+}
+.gts_bios div {
+    overflow: hidden;
+    transition: max-height 3s ease; 
+    max-height: 80px;
+}
+
+.gts_bios .gts_bio_one.expanded,
+.gts_bios .gts_bio_two.expanded,
+.gts_bios .gts_bio_three.expanded,
+.gts_bios .gts_bio_four.expanded {
+    max-height: 700px; 
+
+}
+
+@media (min-width:750px) { 
+    .partner_logos{
+        width: 35vw;
+    }
+}
+
 
 @media (min-width:1025px) { 
 .partners_welcome{
@@ -134,8 +254,14 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.gts_bios h2{
+    font-size: 26pt;
+}
+.partners_body p{
+    margin: 1rem;
+}
 .partner_logos{
-    width: 20vw;
+    width: 16vw;
 }
 .partners_conclusion{
     width: auto;
@@ -160,13 +286,34 @@ width: 10vw !important;
 .partners_body_bottom h1{
     font-size: 40pt;
     font-weight: 800 ;
+    margin: 2.5rem;
+}
+}
+@media (min-width:1200px) { 
+
+.partner_logos{
+    width: 20vw;
+}
+.gts_pics{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content:space-evenly;
+    gap: 50px;
+}
+.lp_img_container img{
+    width: 15vw;
+}
 }
 
-}
-
-@media (min-width:2025px) { 
+@media (min-width:1800px) { 
+    .gts_pics{
+        display: flex;
+    }
+    
     .partner_logos{
-        width: 12vw;
+
+        width: 14.5vw;
     }
 .lp_img_container{
     display: flex;
@@ -174,14 +321,15 @@ width: 10vw !important;
     justify-content: space-around;
 }
 .lp_img_container img{
-    width: 15vw;
+    width: 8vw;
     padding: 2rem;
 }
 .ecm{
-width: 10vw !important;
+width: 6vw !important;
 }
 .millers{
     margin-top: 6rem;
     height: 10vh !important;
 }
+
 }

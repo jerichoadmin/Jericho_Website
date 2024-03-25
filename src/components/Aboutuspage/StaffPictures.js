@@ -53,6 +53,26 @@ function StaffPictures() {
             name: 'Chantelle',
             position: 'Gardening Angel'
         },
+        {
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Andie.jpg",
+            name: 'Andie',
+            position: 'Gardening Angel'
+        },
+        {
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Kelly.jpg",
+            name: 'Kelly',
+            position: 'Gardening Angel'
+        },
+        {
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Anna%20Lisa.jpg",
+            name: 'Anna Lisa',
+            position: 'Gardening Angel'
+        },
+        {
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Heather.jpg",
+            name: 'Heather',
+            position: 'Gardening Angel'
+        },
      
     ]
 
