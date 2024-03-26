@@ -17,6 +17,7 @@ import MoreAboutJericho from './MoreAboutJericho/MoreAboutJericho'
 import CallButton from '../ContactUs/CallButton';
 import MapButtonHome from './MapButtonHome';
 import HoursButton from './HoursButton';
+import Popup from './Popup/Popup';
 
 import { Helmet } from 'react-helmet';
 
@@ -54,9 +55,7 @@ function Home() {
 </div>
 </div>
 
-{/* <div className='weather_warning'>
-  <h1>Valentine's Day Special: Fresh Cut Flowers! See Blog Below for more Details.</h1>
-</div> */}
+<Popup />
 
 <div className='hours_and'>
 <CallButton />
