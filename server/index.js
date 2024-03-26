@@ -22,6 +22,7 @@ const {getSalesTable, addNewSalesPost, deleteSalesPost, deleteAllSalesPost, edit
 const {getGalleryTable, addNewGalleryImg, deleteGalleryImg} = require('./controllers/gallerytable')
 const {getGalleryTable2, addNewGallery2Img, deleteGallery2Img} = require('./controllers/gallerytable2')
 const {getPreviewTable, addPreview, deletePreview, editPreview, getSinglePreview} = require('./controllers/previewtable')
+const {getPopup, addPopup} = require('./controllers/popup')
 
 const app = express();
 app.use(express.json())
@@ -43,7 +44,6 @@ app.get('/singleblog/:id', getSingleBlogTable)
 app.post('/newblogpost', addNewBlogPost)
 app.delete('/newblogpost/:blogtableid', deleteBlogPost)
 app.put('/editblogpost/:blogtableid', editBlogPost)
-
 
 
 app.get('/preview', getPreviewTable)
@@ -69,6 +69,10 @@ app.delete('/deletegalleryimg/:gallerytableid', deleteGalleryImg)
 app.get('/gallery2', getGalleryTable2)
 app.post('/newgallery2img', addNewGallery2Img)
 app.delete('/deletegallery2img/:gallerytable2id', deleteGallery2Img)
+
+app.get('/popup', getPopup)
+app.post('/addpopup', addPopup)
+
 
 
 //Video Portion

@@ -12,6 +12,9 @@
     justify-content: center;
     flex-direction: column;
 }
+.admin_options a{
+    margin: 0rem 15rem;
+}
 .admin_home button{
     margin: 2rem;
     padding: 1rem;

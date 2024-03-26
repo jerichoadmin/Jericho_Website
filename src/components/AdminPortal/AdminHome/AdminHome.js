@@ -58,6 +58,11 @@ function AdminHome() {
       <NavLink to='/deletegallery2img'>
         <button>Delete Photos to Jericho Img Carousel</button>
       </NavLink>
+
+    <span>new</span>
+    <NavLink>
+      <button>Pop-Up</button>
+    </NavLink>
      
 
       </div>
