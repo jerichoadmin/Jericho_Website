@@ -1,10 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Popup.css';
 
 function Popup() {
   const [isVisible, setIsVisible] = useState(true);
 
+  useEffect(() => {
+    // Check localStorage if the popup has been closed previously
+    const isPopupClosed = localStorage.getItem('popupClosed');
+    if (isPopupClosed === 'true') {
+      setIsVisible(false);
+    }
+  }, []);
+
   const handleClose = () => {
+    // Set localStorage flag to indicate that the popup has been closed
+    localStorage.setItem('popupClosed', 'true');
     setIsVisible(false);
   };
 
