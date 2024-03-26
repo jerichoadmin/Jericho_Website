@@ -12,7 +12,11 @@ module.exports = {
             primaryKey: true
         },
         notice: DataTypes.TEXT,
-        date: DataTypes.DATE,
+        date: {
+            type: DataTypes.DATE,
+            allowNull: false,
+            defaultValue: DataTypes.NOW 
+          },
         createdAt: {
             type: DataTypes.DATE,
             allowNull: true
