@@ -60,7 +60,7 @@ function AdminHome() {
       </NavLink>
 
     <span>new</span>
-    <NavLink>
+    <NavLink to='/popupform'>
       <button>Pop-Up</button>
     </NavLink>
      

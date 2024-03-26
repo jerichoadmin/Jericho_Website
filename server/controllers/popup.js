@@ -17,7 +17,7 @@ module.exports = {
     }, 
     addPopup: async (req, res) => {
         try {
-            const { notice, date } = req.body;
+            const { notice } = req.body;
             await Popup.destroy({ truncate: true }); // Remove existing popups before adding a new one
             await Popup.create({ notice, date });
             res.sendStatus(200);
