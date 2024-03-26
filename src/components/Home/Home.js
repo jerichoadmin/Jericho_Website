@@ -56,7 +56,7 @@ function Home() {
 </div>
 </div>
 
-<Popup />
+{/* <Popup /> */}
 
 <div className='hours_and'>
 <CallButton />
