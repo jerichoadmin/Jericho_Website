@@ -19,7 +19,7 @@ module.exports = {
         try {
             const { notice } = req.body;
             await Popup.destroy({ truncate: true }); // Remove existing popups before adding a new one
-            await Popup.create({ notice, date });
+            await Popup.create({ notice });
             res.sendStatus(200);
         } catch (error) {
             console.log("ERROR IN addPopup");

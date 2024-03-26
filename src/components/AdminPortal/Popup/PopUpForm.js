@@ -5,8 +5,7 @@ import Swal from "sweetalert2";
 
 const PopUpForm = () => {
   const [popupFormData, setPopupFormData] = useState({
-    notice: ``,
-    date: ``
+    notice: ``
   });
 
   const handleSubmit = (event) => {
@@ -46,7 +45,7 @@ const PopUpForm = () => {
         <form onSubmit={handleSubmit} className="popup_form">
           <label>
             Notice
-            <textarea
+            <input
               type="text"
               name="notice"
               value={popupFormData.notice}
