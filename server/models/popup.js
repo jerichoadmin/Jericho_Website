@@ -17,6 +17,11 @@ module.exports = {
             allowNull: false,
             defaultValue: DataTypes.NOW 
           },
+          isVisible: {
+            type: DataTypes.BOOLEAN,
+            allowNull: false,
+            defaultValue: false 
+        },
         createdAt: {
             type: DataTypes.DATE,
             allowNull: true

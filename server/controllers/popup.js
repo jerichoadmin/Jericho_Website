@@ -1,4 +1,5 @@
-require("dotenv").config();
+// controllers/popupController.js
+
 const { Popup } = require('../models/popup');
 
 module.exports = {
@@ -25,6 +26,25 @@ module.exports = {
             console.log("ERROR IN addPopup");
             console.log(error);
             res.sendStatus(400);
+        }
+    },
+    togglePopupVisibility: async (req, res) => {
+        try {
+            const popup = await Popup.findOne({
+                order: [['popupid', 'DESC']]
+            });
+
+            if (!popup) {
+                return res.sendStatus(404); 
+            }
+
+            await popup.update({ isVisible: !popup.isVisible });
+
+            res.sendStatus(200);
+        } catch (error) {
+            console.log('ERROR IN togglePopupVisibility');
+            console.log(error);
+            res.sendStatus(500);
         }
     }
 };

@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import axios from "axios";
 import './PopUpForm.css';
 import Swal from "sweetalert2";
+import Popup from "../../Home/Popup/Popup";
 
 const PopUpForm = () => {
   const [popupFormData, setPopupFormData] = useState({
-    notice: ``
+    notice: ''
   });
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -20,6 +22,7 @@ const PopUpForm = () => {
           customClass: "buttonalert",
           confirmButtonText: "Ok"
         });
+ 
       })
       .catch((error) => {
         console.log(error);
@@ -39,8 +42,16 @@ const PopUpForm = () => {
     });
   };
 
+
+
   return (
     <div className="create_popup">
+   
+      <div className="toggle_popup">
+        <button>Pop Up Toggle</button>
+      </div>
+
+    
       <div className="create_popup_body">
         <form onSubmit={handleSubmit} className="popup_form">
           <label>
@@ -52,11 +63,11 @@ const PopUpForm = () => {
               onChange={handleChange}
             />
           </label>
-        
-
           <button type="submit">Add Popup</button>
         </form>
       </div>
+
+ 
     </div>
   );
 };

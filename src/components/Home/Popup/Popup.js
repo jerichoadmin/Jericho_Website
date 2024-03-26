@@ -2,12 +2,11 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Popup.css';
 
-function Popup() {
-  const [isVisible, setIsVisible] = useState(true);
+function Popup({  }) {
+  const [isOpen, setIsOpen] = useState(true);
   const [popUpData, setpopUpData] = useState([]);
 
   useEffect(() => {
-    // Fetch pop-up data from the server
     axios
       .get("https://jericho-server-eb9k.onrender.com/popup")
       .then((res) => {
@@ -19,21 +18,20 @@ function Popup() {
   }, []);
 
   const handleClose = () => {
-    // Set localStorage flag to indicate that the popup has been closed
-    localStorage.setItem('popupClosed', 'true');
-    setIsVisible(false);
+    setIsOpen(false); // Close popup for user
+    localStorage.setItem('popupClosed', 'true'); // Set local storage to prevent popup from showing again
   };
 
   // useEffect(() => {
-  //   // Check localStorage if the popup has been closed previously
+  //   // Check if the popup has been closed previously
   //   const isPopupClosed = localStorage.getItem('popupClosed');
   //   if (isPopupClosed === 'true') {
-  //     setIsVisible(false);
+  //     setIsOpen(false); // Close popup if it has been closed previously
   //   }
   // }, []);
 
   return (
-    isVisible && (
+    isOpen && (
       <div className='popup_outer_shell'>
         <div className='popup_dark_background'>
           <div className='popup_inner'>
