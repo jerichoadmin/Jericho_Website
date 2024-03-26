@@ -22,7 +22,7 @@ const {getSalesTable, addNewSalesPost, deleteSalesPost, deleteAllSalesPost, edit
 const {getGalleryTable, addNewGalleryImg, deleteGalleryImg} = require('./controllers/gallerytable')
 const {getGalleryTable2, addNewGallery2Img, deleteGallery2Img} = require('./controllers/gallerytable2')
 const {getPreviewTable, addPreview, deletePreview, editPreview, getSinglePreview} = require('./controllers/previewtable')
-const {getPopup, addPopup} = require('./controllers/popup')
+const {getPopup, addPopup, togglePopupVisibility} = require('./controllers/popup')
 
 const app = express();
 app.use(express.json())
@@ -72,6 +72,7 @@ app.delete('/deletegallery2img/:gallerytable2id', deleteGallery2Img)
 
 app.get('/popup', getPopup)
 app.post('/addpopup', addPopup)
+app.post('/togglepopup', togglePopupVisibility)
 
 
 
