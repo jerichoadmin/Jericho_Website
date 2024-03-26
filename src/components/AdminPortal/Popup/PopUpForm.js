@@ -1,20 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './PopUpForm.css';
 import Swal from "sweetalert2";
-import Popup from "../../Home/Popup/Popup";
 
 const PopUpForm = () => {
   const [popupFormData, setPopupFormData] = useState({
     notice: ''
   });
+  const [isPopupOn, setIsPopupOn] = useState(false);
 
+  useEffect(() => {
+    // Fetch the current state of the popup
+    axios.get("https://jericho-server-eb9k.onrender.com/popup")
+      .then(response => {
+        setIsPopupOn(response.data); // Assuming the response is a boolean
+      })
+      .catch(error => {
+        console.error('Error fetching Popup state:', error);
+      });
+  }, []);
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
     axios
-    .post("https://jericho-server-eb9k.onrender.com/addpopup", popupFormData)
+      .post("https://jericho-server-eb9k.onrender.com/addpopup", popupFormData)
       .then((response) => {
         Swal.fire({
           title: "Popup Added",
@@ -22,7 +32,6 @@ const PopUpForm = () => {
           customClass: "buttonalert",
           confirmButtonText: "Ok"
         });
- 
       })
       .catch((error) => {
         console.log(error);
@@ -42,16 +51,37 @@ const PopUpForm = () => {
     });
   };
 
-
+  const togglePopup = () => {
+    axios
+      .post("https://jericho-server-eb9k.onrender.com/togglepopup")
+      .then((response) => {
+        setIsPopupOn(prevState => !prevState); // Toggle the state
+        Swal.fire({
+          title: "Popup Toggled",
+          confirmButtonColor: "rgb(210, 161, 12)",
+          customClass: "buttonalert",
+          confirmButtonText: "Ok"
+        });
+      })
+      .catch((error) => {
+        console.log(error);
+        Swal.fire({
+          title: "Error toggling Popup",
+          confirmButtonColor: "orange",
+          customClass: "buttonalert",
+          confirmButtonText: "Ok"
+        });
+      });
+  };
 
   return (
     <div className="create_popup">
-   
       <div className="toggle_popup">
-        <button>Pop Up Toggle</button>
+        <button onClick={togglePopup}>
+          {isPopupOn ? " Turn Pop Up Off" : "Turn Pop Up On"}
+        </button>
       </div>
 
-    
       <div className="create_popup_body">
         <form onSubmit={handleSubmit} className="popup_form">
           <label>
@@ -66,8 +96,6 @@ const PopUpForm = () => {
           <button type="submit">Add Popup</button>
         </form>
       </div>
-
- 
     </div>
   );
 };
