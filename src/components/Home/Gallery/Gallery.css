@@ -3,6 +3,7 @@
     background-color: #295e57c4;
     margin-top: 10rem;
     color: white;
+   padding-bottom: 5vh; 
 }
 .home_gallery_card{
     margin-top: 2rem;
@@ -94,4 +95,28 @@ top: -10px;
         font-weight: 800;
         padding: 2rem;
     }
+  }
+
+
+  
+  @media (min-width:1650px) {
+    .home_gallery_photo{
+      height: 35rem;
+      width: 50rem;
+      object-fit: cover;
+  }
+  .home_photo_gallery_container{
+    height: auto;
+}
+  }
+
+  @media (min-width:2030px) {
+        .home_gallery_photo{
+      height: 36rem;
+      width: 40rem;
+      object-fit: cover;
+  }
+  .home_photo_gallery_container{
+    height: 38rem;
+}
   }

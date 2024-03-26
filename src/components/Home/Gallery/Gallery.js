@@ -39,10 +39,29 @@ function Gallery() {
         className: "center",
         centerMode: true,
         infinite: true,
+        dots: true,
         centerPadding: "10px",
         slidesToShow: 3,
         speed: 500,
         responsive: [
+          {
+            breakpoint: 2024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 1824,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
           {
             breakpoint: 1424,
             settings: {
