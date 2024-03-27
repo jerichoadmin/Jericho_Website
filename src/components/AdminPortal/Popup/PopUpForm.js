@@ -9,16 +9,7 @@ const PopUpForm = () => {
   });
   const [isPopupOn, setIsPopupOn] = useState(false);
 
-  useEffect(() => {
-    // Fetch the current state of the popup
-    axios.get("https://jericho-server-eb9k.onrender.com/popup")
-      .then(response => {
-        setIsPopupOn(response.data); // Assuming the response is a boolean
-      })
-      .catch(error => {
-        console.error('Error fetching Popup state:', error);
-      });
-  }, []);
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -55,7 +46,7 @@ const PopUpForm = () => {
     axios
       .post("https://jericho-server-eb9k.onrender.com/togglepopup")
       .then((response) => {
-        setIsPopupOn(prevState => !prevState); // Toggle the state
+        setIsPopupOn(prevState => !prevState); 
         Swal.fire({
           title: "Popup Toggled",
           confirmButtonColor: "rgb(210, 161, 12)",
