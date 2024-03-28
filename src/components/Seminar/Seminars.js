@@ -121,13 +121,13 @@ function Seminars() {
 
             <img alt='Workshops at Jericho Nursery' src={seminar_pic} className='seminar_pic'/>
             <div className='seminars_body_bottom'>
-                <h1>Click the Button Below to Sign up for Workshops</h1>
+                {/* <h1>Click the Button Below to Sign up for Workshops</h1> */}
         <div className='seminar_form'>
        
-       <a href="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
+       {/* <a href="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
         <button className="seminar_button">Workshop Signup</button>
-       </a>
-       {/* <span>No workshops available at this time</span> */}
+       </a> */}
+       <span>Our last Workshop is at capacity. Thank you.</span>
 
 
         </div>
