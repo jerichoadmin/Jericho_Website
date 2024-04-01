@@ -3,7 +3,7 @@
     background-color: #295e57c4;
     margin-top: 10rem;
     color: white;
-   padding-bottom: 5vh; 
+   padding-bottom: 7vh; 
 }
 .home_gallery_card{
     margin-top: 2rem;
@@ -41,6 +41,7 @@
 }
 .slick-list img{
     border-radius: 12px;
+    margin-bottom: 2rem;
 }
 .slick-list img:hover{
 position: relative;
@@ -60,6 +61,18 @@ top: -10px;
     padding: 1rem;
   }
 
+  #flower-dot{
+    font-size: 12pt;
+  }
+  .slick-dots ul{
+    padding: 0rem;
+  }
+
+  .slick-active{
+    color: #DBBA4B;
+  }
+
+
 
   @media (min-width:851px) { 
     .home_gallery_photo{
@@ -69,7 +82,21 @@ top: -10px;
   .h_carousel h1{
     font-size: 50pt;
   }
+  #flower-dot{
+    font-size: 14pt;
+  }
+  }
+  @media (min-width:1024px) { 
+    #flower-dot{
+      font-size: 20pt;
+    }
+    .slick-dots li {
+      padding: 0rem 0.5rem;
+    }
+    .slick-dots {
 
+      bottom: -50px;
+    }
   }
 
 

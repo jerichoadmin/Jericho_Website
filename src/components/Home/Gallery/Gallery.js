@@ -40,6 +40,16 @@ function Gallery() {
         centerMode: true,
         infinite: true,
         dots: true,
+        appendDots: dots => (
+          <div>
+            <ul>{dots}</ul>
+          </div>
+        ),
+        customPaging: i => (
+          <span id='flower-dot' class="material-symbols-outlined">
+yard
+</span>
+        ),
         centerPadding: "10px",
         slidesToShow: 3,
         speed: 500,
