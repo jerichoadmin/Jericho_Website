@@ -64,6 +64,18 @@ function Home() {
 <HoursButton />
 </div>
 
+<div className='desktop_hours_and'>
+<h3>
+505-899-7555
+</h3>
+<h3>
+Monday-Saturday 9-6 | Sundays 11-5
+</h3>
+<h3>
+101 Alameda Blvd
+</h3>
+</div>
+
 
 
 
@@ -99,7 +111,7 @@ function Home() {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-   <Banner4 />
+
           <GardeningCalendar />
     </div>
     <div 

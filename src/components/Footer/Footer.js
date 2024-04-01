@@ -54,7 +54,7 @@ function Footer() {
             <li>Radio Show</li>
             </NavLink>
             <NavLink className='na' to='/seminars'>
-            <li>Seminars</li>
+            <li>Workshops</li>
             </NavLink>
             <NavLink className='na' to='/clubs'>
             <li>Clubs around ABQ</li>

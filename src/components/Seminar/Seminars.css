@@ -176,6 +176,7 @@ width: 23rem;
     }
     .seminars_body_main p{
         font-size: 18pt;
+        margin: 2rem 10rem;
     }
     .seminars_body_main h1{
         font-size: 50pt;
@@ -199,7 +200,8 @@ width: 23rem;
 }
 .seminar_pic{
     height: 50vh;
-    width: 65vw;
+    width: 55vw;
+    margin: 2rem;
 }
 .s_decoy{
     height: 15rem;
@@ -248,6 +250,15 @@ width: 23rem;
         display: flex;
         justify-content: center;
         flex-direction: row;
+    }
+
+
+}
+
+
+@media (min-width: 1700px) {
+    .seminar_pic{
+    width: 45vw;
     }
 
 }

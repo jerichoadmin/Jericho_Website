@@ -73,6 +73,16 @@ function StaffPictures() {
             name: 'Heather',
             position: 'Gardening Angel'
         },
+        {
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Carrie.png",
+            name: 'Carrie',
+            position: 'Gardening Angel'
+        },
+        {
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Bonnie.png",
+            name: 'Bonnie',
+            position: 'Gardening Angel'
+        },
      
     ]
 

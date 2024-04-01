@@ -142,6 +142,9 @@ margin-top: 3rem;
     background-color: #242424;
     padding: 2rem;
 }
+.desktop_hours_and{
+    display: none;
+}
 
 @media (min-width:1025px) { 
 .welcome{
@@ -173,8 +176,17 @@ margin-top: 3rem;
 .hours_and{
     display: none;
 }
+.desktop_hours_and{
+    display: flex;
+    justify-content: center;
+}
+.desktop_hours_and h3{
+    margin: 1rem;
+    font-size: 16pt;
+    color: #242424;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
  }
- 
+}
  @media (min-width:1281px) { 
     .w_1{
         padding-left: 2rem;
