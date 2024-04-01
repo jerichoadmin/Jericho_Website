@@ -4,6 +4,13 @@ import stones from '../../Assets/stone_banner.jpg'
 import succulents from '../../Assets/succulent_banner.jpg'
 import moreballoons from '../../Assets/more_balloons.jpg'
 import desert from '../../Assets/high_desert.jpg'
+import cactus from '../../Assets/2024banners/cactus.jpg'
+import cherry from '../../Assets/2024banners/cherry.jpg'
+import small from '../../Assets/2024banners/smallflower.jpg'
+import ghostranch from '../../Assets/2024banners/ghostranch.jpg'
+
+
+
 
 
 
@@ -16,11 +23,14 @@ const RotatingBanner = () => {
 
 
 const imageNames = [
-        stones,
-        succulents,
-        moreballoons,
-        desert,
-        flower
+  cactus,
+  moreballoons,
+  cherry,
+  desert,
+  small,
+  succulents,
+  ghostranch,
+  flower
     ]
 
 
