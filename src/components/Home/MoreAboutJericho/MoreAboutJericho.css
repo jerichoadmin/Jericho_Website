@@ -232,6 +232,7 @@ background-color: white;
             font-size: 18pt;
             color: #315E30;
             line-height: 1.8;
+            margin: 2rem 7rem;
         }
         .welcome_maj p{
             font-size: 22pt;
@@ -262,7 +263,6 @@ background-color: white;
         margin-top: 4rem;
        padding-right: 4rem ;
        width: 55vw;
-       
     }
 
     .maj_right h3{
@@ -270,6 +270,7 @@ background-color: white;
         font-size: 32pt;
     }
     .maj_right p{
+        margin: 0rem;
         text-align: left;
         font-size: 18pt;
         color: #315E30;

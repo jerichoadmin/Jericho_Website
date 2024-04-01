@@ -19,22 +19,18 @@ function Popup() {
       });
   }, []);
 
-
-
-
-  console.log(isPopUpVisible)
-  const handleClose = () => {
-    setIsOpen(false); // Close popup for user
-    localStorage.setItem('popupClosed', 'true'); // Set local storage to prevent popup from showing again
+  const formatDate = (date) => {
+    const d = new Date(date);
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    const year = d.getFullYear();
+    return `${month}-${day}-${year}`;
   };
 
-  // useEffect(() => {
-  //   // Check if the popup has been closed previously
-  //   const isPopupClosed = localStorage.getItem('popupClosed');
-  //   if (isPopupClosed === 'true') {
-  //     setIsOpen(false); // Close popup if it has been closed previously
-  //   }
-  // }, []);
+  const handleClose = () => {
+    setIsOpen(false); 
+    localStorage.setItem('popupClosed', 'true'); 
+  };
 
   return (
     isOpen && isPopUpVisible && (
@@ -47,7 +43,7 @@ function Popup() {
             {popUpData.map((popup, index) => (
               <div key={index}>
                 <p>{popup.notice}</p>
-                <span>{popup.date}</span>
+                <span className='popup_date'>{formatDate(popup.date)}</span>
               </div>
             ))}
             <button onClick={handleClose}>Close</button>

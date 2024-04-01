@@ -9,6 +9,14 @@
     justify-content: center;
     align-items: center;
 }
+.popup_outer_shell p{
+    font-size: 20pt;
+    line-height: 2;
+}
+.popup_date{
+    color: rgb(207, 201, 151);
+    font-size: 12pt;
+}
 
 .popup_dark_background {
     position: absolute;
