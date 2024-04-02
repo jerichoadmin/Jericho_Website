@@ -6,6 +6,7 @@ import Banner from './Banners/Banner'
 import Banner2 from './Banners/Banner2'
 import Banner3 from './Banners/Banner3';
 import Banner4 from './Banners/Banner4';
+import Banner5 from './Banners/Banner5'
 import NewThisWeek from '../Home/Containers/ThisWeek'
 import JerichoMap from './Containers/JerichoMap'
 import VideosContainer from './Containers/VideosContainer'
@@ -100,6 +101,7 @@ Monday-Saturday 9-6 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
+      {/* <Banner5 /> */}
     <NewThisWeek />
     </div>
     <div 

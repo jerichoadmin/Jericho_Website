@@ -1,0 +1,35 @@
+.instagram_outer_shell{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white;
+}
+
+.instagram_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #4FA673;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.instagram_welcome h1{
+    color: #DBBA4B;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.instagram_welcome p{
+    padding: 1.5vw;
+}

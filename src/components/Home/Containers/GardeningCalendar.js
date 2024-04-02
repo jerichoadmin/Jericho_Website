@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './GardeningCalendar.css'
 import icon2 from '../../../Assets/transparent.png'
-import banner from '../../../Assets/garden_banner.jpg'
+import garden from '../../../Assets/garden.jpg'
 
 
 function GardeningCalendar() {
@@ -48,7 +48,7 @@ function GardeningCalendar() {
     
             <div className='hc_body'>
                     <div className='hc_img'>
-                        <img src={banner} className='c_image' alt=''/>
+                        <img src={garden} className='c_image' alt=''/>
     
                     </div>
                     <div className='hc_paragraph'>

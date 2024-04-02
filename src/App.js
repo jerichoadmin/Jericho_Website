@@ -50,6 +50,7 @@ import Videos from './components/Videos/Videos'
 import SMS from './components/TermsandConditions/SMS';
 import PrivacyPolicy from './components/TermsandConditions/PrivacyPolicy';
 import PopUpForm from './components/AdminPortal/Popup/PopUpForm';
+import Instagram from './components/Instagram/Instagram';
 
 import './App.css';
 
@@ -90,6 +91,7 @@ function App() {
        <Route path='/fountains' element={<Fountains/>}/>
        <Route path='/employment' element={<WhyWorkHere />}/>
        <Route path='/videos' element={<Videos />}/>
+       {/* <Route path='/instagram' element={<Instagram />}/> */}
        <Route path='/smsterms' element={<SMS />}/>
        <Route path='/privacy-policy' element={<PrivacyPolicy />}/>
        <Route path='/popupform' element={authCtx.token ? <PopUpForm /> : <Navigate to='/login'/>}/>

@@ -255,7 +255,38 @@
     .application_button{
         font-size: 18pt;
     }
+}
 
+@media (min-width:1400px) { 
+    .work_sun{
+        height: 6rem;
+    }
+    .work_community{
+        height: 4.2rem;
+    }
+    .work_growth{
+        height: 6.5rem
+    }
+    .work_cal{
+        height: 6rem;
+    }
+    .work_icon_outer{
+        display: flex;
+        align-self: center;
+        justify-content: space-evenly;
+        font-weight: 600;
+        font-size: 24pt;
+    }
+
+
+}
+
+  
+@media (min-width:1800px) { 
+    .employment_plants{
+        height: 55vh;
+        width: 80%;
+    }
 
 }
 

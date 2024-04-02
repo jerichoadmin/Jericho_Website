@@ -49,7 +49,7 @@ function GardenResources() {
 
 
         <div className='gr_body_bottom'>
-            <h1>Did you know the Albuquerqueand Bernallio County Public Library offer a seed library?</h1>
+            <h1>Did you know the Albuquerque and Bernallio County Public Library offer a seed library?</h1>
     <div className='gr_bb_bottom'>
 
 <div className='gr_bt_img'>
