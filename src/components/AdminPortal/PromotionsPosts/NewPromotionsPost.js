@@ -74,7 +74,7 @@ const NewPromotionsPost = () => {
         Image URL
         <input
           type="text"
-          name="name"
+          name="img_url"
           value={promotionsFormData.img_url}
           onChange={handleChange}
           />
@@ -83,7 +83,7 @@ const NewPromotionsPost = () => {
         Description
         <input
           type="text"
-          name="name"
+          name="description"
           value={promotionsFormData.description}
           onChange={handleChange}
           />
@@ -92,7 +92,7 @@ const NewPromotionsPost = () => {
         Price
         <input
           type="text"
-          name="name"
+          name="price"
           value={promotionsFormData.price}
           onChange={handleChange}
           />
@@ -101,7 +101,7 @@ const NewPromotionsPost = () => {
         Tagline
         <input
           type="text"
-          name="name"
+          name="tagline"
           value={promotionsFormData.tagline}
           onChange={handleChange}
           />
@@ -110,7 +110,7 @@ const NewPromotionsPost = () => {
         Date Posted
         <input
           type="text"
-          name="name"
+          name="date_posted"
           value={promotionsFormData.date_posted}
           onChange={handleChange}
           />
