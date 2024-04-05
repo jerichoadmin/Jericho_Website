@@ -13,10 +13,17 @@
     flex-direction: column;
 }
 .admin_options a{
-    margin: 0rem 15rem;
+    margin: 0rem;
 }
 .admin_home button{
     margin: 2rem;
     padding: 1rem;
     cursor: pointer;
+}
+
+
+@media (min-width: 1024px) {
+    .admin_options a{
+        margin: 0rem 15rem;
+    }
 }

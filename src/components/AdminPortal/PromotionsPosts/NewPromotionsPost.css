@@ -1,0 +1,38 @@
+.create_promotion_item{
+    height: auto;
+    background-color: #242424;
+    padding: 10rem 4rem;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.promotion_item_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.promotion_item_form button{
+    height: auto;
+    width: auto;
+    padding: 0.5rem 1.25rem;
+   background-color: #34551a;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+
+.promotion_item_form button:hover{
+    background-color: #ffffff;
+    color: #34551a;
+    transition: 1s;
+}

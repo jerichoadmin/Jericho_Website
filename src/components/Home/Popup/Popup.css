@@ -10,7 +10,7 @@
     align-items: center;
 }
 .popup_outer_shell p{
-    font-size: 20pt;
+    font-size: 12pt;
     line-height: 2;
 }
 .popup_date{
@@ -65,6 +65,10 @@
 .popup_inner{
     height: 300px;
     width: 600px;
+}
+
+.popup_outer_shell p{
+    font-size: 20pt;
 }
 
 }

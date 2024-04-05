@@ -45,26 +45,26 @@ const { token } = useContext(AuthContext);
           });
       };
 
-      const deleteAllSalesPost = () => {
-        axios
-          .delete(`https://jericho-server-eb9k.onrender.com/deleteallsales`, {
-            headers: {
-              authorization: token,
-            },
-          })
-          .then(() => {
-            Swal.fire({
-              title: "All Sale Items have been Deleted",
-              confirmButtonColor: "rgb(210, 161, 12)",
-              customClass: "buttonalert",
-              confirmButtonText: "OK", 
-            })
-            .finally(()=>window.location.reload(false))
-          })
-          .catch((err) => {
-            console.log(err);
-          });
-      };
+      // const deleteAllSalesPost = () => {
+      //   axios
+      //     .delete(`https://jericho-server-eb9k.onrender.com/deleteallsales`, {
+      //       headers: {
+      //         authorization: token,
+      //       },
+      //     })
+      //     .then(() => {
+      //       Swal.fire({
+      //         title: "All Sale Items have been Deleted",
+      //         confirmButtonColor: "rgb(210, 161, 12)",
+      //         customClass: "buttonalert",
+      //         confirmButtonText: "OK", 
+      //       })
+      //       .finally(()=>window.location.reload(false))
+      //     })
+      //     .catch((err) => {
+      //       console.log(err);
+      //     });
+      // };
     
 
 
@@ -102,7 +102,12 @@ const { token } = useContext(AuthContext);
     </table>
 
 <div>
-<button onClick={() => deleteAllSalesPost()} className='delete_all'>Delete all Sales Posts</button>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br>
+  </br>
+{/* <button onClick={() => deleteAllSalesPost()} className='delete_all'>Delete all Sales Posts</button> */}
 </div>
 
     </div>

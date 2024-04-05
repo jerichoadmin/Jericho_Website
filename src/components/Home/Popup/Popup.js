@@ -4,20 +4,38 @@ import './Popup.css';
 
 function Popup() {
   const [isOpen, setIsOpen] = useState(true);
-  const [popUpData, setpopUpData] = useState([]);
+  const [popUpData, setPopUpData] = useState([]);
   const [isPopUpVisible, setIsPopUpVisible] = useState();
 
   useEffect(() => {
     axios
       .get("https://jericho-server-eb9k.onrender.com/popup")
       .then((res) => {
-        setpopUpData(res.data);
+        setPopUpData(res.data);
         setIsPopUpVisible(res.data[0].isVisible);
+        const popupContent = JSON.stringify(res.data);
+        localStorage.setItem('popupContent', popupContent);
       })
       .catch((err) => {
         console.log(err);
       });
   }, []);
+
+  useEffect(() => {
+    const popupClosed = localStorage.getItem('popupClosed');
+    const popupSeenCount = localStorage.getItem('popupSeenCount');
+    const storedPopupContent = localStorage.getItem('popupContent');
+
+    if (popupSeenCount && parseInt(popupSeenCount) >= 2) {
+      setIsOpen(false);
+    } else {
+      setIsOpen(true);
+    }
+
+    if (popUpData.length === 0 && storedPopupContent) {
+      setPopUpData(JSON.parse(storedPopupContent));
+    }
+  }, [popUpData]);
 
   const formatDate = (date) => {
     const d = new Date(date);
@@ -28,8 +46,14 @@ function Popup() {
   };
 
   const handleClose = () => {
-    setIsOpen(false); 
-    localStorage.setItem('popupClosed', 'true'); 
+    setIsOpen(false);
+    const popupSeenCount = localStorage.getItem('popupSeenCount');
+    if (popupSeenCount) {
+      localStorage.setItem('popupSeenCount', parseInt(popupSeenCount) + 1);
+    } else {
+      localStorage.setItem('popupSeenCount', 1);
+    }
+    localStorage.setItem('popupClosed', 'true');
   };
 
   return (

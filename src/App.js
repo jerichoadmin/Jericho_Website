@@ -51,6 +51,7 @@ import SMS from './components/TermsandConditions/SMS';
 import PrivacyPolicy from './components/TermsandConditions/PrivacyPolicy';
 import PopUpForm from './components/AdminPortal/Popup/PopUpForm';
 import Instagram from './components/Instagram/Instagram';
+import NewPromotionsPost from './components/AdminPortal/PromotionsPosts/NewPromotionsPost';
 
 import './App.css';
 
@@ -108,6 +109,7 @@ function App() {
         <Route path='/deletegallery2img' element={authCtx.token ? <DeleteGallery2Img/> : <Navigate to='/login'/>}/>
         <Route path='/editsalespost' element={authCtx.token ? <EditSalesMain/> : <Navigate to='/login'/>}/>
         <Route path='editsalespost/singlesaleedit/:id' element={authCtx.token ? <SingleEditSalesPost /> : <Navigate to='/login'/>}/>
+        <Route path='/newpromotionspost' element={authCtx.token ? <NewPromotionsPost /> : <Navigate to='/login'/>}/>
         <Route path='/login' element={!authCtx.token ? <LoginPage /> : <Navigate to='/adminhome'/>} />
         <Route path='*' element={<NotFound />}/>
       </Routes>

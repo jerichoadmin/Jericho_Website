@@ -43,7 +43,7 @@ function Gallery2() {
     dots: true,
     appendDots: dots => (
       <div>
-        <ul>{dots}</ul>
+        <ul className='h_container_ul'>{dots}</ul>
       </div>
     ),
     customPaging: i => (
@@ -125,7 +125,7 @@ yard
 
     
   return (
-    <div className='h_carousel'>
+    <div className='h2_carousel'>
       <h1>What's Growing this Spring</h1>
       {visible ? (<p>Swipe to see more photos..</p>) : ('')}
         <Slider {...settings} prevArrow={<PrevArrow />} nextArrow={<NextArrow />}>

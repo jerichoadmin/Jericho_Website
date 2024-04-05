@@ -38,6 +38,10 @@ function AdminHome() {
       <NavLink to='/previewblog'>
         <button>Previews</button>
       </NavLink>
+      <span>New</span>
+      <NavLink to='/newpromotionspost'>
+      <button>Create a Promotion Post</button>
+      </NavLink>
       <NavLink to='/newsalespost'>
       <button>Create a Sales Post</button>
       </NavLink>
@@ -59,7 +63,6 @@ function AdminHome() {
         <button>Delete Photos to Jericho Img Carousel</button>
       </NavLink>
 
-    <span>new</span>
     <NavLink to='/popupform'>
       <button>Pop-Up</button>
     </NavLink>
