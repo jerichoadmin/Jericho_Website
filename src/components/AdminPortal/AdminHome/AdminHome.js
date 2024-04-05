@@ -42,6 +42,9 @@ function AdminHome() {
       <NavLink to='/newpromotionspost'>
       <button>Create a Promotion Post</button>
       </NavLink>
+      <NavLink to='/deletepromotionspost'>
+      <button>Delete a Promotion Post</button>
+      </NavLink>
       <NavLink to='/newsalespost'>
       <button>Create a Sales Post</button>
       </NavLink>

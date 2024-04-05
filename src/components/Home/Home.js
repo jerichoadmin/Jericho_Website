@@ -19,6 +19,7 @@ import CallButton from '../ContactUs/CallButton';
 import MapButtonHome from './MapButtonHome';
 import HoursButton from './HoursButton';
 import Popup from './Popup/Popup';
+import PromotionsContainer from './Containers/PromotionsContainer';
 
 
 import { Helmet } from 'react-helmet';
@@ -101,8 +102,7 @@ Monday-Saturday 9-6 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-      {/* <Banner5 /> */}
-    <NewThisWeek />
+    <PromotionsContainer />
     </div>
     <div 
         data-aos="fade-up"
@@ -113,8 +113,8 @@ Monday-Saturday 9-6 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-
-          <GardeningCalendar />
+      {/* <Banner5 /> */}
+    <NewThisWeek />
     </div>
     <div 
         data-aos="fade-up"
@@ -137,7 +137,20 @@ Monday-Saturday 9-6 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-          <JerichoMap />
+
+          <GardeningCalendar />
+    </div>
+
+    <div 
+        data-aos="fade-up"
+        data-aos-offset="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-center"
+    >
+          {/* <JerichoMap /> */}
     </div>
 
     <Banner />

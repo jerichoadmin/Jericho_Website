@@ -126,6 +126,9 @@ function NavBarMobile() {
       <NavLink to='/sales'>
         <li className="navbar__dropdownItem_mobile">This Week's Specials</li>
       </NavLink>
+      <NavLink to='/promotions'>
+        <li className="navbar__dropdownItem_mobile">Promotions</li>
+      </NavLink>
       <NavLink to='/brands'>
         <li className="navbar__dropdownItem_mobile">Brands we Carry</li>
       </NavLink>

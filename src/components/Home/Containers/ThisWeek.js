@@ -52,7 +52,7 @@ return (
                     </p>
 
                             <NavLink to='/sales'>
-                            <button className='hc_button'>Shop Specials This Week</button>
+                            <button className='gc_button'>Shop Specials This Week</button>
                             </NavLink>
                 </div>
                 </div>

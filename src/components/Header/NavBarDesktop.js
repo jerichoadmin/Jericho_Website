@@ -38,6 +38,9 @@ function NavBarDesktop() {
           <NavLink to='/sales'>
             <li className="navbar__dropdownItem">This Week's Specials</li>
           </NavLink>
+          <NavLink to='/promotions'>
+            <li className="navbar__dropdownItem">Promotions</li>
+          </NavLink>
           <NavLink to='/brands'>
             <li className="navbar__dropdownItem">Brands we Carry</li>
           </NavLink>

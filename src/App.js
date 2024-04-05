@@ -51,7 +51,9 @@ import SMS from './components/TermsandConditions/SMS';
 import PrivacyPolicy from './components/TermsandConditions/PrivacyPolicy';
 import PopUpForm from './components/AdminPortal/Popup/PopUpForm';
 import Instagram from './components/Instagram/Instagram';
-import NewPromotionsPost from './components/AdminPortal/PromotionsPosts/NewPromotionsPost';
+import NewPromotionsPost from './components/AdminPortal/PromotionsPosts/NewPromotionsPost/NewPromotionsPost';
+import Promotions from './components/Promotions/Promotions';
+import EditPromotionsPost from './components/AdminPortal/PromotionsPosts/EditPromotionsPost/EditPromotionsPost';
 
 import './App.css';
 
@@ -92,6 +94,7 @@ function App() {
        <Route path='/fountains' element={<Fountains/>}/>
        <Route path='/employment' element={<WhyWorkHere />}/>
        <Route path='/videos' element={<Videos />}/>
+       <Route path='/promotions' element={<Promotions/>}/>
        {/* <Route path='/instagram' element={<Instagram />}/> */}
        <Route path='/smsterms' element={<SMS />}/>
        <Route path='/privacy-policy' element={<PrivacyPolicy />}/>
@@ -110,6 +113,7 @@ function App() {
         <Route path='/editsalespost' element={authCtx.token ? <EditSalesMain/> : <Navigate to='/login'/>}/>
         <Route path='editsalespost/singlesaleedit/:id' element={authCtx.token ? <SingleEditSalesPost /> : <Navigate to='/login'/>}/>
         <Route path='/newpromotionspost' element={authCtx.token ? <NewPromotionsPost /> : <Navigate to='/login'/>}/>
+        <Route path='/deletepromotionspost' element={authCtx.token ? <EditPromotionsPost /> : <Navigate to='/login'/>}/>
         <Route path='/login' element={!authCtx.token ? <LoginPage /> : <Navigate to='/adminhome'/>} />
         <Route path='*' element={<NotFound />}/>
       </Routes>
