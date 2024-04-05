@@ -4,7 +4,7 @@ const {sequelize} = require('../util/database')
 
 
 module.exports = {
-    PromotionsTables : sequelize.define('promotionstable', {
+    PromotionsTable : sequelize.define('promotionstable', {
         promotionstableid: {
             type: DataTypes.INTEGER,
             autoIncrement: true,
