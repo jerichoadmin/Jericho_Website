@@ -61,7 +61,7 @@
 }
 .social_icons{
     padding: 0.5rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 .social_icons svg{
     height: 45px;
@@ -136,6 +136,7 @@
 .social_icons{
     padding: 3rem;
     margin: 3rem;
+    margin-top: 7rem;
 }
 .social_icons svg{
     height: 100px;

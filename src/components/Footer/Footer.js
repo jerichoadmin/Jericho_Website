@@ -14,6 +14,9 @@ function Footer() {
             <NavLink className='na' to='/sales'>
             <li>This Week's Specials</li>
             </NavLink>
+            <NavLink className='na' to='/promotions'>
+            <li>Promotions</li>
+            </NavLink>
             <NavLink className='na' to='/brands'>
             <li>Brands We Carry</li>
             </NavLink>
@@ -73,6 +76,9 @@ function Footer() {
             </NavLink>
             <NavLink className='na' to='/employment'>
             <li>Why Work Here</li>
+            </NavLink>
+            <NavLink className='na' to='/growersassurance'>
+            <li>Grower's Assurance</li>
             </NavLink>
             <NavLink className='na' to='/map'>
             <li>Nursery map</li>

@@ -51,6 +51,7 @@ import SMS from './components/TermsandConditions/SMS';
 import PrivacyPolicy from './components/TermsandConditions/PrivacyPolicy';
 import PopUpForm from './components/AdminPortal/Popup/PopUpForm';
 import Instagram from './components/Instagram/Instagram';
+import FAQ from './components/Warranty/FAQ';
 import NewPromotionsPost from './components/AdminPortal/PromotionsPosts/NewPromotionsPost/NewPromotionsPost';
 import Promotions from './components/Promotions/Promotions';
 import EditPromotionsPost from './components/AdminPortal/PromotionsPosts/EditPromotionsPost/EditPromotionsPost';
@@ -96,6 +97,7 @@ function App() {
        <Route path='/videos' element={<Videos />}/>
        <Route path='/promotions' element={<Promotions/>}/>
        {/* <Route path='/instagram' element={<Instagram />}/> */}
+       <Route path='/growersassurance' element={<FAQ />}/>
        <Route path='/smsterms' element={<SMS />}/>
        <Route path='/privacy-policy' element={<PrivacyPolicy />}/>
        <Route path='/popupform' element={authCtx.token ? <PopUpForm /> : <Navigate to='/login'/>}/>

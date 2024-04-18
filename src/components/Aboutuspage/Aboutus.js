@@ -9,7 +9,6 @@ import Quality from '../../SVGs/Quality'
 import Selection from '../../SVGs/Selection'
 import Quote from '../../SVGs/Quote'
 import Quote2 from '../../SVGs/Quote2'
-import Warranty from './Warranty'
 import { Helmet } from 'react-helmet'
 
 
@@ -111,10 +110,7 @@ function Aboutus() {
 </div>
 </div>
 
-<div className='warranty_section'>
-  <h2 className='warranty_header'>Warranty Information</h2>
-  <Warranty />
-</div>
+
 
             <h2 className='ct_h2'>Customer Testimonials</h2>
 

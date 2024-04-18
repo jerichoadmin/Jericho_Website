@@ -265,7 +265,7 @@
     .ffc_body_top p{
         font-size: 18pt;
         line-height: 1.8;
-        padding: 4rem 10rem;
+        padding: 4rem;
     }
     .w_it_is{
         font-size: 60pt;
@@ -325,7 +325,4 @@
         margin: 1rem 10rem;
     }
     
-
-
-
 }

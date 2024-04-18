@@ -1,0 +1,204 @@
+.FAQ{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#DBBA4B, #4BA7DB, #DB4BD5CF) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.FAQ p{
+    line-height: 1.8;
+}
+.faq_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 5vh;
+    padding-top: 7vh ;
+}
+.faq_welcome p{
+    padding: 1.5vw;
+}
+.faq_welcome h1{
+    color: #4FA673;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.faq_body{
+    background-image: linear-gradient(#b19c4a, #7271b7) ;
+    height: auto;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+}
+
+.faq_body h1{
+    color: white;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    font-size: 16pt;
+    font-weight: 700;
+
+}
+
+.faq_body p{
+    color: white;
+    padding: 1rem;
+    font-size: 12pt;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.faq_body ol{
+    color: white;
+    margin: 1rem;
+    padding-right: 2rem; 
+    line-height: 1.5;
+}
+.faq_body li{
+    padding: 1rem;
+}
+
+.warranty_bush{
+    padding-top: 2rem;
+    width: 70vw;
+}
+
+.planting_guide{
+    border-radius: 15px;
+    width: 80vw;
+    margin: 2rem;
+}
+
+.warranty_one{
+    width: 50vw;
+    opacity: 0.75;
+}
+.faq_body{
+    padding-top: 5rem;
+}
+
+
+
+
+@media (min-width:1025px) { 
+
+    .faq_welcome{
+        font-size: 18pt;
+    }
+    .faq_welcome h1{
+        color: #4FA673;
+        font-size: 60pt;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+    .faq_welcome p{
+        padding: 1.5vw;
+    }
+
+    .faq_body h1{
+        font-size: 24pt;
+    }
+    
+    .faq_body p{
+        font-size: 18pt;
+        padding: 2rem;
+    }
+    
+    .faq_body ol{
+        color: white;
+        margin: 2rem 8rem;
+        padding-right: 2rem; 
+        line-height: 1.5;
+    }
+    .faq_body li{
+        font-size: 16pt;
+        padding: 1rem;
+    }
+
+    .faq_body_bottom{
+        padding: 2rem;
+    }
+
+    .warranty_one{
+        width: 40vw;
+    }
+    
+
+}
+
+
+
+
+@media (min-width:1250px) { 
+    .warranty_bush{
+        width: 60vw;
+    }
+    .warranty_one{
+        width: 30vw;
+    }
+    .planting_guide{
+        width: 70vw;
+    }
+
+}
+   
+
+
+@media (min-width:1550px) { 
+    .warranty_bush{
+        width: 40vw;
+    }
+    .warranty_one{
+        width: 20vw;
+    }
+    .planting_guide{
+        width: 50vw;
+    }
+    .faq_body p{
+        margin: 1rem 5rem;
+    }
+    .faq_body ol{
+        margin: 2rem 15rem;
+    }
+    .faq_body h1{
+        font-size: 28pt;
+    }
+}
+
+
+@media (min-width:2000px) { 
+
+    .faq_body ol{
+        margin: 5rem 35rem;
+    }
+    .warranty_one{
+        width: 15vw;
+    }
+    .planting_guide{
+        width: 40vw;
+    }
+    .faq_body p{
+        margin: 2rem 20rem;
+    }
+
+}
