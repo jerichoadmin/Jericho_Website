@@ -157,6 +157,9 @@ function NavBarDesktop() {
       <NavLink to='/employment'>
         <li>Why Work Here</li>
       </NavLink>
+      <NavLink to='/growersassurance'>
+        <li>Grower's Assurance</li>
+      </NavLink>
         <NavLink to='/map'>
         <li>Nursery Map</li>
         </NavLink>
