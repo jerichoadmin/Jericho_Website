@@ -35,11 +35,14 @@ function Footer() {
             <NavLink className='na' to='/blog'>
             <li>Blog </li>
             </NavLink>
+            <NavLink className='na' to='/videos'>
+            <li>Videos</li>
+            </NavLink>
+            <NavLink className='na' to='/instagram'>
+            <li>Instagram</li>
+            </NavLink>
             <NavLink className='na' to='/gardeningcalendar'>
             <li>Gardening Calendar</li>
-            </NavLink>
-            <NavLink className='na' to='/gardenresources'>
-            <li>Garden Resources</li>
             </NavLink>
             <NavLink className='na' to='/adminhome'>
             <li>Admin Login</li>
@@ -58,6 +61,9 @@ function Footer() {
             </NavLink>
             <NavLink className='na' to='/seminars'>
             <li>Workshops</li>
+            </NavLink>
+            <NavLink className='na' to='/gardenresources'>
+            <li>Garden Resources</li>
             </NavLink>
             <NavLink className='na' to='/clubs'>
             <li>Clubs around ABQ</li>

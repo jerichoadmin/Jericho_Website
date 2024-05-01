@@ -23,17 +23,19 @@ function Banner() {
         data-aos-once="true"
         >
             <div className='b_2'>
-            <h4 className='b_h52'>Finally, more Jericho pics!</h4>
-            <img src={instagram} alt='Jericho_Instagram' className='banner_img_5'/>
+            <h4 className='b_h52'>TJ's Seed Sack Pumpkin Growing Contest</h4>
             </div>
-<NavLink to='/instagram'>
-            <button className='banner_button5'>Go to Instagram Page</button>
+            <div>
+            <img className='tj_pumpkin' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/April25-2024/SEEDSACKv2.1.jpg'/>
+            </div>
+<NavLink to='/gardenresources'>
+            <button className='banner_button5'>Check Resources</button>
 </NavLink>
 
-<h4 className='b_h4'>From your phone, or computer, you can now look at all our IG pics</h4>
+<h4 className='b_h4'>For more information about how to grow a pumpkin that wieghs a TON</h4>
 
 <div className='instagram_lower'>
-<p>Dont forget to follow!</p>
+<p>and get free seeds!</p>
 </div>
 
 

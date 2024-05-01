@@ -33,3 +33,102 @@
 .instagram_welcome p{
     padding: 1.5vw;
 }
+.instagram_body{
+    margin: 1rem;
+}
+
+
+.instagram_bottom_container{
+    display: flex;
+    justify-content: center;
+}
+.instagram_bottom{
+    margin: 2rem;
+    padding: 2rem;
+    font-weight: 700;
+    background-color: #242424;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.instagram_bottom button{
+    align-self: center;
+    background-color: #dbba4b;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Raleway;
+    font-size: 12pt;
+    font-weight: 600;
+    height: auto;
+    margin-top: 3vh;
+    padding: 1rem;
+    width: auto;
+}
+
+
+
+
+
+
+@media (min-width: 1024px) { 
+    .instagram_outer_shell{
+        font-size: 18pt;
+    }
+    .instagram_welcome{
+        width: 40vw;
+        border-radius: 20px;
+    }
+    .instagram_welcome h1{
+    font-size: 60pt;
+    }
+    .instagram_welcome p{
+    padding: 0.5vw;
+    font-size: 18pt;
+    }
+    .instagram_body_header {
+    padding: 4rem;
+    }
+    .instagram_body_header h1{
+    font-size: 50pt;
+    font-weight: 700;
+    background-color: #1a2136;
+    border-radius: 12px;
+    }
+    .instagram_bottom{
+    margin-top: 10vh;
+    width: 50vw;
+    }
+    .instagram_bottom button{
+        font-size: 18pt;
+    }
+    .instagram_bottom h2{
+        font-size: 24pt;
+    }
+    .instagram_body{
+        margin: 5rem;
+    }
+    
+}
+
+
+@media (min-width: 1450px) { 
+    .instagram_bottom{
+
+        width: 30vw;
+        }
+        .instagram_body{
+            margin: 5rem 10rem;
+        }
+
+}
+
+
+
+@media (min-width: 1850px) { 
+    .instagram_body{
+        margin: 10rem 20rem;
+    }
+
+}

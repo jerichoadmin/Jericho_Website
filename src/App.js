@@ -96,7 +96,7 @@ function App() {
        <Route path='/employment' element={<WhyWorkHere />}/>
        <Route path='/videos' element={<Videos />}/>
        <Route path='/promotions' element={<Promotions/>}/>
-       {/* <Route path='/instagram' element={<Instagram />}/> */}
+       <Route path='/instagram' element={<Instagram />}/>
        <Route path='/growersassurance' element={<FAQ />}/>
        <Route path='/smsterms' element={<SMS />}/>
        <Route path='/privacy-policy' element={<PrivacyPolicy />}/>

@@ -140,6 +140,30 @@ color: #DBBA4B;
 background-color: white;
 }
 
+.pumpkin_growing{
+    margin-bottom: 4rem;
+}
+
+
+
+.pumpkin_growing h1{
+    font-size: 40pt;
+    font-weight: 700;
+    color: rgb(235, 166, 110);
+    padding-bottom: 2rem;
+}
+.pumpkin_growing h4{
+    margin: 1rem;
+}
+.pumpkin_photo{
+    width: 30vw;
+    margin: 2rem;
+    border-radius: 20px;
+}
+
+
+
+
 
 
 
@@ -195,6 +219,19 @@ background-color: white;
         display: flex;
         justify-content: center;
         padding: 2rem;
+    }
+    .pumpkin_growing h1{
+        font-size: 30pt;
+        font-weight: 700;
+        color: rgb(235, 166, 110);
+        padding-bottom: 2rem;
+    }
+    .pumpkin_growing h4{
+        margin: 1rem;
+    }
+    .pumpkin_photo{
+        width: 50vw;
+        margin: 2rem;
     }
     
 }

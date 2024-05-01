@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './GardenResources.css'
 import { Helmet } from 'react-helmet';
+import pumpkin from '../../Assets/pumpkin.png'
 
 
 function GardenResources() {
@@ -26,6 +27,35 @@ function GardenResources() {
         </div>
         <div className='gr_body_main'>
             <div className='gr_body_top'>
+
+
+
+
+              <div className='pumpkin_growing'>
+
+              <h1>Pumpkin Growing Contest Info</h1>
+
+                <img className='pumpkin_photo' src={pumpkin} alt=''/>
+                
+                <h4>
+                It's time to plant the seeds of GIANTS!
+                  </h4>
+                <p>
+                We have free pumpkin seeds for those who would like to enter this year's TJ'S SEED SACK pumpkin growing contest. We also have a free 8 page "how to" guide which can be downloaded via the link below:
+                </p>
+
+            <a href='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/April25-2024/PUMPKINGROWING.pdf' target="_blank"  without rel="noreferrer" >
+                            <button className='green_gr_button'>
+                                      Check out the Guide
+                              </button>
+            </a>
+
+              </div>
+
+
+
+
+
                 <div className='fbt_header'>
                          <h1>Know Your Zone</h1>
                 </div>

@@ -85,11 +85,11 @@ function NavBarDesktop() {
         <NavLink to='/videos'>
           <li className="navbar__dropdownItem">Videos</li>
         </NavLink>
+        <NavLink to='/instagram'>
+         <li className="navbar__dropdownItem">Instagram</li>
+        </NavLink>
         <NavLink to='/gardeningcalendar'>
          <li className="navbar__dropdownItem">Gardening Calendar</li>
-        </NavLink>
-        <NavLink to='/gardenresources'>
-        <li className="navbar__dropdownItem">Garden Resources</li>
         </NavLink>
         <NavLink to='/login'>
         <li className="navbar__dropdownItem">Admin Login</li>
@@ -114,6 +114,9 @@ function NavBarDesktop() {
         </NavLink>
         <NavLink to='/seminars'>
          <li className="navbar__dropdownItem">Workshops</li>
+        </NavLink>
+        <NavLink to='/gardenresources'>
+        <li className="navbar__dropdownItem">Garden Resources</li>
         </NavLink>
         <NavLink to='/clubs'>
          <li className="navbar__dropdownItem">Clubs around Abq</li>

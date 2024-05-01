@@ -22,7 +22,7 @@
 
   .mobile_banner_logo{
     position: relative;
-    height: 15vh;
+    margin-top: 3vh;
     max-width: 97%;
     width: auto;
     padding: 0.5rem;
@@ -48,3 +48,14 @@
   ul{
     list-style: none;
   }
+
+
+
+
+  
+@media (min-width: 749px) { 
+
+  .mobile_banner_logo{
+    margin-top: 1vh;
+  }
+}

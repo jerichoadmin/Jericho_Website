@@ -113,7 +113,7 @@ Monday-Saturday 9-6 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-      {/* <Banner5 /> */}
+
     <NewThisWeek />
     </div>
     <div 
@@ -125,7 +125,7 @@ Monday-Saturday 9-6 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-
+      <Banner5 />
           <VideosContainer /> 
     </div>
     <div 

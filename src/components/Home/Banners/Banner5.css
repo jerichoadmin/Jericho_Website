@@ -29,10 +29,19 @@
    padding-bottom: 2rem;
 }
 
+.tj_pumpkin{
+    width: 50vw;
+    margin: 1rem;
+}
+
 @media (min-width:1025px) { 
     .banner_img_5{
         width: 15vw;
         padding-top: 2rem;
+    }
+    .tj_pumpkin{
+        width: 30vw;
+        margin: 1rem;
     }
 
 }
@@ -48,6 +57,9 @@
     .banner_button5{
         margin: 2rem;
     }
+    .tj_pumpkin{
+        width: 20vw;
+    }
 
 }
 
@@ -55,6 +67,9 @@
 @media (min-width:1825px) { 
     .banner_img_5{
         width: 7vw;
+    }
+    .tj_pumpkin{
+        width: 15vw;
     }
 
 }
