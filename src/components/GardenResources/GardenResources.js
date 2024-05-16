@@ -31,7 +31,7 @@ function GardenResources() {
 
 
 
-              <div className='pumpkin_growing'>
+              {/* <div className='pumpkin_growing'>
 
               <h1>Pumpkin Growing Contest Info</h1>
 
@@ -50,7 +50,7 @@ function GardenResources() {
                               </button>
             </a>
 
-              </div>
+              </div> */}
 
 
 
