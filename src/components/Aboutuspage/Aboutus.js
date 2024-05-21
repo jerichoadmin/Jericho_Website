@@ -10,6 +10,7 @@ import Selection from '../../SVGs/Selection'
 import Quote from '../../SVGs/Quote'
 import Quote2 from '../../SVGs/Quote2'
 import { Helmet } from 'react-helmet'
+import Bios from './Bios'
 
 
 function Aboutus() {

@@ -20,7 +20,7 @@
     margin: 1rem;
 }
 .b_img5{
-    background-image: url('https://images.unsplash.com/photo-1582288916603-4698cf723bf6?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://images.unsplash.com/photo-1663173485691-e08cd39e6e66?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     height: auto;
     width: 100vw;
    background-size: cover;
@@ -29,9 +29,10 @@
    padding-bottom: 2rem;
 }
 
-.tj_pumpkin{
-    width: 50vw;
+.corrales{
+    width: 70vw;
     margin: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 @media (min-width:1025px) { 
@@ -39,7 +40,7 @@
         width: 15vw;
         padding-top: 2rem;
     }
-    .tj_pumpkin{
+    .corrales{
         width: 30vw;
         margin: 1rem;
     }
@@ -57,7 +58,7 @@
     .banner_button5{
         margin: 2rem;
     }
-    .tj_pumpkin{
+    .corrales{
         width: 20vw;
     }
 
@@ -68,7 +69,7 @@
     .banner_img_5{
         width: 7vw;
     }
-    .tj_pumpkin{
+    .corrales{
         width: 15vw;
     }
 

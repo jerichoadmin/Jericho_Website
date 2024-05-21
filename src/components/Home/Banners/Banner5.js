@@ -4,6 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'; 
 import { NavLink } from 'react-router-dom';
 import instagram from '../../../Assets/Instagram_Glyph_Gradient.png'
+import corrales from '../../../Assets/CorralesGarden2024.png'
 
 
 function Banner() {
@@ -23,19 +24,21 @@ function Banner() {
         data-aos-once="true"
         >
             <div className='b_2'>
-            <h4 className='b_h52'>TJ's Seed Sack Pumpkin Growing Contest</h4>
+            <h4 className='b_h52'>Corrales Garden Tour 2024</h4>
             </div>
             <div>
-            <img className='tj_pumpkin' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/April25-2024/SEEDSACKv2.1.jpg'/>
+            <img className='corrales' src={corrales}/>
             </div>
-<NavLink to='/gardenresources'>
-            <button className='banner_button5'>Check Resources</button>
-</NavLink>
 
-<h4 className='b_h4'>For more information about how to grow a pumpkin that wieghs a TON</h4>
+
+<h4 className='b_h4'>You can buy your tickets in person at Jericho Nursery, or online by clicking the button below</h4>
+
+<a href='https://corrales-gardentour.com/' target="_blank" rel="noreferrer">
+            <button className='banner_button5'>Buy Tickets</button>
+</a>
 
 <div className='instagram_lower'>
-<p>and get free seeds!</p>
+<p>...have fun!</p>
 </div>
 
 

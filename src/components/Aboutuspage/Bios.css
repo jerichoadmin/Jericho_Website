@@ -1,0 +1,48 @@
+
+.bios {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .bio_single {
+    margin-bottom: 15px;
+  }
+  
+  .bio_header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bio_header h2 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 1.5em;
+  }
+  
+  .bio_header button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .bio_header button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bio_single p {
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .bio_single.expanded p {
+    max-height: 1000px; /* Set this high enough to fit your longest content */
+    padding: 15px 0; /* Add padding for expanded state */
+  }
+  
