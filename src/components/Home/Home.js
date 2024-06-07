@@ -102,6 +102,7 @@ Monday-Saturday 9-5 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
+            <Banner />
     <PromotionsContainer />
     </div>
     <div 
@@ -125,7 +126,7 @@ Monday-Saturday 9-5 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-      <Banner5 />
+
           <VideosContainer /> 
     </div>
     <div 
@@ -150,10 +151,10 @@ Monday-Saturday 9-5 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-          {/* <JerichoMap /> */}
+
     </div>
 
-    <Banner />
+    <Banner5 />
     <Gallery2 />
     <MoreAboutJericho />
     <Banner3 />

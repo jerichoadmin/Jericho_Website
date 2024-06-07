@@ -205,9 +205,6 @@ function NavBarMobile() {
             <NavLink to='/growersassurance'>
             <li className="navbar__dropdownItem_mobile">Grower's Assurance</li>
             </NavLink>
-            <NavLink to='/map'>
-            <li className="navbar__dropdownItem_mobile">Nursery Map</li>
-            </NavLink>
                 </ul>
       ) : null}
 

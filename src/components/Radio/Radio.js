@@ -92,7 +92,7 @@ function Radio() {
 <div ref={revealRefRadio}> </div>
             <div className='radio_rick_container'>
        
-            <img className='radio_rick' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/RickTV.PNG' alt='Rick Hobson Radio Show'/>
+            {/* <img className='radio_rick' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/RickTV.PNG' alt='Rick Hobson Radio Show'/> */}
 
             </div>
     

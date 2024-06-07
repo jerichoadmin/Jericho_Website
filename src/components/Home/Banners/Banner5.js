@@ -24,21 +24,21 @@ function Banner() {
         data-aos-once="true"
         >
             <div className='b_2'>
-            <h4 className='b_h52'>Corrales Garden Tour 2024</h4>
+            <h4 className='b_h52'>Vote for Jericho!</h4>
             </div>
             <div>
-            <img className='corrales' src={corrales}/>
+            <img className='corrales' src='https://abqthemag.com/wp-content/uploads/2024/04/BOTC2024_VoteBAnner.png'/>
             </div>
 
 
-<h4 className='b_h4'>You can buy your tickets in person at Jericho Nursery, or online by clicking the button below</h4>
+<h4 className='b_h4'>as Best Local Garden Center in Albuquerque Magazine's Best of the City</h4>
 
-<a href='https://corrales-gardentour.com/' target="_blank" rel="noreferrer">
-            <button className='banner_button5'>Buy Tickets</button>
+<a href='https://abqthemag.com/events/best-of-the-city/' target="_blank" rel="noreferrer">
+            <button className='banner_button5'>Vote Here</button>
 </a>
 
 <div className='instagram_lower'>
-<p>...have fun!</p>
+
 </div>
 
 
