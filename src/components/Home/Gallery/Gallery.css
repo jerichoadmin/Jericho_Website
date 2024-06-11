@@ -64,6 +64,9 @@ top: -10px;
   #flower-dot{
     font-size: 12pt;
   }
+  .slick-dots {
+    bottom: -60px;
+  }
   .slick-dots ul{
     padding: 0rem;
   }

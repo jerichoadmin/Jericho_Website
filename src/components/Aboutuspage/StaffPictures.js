@@ -65,7 +65,7 @@ function StaffPictures() {
         },
         {
             src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Anna%20Lisa.jpg",
-            name: 'Anna Lisa',
+            name: 'Analisa',
             position: 'Gardening Angel'
         },
         {
@@ -74,15 +74,21 @@ function StaffPictures() {
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Carrie.png",
-            name: 'Carrie',
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/andrew-small-EfhCUc_fjrU-unsplash.jpg",
+            name: 'Dolly',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Bonnie.png",
-            name: 'Bonnie',
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/aaron-burden-2IzoIHBgYAo-unsplash.jpg",
+            name: 'Isaac',
             position: 'Gardening Angel'
         },
+        {
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/erda-estremera-6ZyLeconAsg-unsplash.jpg",
+            name: 'Kendra',
+            position: 'Gardening Angel'
+        },
+
      
     ]
 

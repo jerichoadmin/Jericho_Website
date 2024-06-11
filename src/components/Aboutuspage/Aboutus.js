@@ -45,6 +45,7 @@ function Aboutus() {
             <div className='aboutus_body_top'>
                 <h1>Meet Our Team</h1>
             <StaffPictures />
+            <Bios />
 
         <p className='staff_p'>
         To our returning employees, we send warm greetings and a big thank you for joining us for another season. We truly appreciate your experience and loyalty. To our new employees, we hope to share with you the excitement of learning your job, meeting new people, and lots of fun working with plants, trees, and flowers.
