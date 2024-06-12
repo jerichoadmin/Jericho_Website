@@ -134,13 +134,13 @@ function Partners() {
 
               <img src='https://images.squarespace-cdn.com/content/v1/619d2e8fd4dd083c86697cc9/223556e8-8c18-4fae-a4a2-7a60ca3d3ffb/ECM+logo+1.jpg?format=1500w' alt='East Central Ministries' className='ecm'/>
 
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/elpinto.webp' alt='El Pinto' className='elpinto'/>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/elpinto.webp' alt='El Pinto' className='elpinto'/>
 
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/vics.png' alt='Vics Daily Cafe' className='vics'/>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/vics.png' alt='Vics Daily Cafe' className='vics'/>
 
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/daves.png' alt='Daves Valley Grill' className='daves'/>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/daves.png' alt='Daves Valley Grill' className='daves'/>
 
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/Construction.jpg' alt='Daves Valley Grill' className='daves'/>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Construction.jpg' alt='Construction Rental & Supply' className='daves'/>
 
    
 
