@@ -2,7 +2,7 @@ import React from 'react'
 import ffc3 from '../../Assets/ffc3.png'
 import arches from '../../Assets/arch.jpg'
 import { Helmet } from 'react-helmet'
-import { NavLink } from 'react-router-dom'
+import newffc from '../../Assets/newnewffc.png'
 
 import './FFC.css'
 
@@ -20,70 +20,93 @@ function FFC() {
         <meta property="og:type" content="website" />
 </Helmet>
 
+
+
         <div className='ffc_welcome'>
+
+        <div>
+        <img className='newffc_logo' src={newffc} alt=''/>
+        </div>
+  <div className='welcome_text'>
             <h1>Frequent Flower Club</h1>
                 <p>
-                    Join Jericho's Newsletter, Email and Rewards Club
+                    A new and imporved points system, with all the same connectedness you know and love
                </p>
+  </div>
+               
+
         </div>
 
 
-<div className='ffc_body'>
-            <div className='ffc_body_top'>
-           
-                {/* <img alt='Frequent Flower Club Logo' src={ffc3} className='ffc3'/> */}
+            <div className='ffc_body'>
+
+                        <div className='ffc_body_top'>
+                            <div className='header_container'>
+                        <h1>Welcome to Jericho's Frequent Flower Club</h1>
+                            </div>
+                        
+                    
+
+                        <div className='ffc_introduction'>
+                            <img className='jericho_ffc_flower' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/main-Flower' alt='Jericho FFC homepage'/>
+
+                            <div className='ffc_intro_paragraph'>
+                                <h2>Introducing Jericho's new FFC Rewards Program</h2>
+                                <p>Every purchase you make, every interaction with us – it all counts towards unlocking amazing rewards. Plus, with our special bonuses, reaching new levels of loyalty means unlocking even more exclusive perks.</p>
+                                <p>
+                                Whether you're a longtime supporter or just joining our community, there's never been a better time to start earning rewards. Join now!</p>
+
+ 
+
+                            </div>
+                <div className='ffc_grid-wrapper'>
+                        <div className="ffc_grid-container">
+                        <div className="ffc_grid-item">
+                            <img src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/+100.png" alt="Icon 1" className="ffc_icon" />
+                            <span>Earn points for purchases</span>
+                        </div>
+                        <div className="ffc_grid-item">
+                            <img src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/5%25.png" alt="Icon 2" className="ffc_icon" />
+                            <span>Redeem points for discounts</span>
+                        </div>
+                        <div className="ffc_grid-item">
+                            <img src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/Thumbsup.png" alt="Icon 3" className="ffc_icon" />
+                            <span>Get points for interacting with our socials</span>
+                        </div>
+                        <div className="ffc_grid-item">
+                            <img src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/VIP.png" alt="Icon 4" className="ffc_icon" />
+                            <span>Become a Jericho VIP</span>
+                        </div>
+                        </div>
+                </div>
+
+
+                        <div className='ffc_sign_up'>
+                            <a href='https://app.marsello.com/Manage/Forms/SubmitForm/66557a94d7360cc839168515'>
+                                <button>Sign Up</button>
+                            </a>
+                        </div>
 
 
 
-                <h2 className='changes'>There are changes coming soon!</h2>
 
-                <p className='changes_p'>
-                Thank you so much for your interest in Jericho’s Frequent Flower Club. We are in the process of
-                transitioning to a more user-friendly platform. For the time being, we will not be mailing out discount
-                postcards, but you can go ahead and sign-up now so that you’re entered and ready when we launch. Our
-                new program will enable us to give you coupons, discounts, &amp; other special advantages in a variety of
-                ways. We hope this will include using your loyalty rewards towards purchases at the register and so much
-                more. Please fill the form out completely to take advantage of every benefit we want to offer our loyalty
-                customers. We hope to have our new program up and running sometime this spring. Keep an eye on our
-                website for more information. Come and grow with us as we venture into a more innovative way to
-                reward your loyalty!
+                    </div>
 
-                <br></br>
-                <br></br>
-         
-                </p>
-                <img alt='Frequent Flower Club at Jericho Nursery' src='https://images.unsplash.com/photo-1455659817273-f96807779a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' className='ffc_sunflowers'/>
+
+
+
+
+                        </div>
+
 
             </div>
 
-            <div className='ffc_body_bottom'>
-
-              
 
 
-                <h1 className='h_to_join'>How to Join</h1>
 
-                <div className='ffc_form_container_2'>
-                    <h3>Sign Up for more Jericho Nursery Below</h3>
-                </div>
-            </div>
-                <div className='f_f'>   
 
-<NavLink to='https://link.lightworkdigital.com/widget/form/cU7aGRQlf1PU7rGutp41'>
-                <button className='ffc_1'>Frequent Flower Club</button>
-</NavLink>
 
-<NavLink to='https://link.lightworkdigital.com/widget/form/AKN6KeaUJe5kCpr3DfAc'>
-                <button className='ffc_2'>Email Newsletter</button>
-</NavLink>
-
-<NavLink to='https://link.lightworkdigital.com/widget/form/JfFCfhH8lBBfZP26DxXr'>
-                <button className='ffc_3'>Text Alerts</button>
-</NavLink>
-            
-                </div>
 </div>
-    </div>
   )
 }
 
