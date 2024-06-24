@@ -86,9 +86,7 @@ function Footer() {
             <NavLink className='na' to='/growersassurance'>
             <li>Grower's Assurance</li>
             </NavLink>
-            <NavLink className='na' to='/map'>
-            <li>Nursery map</li>
-            </NavLink>
+    
             </ul>
         </div>
     </div>
