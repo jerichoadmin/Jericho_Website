@@ -2,7 +2,7 @@
     height: auto;
     padding-top: 5vh;
     width: 100vw;
-    height: 200vh;
+    height: auto;
     background-image: linear-gradient(#dbba4b,#4ba7db,#db4bd5cf);
     display: flex;
     justify-content: center;
@@ -307,7 +307,96 @@
     color: white;
     font-size: 20pt;
     margin: 2rem;
+    font-weight: 800;
   }
+
+  .ffc_rewards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .rewards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 4rem;
+  }
+
+  .ffc_rewards h3{
+    font-weight: 600;
+    font-size: 20pt;
+    background-color: #242424;
+    color: white;
+    padding: 1rem 0rem;
+    /* height: 1vh; */
+    width: 75vw;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+  }
+  .rewards h6{
+    font-size: 16pt;
+    font-weight: 700;
+    padding: 0.5rem;
+  }
+  .rewards span{
+    font-style: italic;
+    font-size: 10pt;
+  }
+  .plant_ffc{
+    width: 20vw;
+  }
+  .ffc_purchase{
+    width: 20vw;
+  }
+  .earnings{
+    margin: 1.5rem;
+  }
+.earnings img{
+    width: 15vw;
+}
+.ffc_referal{
+    border: none;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    font-size: 8pt;
+    background-color: #4ba7db;
+    color: white;
+    cursor: pointer;
+}
+.ffc_referal:hover{
+    transition: 1s;
+    color: #4ba7db;
+    background-color: white;
+}
+.ffc_join{
+    font-weight: 600;
+    font-size: 20pt;
+    background-color: #242424;
+    color: white;
+    padding: 1rem 0rem;
+    width: 75vw;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+.ffc_sign_up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ffc_sign_up span{
+    color: white;
+    font-style: italic;
+    font-size: 14pt;
+    margin: 1rem 2rem;
+}
+.refer_earning{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* ///////////////////// */
@@ -324,6 +413,18 @@
     .newffc_logo{
         padding: 1rem;
     }
+    .ffc_rewards h3{
+        font-size: 24pt;
+    }
+    .plant_ffc{
+        width: 16vw;
+    }
+    .ffc_purchase{
+        width: 14vw;
+    }
+    .earnings img{
+        width: 12vw;
+    }
 }
 
 
@@ -333,7 +434,7 @@
 
 @media (min-width:1025px) { 
     .ffc_sign_up button{
-        font-size: 30pt;
+        font-size: 24pt;
         margin: 4rem;
         padding: 1rem 2rem;
     }
@@ -441,6 +542,52 @@
         display: flex;
         justify-content: center;
     }
+    .rewards_inner_horizantal{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .reward_1{
+        margin: 1rem 5rem;
+    }
+    .reward_2{
+        margin: 1rem 5rem;
+    }
+    .earning_detials_inner{
+        display: flex;
+    }
+    .earning_horizantal{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .earning_details_inner{
+        margin: 4rem;
+    }
+    .ffc_intro_paragraph h2{
+        font-size: 26pt;
+    }
+    .rewards h6{
+        font-size: 22pt;
+    }
+    .rewards span{
+        font-size: 12pt;
+    }
+    .earning_details h4{
+        font-size: 16pt;
+        padding: 0.5rem;
+    }
+    .ffc_referal{
+        font-size: 12pt;
+    }
+    .plant_ffc{
+        width: 14vw;
+    }
+    .ffc_purchase{
+        width: 12vw;
+    }
+    .earnings img{
+        width: 10vw;
+    }
 
 
 
@@ -461,6 +608,27 @@
         width: 10vw;
         height: 10vw;
     }
+    .plant_ffc{
+        width: 12vw;
+    }
+    .ffc_purchase{
+        width: 10vw;
+    }
+    .earnings img{
+        width: 8vw;
+    }
+}
+@media (min-width:1400px) { 
+    .plant_ffc{
+        width: 10vw;
+    }
+    .ffc_purchase{
+        width: 8vw;
+    }
+    .earnings img{
+        width: 6vw;
+    }
+
 }
 
 
@@ -475,6 +643,15 @@
     .ffc_grid-container{
         max-width: 30vw;
     }
+    .plant_ffc{
+        width: 8vw;
+    }
+    .ffc_purchase{
+        width: 6vw;
+    }
+    .earnings img{
+        width: 4vw;
+    }
 }
 
 
@@ -482,6 +659,19 @@
     .jericho_ffc_flower{
         width: 60vw;
     }
+    .plant_ffc{
+        width: 6vw;
+    }
+    .ffc_purchase{
+        width: 5vw;
+    }
+    .earnings img{
+        width: 3.5vw;
+    }
+    .ffc_body_top p{
+        padding: 4rem 20rem;
+    }
+    
 
 
 }

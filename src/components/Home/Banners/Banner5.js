@@ -7,7 +7,7 @@ import instagram from '../../../Assets/Instagram_Glyph_Gradient.png'
 import corrales from '../../../Assets/CorralesGarden2024.png'
 
 
-function Banner() {
+function Banner5() {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -50,4 +50,4 @@ function Banner() {
   )
 }
 
-export default Banner
+export default Banner5

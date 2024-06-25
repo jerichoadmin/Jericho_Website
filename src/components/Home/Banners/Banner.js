@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import { NavLink } from 'react-router-dom';
 
 
+
 function Banner() {
   useEffect(() => {
     AOS.init();

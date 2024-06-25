@@ -84,6 +84,7 @@
     fill: white;
 }
 #yt:hover{
+    transition: 1s;
     fill: #FF0000;
     cursor: pointer;
 }
@@ -91,6 +92,7 @@
     fill: white;
 }
 #insta:hover{
+    transition: 1s;
     fill: 	#833AB4;
     cursor: pointer;
 }
@@ -98,6 +100,7 @@
     fill: white;
 }
 #fb:hover{
+    transition: 1s;
     fill: #4267B2;
     cursor: pointer;
 }

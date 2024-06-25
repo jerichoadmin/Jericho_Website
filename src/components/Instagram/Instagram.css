@@ -66,6 +66,11 @@
     padding: 1rem;
     width: auto;
 }
+.instagram_bottom button:hover{
+    color: #DBBA4B;
+    background-color: white;
+    transition: 1s;
+}
 
 
 

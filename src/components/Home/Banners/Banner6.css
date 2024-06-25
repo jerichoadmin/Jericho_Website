@@ -1,0 +1,168 @@
+.banner_img_6{
+    width: 30vw;
+    align-self: center;
+    margin: 1rem;
+}
+
+.instagram_lower{
+    color: white;
+    padding: 1.5rem;
+}
+.b_h52 {
+    color: white;
+    font-size: 20pt;
+    font-weight: 600 !important;
+    padding: 0 1rem;
+    padding-bottom: 0.5vh;
+    font-weight: 500;
+}
+.b_6{
+    height: auto;
+    width: 85vw;
+    padding: 1rem;
+    margin-top: 2.5vh;
+    background-color: #242424;
+    z-index: 2;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.banner_button6{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #8BC34A !important;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: 1s;
+    margin: 1rem;
+}
+.banner_button6:hover{
+    transition: 1s;
+    background-color: white !important;
+    color: #8BC34A !important;
+}
+.b_img6{
+    background-image: url('../../../Assets/Flowers-Sky.jpg');
+    height: auto;
+    width: 100vw;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+}
+
+.banner_ffc{
+    width: 70vw;
+    margin: 1rem;
+    border-radius: 10px;
+    position: relative;
+        z-index: 2;
+}
+
+
+.banner_6_lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner_banner_ffc{
+position: relative;
+opacity: 50%;
+}
+.newffc_banner{
+    position:  absolute ;
+    width: 60vw !important;
+    z-index: 1;
+    right: 0;
+}
+.b_h46{
+    color: white;
+    font-size: 16pt;
+    padding: 0 1rem;
+    padding-bottom: 0.5vh;
+    font-weight: 500;
+    margin: 1rem 3rem;
+}
+
+@media (min-width:1025px) { 
+    .newffc_banner{
+     width: 30vw !important;
+     right: 50px;
+    }
+    .b_h46{
+        font-size: 18pt;
+    }
+    .newffc_banner{
+        width: 12vw;
+    }
+    .b_6{
+        width: 50vw;
+    }
+    .banner_button6{
+        font-size: 18pt;
+    }
+    .banner_img_5{
+        width: 15vw;
+        padding-top: 2rem;
+    }
+    .banner_ffc{
+        width: 30vw;
+        margin: 1rem;
+    }
+
+}
+
+
+@media (min-width:1225px) { 
+    .newffc_banner{
+        width: 10vw;
+    }
+    .banner_img_5{
+        width: 10vw;
+    }
+    .b_h52 {
+        font-size: 28pt;
+    }
+    .banner_button6{
+        margin: 2rem;
+    }
+    .banner_ffc{
+        width: 30vw;
+    }
+}
+
+
+@media (min-width:1825px) { 
+    .newffc_banner{
+        width: 20vw !important;
+        right: 0px;
+       }
+    .b_h52 {
+        font-size: 34pt;
+        margin: 0rem 3rem;
+    }
+    .b_h46{
+        font-size: 22pt;
+    }
+    .b_6{
+        width: 35vw;
+    }
+    .newffc_banner{
+        width: 7vw;
+    }
+    .banner_ffc{
+        width: 25vw;
+    }
+    .banner_img_5{
+        width: 7vw;
+    }
+
+
+}
