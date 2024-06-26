@@ -24,10 +24,14 @@ function Banner6() {
         data-aos-once="true"
         >
             <div className='b_2'>
-                {/* <div className='inner_banner_ffc'>
-            <img className='newffc_banner' src={newffc}/>
-                </div> */}
-            <h4 className='b_h52'>Introducing the New Frequent Flower Club...</h4>
+                <div className='inner_banner_ffc'>
+            <img className='banner_ffc_logo' src={newffc}/>
+                </div>
+                <h4 className='b_h52'>Introducing the New 
+            <span id="word1">Frequent</span>
+            <span id="word2">Flower</span>
+            <span id="word3">Club</span>
+            </h4>
             </div>
             <div>
             <img className='banner_ffc' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/main-Flower'/>
@@ -35,7 +39,7 @@ function Banner6() {
             </div>
 
 
-<h4 className='b_h46'>...with a new points program, rewards and more. Click below to sign up today!</h4>
+<h4 className='b_h46'>with a new points program, rewards and more. Click below for more info!</h4>
 <div className='banner_6_lower'>
 
 <NavLink to='/ffc'>
