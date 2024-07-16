@@ -41,7 +41,7 @@ function FFC() {
   <div className='welcome_text'>
             <h1>Frequent Flower Club</h1>
                 <p>
-                    A new and imporved points system, with all the same connectedness you know and love
+                    A new and improved points system, with all the same connectedness you know and love
                </p>
   </div>
                
