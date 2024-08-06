@@ -155,7 +155,7 @@ Monday-Saturday 9-5 | Sundays 11-5
 
     </div>
 
-    <Banner5 />
+
     <Gallery2 />
     <MoreAboutJericho />
     <Banner3 />
