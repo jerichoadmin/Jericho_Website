@@ -12,7 +12,7 @@ function GardeningCalendar() {
         <meta name="description" content="Stay on top of gardening events and important dates with the Jericho Nursery Gardening Calendar." />
         <meta property="og:title" content="Gardening Calendar - Jericho Nursery" />
         <meta property="og:description" content="Stay on top of gardening events and important dates with the Jericho Nursery Gardening Calendar." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/cactus.jpg" />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
         <meta property="og:type" content="website" />
 
       </Helmet>

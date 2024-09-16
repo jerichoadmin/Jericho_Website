@@ -46,7 +46,7 @@ function Radio() {
         <meta name="description" content="Tune in to the Jericho Nursery Radio Show for insightful gardening tips, plant discussions, and expert advice." />
         <meta property="og:title" content="Jericho Nursery Radio Show - Gardening Tips and Discussions" />
         <meta property="og:description" content="Tune in to the Jericho Nursery Radio Show for insightful gardening tips, plant discussions, and expert advice." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/bowls.jpg" />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
         <meta property="og:type" content="website" />
    
 </Helmet>

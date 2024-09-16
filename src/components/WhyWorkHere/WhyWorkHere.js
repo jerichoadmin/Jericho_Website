@@ -38,7 +38,7 @@ function WhyWorkHere() {
         <meta name="description" content="Discover why Jericho Nursery is a great place to work. Join our team of passionate individuals, enjoy a supportive work environment, and contribute to the joy of gardening in our community." />
         <meta property="og:title" content="Why Work Here - Join Our Passionate Team" />
         <meta property="og:description" content="Discover why Jericho Nursery is a great place to work. Join our team of passionate individuals, enjoy a supportive work environment, and contribute to the joy of gardening in our community." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/swgarden.jpg" />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
         <meta property="og:type" content="website" />
 </Helmet>
 

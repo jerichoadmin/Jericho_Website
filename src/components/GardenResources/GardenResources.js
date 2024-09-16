@@ -13,7 +13,7 @@ function GardenResources() {
         <meta name="description" content="Explore a collection of helpful garden resources and guides provided by Jericho Nursery." />
         <meta property="og:title" content="Garden Resources - Jericho Nursery" />
         <meta property="og:description" content="Explore a collection of helpful garden resources and guides provided by Jericho Nursery." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/cactus.jpg" />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
         <meta property="og:type" content="website" />
       </Helmet>
 

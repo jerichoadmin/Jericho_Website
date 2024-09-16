@@ -14,7 +14,7 @@ function ContactUs() {
         <meta name="description" content="Contact Jericho Nursery for any inquiries, questions, or feedback. We are here to assist you with your gardening needs and provide excellent customer service." />
         <meta property="og:title" content="Contact Us - Jericho Nursery" />
         <meta property="og:description" content="Contact Jericho Nursery for any inquiries, questions, or feedback. We are here to assist you with your gardening needs and provide excellent customer service." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/swgarden.jpg" />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
         <meta property="og:type" content="website" />
 </Helmet>
 

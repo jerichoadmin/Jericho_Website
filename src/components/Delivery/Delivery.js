@@ -42,7 +42,7 @@ function Delivery() {
 
 <Helmet>
 <title>Delivery Service - Jericho Nursery</title>
-        <meta name="description" content="Find fast and reliable delivery service for your packages." />
+        <meta name="description" content="Find fast and reliable delivery service for your plant parcels." />
         <meta name="keywords" content="delivery service, fast delivery, reliable delivery" />
 </Helmet>
 

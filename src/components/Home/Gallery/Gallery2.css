@@ -1,6 +1,6 @@
 .h2_carousel{
     height: auto;
-    background-color: #2095b6c4;
+    background-color: #a84314c4;
     margin-top: 10rem;
     color: white;
    padding-bottom: 12vh; 
@@ -15,13 +15,13 @@
     padding: 2rem;
     font-family: Kaushan Script;
     text-shadow: 
-    1px 1px 0 #e5c100,
-    2px 2px 0 #cba900,
-    3px 3px 0 #b0a200,
-    4px 4px 0 #968b00,
-    5px 5px 0 #7d7400,
-    6px 6px 0 #645d00,
-    7px 7px 0 #4a4600;
+    1px 1px 0 #a36b00,  
+    2px 2px 0 #8c5900,  
+    3px 3px 0 #734600, 
+    4px 4px 0 #5c3600,
+    5px 5px 0 #453100, 
+    6px 6px 0 #2e2400,  
+    7px 7px 0 #1d1800;
 }
 .home_photo_gallery_container{
     height: 35rem;
@@ -73,7 +73,6 @@ top: -10px;
   }
 
   .h_container_ul{
- position: absolute;
  top: -90px;
   }
 

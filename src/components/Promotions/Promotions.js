@@ -44,11 +44,12 @@ const [promotionsData, setPromotionsData] = useState([])
     <div className='promotions'>
 
 <Helmet>
-        <title>Shop This Week's Deals at Jericho Nursery</title>
-        <meta name="description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
-        <meta property="og:title" content="Shop High-Quality Plants at Jericho Nursery" />
-        <meta property="og:description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
+        <title>Discover New Arrivals at Jericho Nursery</title>
+        <meta name="description" content="Check out the latest products at Jericho Nursery. Discover new plants and gardening essentials to enhance your outdoor spaces." />
+        <meta property="og:title" content="New Arrivals at Jericho Nursery" />
+        <meta property="og:description" content="Explore the newest additions to our collection at Jericho Nursery. Find the perfect plants and gardening products to elevate your garden or home." />
 </Helmet>
+
 
         <div className='promotions_welcome'>
         <h1>New Product</h1>
