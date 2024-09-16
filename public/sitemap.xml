@@ -35,9 +35,9 @@
 <url>
 <loc>https://www.jerichonursery.com/ffc</loc>
 </url>
-<!-- <url>
+<url>
 <loc>https://www.jerichonursery.com/instagram</loc>
-</url> -->
+</url>
 <url>
 <loc>https://www.jerichonursery.com/promotions</loc>
 </url>
@@ -79,6 +79,9 @@
 </url>
 <url>
 <loc>https://www.jerichonursery.com/pots</loc>
+</url>
+<url>
+<loc>https://www.jerichonursery.com/promotions</loc>
 </url>
 <url>
 <loc>https://www.jerichonursery.com/radio</loc>
