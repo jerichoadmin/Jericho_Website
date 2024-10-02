@@ -78,8 +78,8 @@ function Seminars() {
            <div ref={revealRef1}>
           </div>
                 <ul>
-                    <h3>Workshops are over for the Year!</h3>
-                    <li>They will start back at a later date</li>
+                    {/* <h3>Workshops are over for the Year!</h3> */}
+                    <li>Workshops will start back at a later date</li>
                     <span>Thank you to all who attended</span>
 
                     {/* <h3>Workshops this Month:</h3> */}
