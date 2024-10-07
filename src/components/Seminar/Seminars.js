@@ -79,37 +79,19 @@ function Seminars() {
           </div>
                 <ul>
                     {/* <h3>Workshops are over for the Year!</h3> */}
-                    <li>Workshops will start back at a later date</li>
-                    <span>Thank you to all who attended</span>
+                    {/* <li>Workshops will start back at a later date</li>
+                    <span>Thank you to all who attended</span> */}
 
-                    {/* <h3>Workshops this Month:</h3> */}
+                  <h3>Fall Workshops:</h3> 
 
-                    {/* <li>Introductory Beekeeping with Justin Armstrong</li>
-                    <span>(Saturday January 13th, 2:00 pm)</span>
+                   <li>Garden Workshop Q&A w/ Rick and Jen Hobson</li>
+                    <span>(Saturday October 12th, 2:00 pm)</span>
 
-                    <li>Tree pruning with certified arborist Steve Bell</li>
-                    <span>(Saturday January 27th, 2:00 pm)</span>
+                    
+                   <li>Soilutions</li>
+                    <span>(Saturday October 26th, 2:00 pm)</span>
 
-                    <li>Gardening Q&A with Richard Hobson</li>
-                    <span>(February 10th, 2:00 pm)</span>
 
-                    <li>Beekeeping 102 with Justin Armstrong</li>
-                    <span>(February 24th, 2:00 pm)</span>
-
-                    <li>Creating Combo Baskets with Milt McLain</li>
-                    <span>(Saturday March 2nd, 2:00 pm)</span>
-
-                    <li>Growing Food with Jennifer Hobson</li>
-                    <span>(Saturday March 9th, 2:00 pm)</span>
-
-                    <li>Q&A with Richard and Jennifer</li>
-                    <span>(Saturday March 16th, 2:00 pm)</span>
-
-                    <li>Rose Pruning with Marisa Thompson</li>
-                    <span>(Saturday March 23rd, 2:00 pm)</span>
-
-                    <li>Growing Chile with "Big Jim" Wagne</li>
-                    <span>(Saturday March 30th, 2:00 pm)</span> */}
 
 
                 </ul>
