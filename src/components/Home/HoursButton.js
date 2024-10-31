@@ -30,7 +30,7 @@ const HoursButton = () => {
           className='modal'
         >
           <button onClick={closeModal}>Close </button>
-          <p>Hours: Monday-Saturday 9-5 | Sundays 11-5</p>
+          <p>Hours: Monday-Saturday 9-5 | Sundays 11-4</p>
         </dialog>
       )}
     </div>
