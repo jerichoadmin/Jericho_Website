@@ -13,8 +13,9 @@ function Popup() {
       .then((res) => {
         setPopUpData(res.data);
         setIsPopUpVisible(res.data[0].isVisible);
-        const popupContent = JSON.stringify(res.data);
-        localStorage.setItem('popupContent', popupContent);
+        // Commented out localStorage for popup content
+        // const popupContent = JSON.stringify(res.data);
+        // localStorage.setItem('popupContent', popupContent);
       })
       .catch((err) => {
         console.log(err);
@@ -22,19 +23,21 @@ function Popup() {
   }, []);
 
   useEffect(() => {
-    const popupClosed = localStorage.getItem('popupClosed');
-    const popupSeenCount = localStorage.getItem('popupSeenCount');
-    const storedPopupContent = localStorage.getItem('popupContent');
+    // Commented out localStorage logic for popup display control
+    // const popupClosed = localStorage.getItem('popupClosed');
+    // const popupSeenCount = localStorage.getItem('popupSeenCount');
+    // const storedPopupContent = localStorage.getItem('popupContent');
 
-    if (popupSeenCount && parseInt(popupSeenCount) >= 2) {
-      setIsOpen(false);
-    } else {
-      setIsOpen(true);
-    }
+    // if (popupSeenCount && parseInt(popupSeenCount) >= 2) {
+    //   setIsOpen(false);
+    // } else {
+    //   setIsOpen(true);
+    // }
 
-    if (popUpData.length === 0 && storedPopupContent) {
-      setPopUpData(JSON.parse(storedPopupContent));
-    }
+    // Fallback for offline or failed fetch
+    // if (popUpData.length === 0 && storedPopupContent) {
+    //   setPopUpData(JSON.parse(storedPopupContent));
+    // }
   }, [popUpData]);
 
   const formatDate = (date) => {
@@ -47,13 +50,14 @@ function Popup() {
 
   const handleClose = () => {
     setIsOpen(false);
-    const popupSeenCount = localStorage.getItem('popupSeenCount');
-    if (popupSeenCount) {
-      localStorage.setItem('popupSeenCount', parseInt(popupSeenCount) + 1);
-    } else {
-      localStorage.setItem('popupSeenCount', 1);
-    }
-    localStorage.setItem('popupClosed', 'true');
+    // Commented out localStorage updates for "Close" logic
+    // const popupSeenCount = localStorage.getItem('popupSeenCount');
+    // if (popupSeenCount) {
+    //   localStorage.setItem('popupSeenCount', parseInt(popupSeenCount) + 1);
+    // } else {
+    //   localStorage.setItem('popupSeenCount', 1);
+    // }
+    // localStorage.setItem('popupClosed', 'true');
   };
 
   return (
