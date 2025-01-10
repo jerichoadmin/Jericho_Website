@@ -126,7 +126,7 @@ yard
     
   return (
     <div className='h2_carousel'>
-      <h1>Happy Holidays</h1>
+      <h1>This week at Jericho Nursery</h1>
       {visible ? (<p>Swipe to see more photos..</p>) : ('')}
         <Slider {...settings} prevArrow={<PrevArrow />} nextArrow={<NextArrow />}>
             {galleryData.map((item) => (
