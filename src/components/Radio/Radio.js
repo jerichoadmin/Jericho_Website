@@ -124,7 +124,7 @@ function Radio() {
 
   <div className='rbb_left'>
     <div className='rbb_pic'>
-            <img className='kkob_banner' src='https://express-images.franklymedia.com/6616/sites/124/2020/12/14121100/GARDENTALK-768x180.jpg' alt='KKOB Garden Talk'/>
+            <img className='kkob_banner' src='https://cdn.socast.io/6616/sites/124/2020/12/14121100/GARDENTALK-768x180.jpg' alt='KKOB Garden Talk'/>
     </div>
             <span>You can listen to Garden Talk over the internet by visiting KKOB.com. Click the "Listen LIVE " button below to tune in</span>
 

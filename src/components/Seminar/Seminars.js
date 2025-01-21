@@ -82,15 +82,12 @@ function Seminars() {
                     {/* <li>Workshops will start back at a later date</li>
                     <span>Thank you to all who attended</span> */}
 
-                  <h3>Fall Workshops:</h3> 
+                  <h3>Workshops:</h3> 
 
-                   <li>Garden Workshop Q&A w/ Rick and Jen Hobson</li>
-                    <span>(Saturday October 12th, 2:00 pm)</span>
+                   <li>Tree Pruning with Steve Bell</li>
+                    <span>(Saturday January 25th, 2:00 pm)</span>
 
-                    
-                   <li>Soilutions</li>
-                    <span>(Saturday October 26th, 2:00 pm)</span>
-
+            
 
 
 
@@ -104,12 +101,12 @@ function Seminars() {
 
  
             <div className='seminars_body_bottom'>
-                {/* <h1>Click the Button Below to Sign up for Workshops</h1> */}
+                <h1>Click the Button Below to Sign up for Workshops</h1> 
         <div className='seminar_form'>
        
-       {/* <a href="https://link.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
+        <a href="https://events.jerichonursery.com/registration-page">
         <button className="seminar_button">Workshop Signup</button>
-       </a> */}
+       </a> 
        
 
 
