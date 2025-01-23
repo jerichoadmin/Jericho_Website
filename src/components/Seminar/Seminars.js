@@ -85,7 +85,33 @@ function Seminars() {
                   <h3>Workshops:</h3> 
 
                    <li>Tree Pruning with Steve Bell</li>
-                    <span>(Saturday January 25th, 2:00 pm)</span>
+                    <span>(Saturday January 25th)</span>
+
+                   <li>Principals of Landscape Design with Jennifer Hobson</li>
+                    <span>(February 1st)</span>
+
+                   <li>Beekeeping 1.0 with Justin Armstrong</li>
+                    <span>(February 8th)</span>
+
+                    <li>Licensed Irrigation Specialist Tony Lello</li>
+                    <span>(February 15th)</span>
+
+                    <li>Fruit Tree Pruning with Steve Bell</li>
+                    <span>(February 22nd)</span>
+
+                    <li>Container Gardening with Jennifer Hobson (Price TBA)</li>
+                    <span>(March 1st)</span>
+
+                    <li>Rose Pruning with Marisa Thompson</li>
+                    <span>(March 8th)</span>
+
+                    <li>Know Your Snakes with Herpetologist, Jerry Tuttle</li>
+                    <span>(March 15th)</span>
+                    
+                    <li>Beekeeping 2.0 with Justin Armstrong</li>
+                    <span>(March 22nd)</span>
+
+             
 
             
 
