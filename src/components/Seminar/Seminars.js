@@ -129,15 +129,11 @@ function Seminars() {
             <div className='seminars_body_bottom'>
                 <h1>Click the Button Below to Sign up for Workshops</h1> 
         <div className='seminar_form'>
-        <h2>This week's Signup</h2>
-        <a href="https://events.jerichonursery.com/registration-page">
-        <button className="seminar_button">Tree Pruning</button>
-       </a> 
-       <h2>Next week's Signup</h2>
-        <a href="https://events.jerichonursery.com/registration-page">
+        <h2>This week's Workshop</h2>
+        <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">
         <button className="seminar_button">Landscape Design</button>
        </a> 
-       
+
 
 
         </div>
