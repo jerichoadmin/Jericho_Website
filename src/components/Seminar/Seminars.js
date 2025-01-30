@@ -82,36 +82,72 @@ function Seminars() {
                     {/* <li>Workshops will start back at a later date</li>
                     <span>Thank you to all who attended</span> */}
 
-                  <h3>Workshops:</h3> 
+              <h3>Workshops:</h3> 
+                    <div className="seminar_inner_container">
+                        <li>Principals of Landscape Design with Jennifer Hobson</li>
+                        <span>(February 1st)</span>
+                        <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">
+                            <button className="seminar_button">Sign Up</button>
+                        </a>
+                    </div>
 
-                   <li>Tree Pruning with Steve Bell</li>
-                    <span>(Saturday January 25th)</span>
+                    <div className="seminar_inner_container">
+                        <li>Beekeeping 1.0 with Justin Armstrong</li>
+                        <span>(February 8th)</span>
+                        <a href="https://link.lightworkdigital.com/widget/form/1gcIVKFw9QeLF98OHiBm">
+                            <button className="seminar_button">Sign Up</button>
+                        </a>
+                    </div>
 
-                   <li>Principals of Landscape Design with Jennifer Hobson</li>
-                    <span>(February 1st)</span>
+                    <div className="seminar_inner_container">
+                        <li>Licensed Irrigation Specialist Tony Lello</li>
+                        <span>(February 15th)</span>
+                        <a href="https://link.lightworkdigital.com/widget/form/7XXB1ObBKCaQHfxUdIQ1">
+                            <button className="seminar_button">Sign Up</button>
+                        </a>
+                    </div>
 
-                   <li>Beekeeping 1.0 with Justin Armstrong</li>
-                    <span>(February 8th)</span>
+                    <div className="seminar_inner_container">
+                        <li>Fruit Tree Pruning with Steve Bell</li>
+                        <span>(February 22nd)</span>
+                        <a href="https://link.lightworkdigital.com/widget/form/zFmKMJa52o4xfYP8liPM">
+                            <button className="seminar_button">Sign Up</button>
+                        </a>
+                    </div>
 
-                    <li>Licensed Irrigation Specialist Tony Lello</li>
-                    <span>(February 15th)</span>
+                    <div className="seminar_inner_container">
+                        <li>Container Gardening with Jennifer Hobson (Price TBA)</li>
+                        <span>(March 1st)</span>
+                        <a href="https://link.lightworkdigital.com/widget/form/naREuEjOATU32yfpCnpR">
+                            <button className="seminar_button">Sign Up</button>
+                        </a>
+                    </div>
 
-                    <li>Fruit Tree Pruning with Steve Bell</li>
-                    <span>(February 22nd)</span>
+                    <div className="seminar_inner_container">
+                        <li>Rose Pruning with Marisa Thompson</li>
+                        <span>(March 8th)</span>
+                        <a href="https://link.lightworkdigital.com/widget/form/HNM0TmIzHiQKsaocJveq">
+                            <button className="seminar_button">Sign Up</button>
+                        </a>
+                    </div>
 
-                    <li>Container Gardening with Jennifer Hobson (Price TBA)</li>
-                    <span>(March 1st)</span>
+                    <div className="seminar_inner_container">
+                        <li>Know Your Snakes with Herpetologist, Jerry Tuttle</li>
+                        <span>(March 15th)</span>
+                        <a href="https://link.lightworkdigital.com/widget/form/UHHGdr135kBXqW0tE5UF">
+                            <button className="seminar_button">Sign Up</button>
+                        </a>
+                    </div>
 
-                    <li>Rose Pruning with Marisa Thompson</li>
-                    <span>(March 8th)</span>
+                    <div className="seminar_inner_container">
+                        <li>Beekeeping 2.0 with Justin Armstrong</li>
+                        <span>(March 22nd)</span>
+                        <a href="https://link.lightworkdigital.com/widget/form/bTT6YVD9BQXxg7RtYo6R">
+                            <button className="seminar_button">Sign Up</button>
+                        </a>
+                    </div>
 
-                    <li>Know Your Snakes with Herpetologist, Jerry Tuttle</li>
-                    <span>(March 15th)</span>
-                    
-                    <li>Beekeeping 2.0 with Justin Armstrong</li>
-                    <span>(March 22nd)</span>
-
-             
+                                
 
             
 
@@ -126,18 +162,15 @@ function Seminars() {
   </div>
 
  
-            <div className='seminars_body_bottom'>
+      {/* <div className='seminars_body_bottom'>
                 <h1>Click the Button Below to Sign up for Workshops</h1> 
         <div className='seminar_form'>
         <h2>This week's Workshop</h2>
         <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">
         <button className="seminar_button">Landscape Design</button>
        </a> 
-
-
-
         </div>
-            </div>
+      </div> */}
         </div>
 </div>
   )

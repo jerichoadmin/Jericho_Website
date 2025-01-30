@@ -75,7 +75,7 @@ flex-direction: column;
     padding: 2rem;
    padding-bottom: 5rem;
    align-self: center;
-   margin: 5rem;
+   margin: 5rem 2rem;
 
 }
 .seminars_list li{
@@ -86,7 +86,7 @@ flex-direction: column;
 
 }
 .seminars_list span{
-    font-size: 10pt;
+    font-size: 12pt;
     font-weight: 700;
     color: #95562E;
 }
@@ -138,17 +138,17 @@ width: 23rem;
 .seminar_button{
     height: auto;
     width: auto;
-    padding: 1rem 1.25rem;
+    padding: 0.5rem 1rem;
     background-color: #DBBA4B;
     border: none;
     border-radius: 12px;
     font-family: 'Raleway';
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 600;
     color: white;
     align-self: center;
     cursor: pointer;
-    margin: 1rem;
+    margin: 0.5rem;
     box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
 }
 .seminar_button:hover{
@@ -160,6 +160,13 @@ width: 23rem;
     font-size: 30pt;
     font-weight: 700;
     color:#DBBA4B;
+}
+
+.seminar_inner_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px white solid;
 }
 
 
@@ -216,9 +223,7 @@ width: 23rem;
     height: 15rem;
     width: 35rem;
     }
-    .seminar_button{
-        font-size: 24pt;
-    }
+
     .center_seminar_icon{
         display: flex;
         justify-content: center;
