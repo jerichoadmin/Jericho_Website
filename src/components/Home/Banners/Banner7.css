@@ -1,0 +1,90 @@
+.b_img7 {
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/tropical.jpg');
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.b_7 {
+    width: 85vw;
+    padding: 1rem;
+    margin-top: 2.5vh;
+    background-color: #242424;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.b_h527 {
+    color: white;
+    font-size: 34pt;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.b_h47 {
+    color: white;
+    font-size: 16pt;
+    margin: 1rem;
+}
+
+.banner_button7 {
+    padding: 0.75rem 1.75rem;
+    background-color: #4FA673;
+    border: none;
+    border-radius: 12px;
+    font-size: 14pt;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+    margin: 1rem;
+}
+
+.banner_button7:hover {
+    background-color: white;
+    color: #4FA673;
+}
+
+.banner_7_lower {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seminargray {
+    width: 50vw;
+}
+
+@media (min-width: 700px) {
+    .seminargray { width: 40vw; }
+}
+
+@media (min-width: 1025px) {
+    .b_7 { width: 50vw; }
+    .banner_button7 { font-size: 18pt; }
+    .seminargray { width: 26vw; }
+    .b_h527 { font-size: 38pt; }
+    .b_h47 { font-size: 18pt; }
+}
+
+@media (min-width: 1225px) {
+    .seminargray { width: 22vw; }
+    .b_h527 { 
+    font-size: 46pt;
+    margin-top: 2rem;
+     }
+    .b_h47 { font-size: 22pt; }
+}
+
+@media (min-width: 1550px) {
+    .b_h527 { font-size: 54pt; }
+    .seminargray { width: 20vw; }
+}
+
+@media (min-width: 1825px) {
+    .b_7 { width: 35vw; }
+    .seminargray { width: 15vw; }
+}

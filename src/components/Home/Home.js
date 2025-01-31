@@ -8,8 +8,8 @@ import Banner3 from './Banners/Banner3';
 import Banner4 from './Banners/Banner4';
 import Banner5 from './Banners/Banner5'
 import Banner6 from './Banners/Banner6';
+import Banner7 from './Banners/Banner7';
 import NewThisWeek from '../Home/Containers/ThisWeek'
-import JerichoMap from './Containers/JerichoMap'
 import VideosContainer from './Containers/VideosContainer'
 import GardeningCalendar from './Containers/GardeningCalendar'
 import NewintheBlog from './Containers/NewintheBlog'
@@ -104,7 +104,7 @@ Monday-Saturday 9-5 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-     
+    <Banner7 />
     <PromotionsContainer />
     </div>
     <div 
@@ -116,7 +116,7 @@ Monday-Saturday 9-5 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-      <Banner6 />
+
     <NewThisWeek />
     </div>
     <div 
@@ -128,8 +128,8 @@ Monday-Saturday 9-5 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-
-          <VideosContainer /> 
+    <Banner6 />
+    <VideosContainer /> 
     </div>
     <div 
         data-aos="fade-up"
@@ -140,7 +140,7 @@ Monday-Saturday 9-5 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-       <Banner />
+ 
           <GardeningCalendar />
     </div>
 
@@ -159,7 +159,7 @@ Monday-Saturday 9-5 | Sundays 11-5
 
     <Gallery2 />
     <MoreAboutJericho />
-    <Banner3 />
+    <Banner />
     
 
 
