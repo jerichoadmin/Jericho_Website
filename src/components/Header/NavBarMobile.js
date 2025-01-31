@@ -157,7 +157,7 @@ function NavBarMobile() {
     <li className="navbar__dropdownItem_mobile">Videos</li>
     </NavLink>
     <NavLink to='/instagram'>
-    <li className="navbar__dropdownItem_mobile">Videos</li>
+    <li className="navbar__dropdownItem_mobile">Instagram</li>
     </NavLink>
     <NavLink to='/gardeningcalendar'>
      <li className="navbar__dropdownItem_mobile">Gardening Calendar</li>

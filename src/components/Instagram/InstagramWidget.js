@@ -8,10 +8,10 @@ const InstagramWidget = ({ beholdId }) => {
     document.head.appendChild(script);
 
     return () => {
-      // Cleanup: remove the script when the component unmounts
+     
       document.head.removeChild(script);
     };
-  }, []); // Empty dependency array to ensure the effect runs only once
+  }, []); 
 
   return <div data-behold-id={beholdId}></div>;
 };
