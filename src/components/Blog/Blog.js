@@ -43,7 +43,15 @@ function Blog() {
 
   function mapButtons(count) {
     const buttons = [];
-    for (let i = 1; i <= count; i++) {
+    const maxVisible = 3; 
+    let start = Math.max(1, active - Math.floor(maxVisible / 2));
+    let end = Math.min(start + maxVisible, count);
+  
+    if (end - start < maxVisible) {
+      start = Math.max(0, end - maxVisible);
+    }
+  
+    for (let i = start; i < end; i++) {
       buttons.push(
         <button
           key={i}
@@ -57,9 +65,9 @@ function Blog() {
         </button>
       );
     }
+  
     return buttons;
   }
-
   const hanldeScrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
