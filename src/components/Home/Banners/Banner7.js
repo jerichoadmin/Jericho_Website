@@ -24,7 +24,7 @@ function Banner7() {
         data-aos-once="true"
         >
             <h1 className='b_h527'>Workshops are back</h1>
-            <p className='b_h47'>From now until March 22nd we will be holding workships every Saturday. Visit our workshops page to sign up today!</p>
+            <p className='b_h47'>From now until March 22nd we will be holding workshops every Saturday. Visit our workshops page to sign up today!</p>
             <div className='banner_7_lower'>
                 <img className='seminargray' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/seminargray2.png' />
             <NavLink to='/seminars'>
