@@ -85,7 +85,7 @@ function Seminars() {
               <h3>Workshops:</h3> 
                     <div className="seminar_inner_container">
                         <li>Principals of Landscape Design with Jennifer Hobson</li>
-                        <span>(February 1st)</span>
+                        <span>(February 1st; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">
                             <button className="seminar_button">Sign Up</button>
                         </a>
@@ -93,7 +93,7 @@ function Seminars() {
 
                     <div className="seminar_inner_container">
                         <li>Beekeeping 1.0 with Justin Armstrong</li>
-                        <span>(February 8th)</span>
+                        <span>(February 8th; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/1gcIVKFw9QeLF98OHiBm">
                             <button className="seminar_button">Sign Up</button>
                         </a>
@@ -101,7 +101,7 @@ function Seminars() {
 
                     <div className="seminar_inner_container">
                         <li>Licensed Irrigation Specialist Tony Lello</li>
-                        <span>(February 15th)</span>
+                        <span>(February 15th; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/7XXB1ObBKCaQHfxUdIQ1">
                             <button className="seminar_button">Sign Up</button>
                         </a>
@@ -109,7 +109,7 @@ function Seminars() {
 
                     <div className="seminar_inner_container">
                         <li>Fruit Tree Pruning with Steve Bell</li>
-                        <span>(February 22nd)</span>
+                        <span>(February 22nd; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/zFmKMJa52o4xfYP8liPM">
                             <button className="seminar_button">Sign Up</button>
                         </a>
@@ -117,7 +117,7 @@ function Seminars() {
 
                     <div className="seminar_inner_container">
                         <li>Container Gardening with Jennifer Hobson (Price TBA)</li>
-                        <span>(March 1st)</span>
+                        <span>(March 1st; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/naREuEjOATU32yfpCnpR">
                             <button className="seminar_button">Sign Up</button>
                         </a>
@@ -125,7 +125,7 @@ function Seminars() {
 
                     <div className="seminar_inner_container">
                         <li>Rose Pruning with Marisa Thompson</li>
-                        <span>(March 8th)</span>
+                        <span>(March 8th; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/HNM0TmIzHiQKsaocJveq">
                             <button className="seminar_button">Sign Up</button>
                         </a>
@@ -133,7 +133,7 @@ function Seminars() {
 
                     <div className="seminar_inner_container">
                         <li>Know Your Snakes with Herpetologist, Jerry Tuttle</li>
-                        <span>(March 15th)</span>
+                        <span>(March 15th; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/UHHGdr135kBXqW0tE5UF">
                             <button className="seminar_button">Sign Up</button>
                         </a>
@@ -141,18 +141,11 @@ function Seminars() {
 
                     <div className="seminar_inner_container">
                         <li>Beekeeping 2.0 with Justin Armstrong</li>
-                        <span>(March 22nd)</span>
+                        <span>(March 22nd; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/bTT6YVD9BQXxg7RtYo6R">
                             <button className="seminar_button">Sign Up</button>
                         </a>
                     </div>
-
-                                
-
-            
-
-
-
                 </ul>
             </div>
             </div>
