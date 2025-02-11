@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Sales from './components/Sales/Sales';
 import FFC from './components/FFC/FFC';
+import Newsletter from './components/Newsletter/Newsletter';
 import Delivery from './components/Delivery/Delivery';
 import GardeningCalendar from './components/GardeningCalendar/GardeningCalendar';
 import GardenResources from './components/GardenResources/GardenResources';
@@ -16,7 +17,6 @@ import Partners from './components/Partners/Partners';
 import Aboutus from './components/Aboutuspage/Aboutus';
 import Seminars from './components/Seminar/Seminars';
 import Clubs from './components/Clubs/Clubs';
-import Map from './components/Map/Map';
 import ContactUs from './components/ContactUs/ContactUs';
 import Brands from './components/Brands/Brands';
 import WhyWorkHere from './components/WhyWorkHere/WhyWorkHere';
@@ -69,13 +69,13 @@ function App() {
        <Route path='/' element={<Home />}/>
        <Route path='/sales' element={<Sales />}/>
        <Route path='/ffc' element={<FFC />}/>
+       <Route path='/newsletter' element={<Newsletter/>}/>
        <Route path='/delivery' element={<Delivery />}/>
        <Route path='/gardeningcalendar' element={<GardeningCalendar/>}/>
        <Route path='/gardenresources' element={<GardenResources/>}/>
        <Route path='/giftcard' element={<GiftCard />}/>
        <Route path='/radio' element={<Radio />}/>
        <Route path='/blog' element={<Blog />}/>
-       {/* <Route path='/map'  element={<Map />}/> */}
        <Route path='/singleblog/:blogid' element={<SingleBlog />}/>
        <Route path='/partners' element={<Partners />}/>
        <Route path='/aboutus' element={<Aboutus />}/>

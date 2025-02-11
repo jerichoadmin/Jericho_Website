@@ -1,0 +1,238 @@
+.newsletter{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(#dbba4b,#4ba7db,#db4bd5cf);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.newsletter_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 65vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color:  #DBBA4B;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 3vh;
+    z-index: 2;
+}
+.newsletter_welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.newsletter_welcome h1{
+    color: white;
+    font-size: 26pt;
+    font-weight: 900;
+    -webkit-text-stroke: 1px white;
+
+}
+.newsletter_welcome p{
+    color: white;
+    margin-top: 1rem;
+    padding: 1.5vw;
+}
+.newsletter_body{
+    background-image: linear-gradient(#b19c4a, #7271b7) ;
+    height: auto;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+    z-index: 2;
+}
+.newsletter_body_top p{
+    color: white;
+    padding: 1rem;
+    font-size: 12pt;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+
+.newsletter_body_top h1{
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size: 25pt;
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke: 1px white;
+}
+
+
+
+.newsletter_sign_up{
+    border: #8BC34A 2px solid;
+    border-radius: 16px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+
+  .newsletter_sign_up button{
+    margin: 1rem;
+    border: none;
+    color: white;
+    background-color: #8BC34A;
+    border-radius: 10px;
+    padding: 0.5rem 1.2rem;
+    font-size: 14pt;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .newsletter_sign_up button:hover{
+    background-color: white;
+    color: #8BC34A;
+    transition: 1s;
+  }
+
+
+  .newsletter_join{
+    color:white;
+    font-size: 18pt;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.garden-phone{
+    height: auto;
+    width: 60vw;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+@media (min-width:800px) { 
+    .garden-phone{
+        width: 40vw;
+    }
+    .newsletter_body_top h1{
+        font-size: 40pt;
+    }
+
+}
+
+
+
+
+@media (min-width:1025px) { 
+    .newsletter_sign_up button{
+        font-size: 24pt;
+        margin: 4rem;
+        padding: 1rem 2rem;
+    }
+
+    .newsletter_body_top h1{
+        font-size: 62pt;
+        padding: 2rem;
+    }
+
+   
+    .newsletter_welcome{
+        font-size: 18pt;
+    }
+    .newsletter_welcome h1{
+        font-size: 50pt;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+    .newsletter_welcome p{
+        padding: 1.5vw;
+    }
+
+    .newsletter_body_top p{
+        font-size: 18pt;
+        line-height: 1.8;
+        padding: 4rem 10rem;
+    }
+
+    .newsletter_join{
+        font-size: 32pt;
+    }
+    .newsletter_sign_up{
+        margin: 6rem;
+        border: #8BC34A 6px solid;
+    }
+    .newsletter_join{
+        padding: 1rem;
+    }
+    .garden-phone{
+        height: auto;
+        width: 40vw;
+        border-radius: 16px;
+    }
+    
+}
+
+@media (min-width:1200px) { 
+    .garden-phone{
+        width: 35vw;
+    }
+
+}
+
+
+
+@media (min-width:1400px) { 
+    .newsletter_sign_up{
+        margin: 6rem 12rem;
+    }
+    .newsletter_body_top p{
+        margin: 0rem 12rem;
+    }
+    .garden-phone{
+        width: 32vw;
+    }
+
+
+
+}
+
+
+@media (min-width:1600px) { 
+    .newsletter_sign_up{
+        margin: 6rem 20rem;
+    }
+    .garden-phone{
+        width: 28vw;
+    }
+
+
+}
+
+
+@media (min-width:2000px) { 
+    .newsletter_sign_up{
+        margin: 6rem 28rem;
+    }
+    .garden-phone{
+        width: 25vw;
+    }
+
+    
+
+
+}

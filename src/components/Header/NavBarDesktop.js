@@ -135,9 +135,12 @@ function NavBarDesktop() {
           </div>
 
             <ul className="navbar__dropdownMenu_brown_ffc">
-            <NavLink to='/ffc'>
-        <li>Join the Frequent Flower Club </li>
-        </NavLink>
+          <NavLink to='/ffc'>
+          <li>Join the Frequent Flower Club </li>
+          </NavLink>
+          <NavLink to='/newsletter'>
+          <li>Newsletter and Text Alerts</li>
+          </NavLink>
       </ul>
   
         </li>

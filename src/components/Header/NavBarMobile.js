@@ -192,6 +192,9 @@ function NavBarMobile() {
   <NavLink to='/ffc'>
   <li className="navbar__dropdownItem_mobile">Join the Frequent Flower Club</li>
 </NavLink>
+<NavLink to='/newsletter'>
+  <li className="navbar__dropdownItem_mobile">Newsletter and Text Alerts</li>
+</NavLink>
 </ul>
       ) : null}
             {openContact ? (

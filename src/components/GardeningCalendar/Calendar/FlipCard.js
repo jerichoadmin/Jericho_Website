@@ -223,7 +223,7 @@ const nov_array = [
   'Special order your poinsettias and Christmas plants early.'
 ]
 const dec_array = [
-  'Select one of our Canada grown, classic Christmas trees. They are fresh cut and kept in water so they will be the freshest tree around.',
+  'Select one of our Oregon grown, classic Christmas trees. They are fresh cut and kept in water so they will be the freshest tree around.',
   'Have your tree flocked for something different.',
   'Check out our live Christmas trees and we will hold one for you until shortly before Christmas. You do not want to keep them indoors for more than 5 days.',
   'Deck the halls with our fresh garland and wreaths.',
