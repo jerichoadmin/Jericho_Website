@@ -83,21 +83,21 @@ function Seminars() {
                     <span>Thank you to all who attended</span> */}
 
               <h3>Workshops:</h3> 
-                    <div className="seminar_inner_container">
+                    {/* <div className="seminar_inner_container">
                         <li>Principals of Landscape Design with Jennifer Hobson</li>
                         <span>(February 1st; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">
                             <button className="seminar_button">Sign Up</button>
                         </a>
-                    </div>
+                    </div> */}
 
-                    <div className="seminar_inner_container">
+                    {/* <div className="seminar_inner_container">
                         <li>Beekeeping 1.0 with Justin Armstrong</li>
                         <span>(February 8th; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/1gcIVKFw9QeLF98OHiBm">
                             <button className="seminar_button">Sign Up</button>
                         </a>
-                    </div>
+                    </div> */}
 
                     <div className="seminar_inner_container">
                         <li>Licensed Irrigation Specialist Tony Lello</li>
@@ -119,7 +119,7 @@ function Seminars() {
                         <li>Container Gardening with Jennifer Hobson (Price TBA)</li>
                         <span>(March 1st; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/naREuEjOATU32yfpCnpR">
-                            <button className="seminar_button">Sign Up</button>
+                            <p>Sold Out</p>
                         </a>
                     </div>
 
