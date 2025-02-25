@@ -2,22 +2,18 @@ import React, { useState } from 'react';
 import './Bios.css';
 
 const Bios = () => {
-  const [isExpandedGary, setIsExpandedGary] = useState(false);
+
   const [isExpandedAlfredo, setIsExpandedAlfredo] = useState(false);
   const [isExpandedKiana, setIsExpandedKiana] = useState(false);
   const [isExpandedScott, setIsExpandedScott] = useState(false);
   const [isExpandedChantelle, setIsExpandedChantelle] = useState(false);
-  const [isExpandedAndie, setIsExpandedAndie] = useState(false);
   const [isExpandedKelly, setIsExpandedKelly] = useState(false);
-  const [isExpandedAnalisa, setIsExpandedAnalisa] = useState(false);
   const [isExpandedHeather, setIsExpandedHeather] = useState(false);
   const [isExpandedDolly, setIsExpandedDolly] = useState(false);
   const [isExpandedIsaac, setIsExpandedIsaac] = useState(false);
   const [isExpandedKendra, setIsExpandedKendra] = useState(false);
 
-  const toggleExpandGary = () => {
-    setIsExpandedGary(!isExpandedGary);
-  };
+
   const toggleExpandAlfredo = () => {
     setIsExpandedAlfredo(!isExpandedAlfredo);
   };
@@ -30,14 +26,8 @@ const Bios = () => {
   const toggleExpandChantelle = () => {
     setIsExpandedChantelle(!isExpandedChantelle);
   };
-  const toggleExpandAndie = () => {
-    setIsExpandedAndie(!isExpandedAndie);
-  };
   const toggleExpandKelly = () => {
     setIsExpandedKelly(!isExpandedKelly);
-  };
-  const toggleExpandAnalisa = () => {
-    setIsExpandedAnalisa(!isExpandedAnalisa);
   };
   const toggleExpandHeather = () => {
     setIsExpandedHeather(!isExpandedHeather);
@@ -54,29 +44,7 @@ const Bios = () => {
 
   return (
     <div className="bios">
-      <div className="bio_single">
-        <div className="bio_header">
-          <button onClick={toggleExpandGary}>
-            {isExpandedGary ? '-' : '+'}
-          </button>
-          <h2>Gary</h2>
-        </div>
-        {isExpandedGary && (
-          <p>
-            Gary is the yard expert! He knows so much about all trees, shrubs, roses, vines, and more. With
-            many years of experience, he finds joy in talking to customers and spending time with them to
-            pick out the yard of their dreams. Gary has a background in maintenance and is also a painter.
-            Gary loves the outdoors and spends his time hunting and fishing. But what Gary really loves is
-            the time he spends working in his yard. He feels that it is such good therapy for his mind. He
-            loves listening to 80s music, oldies rock, or just about anything, except rap or country. Gary
-            says he really enjoys the simple things in life. Gary loves working at Jericho Nursery because of
-            the customers he gets to meet and loves the relationships he can build with them all. He loves
-            the Jericho family and feels his bosses are the best he has ever worked for. He cannot list a
-            favorite plant because he has too many favorites. His best plant advice is to not overwater
-            indoor or outdoor cacti!
-          </p>
-        )}
-      </div>
+
 
       <div className="bio_single">
         <div className="bio_header">
@@ -167,25 +135,6 @@ help develop this trust.
         )}
       </div>
 
-      <div className="bio_single">
-        <div className="bio_header">
-          <button onClick={toggleExpandAndie}>
-            {isExpandedAndie ? '-' : '+'}
-          </button>
-          <h2>Andie</h2>
-        </div>
-        {isExpandedAndie && (
-          <p>
-           Andie recently joined Jericho Nursery this year and is part of the bedding house team. She is
-from Michigan, where Andie cherishes memories of gardening with her mom during her
-childhood. With prior experience as a gardener and later as a florist in Albuquerque, Andie has
-a deep-rooted passion for plants. Outside gardening, Andie enjoys playing Dungeons and
-Dragons and Magic: The Gathering. Her enthusiasm for discussing plants and gardening is
-what makes working at Jericho Nursery so enjoyable for her. Roses are her favorite plants, and
-her top advice is that if your plant appears unhealthy, it might be due to under-watering!
-          </p>
-        )}
-      </div>
 
       <div className="bio_single">
         <div className="bio_header">
@@ -206,26 +155,7 @@ plants. Her favorite plant is the African Violet.
         )}
       </div>
 
-      <div className="bio_single">
-        <div className="bio_header">
-          <button onClick={toggleExpandAnalisa}>
-            {isExpandedAnalisa ? '-' : '+'}
-          </button>
-          <h2>Analisa</h2>
-        </div>
-        {isExpandedAnalisa && (
-          <p>
-   Analisa joins the Jericho Nursery team this year and could not be more excited! She has an
-extensive background in retail and customer service. Analisa was born and raised in
-Albuquerque, New Mexico and her long-term goal is to have a career as a dental hygienist. She
-loves the work environment at Jericho Nursery because she gets to be around plants all day
-and be around a fun staff that helps the days go by faster! Her favorite plant is the Swiss
-Cheese house plant. Her best plant advice is to remember to water year-round as it is easy to
-forget about plants in the winter thinking the rain and snow will be sufficient. Analisa wants you
-to see the difference in your plants in the Spring if you water them throughout the winter too!
-          </p>
-        )}
-      </div>
+
 
 
       <div className="bio_single">
