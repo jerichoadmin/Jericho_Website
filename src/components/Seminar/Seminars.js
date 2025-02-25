@@ -99,7 +99,7 @@ function Seminars() {
                         </a>
                     </div> */}
 
-                    <div className="seminar_inner_container">
+                    {/* <div className="seminar_inner_container">
                         <li>Licensed Irrigation Specialist Tony Lello</li>
                         <span>(February 15th; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/7XXB1ObBKCaQHfxUdIQ1">
@@ -113,7 +113,7 @@ function Seminars() {
                         <a href="https://link.lightworkdigital.com/widget/form/zFmKMJa52o4xfYP8liPM">
                             <button className="seminar_button">Sign Up</button>
                         </a>
-                    </div>
+                    </div> */}
 
                     <div className="seminar_inner_container">
                         <li>Container Gardening with Jennifer Hobson (Price TBA)</li>
