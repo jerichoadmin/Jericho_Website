@@ -115,21 +115,21 @@ function Seminars() {
                         </a>
                     </div> */}
 
-                    <div className="seminar_inner_container">
+                    {/* <div className="seminar_inner_container">
                         <li>Container Gardening with Jennifer Hobson (Price TBA)</li>
                         <span>(March 1st; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/naREuEjOATU32yfpCnpR">
                             <p>Sold Out</p>
                         </a>
-                    </div>
+                    </div> */}
 
-                    <div className="seminar_inner_container">
+                    {/* <div className="seminar_inner_container">
                         <li>Rose Pruning with Marisa Thompson</li>
                         <span>(March 8th; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/HNM0TmIzHiQKsaocJveq">
                             <button className="seminar_button">Sign Up</button>
                         </a>
-                    </div>
+                    </div> */}
 
                     <div className="seminar_inner_container">
                         <li>Know Your Snakes with Herpetologist, Jerry Tuttle</li>

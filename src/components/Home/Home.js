@@ -73,7 +73,7 @@ function Home() {
 505-899-7555
 </h3>
 <h3>
-Monday-Saturday 9-5 | Sundays 11-5
+Monday-Saturday 9-6 | Sundays 11-5
 </h3>
 <h3>
 101 Alameda Blvd
