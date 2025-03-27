@@ -104,7 +104,7 @@ Monday-Saturday 9-6 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-    <Banner7 />
+    {/* <Banner7 /> */}
     <PromotionsContainer />
     </div>
     <div 

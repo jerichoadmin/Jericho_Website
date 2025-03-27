@@ -78,11 +78,11 @@ function Seminars() {
            <div ref={revealRef1}>
           </div>
                 <ul>
-                    {/* <h3>Workshops are over for the Year!</h3> */}
-                    {/* <li>Workshops will start back at a later date</li>
-                    <span>Thank you to all who attended</span> */}
+                    
+                     <li>Workshops will start back at a later date</li>
+                    <span>Thank you to all who attended</span>
 
-              <h3>Workshops:</h3> 
+           
                     {/* <div className="seminar_inner_container">
                         <li>Principals of Landscape Design with Jennifer Hobson</li>
                         <span>(February 1st; 2:00 p.m.)</span>
@@ -131,7 +131,7 @@ function Seminars() {
                         </a>
                     </div> */}
 
-                    <div className="seminar_inner_container">
+                    {/* <div className="seminar_inner_container">
                         <li>Know Your Snakes with Herpetologist, Jerry Tuttle</li>
                         <span>(March 15th; 2:00 p.m.)</span>
                         <a href="https://link.lightworkdigital.com/widget/form/UHHGdr135kBXqW0tE5UF">
@@ -145,7 +145,7 @@ function Seminars() {
                         <a href="https://link.lightworkdigital.com/widget/form/bTT6YVD9BQXxg7RtYo6R">
                             <button className="seminar_button">Sign Up</button>
                         </a>
-                    </div>
+                    </div> */}
                 </ul>
             </div>
             </div>
