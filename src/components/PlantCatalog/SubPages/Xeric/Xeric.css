@@ -1,0 +1,192 @@
+.Xeric{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white;
+}
+.xeric_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #4FA673;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.xeric_welcome h1{
+    color: #DBBA4B;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.xeric_body {
+    align-self: center;
+    background-color: #24242433;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding-top: 2rem;
+    width: 92vw;
+    text-align: left;
+    line-height: 1.6;
+}
+.xeric_categories{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem;
+    align-items: center;
+}
+.xeric_categories_inner{
+    display: flex;
+    justify-content: center;
+}
+.xeric_categories h2{
+    font-size: 22pt;
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 16px;
+    margin: 1rem;
+}
+.xeric_body_top_text h1{
+    font-size: 28pt;
+    margin: 1rem;
+    font-weight: 800;
+    text-align: left;  
+}
+
+.xeric_body_top_text p{
+    margin: 1rem;
+}
+
+.xeric_categories img{
+    justify-self: center;
+    width: 80vw;
+    height: 35vw;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.xeric_categories h1{
+    font-size: 28pt;
+    margin: 1rem;
+    text-align: center;
+    background-color: #24242463;
+}
+
+.xeric_categories img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.xeric_categories img:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+.xeric_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 6rem;
+}
+.xeric_core_concepts{
+    font-size: 28pt;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+}
+/* .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+  
+}
+ */
+
+
+
+
+
+@media (min-width:750px) {
+    .xeric_categories img{
+        width: 70vw;
+        height: 30vw;
+    }
+
+}
+
+
+@media (min-width:1025px) {
+    .xeric_welcome h1{
+        font-size: 60pt;
+    }
+    .xeric_welcome p{
+        font-size: 22pt;
+    }
+    .xeric_body_top_text{
+        margin: 2rem;
+        font-size: 16pt;
+    }
+    .xeric_body_top_text h1{
+        font-size: 40pt;
+        margin-bottom: 3rem;
+    }
+    .xeric_categories h2{
+        font-size: 30pt;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .xeric_categories img{
+        width: 65vw;
+        height: 25vw;
+    }
+
+}
+
+@media (min-width:1500px) {
+    .xeric_categories img{
+        width: 65vw;
+        height: 22vw;
+    }
+    .xeric_body_top_text h1{
+        font-size: 44pt;
+    }
+    .xeric_body_top_text li{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .xeric_categories h2{
+        font-size: 36pt;
+    }
+}
+
+@media (min-width:1900px) {
+    .xeric_categories img{
+        width: 57vw;
+        height: 17vw;
+    }
+    .xeric_body_top_text{
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+

@@ -39,6 +39,7 @@
     "sequelize": "^6.31.1",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.7.5",
+    "swiper": "^11.2.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

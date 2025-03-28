@@ -44,7 +44,7 @@ function Home() {
 
 
       <Helmet>
-      <title>Jericho Nursery's Home Page</title>
+      <title>Jericho Nursery</title>
         <meta name="description" content="Welcome to Jericho Nursery, a leading provider of quality plants and gardening supplies. Discover our wide selection of products and services for all your gardening needs." />
         <meta name="keywords" content="Jericho Nursery, plants, gardening, supplies, Albuqueruque, New Mexico, Southwest, xeric, xeriscape, flower, frequent, club, alameda, north valley, abq, horticulture, garden experts, hobson, jericho, nursery, all, your, yard, and, garden, needs" />
       </Helmet>
@@ -104,7 +104,7 @@ Monday-Saturday 9-6 | Sundays 11-5
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
     >
-    {/* <Banner7 /> */}
+<Banner7 />
     <PromotionsContainer />
     </div>
     <div 

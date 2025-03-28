@@ -1,0 +1,122 @@
+.Flowering{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white; 
+}
+
+.Flowering p{
+    line-height: 1.6;
+}
+
+.flowering_top_text{
+    margin: 1rem;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.flowering_top_text h2{
+    font-size: 24pt;
+    margin: 1rem;
+    background-color: #242424a9;
+}
+.flowering_top_text p{
+    text-align: left;
+}
+
+
+.flowering_header_background_image{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/giant-crape-myrtle.jpg');
+    object-fit: cover;
+    background-size: cover;
+    width: 80vw;
+    padding: 1rem;
+}
+
+.flowering_top_text p{
+    font-size: 14pt;
+    margin: 2rem 1rem;
+}
+
+
+
+
+
+@media (min-width:825px) {
+    .flowering_top_text p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+
+    .flowering_top_text h2{
+        padding: 2rem;
+    }
+    .tree_catalog_title{
+        font-size: 32pt;
+    }
+
+
+    
+}
+
+@media (min-width:1025px) {
+    .flowering_top_text h2{
+        font-size: 40pt;
+        padding: 1rem;
+    }
+    .flowering_top_text{
+        margin: 2rem 4rem;
+    }
+    .flowering_top_text p{
+        line-height: 1.6;
+        margin: 2rem;
+    }
+    .header_background_image{
+        width: 60vw;
+    }    
+}
+
+
+@media (min-width:1300px) {
+    .flowering_top_text p{
+        font-size: 18pt;
+    }
+    .header_background_image{
+        width: 50vw;
+    }
+
+}
+
+@media (min-width:1500px) {
+    .flowering_top_text h2{
+        font-size: 44pt;
+    }
+    .flowering_top_text p{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .flowering_top_text{
+        margin: 2rem 6rem;
+    }
+    .header_background_image{
+        width: 45vw;
+    }
+}
+
+@media (min-width:1650px) {
+    .flowering_top_text{
+        margin: 2rem 10rem;
+    }
+}
+
+@media (min-width:1900px) {
+    .flowering_top_text{
+        margin: 2rem 24rem;
+    }
+}

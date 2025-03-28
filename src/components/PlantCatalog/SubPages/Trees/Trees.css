@@ -1,0 +1,208 @@
+.Trees{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white;
+}
+.trees_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #4FA673;
+    font-weight: 600;
+    font-size: 12pt;
+    padding: 5vh;
+}
+.trees_welcome h1{
+    color: #DBBA4B;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.trees_body {
+    align-self: center;
+    background-color: #24242433;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding-top: 2rem;
+    width: 92vw;
+    text-align: left;
+    line-height: 1.6;
+}
+.tree_categories{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem;
+    align-items: center;
+}
+.tree_categories_inner{
+    display: flex;
+    justify-content: center;
+}
+.tree_categories h2{
+    font-size: 22pt;
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 16px;
+}
+.trees_body_top_text h1{
+    font-size: 28pt;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.trees_body_top_text p{
+    margin: 1rem;
+}
+
+
+.tree_categories img{
+    justify-self: center;
+    width: 80vw;
+    height: 35vw;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.reasons_for_planting_trees li{
+    list-style-type: disc;
+    margin: 1rem;
+}
+.tree_categories h1{
+    font-size: 28pt;
+    margin: 1rem;
+    text-align: center;
+    background-color: #24242463;
+}
+
+.tree_categories img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tree_categories img:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+
+
+.attribution-container{
+    text-align: center;
+    margin: 4rem;
+}
+.attribution-button{
+    height: auto;
+    width: auto;
+    background-color: #4FA673;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+
+
+
+@media (min-width:750px) {
+    .tree_categories img{
+        width: 70vw;
+        height: 30vw;
+    }
+
+}
+
+
+@media (min-width:1025px) {
+    .trees_welcome h1{
+        font-size: 60pt;
+    }
+    .trees_welcome p{
+        font-size: 22pt;
+    }
+    .trees_body_top_text{
+        margin: 2rem;
+        font-size: 16pt;
+    }
+    .trees_body_top_text h1{
+        font-size: 40pt;
+        margin-bottom: 3rem;
+    }
+    .tree_categories h2{
+        font-size: 30pt;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .tree_categories img{
+        width: 65vw;
+        height: 25vw;
+    }
+
+}
+
+@media (min-width:1500px) {
+    
+    .tree_categories img{
+        width: 65vw;
+        height: 22vw;
+    }
+    .trees_body_top_text h1{
+        font-size: 44pt;
+    }
+    .trees_body_top_text li{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .tree_categories h2{
+        font-size: 36pt;
+    }
+    .trees_body_top_text {
+        margin: 2rem 6rem;
+        font-size: 18pt;
+    }
+}
+@media (min-width: 1650px) {
+    .trees_body_top_text {
+        margin: 2rem 10rem;
+    }
+}
+
+@media (min-width:1900px) {
+    .tree_categories img{
+        width: 57vw;
+        height: 17vw;
+    }
+    .trees_body_top_text{
+        justify-content: center;
+        margin: 2rem 24rem;
+    }
+    .trees_body_top_text li{
+        list-style-position: inside;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,199 @@
+.plant_card{
+    height: auto;
+    width: 75vw;
+    background-color: #242424;
+    border-radius:  16px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 0 10px #000000;
+    margin: 0.5rem;
+}
+.plant_card_image{
+    height: 60vw;
+    width: 60vw;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;   
+}
+
+.plant_card h2{
+    font-size: 18pt;
+    font-weight: 600;
+}
+.plant_card h3{
+    font-size: 12pt;
+    font-weight: 100;
+    padding: 0.1rem;
+}
+
+.plant_card_paragraph{
+    margin: 1rem 0.1rem;
+    font-size: 12pt;
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+.plant_card_bottom{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);  
+  gap: 10px; 
+}
+
+
+.sun_icon{
+    width: 2rem;
+    padding: 0.5rem;
+}
+.water_icon{
+    width: 2.25rem;
+    padding: 0.4rem;
+}
+
+.card_icon_sub_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plant_card_bottom p{
+    text-align: center;
+}
+
+@media (min-width: 650px) {
+    .plant_card{
+        width: 45vw;
+    }
+    .plant_card_image{
+        height: 32vw;
+        width: 32vw;
+    }
+
+}
+
+@media (min-width: 750px) {
+    .plant_card{
+        width: 40vw;
+    }
+    .plant_card_image{
+        height: 30vw;
+        width: 30vw;
+    }
+}
+
+@media (min-width:1025px) {
+    .plant_card{
+        width: 35vw;
+    }
+    .plant_card_image{
+        height: 25vw;
+        width: 25vw;
+    }
+    .plant_card_paragraph p{
+        font-size: 14pt;
+        line-height: 1.2;
+    }
+    .plant_card_bottom p{
+        font-size: 14pt;
+    }
+}
+
+@media (min-width:1200px) {
+    .plant_card{
+        width: 34vw;
+    }
+    .plant_card_image{
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+@media (min-width:1300px) {
+    .plant_card{
+        width: 40vw;
+    }
+    .plant_card_image{
+        height: 20vw;
+        width: 20vw;
+    }
+    .plant_card h2{
+        font-size: 22pt;
+    }
+    .plant_card h3{
+        font-size: 13pt;
+    }
+    .plant_card_paragraph p{
+        font-size: 14pt;
+        line-height: 1.2;
+    }
+    .plant_card_bottom p{
+        font-size: 14pt;
+        line-height: 1.1;
+    }
+}
+
+@media (min-width:1500px) {
+    .plant_card{
+        width: 30vw;
+    }
+    .plant_card_image{
+        height: 18vw;
+        width: 18vw;
+    }
+    .plant_card_bottom{
+        margin-top: 2rem;
+        gap: 15px;
+    }
+    .water_icon{
+        padding: 0.25rem;
+    }
+}
+
+@media (min-width:1600px) {
+    .plant_card{
+        width: 28vw;
+    }
+    .plant_card_image{
+        height: 17vw;
+        width: 17vw;
+    }
+}
+
+@media (min-width:1800px) {
+    .plant_card{
+        width: 26vw;
+    }
+    .plant_card_image{
+        height: 15vw;
+        width: 15vw;
+    }
+    .plant_card h2{
+        font-size: 24pt;
+    }
+    .plant_card h3{
+        font-size: 14pt;
+    }
+    
+}
+
+@media (min-width:2000px) {
+    .plant_card{
+        width: 20vw;
+    }
+    .plant_card_image{
+        height: 12vw;
+        width: 12vw;
+        
+    }
+}
+@media (min-width:2200px) {
+    .plant_card{
+        width: 16vw;
+    }
+    .plant_card_image{
+        height: 11vw;
+        width: 11vw;
+        
+    }
+}

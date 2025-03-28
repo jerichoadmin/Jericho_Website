@@ -1,0 +1,38 @@
+.mySwiper {
+  width: 100%; /* Ensures full width */
+  overflow: hidden; /* Prevents overflow */
+}
+
+.plant-slider-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px; 
+}
+
+.plant-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%; /* Adjusts width dynamically */
+  text-align: center;
+}

@@ -23,12 +23,11 @@ function Banner7() {
         data-aos-mirror="true"
         data-aos-once="true"
         >
-            <h1 className='b_h527'>Workshops are back</h1>
-            <p className='b_h47'>From now until March 22nd we will be holding workshops every Saturday. Visit our workshops page to sign up today!</p>
+            <h1 className='b_h527'>Discover our New Plant Catalog</h1>
+            <p className='b_h47'>Explore a World of Greenery – Find Plants Perfect for New Mexico Gardens</p>
             <div className='banner_7_lower'>
-                <img className='seminargray' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/seminargray2.png' />
-            <NavLink to='/seminars'>
-                        <button className='banner_button7'>Sign Up</button>
+            <NavLink to='/plantcatalog'>
+                        <button className='banner_button7'>Go There</button>
             </NavLink>
             </div>
         </div>

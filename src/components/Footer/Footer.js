@@ -17,11 +17,11 @@ function Footer() {
             <NavLink className='na' to='/promotions'>
             <li>Promotions</li>
             </NavLink>
+            <NavLink className='na' to='/plantcatalog'>
+            <li>Plant Catalog</li>
+            </NavLink>
             <NavLink className='na' to='/brands'>
             <li>Brands We Carry</li>
-            </NavLink>
-            <NavLink className='na' to='/plants'>
-            <li>Things We Carry</li>
             </NavLink>
             <NavLink className='na' to='/delivery'>
             <li>Delivery and Planting</li>

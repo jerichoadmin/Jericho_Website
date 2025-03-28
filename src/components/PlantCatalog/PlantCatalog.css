@@ -1,0 +1,217 @@
+.TypesofPlants{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#95562E, #DB4B4B, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    text-align: left;
+  }
+  .TypesofPlants p{
+    line-height: 1.8;
+  }
+  .top_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 700;
+    padding: 5vh;
+    text-align: center;
+  }
+  .top_welcome h1{
+    color: #4FA673;
+    font-size: 26pt;
+    font-weight: 700;
+  }
+  .top_welcome p{
+    padding: 1.5vw;
+    line-height: 1.4;
+  }
+  .top_body_main{
+    background-image: linear-gradient( #9f4a38, #6f5d53, #209276);
+    height: auto;
+    width: 90vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+   align-self: center;
+   color: white;
+   padding-bottom: 2rem;
+   margin-bottom: 4rem;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
+  
+  .plant_category {
+    margin: 1.5rem;
+  }
+  .plant_category p{
+    margin: 0rem;
+  }
+
+
+
+  .plant_category:hover{
+    background-color: #92207f21;
+    border-radius: 14px;
+  }
+
+  .plant_image_container{
+    display: flex;
+    justify-content: center;
+}
+
+
+  
+  .plant_category h3 {
+    font-size: 26pt;
+    font-weight: 800;
+    margin: 1.5rem 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .plant_category h3::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px; /* Adjust the thickness of the underline */
+    bottom: -1px;
+    left: 0;
+    background-color: #ffffff; /* Adjust the underline color */
+    transition: width .5s ease; /* Match the transition duration */
+  }
+  
+  .plant_category:hover h3::after {
+    width: 100%;
+  }
+
+  .plant_category img{
+    height: 70vw;
+    width: 70vw;
+    object-fit: cover;  
+    border-radius: 15px;
+    display: flex;
+    justify-self: center;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,.4));
+  }
+
+
+
+  
+  @media (min-width:700px) {
+    .plant_category img{
+      height: 60vw ;
+      width: 60vw; 
+    }
+    .plant_category{
+      margin: 2rem;
+    }
+    .plant_text{
+      margin: 1.5rem;
+      font-size: 14pt;
+    }
+  
+  }
+  
+  
+  
+  
+  
+  @media (min-width:1025px) {
+    .top_welcome h1{
+        font-size: 60pt;
+    }
+    .top_welcome p{
+        font-size: 22pt;
+    }
+  
+    .plant_category{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .plant_category img{
+      width: 25vw;
+      height: 25vw;
+      margin: 1rem;
+    }
+    .plant_text{
+      margin: 1rem 2rem
+    }
+    .plant_category h3{
+      font-size: 30pt;
+    }
+    .plant_category p{
+      font-size: 16pt;
+    }
+    .plant_image_container{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width:1150px) {
+    .plant_category img{
+      width: 20vw;
+      height: 20vw;
+    }
+  }
+  @media (min-width:1500px) {
+    .plant_category h3{
+      font-size: 34pt;
+    }
+  }
+  @media (min-width:1800px) {
+    .top_body_main{
+      padding-top: 5vh;
+    }
+    .plant_category img{
+      width: 15vw;
+      height: 15vw;
+    }
+    .plant_category{
+      margin: 3rem 12rem;
+    }
+    .plant_category h3{
+      font-size: 36pt;
+    }
+    .plant_category p{
+      font-size: 18pt;
+    }
+  
+  }
+  
+  @media (min-width:2000px) {
+    .plant_category img{
+      width: 14vw;
+      height: 14vw;
+    }
+    .plant_category{
+      margin: 3rem 25rem;
+    }
+  
+  }
+  
+  @media screen 
+  and (min-width: 1000px) 
+  and (max-height: 900px)  { 
+  
+  .type_of_image{
+    height: 75vh;
+    width: 45vw;
+  }
+  
+  }
+  
+  

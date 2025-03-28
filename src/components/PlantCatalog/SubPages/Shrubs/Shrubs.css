@@ -1,0 +1,187 @@
+.Shrubs{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#95562E, #DB4B4B, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+.shrubs_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 700;
+    padding: 5vh;
+  }
+  .shrubs_welcome h1{
+    color: #4FA673;
+    font-size: 26pt;
+    font-weight: 700;
+  }
+  .shrubs_body {
+    align-self: center;
+    background-image: linear-gradient(#9f4a38, #6f5d53, #209276);
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px #00000040;
+    color: #fff;
+    height: auto;
+    margin-bottom: 2rem;
+    width: 90vw;
+    margin: 1rem;
+    padding-top: 2rem;
+}
+
+
+.shrubs_top_text {
+    line-height: 1.6;
+}
+
+.shrubs_top_text h2 {
+    font-size: 30pt;
+    text-align: left;
+    font-weight: 600;
+    margin: 1rem;
+}
+.shrubs_top_text p{
+    margin: 1rem;
+    text-align: left;
+}
+
+.shrub_categories{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem;
+    align-items: center;
+}
+.shrub_categories_inner{
+    display: flex;
+    justify-content: center;
+}
+.shrub_categories h2{
+    font-size: 22pt;
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 16px;
+}
+.shrubs_body_top_text h1{
+    font-size: 28pt;
+    margin: 1rem;
+}
+.shrub_categories img{
+    justify-self: center;
+    width: 80vw;
+    height: 35vw;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.shrub_categories h1{
+    font-size: 28pt;
+    margin: 1rem;
+    text-align: center;
+    background-color: #24242463;
+}
+
+.shrub_categories img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.shrub_categories img:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+
+
+
+
+
+
+
+
+@media (min-width:750px) {
+    .shrub_categories img{
+        width: 70vw;
+        height: 30vw;
+    }
+}
+@media (min-width: 825px) {
+    .shrubs_top_text p {
+        font-size: 16pt;
+        margin: 1rem;
+    }
+}
+
+
+
+@media (min-width:1025px) {
+    .shrubs_welcome h1{
+        font-size: 60pt;
+    }
+    .shrubs_welcome p{
+        font-size: 22pt;
+    }
+    .shrubs_top_text h2 {
+        font-size: 40pt;
+    }
+    .shrubs_top_text {
+        margin: 2rem 4rem;
+    }
+    .shrub_categories h2{
+        font-size: 30pt;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .shrub_categories img{
+        width: 65vw;
+        height: 25vw;
+    }
+
+}
+
+@media (min-width:1500px) {
+    .shrub_categories img{
+        width: 65vw;
+        height: 22vw;
+    }
+    .shrubs_top_text h2 {
+        font-size: 44pt;
+    }
+    .shrubs_top_text p {
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .shrubs_top_text {
+        margin: 2rem 6rem;
+    }
+    .shrub_categories h2{
+        font-size: 36pt;
+    }
+}
+@media (min-width: 1650px) {
+    .shrubs_top_text {
+        margin: 2rem 10rem;
+    }
+}
+
+
+@media (min-width:1900px) {
+    .shrub_categories img{
+        width: 57vw;
+        height: 17vw;
+    }
+    .shrubs_top_text {
+        margin: 2rem 24rem;
+    }
+}

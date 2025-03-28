@@ -1,0 +1,221 @@
+.Perennials{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#DBBA4B, #4BA7DB , #DB4BD5) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    color: white;
+    line-height: 1.6;
+    text-align: left;
+  
+}
+.perennials_welcome{
+    height: auto;
+    width: 70vw;
+    margin: 5vh;
+    margin-top: 10vh;
+    padding-bottom: 2rem;
+    padding: 5vh;
+    background-color: #242424;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color:  #DBBA4B;
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 1.8;
+}
+.perennials_welcome h1{
+    color: #4FA673;
+    font-size: 30pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+.perennials_body {
+    align-self: center;
+    background-image: linear-gradient(#b19c4a, #7271b7);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 10vh;
+    width: 95vw;
+    z-index: 2;
+}
+
+
+
+.plant_examples{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+    text-align: center;
+}
+.plant_examples_inner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.perennial_h3{
+    font-size: 30pt;
+    margin: 1rem;
+    font-weight: 700;
+    
+    
+}
+.plant_example_circle_image{
+    border-radius: 100%;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+.perennials_body_top_text{
+    margin: 2rem;
+}
+.perennials_body_top_text h2{
+    margin: 1rem;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.perennials_body_bottom_text h2{
+    margin: 1rem;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.perennials_body_bottom_text{
+    text-align: left;
+}
+.perennial_mid_page h4{
+font-size: 20pt;
+font-weight: 700;
+}
+.perennial_mid_page{
+    margin: 1.5rem;
+}
+
+.perennial_h3{
+    font-size: 26pt;
+    margin: 1rem;
+    font-weight: 700;  
+}
+
+
+
+
+@media (min-width:825px) {
+    .perennials_welcome h1{
+        font-size: 50pt;
+    }
+    .plant_example_circle_image{
+        width: 15vw;
+        height: 15vw;
+    }
+    .perennials_body_top_text h2{
+        font-size: 32pt;
+    }
+    .perennials_body_bottom_text h2{
+        font-size: 32pt;
+    }
+    .perennials_body p{
+        font-size: 16pt;
+    }
+    .perennials_body h6{
+        font-size: 16pt;
+    }
+    .perennial_h3{
+        font-size: 34pt;
+        padding-bottom: 1.5rem;
+    }
+   
+}
+
+
+@media (min-width:1025px) {
+    .perennials_welcome h1{
+        font-size: 60pt;
+    }
+    .perennials_welcome p{
+        font-size: 22pt;
+    }
+    .plant_example_each{
+        margin: 1.5rem;
+    }
+    .plant_example_each h6{
+        font-size: 20pt;
+    }
+}
+
+@media (min-width:1400px) {
+    .plant_example_circle_image{
+        width: 12vw;
+        height: 12vw;
+    }
+}
+@media (min-width:1600px) {
+    .perennials_body_top_text{
+        margin: 3rem 8rem;
+    }
+    .perennials_body_bottom_text{
+        margin: 3rem 8rem;
+    }
+}
+
+@media (min-width:1700px) {
+    .plant_example_circle_image{
+        width: 10vw;
+        height: 10vw;
+    }
+    .plant_examples_inner{
+        margin: 2rem;
+    }
+    .perennial_h3{
+        padding-bottom: 1rem;
+    }
+    .perennials_body p{
+        font-size: 18pt;
+    }
+    .perennials_body h2{
+        font-size: 38pt;
+    }
+    .perennials_body h3{
+        font-size: 40pt;
+        padding-bottom: 0rem;
+        margin-bottom: 0rem;
+    }
+
+
+}
+
+
+@media (min-width:2000px) {
+    .perennials_body_top_text{
+        margin: 4rem 10rem;
+    }
+    .perennials_body_bottom_text{
+        margin: 4rem 10rem;
+    }
+    .plant_examples_inner{
+        margin: 6rem;
+    }
+    .plant_example_each{
+        margin: 2rem;
+    }
+
+}
+@media (min-width:2200px) {
+    .plant_examples_inner{
+        margin: 8rem;
+    }
+}
+

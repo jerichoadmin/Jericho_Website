@@ -1,0 +1,66 @@
+.XericBedding{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white; 
+}
+
+.XericBedding p{
+    line-height: 1.6;
+}
+
+.xeric_top_text{
+    margin: 1rem;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.xeric_top_text h2{
+    font-size: 24pt;
+    margin: 1rem;
+    background-color: #242424a9;
+}
+
+
+.xeric_bedding_header_background_image{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/succulent-1031033_1920.jpg');
+    object-fit: cover;
+    background-size: cover;
+    width: 80vw;
+    padding: 1rem;
+}
+
+.xeric_top_text p{
+    font-size: 14pt;
+    margin: 2rem 1rem;
+}
+
+
+
+.xeric_catalog_sub_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #a1a1a181;
+    padding: 1.5rem;
+    margin: 1.5rem 0rem ;
+}
+
+.xeric_catalog_title{
+    font-size: 26pt;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+
+
+

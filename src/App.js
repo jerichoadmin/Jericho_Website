@@ -34,16 +34,23 @@ import NewGallery2Img from './components/AdminPortal/HomeGallery2/NewGallery2Img
 import DeleteGallery2Img from './components/AdminPortal/HomeGallery2/DeleteGallery2Img';
 import PreviewPost from './components/AdminPortal/BlogPosts/PreviewPost/PreviewPost';
 import SinglePreviewEdit from './components/AdminPortal/BlogPosts/PreviewPost/SinglePreviewEdit';
-import TypesofPlants from './components/TypesofPlants/TypesofPlants';
-import Bedding from './components/TypesofPlants/subpages/Bedding';
-import Annuals from './components/TypesofPlants/subpages/Annuals';
-import Perennials from './components/TypesofPlants/subpages/Perennials';
-import Roses from './components/TypesofPlants/subpages/Roses';
-import Trees from './components/TypesofPlants/subpages/Trees';
-import Landscaping from './components/TypesofPlants/subpages/Landscaping';
-import Pots from './components/TypesofPlants/subpages/Pots';
-import Art from './components/TypesofPlants/subpages/Art';
-import Fountains from './components/TypesofPlants/subpages/Fountains';
+import PlantCatalog from './components/PlantCatalog/PlantCatalog';
+  import Annuals from './components/PlantCatalog/SubPages/Annuals/Annuals';
+  import Perennials from './components/PlantCatalog/SubPages/Perennials/Perennials';
+  import Trees from './components/PlantCatalog/SubPages/Trees/Trees';
+  import Shrubs from './components/PlantCatalog/SubPages/Shrubs/Shrubs';
+  import Xeric from './components/PlantCatalog/SubPages/Xeric/Xeric';
+  import Shade from './components/PlantCatalog/SubPages/Trees/Shade/Shade';
+    import Fruit from './components/PlantCatalog/SubPages/Trees/Fruit/Fruit';
+    import Ornamental from './components/PlantCatalog/SubPages/Trees/Ornamental/Ornamental';
+    import Conifer from './components/PlantCatalog/SubPages/Trees/Conifer/Conifer';
+    import Flowering from './components/PlantCatalog/SubPages/Shrubs/Flowering/Flowering';
+    import Broadleaf from './components/PlantCatalog/SubPages/Shrubs/Broadleaf/Broadleaf';
+    import ConiferousShrubs from './components/PlantCatalog/SubPages/Shrubs/ConiferousShrubs/ConiferousShrubs';
+    import XericBedding from './components/PlantCatalog/SubPages/Xeric/XericBedding/XericBedding';
+    import XericTrees from './components/PlantCatalog/SubPages/Xeric/XericTrees/XericTrees';
+    import XericShrubs from './components/PlantCatalog/SubPages/Xeric/XericShrubs/XericShrubs';
+    import Cacti from './components/PlantCatalog/SubPages/Xeric/Cacti/Cacti'
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 import Videos from './components/Videos/Videos'
@@ -83,16 +90,23 @@ function App() {
        <Route path='/clubs' element={<Clubs />}/>
        <Route path='/contact' element={<ContactUs />}/>
        <Route path='/brands' element={<Brands />}/>
-       <Route path='/plants' element={<TypesofPlants />}/>
-       <Route path='/bedding' element={<Bedding />}/>
-       <Route path='/annuals' element={<Annuals />}/>
-       <Route path='/perennials' element={<Perennials />}/>
-       <Route path='/roses' element={<Roses />}/>
-       <Route path='/trees' element={<Trees />}/>
-       <Route path='/landscaping' element={<Landscaping />}/>
-       <Route path='/pots' element={<Pots />}/>
-       <Route path='/gardenart' element={<Art />}/>
-       <Route path='/fountains' element={<Fountains/>}/>
+       <Route path='plantcatalog' element={<PlantCatalog />} />
+          <Route path='/annuals' element={<Annuals />} />
+          <Route path='/perennials' element={<Perennials />} />
+          <Route path='/trees' element={<Trees />}/>
+            <Route path='/shadetrees' element={<Shade />}/>
+            <Route path='/ornamentaltrees' element={<Ornamental/>}/>
+            <Route path='/fruittrees' element={<Fruit />}/>
+            <Route path='/coniferoustrees' element={<Conifer />}/>
+          <Route path='/shrubs' element={<Shrubs />}/>
+            <Route path='/floweringshrubs' element={<Flowering/>}/>
+            <Route path='/broadleafevergreens' element={<Broadleaf/>} />
+            <Route path='/coniferousshrubs' element={<ConiferousShrubs/>}/>
+          <Route path='/xeric' element={<Xeric />}/>
+            <Route path='/xerictrees' element={<XericTrees/>}/>
+            <Route path='/xericshrubs' element={<XericShrubs/>} />
+            <Route path='/cacti' element={<Cacti/>}/>
+            <Route path='/xericbedding' element={<XericBedding/>}/>
        <Route path='/employment' element={<WhyWorkHere />}/>
        <Route path='/videos' element={<Videos />}/>
        <Route path='/promotions' element={<Promotions/>}/>

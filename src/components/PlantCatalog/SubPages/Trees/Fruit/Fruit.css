@@ -1,0 +1,122 @@
+.Fruit{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white; 
+}
+
+.Fruit p{
+    line-height: 1.6;
+
+}
+.fruit_top_text{
+    margin: 1rem;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fruit_top_text h2{
+    font-size: 24pt;
+    margin: 1rem;
+    background-color: #242424a9;
+}
+.fruit_top_text p{
+text-align: left;
+}
+
+
+.fruit_header_background_image{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/cherries-1595610_1920.jpg');
+    object-fit: cover;
+    background-size: cover;
+    width: 80vw;
+    padding: 1rem;
+}
+
+
+.fruit_tree_example_each{
+    margin: 1rem;
+}
+
+.fruit_tree_example_each h2{
+    font-size: 24pt;
+    font-weight: 700;
+
+}
+.fruit_tree_example_each h3{
+    font-size: 16pt;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+@media (min-width:825px) {
+    .fruit_top_text p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .fruit_tree_example_each h2{
+        font-size: 26pt;
+    }
+    .fruit_tree_example_each h3{
+        font-size: 22pt;
+    }
+}
+
+@media (min-width:1025px) {
+    .fruit_top_text h2{
+        font-size: 40pt;
+    }
+    .fruit_tree_example_each h2{
+        font-size: 30pt;
+    }
+    .fruit_tree_example_each{
+        margin: 2rem;
+    }
+    .fruit_top_text{
+        margin: 2rem 4rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .fruit_tree_example_each{
+        margin: 2rem 4rem;
+    }
+}
+
+@media (min-width:1500px) {
+    .fruit_top_text h2{
+        font-size: 44pt;
+    }
+    .fruit_top_text p{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .fruit_tree_example_each h2{
+        font-size: 36pt;
+    }
+    .fruit_tree_example_each h3{
+        font-size: 26pt;
+    }
+    .fruit_top_text{
+        margin: 2rem 6rem;
+    }
+}
+
+@media (min-width:1650px) {
+    .fruit_top_text{
+        margin: 2rem 10rem;
+    }
+}
+
+@media (min-width:1900px) {
+    .fruit_top_text{
+        margin: 2rem 24rem;
+    }
+
+}
