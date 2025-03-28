@@ -49,25 +49,25 @@ return (
     <div className='xeric_catergories_inner'>
         <NavLink to='/cacti'>
         <h2>Cactus, Yucca, & Agave</h2>
-        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cacti.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
+        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cacti.jpg' alt='Cactus, Yucca and Agave in Albuqueruque, New Mexico and surrounding areas'/>
         </NavLink>
       </div>
       <div className='xeric_catergories_inner'>
         <NavLink to='/xerictrees'>
         <h2>Best Xeric Trees</h2>
-        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
+        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg' alt='Xeric Trees in Albuqueruque, New Mexico and surrounding areas'/>
         </NavLink>
       </div>
       <div className='xeric_catergories_inner'>
         <NavLink to='/xericshrubs'>
         <h2>Best Xeric Shrubs</h2>
-        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/occotillio.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
+        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/occotillio.jpg' alt='Xeric Shrubs in Albuqueruque, New Mexico and surrounding areas'/>
         </NavLink>
       </div>
       <div className='xeric_catergories_inner'>
         <NavLink to='/xericbedding'>
         <h2>Xeric Bedding and Groundcovers</h2>
-        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/succulent.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
+        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/succulent.jpg' alt='Xeric Bedding and Groundcovers in Albuqueruque, New Mexico and surrounding areas'/>
         </NavLink>
       </div>
 

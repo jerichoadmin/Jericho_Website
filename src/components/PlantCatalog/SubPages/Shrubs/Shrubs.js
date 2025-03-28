@@ -25,19 +25,19 @@ function Shrubs() {
               <div className='shrub_catergories_inner'>
               <NavLink to='/floweringshrubs'>
               <h2>Flowering Shrubs</h2>
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/potentilla.jpg' alt='Shade Trees in Albuqueruque, New Mexico and surrounding areas'/>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/potentilla.jpg' alt='Flowering Shrubs in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
               <div className='shrub_catergories_inner'>
               <NavLink to='/broadleafevergreens'>
-              <h2>Broaleaf Evergreens</h2>
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/hedge.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
+              <h2>Broadleaf Evergreens</h2>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/hedge.jpg' alt='Broadleaf Evergreens in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
               <div className='shrub_catergories_inner'>
               <NavLink to='/coniferousshrubs'>
               <h2>Coniferous Shrubs</h2>
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/conifershrubs.jpg' alt='Fruit and Nut Trees in Albuqueruque, New Mexico and surrounding areas'/>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/conifershrubs.jpg' alt='Coniferous Shrubs in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
             </div>

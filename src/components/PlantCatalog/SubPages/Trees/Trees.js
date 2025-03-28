@@ -49,7 +49,7 @@ return (
       <div className='tree_catergories_inner'>
       <NavLink to='/coniferoustrees'>
       <h2>Coniferous Trees</h2>
-      <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Pines.jpg' alt='Conifers and Pine Trees in Albuqueruque, New Mexico and surrounding areas'/>
+      <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Pines.jpg' alt='Coniferous Trees in Albuqueruque, New Mexico and surrounding areas'/>
       </NavLink>
       </div>
     </div>

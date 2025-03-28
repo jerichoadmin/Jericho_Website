@@ -28,7 +28,7 @@ function Perennials() {
   <div className='plant_examples_inner'>
     <div className='plant_example_each'>
     <h6>Allium</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/allium-8108318_1920.jpg' alt='Lavendar at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/allium-8108318_1920.jpg' alt='Allium at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Coreopsis</h6>
@@ -44,23 +44,23 @@ function Perennials() {
     </div>
     <div className='plant_example_each'>
     <h6>Coral Bells</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/purple-bells-56056_1920.jpg' alt='Clematis at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/purple-bells-56056_1920.jpg' alt='Coral Bells at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Salvia</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/bees-5032464_1920.jpg'alt='Yucca at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/bees-5032464_1920.jpg'alt='Salvia at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Rudbeckia</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/blackeyedsusan.jpg' alt='Honeysuckle at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/blackeyedsusan.jpg' alt='Rudbeckia at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Phlox</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/phlox-5091730_1920.jpg' alt='Calibrocha at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/phlox-5091730_1920.jpg' alt='Phlox at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Verbena</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/verbena-6489346_1920.jpg' alt='Chrysanthemum at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/verbena-6489346_1920.jpg' alt='Verbena at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Yarrow</h6>
