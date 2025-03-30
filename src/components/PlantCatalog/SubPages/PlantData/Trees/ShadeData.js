@@ -16,7 +16,7 @@ const shadedata = {
       },
       {
         id: 2,
-        name: "Raywood Ashe",
+        name: "Raywood Ash",
         scientificName: "Fraxinus oxycarpa",
         image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-raywood-web-01.jpg",
         description: "The Raywood Ash is a beautiful deciduous tree known for its rich red-purple foliage in the fall. It grows rapidly and is often used for shade in residential and urban areas. This tree can reach impressive heights and provides a dense canopy, offering excellent shade in the warmer months. The Raywood Ash is highly sought after here at Jericho Nursery.",
