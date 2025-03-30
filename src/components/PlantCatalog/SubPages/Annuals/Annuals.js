@@ -53,11 +53,11 @@ function Annuals() {
             <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/snapdragon.jpg' alt='Snapdragon at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
-            <h6>Gerber Daisy</h6>
-            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/gerber-daisy.jpg' alt='Gerber Daisy at Jericho Nursery in Albuquerque, New Mexico'/>
+            <h6>Viola</h6>
+            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/viola.PNG' alt='Violas at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
-            <h6>Impatients</h6>
+            <h6>Impatiens</h6>
             <img className='plant_example_circle_image' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Impatiens_walleriana_-_flower_view_02.jpg/1024px-Impatiens_walleriana_-_flower_view_02.jpg'alt='Impatients at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
@@ -65,11 +65,11 @@ function Annuals() {
             <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/calibrachoa.jpg' alt='Calibrachoa at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
-            <h6>Lantana</h6>
-            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/lantana.jpg' alt='Lantana at Jericho Nursery in Albuquerque, New Mexico'/>
+            <h6>Lobelia</h6>
+            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/lantana.jpg' alt='Lobelia at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
-            <h6>Sunflowers</h6>
+            <h6>Sunflower</h6>
             <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/sunflower-1497092_1920.jpg' alt='Sunflowers at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
           </div>
