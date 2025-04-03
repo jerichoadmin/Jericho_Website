@@ -33,7 +33,6 @@ function Partners() {
         <meta property="og:description" content="Discover our trusted partners who collaborate with Jericho Nursery to bring you the best gardening products and services." />
         <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
         <meta property="og:type" content="website" />
-
 </Helmet>
             <div className='partners_welcome'>
             <h1>Partners of Jericho</h1>

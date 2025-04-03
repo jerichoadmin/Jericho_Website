@@ -59,6 +59,8 @@ top: -10px;
   .photo_name{
     align-self: center;
     padding: 1rem;
+    font-size: 18pt;
+    font-weight: 800;
   }
 
   #flower-dot{
