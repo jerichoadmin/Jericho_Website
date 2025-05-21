@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import flower from '../../Assets/desert_flower.jpg'
-import stones from '../../Assets/stone_banner.jpg'
 import succulents from '../../Assets/succulent_banner.jpg'
 import moreballoons from '../../Assets/more_balloons.jpg'
 import desert from '../../Assets/high_desert.jpg'

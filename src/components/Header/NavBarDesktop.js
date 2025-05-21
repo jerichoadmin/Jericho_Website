@@ -153,7 +153,7 @@ function NavBarDesktop() {
           <p>Contact Us</p>
           </div>
 
-          <ul className="navbar__dropdownMenu_yellow">
+        <ul className="navbar__dropdownMenu_yellow">
       <NavLink to='/contact'>
         <li>Contact Info</li>
       </NavLink>

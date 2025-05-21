@@ -79,7 +79,7 @@ app.post('/togglepopup', togglePopupVisibility)
 app.get('/promotions', getPromotionsTable)
 app.post('/newpromotionspost', addNewPromotionsPost)
 app.delete('/newpromotionspost/:promotionstableid', deletePromotionsPost)
-app.put('/editpromotionspost/:promtionstableid', editPromotionsPost)
+app.put('/editpromotionspost/:promotionstableid', editPromotionsPost)
 
 
 //Video Portion

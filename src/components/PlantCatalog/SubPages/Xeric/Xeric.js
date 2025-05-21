@@ -31,17 +31,7 @@ return (
         <p>Xeriscaping isn’t just about reducing water use—it’s about creating a thriving, resilient outdoor space that works with the natural climate.</p>
     
 
-        {/* <h2 className='xeric_core_concepts'>Rating Xeric 1 - 3</h2>
-        <p>You may have noticed that our plant cards include a Xeric Rating from 1 to 3. While all plants in this section are considered xeric, meaning they thrive with minimal water, some require more moisture than others. For example, butterfly bushes make an excellent xeric addition, attracting pollinators and producing beautiful spring blooms. However, as a deciduous flowering shrub, it still requires more water than a Cholla Cactus, which can survive entirely on rainfall. That’s where our Xeric Rating comes in.</p>
-        <p>A butterfly bush would be classified as a <strong>1</strong>—it’s drought-tolerant but on the higher end of water needs among xeric plants. A native Cholla Cactus, on the other hand, earns a <strong>3</strong>—it’s one of the most water-wise choices available, thriving with zero irrigation beyond natural rainfall. In between, we have our <strong>2-rated plants</strong>, such as Rocky Mountain Junipers, Chinese Pistaches, and Oklahoma Redbuds—all low-water, resilient choices that sit between a cactus and a deciduous shrub in terms of water efficiency.</p>
-
-
-<br></br>
-<br></br>
-<br></br>
-        <div>
-          1 , 2 , 3
-        </div> */}
+    
    
     </div>
 

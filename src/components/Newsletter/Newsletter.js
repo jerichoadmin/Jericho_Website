@@ -7,14 +7,6 @@ function Newsletter() {
 
   return (
     <div className='newsletter'>
-{/* <Helmet>
-        <title>Newsletter- Jericho Nursery</title>
-        <meta name="description" content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive benefits, discounts, and special offers on a wide variety of flowers and plants. Enhance your gardening experience and save with our loyalty program." />
-        <meta property="og:title" content="Frequent Flower Club - Exclusive Benefits and Discounts" />
-        <meta property="og:description" content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive benefits, discounts, and special offers on a wide variety of flowers and plants. Enhance your gardening experience and save with our loyalty program." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
-</Helmet> */}
 
 
 
