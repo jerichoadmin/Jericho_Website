@@ -24,6 +24,7 @@ import PromotionsContainer from './Containers/PromotionsContainer';
 
 
 
+
 import { Helmet } from 'react-helmet';
 
 
@@ -60,7 +61,13 @@ function Home() {
 </div>
 </div>
 
+
 <Popup />
+
+
+
+<Banner5 />
+
 
 <div className='hours_and'>
 <CallButton />

@@ -24,6 +24,7 @@ const {getGalleryTable2, addNewGallery2Img, deleteGallery2Img} = require('./cont
 const {getPreviewTable, addPreview, deletePreview, editPreview, getSinglePreview} = require('./controllers/previewtable')
 const {getPopup, addPopup, togglePopupVisibility} = require('./controllers/popup')
 const {getPromotionsTable, addNewPromotionsPost, deletePromotionsPost, editPromotionsPost} = require('./controllers/promotionstable')
+const {getBulletinTable, addNewBulletinPost, editBulletinPost, deleteBulletinPost} = require('./controllers/bulletintable')
 
 const app = express();
 app.use(express.json())
@@ -80,6 +81,13 @@ app.get('/promotions', getPromotionsTable)
 app.post('/newpromotionspost', addNewPromotionsPost)
 app.delete('/newpromotionspost/:promotionstableid', deletePromotionsPost)
 app.put('/editpromotionspost/:promotionstableid', editPromotionsPost)
+
+
+
+app.get('/bulletins', getBulletinTable)
+app.post('/newbulletinpost', addNewBulletinPost)
+app.delete('/newbulletinpost/:promotionstableid', deleteBulletinPost)
+app.put('/editbulletinpost/:promotionstableid', editBulletinPost)
 
 
 //Video Portion

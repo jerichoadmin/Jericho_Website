@@ -27,7 +27,7 @@ function Banner5() {
             <h4 className='b_h52'>Vote for Jericho!</h4>
             </div>
             <div>
-            <img className='corrales' src='https://abqthemag.com/wp-content/uploads/2024/04/BOTC2024_VoteBAnner.png'/>
+            <img className='corrales' src='https://www.abqthemag.com/wp-content/uploads/2025/05/BOC-2025-medallion-scaled.png'/>
             </div>
 
 
@@ -50,4 +50,4 @@ function Banner5() {
   )
 }
 
-export default Banner5
+export default Banner5;
