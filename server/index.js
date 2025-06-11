@@ -84,10 +84,10 @@ app.put('/editpromotionspost/:promotionstableid', editPromotionsPost)
 
 
 
-app.get('/bulletins', getBulletinTable)
+app.get('/bulletin', getBulletinTable)
 app.post('/newbulletinpost', addNewBulletinPost)
-app.delete('/newbulletinpost/:promotionstableid', deleteBulletinPost)
-app.put('/editbulletinpost/:promotionstableid', editBulletinPost)
+app.delete('/newbulletinpost/:bulletintableid', deleteBulletinPost)
+app.put('/editbulletinpost/:bulletintableid', editBulletinPost)
 
 
 //Video Portion
